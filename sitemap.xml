@@ -2,31 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+        
     <url>
      <loc>http://fungusgames.com/index.html</loc>
      <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
+    <url>
+     <loc>http://fungusgames.com/about/index.html</loc>
+     <lastmod>2016-04-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     <url>
      <loc>http://fungusgames.com/download/index.html</loc>
-     <lastmod>2016-04-14</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-        
-    <url>
-     <loc>http://fungusgames.com/tutorial_videos/index.html</loc>
-     <lastmod>2016-04-14</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://fungusgames.com/training_course/index.html</loc>
      <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -85,17 +75,19 @@
      <changefreq>daily</changefreq>
     </url>
         
-    <url>
-     <loc>http://fungusgames.com/conduct/index.html</loc>
-     <lastmod>2016-04-14</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
     
 
     
     <url>
-     <loc>http://fungusgames.com/forum/index.html</loc>
+     <loc>http://fungusgames.com/tutorial_videos/index.html</loc>
+     <lastmod>2016-04-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://fungusgames.com/training_course/index.html</loc>
      <lastmod>2016-04-14</lastmod>
      <changefreq>daily</changefreq>
     </url>

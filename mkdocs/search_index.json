@@ -2,48 +2,68 @@
     "docs": [
         {
             "location": "/index.html", 
-            "text": "(function(d, s, id) {\n  var js, fjs = d.getElementsByTagName(s)[0];\n  if (d.getElementById(id)) return;\n  js = d.createElement(s); js.id = id;\n  js.src = \"//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=309953839151751\";\n  fjs.parentNode.insertBefore(js, fjs);\n}(document, 'script', 'facebook-jssdk'));\n\n\n\n\n\n\n\nFungus makes it easy to add colourful characters and craft gripping storylines in your game, even if you have never used \nUnity\n before. Our intuitive interface lets everyone create beautiful story games easily - \nfor free and with no coding\n!\n\n\n\n\nFollow @gofungus\n\n\n!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');\n\n\n\n\n\n\nWho's it for?\n\n\nFungus is popular with writers, illustrators, animators and game designers, especially visual novel \n interactive fiction authors. Many people using Fungus are creating games in Unity for the very first time. It is a popular choice for game jams and game design courses.\n\n\n\nFree \n Open Source\n\n\nWe believe that interactive storytelling should be accessible to everyone, so Fungus is \n100% free \n open source\n. It works great with both the free and pro versions of Unity 3D. Fungus is inspired by other great open source storytelling tools like \nTwine\n, \nRen'Py\n and \nScratch\n.\n\n\n\n\n\n\n\nCommunity\n\n\nThe Fungus community is very welcoming and helpful to newcomers. Many people using Fungus have never used Unity or even made a game before, so feel free to ask questions on our \ncommunity forum\n. Helping other people with their questions is a fantastic and very welcome way to contribute back to the community.\n\n\n\n\n\nFeatures\n\n\n\n\n\n\n\n\n\nFungus allows you to easily add storytelling features to your Unity games with no coding, via an intuitive visual scripting system.\n\n\n\n\nSuitable for making visual novels, RPGs, hidden object, puzzle and interactive fiction games.\n\n\nFlowchart-based character dialogue\n\n\nInternationalization of your character dialogue.\n\n\nEasy control of sprites, camera and audio to help tell your story\n\n\nWorks for both 2D and 3D Unity games\n\n\nIntegrates easily with other Unity code and simple to extend.\n\n\nPowerful Lua scripting support for more experienced users\n\n\n100% free and open source\n\n\n\n\nContribute\n\n\nWe welcome all sorts of contributions to Fungus. You can report bugs, suggest new features, contribute source code, write an article, help answer questions on the forums or even just tell your friends about the project!\n\n\n\n\nIssue Tracker: \nGitHub issue tracker\n\n\nSource Code: \nGitHub code repository\n\n\n\n\nCredits\n\n\nChris Gregan\n is the main author and maintainer of Fungus. He's co-founder of \nSnozbot\n, along with \nJohn O' Kane\n and \nRonan Pearce\n.\n\n\n\n\nDr. Matt Smith\n has kindly contributed the written documentation for the Fungus project. If you're new to Unity development then a great source of information, ideas and sample projects is his \nUnity 5.x Cookbook\n, by Matt and \nChico Queiroz\n.\n\n\nPaul Mc Grath\n is Animator / Designer / Film-maker at Whackala. He contributed the \ntutorial videos\n for this site as well as creating the \nFungus Training Course\n.\n\n\nSpecial thanks also to \nVicky Lee\n and \nCoding Grace\n who have helped us to organise loads of Fungus workshops,\n\n\nFungus wouldn't be possible without all the awesome people in our community who have contributed to the project and supported us in myriad ways. Thank you all!\n\n\nLicense\n\n\nThe Fungus software is licensed under the \nOpen Source MIT License\n.\n\n\nThe Fungus documentation is licensed under the \nCreative Commons Attribution-NonCommercial License\n.", 
-            "title": "About"
+            "text": "Welcome\n\n\nWelcome to the documentation website for Fungus, the open source visual storytelling tool for \nUnity\n.\n\n\nThe main website for Fungus and \ncommunity forum\n are available at \nFungusGames.com\n.\n\n\nOverview\n\n\nThere's a wide range of training material available here, suitable for both beginner and experienced game developers. \n\n\n\n\nWhat is Fungus?\n\n\nDownload and install instructions\n\n\nTutorial videos\n\n\nFungus Training Course\n\n\nArticles by the Fungus community\n\n\nFrequently Asked Questions", 
+            "title": "Overview"
         }, 
         {
-            "location": "/index.html#whos-it-for", 
+            "location": "/index.html#welcome", 
+            "text": "Welcome to the documentation website for Fungus, the open source visual storytelling tool for  Unity .  The main website for Fungus and  community forum  are available at  FungusGames.com .", 
+            "title": "Welcome"
+        }, 
+        {
+            "location": "/index.html#overview", 
+            "text": "There's a wide range of training material available here, suitable for both beginner and experienced game developers.    What is Fungus?  Download and install instructions  Tutorial videos  Fungus Training Course  Articles by the Fungus community  Frequently Asked Questions", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/about/index.html", 
+            "text": "(function(d, s, id) {\n  var js, fjs = d.getElementsByTagName(s)[0];\n  if (d.getElementById(id)) return;\n  js = d.createElement(s); js.id = id;\n  js.src = \"//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=309953839151751\";\n  fjs.parentNode.insertBefore(js, fjs);\n}(document, 'script', 'facebook-jssdk'));\n\n\n\n\n\n\nWhat is Fungus?\n\n\n\nFungus is a tool which makes it easy to add colourful characters and craft gripping storylines in your game, even if you have never used \nUnity\n before. Our intuitive interface lets everyone create beautiful story games easily - \nfor free and with no coding\n!\n\n\n\n\nFollow @gofungus\n\n\n!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');\n\n\n\n\n\n\nWho's it for?\n\n\nFungus is popular with writers, illustrators, animators and game designers, especially visual novel \n interactive fiction authors. Many people using Fungus are creating games in Unity for the very first time. It is a popular choice for game jams and game design courses.\n\n\n\nFree \n Open Source\n\n\nWe believe that interactive storytelling should be accessible to everyone, so Fungus is \n100% free \n open source\n. It works great with both the free and pro versions of Unity 3D. Fungus is inspired by other great open source storytelling tools like \nTwine\n, \nRen'Py\n and \nScratch\n.\n\n\n\n\n\n\n\nCommunity\n\n\nThe Fungus community is very welcoming and helpful to newcomers. Many people using Fungus have never used Unity or even made a game before, so feel free to ask questions on our \ncommunity forum\n. Helping other people with their questions is a fantastic and very welcome way to contribute back to the community.\n\n\n\n\n\nFeatures\n\n\n\n\n\n\n\n\n\nFungus allows you to easily add storytelling features to your Unity games with no coding, via an intuitive visual scripting system.\n\n\n\n\nSuitable for making visual novels, RPGs, hidden object, puzzle and interactive fiction games.\n\n\nFlowchart-based character dialogue\n\n\nInternationalization of your character dialogue.\n\n\nEasy control of sprites, camera and audio to help tell your story\n\n\nWorks for both 2D and 3D Unity games\n\n\nIntegrates easily with other Unity code and simple to extend.\n\n\nPowerful Lua scripting support for more experienced users\n\n\n100% free and open source\n\n\n\n\nContribute\n\n\nWe welcome all sorts of contributions to Fungus. You can report bugs, suggest new features, contribute source code, write an article, help answer questions on the forums or even just tell your friends about the project!\n\n\n\n\nIssue Tracker: \nGitHub issue tracker\n\n\nSource Code: \nGitHub code repository\n\n\n\n\nCredits\n\n\nChris Gregan\n is the main author and maintainer of Fungus. He's co-founder of \nSnozbot\n, along with \nJohn O' Kane\n and \nRonan Pearce\n.\n\n\n\n\nDr. Matt Smith\n has kindly contributed the written documentation for the Fungus project. If you're new to Unity development then a great source of information, ideas and sample projects is his \nUnity 5.x Cookbook\n, by Matt and \nChico Queiroz\n.\n\n\nPaul Mc Grath\n is Animator / Designer / Film-maker at Whackala. He contributed the \ntutorial videos\n for this site as well as creating the \nFungus Training Course\n.\n\n\nSpecial thanks also to \nVicky Lee\n and \nCoding Grace\n who have helped us to organise loads of Fungus workshops,\n\n\nFungus wouldn't be possible without all the awesome people in our community who have contributed to the project and supported us in myriad ways. Thank you all!\n\n\nLicense\n\n\nThe Fungus software is licensed under the \nOpen Source MIT License\n.\n\n\nThe Fungus documentation is licensed under the \nCreative Commons Attribution-NonCommercial License\n.", 
+            "title": "What is Fungus?"
+        }, 
+        {
+            "location": "/about/index.html#what-is-fungus", 
+            "text": "Fungus is a tool which makes it easy to add colourful characters and craft gripping storylines in your game, even if you have never used  Unity  before. Our intuitive interface lets everyone create beautiful story games easily -  for free and with no coding !  Follow @gofungus  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');", 
+            "title": "What is Fungus?"
+        }, 
+        {
+            "location": "/about/index.html#whos-it-for", 
             "text": "Fungus is popular with writers, illustrators, animators and game designers, especially visual novel   interactive fiction authors. Many people using Fungus are creating games in Unity for the very first time. It is a popular choice for game jams and game design courses.", 
             "title": "Who's it for?"
         }, 
         {
-            "location": "/index.html#free-open-source", 
+            "location": "/about/index.html#free-open-source", 
             "text": "We believe that interactive storytelling should be accessible to everyone, so Fungus is  100% free   open source . It works great with both the free and pro versions of Unity 3D. Fungus is inspired by other great open source storytelling tools like  Twine ,  Ren'Py  and  Scratch .", 
             "title": "Free &amp; Open Source"
         }, 
         {
-            "location": "/index.html#community", 
+            "location": "/about/index.html#community", 
             "text": "The Fungus community is very welcoming and helpful to newcomers. Many people using Fungus have never used Unity or even made a game before, so feel free to ask questions on our  community forum . Helping other people with their questions is a fantastic and very welcome way to contribute back to the community.", 
             "title": "Community"
         }, 
         {
-            "location": "/index.html#features", 
+            "location": "/about/index.html#features", 
             "text": "Fungus allows you to easily add storytelling features to your Unity games with no coding, via an intuitive visual scripting system.   Suitable for making visual novels, RPGs, hidden object, puzzle and interactive fiction games.  Flowchart-based character dialogue  Internationalization of your character dialogue.  Easy control of sprites, camera and audio to help tell your story  Works for both 2D and 3D Unity games  Integrates easily with other Unity code and simple to extend.  Powerful Lua scripting support for more experienced users  100% free and open source", 
             "title": "Features"
         }, 
         {
-            "location": "/index.html#contribute", 
+            "location": "/about/index.html#contribute", 
             "text": "We welcome all sorts of contributions to Fungus. You can report bugs, suggest new features, contribute source code, write an article, help answer questions on the forums or even just tell your friends about the project!   Issue Tracker:  GitHub issue tracker  Source Code:  GitHub code repository", 
             "title": "Contribute"
         }, 
         {
-            "location": "/index.html#credits", 
+            "location": "/about/index.html#credits", 
             "text": "Chris Gregan  is the main author and maintainer of Fungus. He's co-founder of  Snozbot , along with  John O' Kane  and  Ronan Pearce .   Dr. Matt Smith  has kindly contributed the written documentation for the Fungus project. If you're new to Unity development then a great source of information, ideas and sample projects is his  Unity 5.x Cookbook , by Matt and  Chico Queiroz .  Paul Mc Grath  is Animator / Designer / Film-maker at Whackala. He contributed the  tutorial videos  for this site as well as creating the  Fungus Training Course .  Special thanks also to  Vicky Lee  and  Coding Grace  who have helped us to organise loads of Fungus workshops,  Fungus wouldn't be possible without all the awesome people in our community who have contributed to the project and supported us in myriad ways. Thank you all!", 
             "title": "Credits"
         }, 
         {
-            "location": "/index.html#license", 
+            "location": "/about/index.html#license", 
             "text": "The Fungus software is licensed under the  Open Source MIT License . \nThe Fungus documentation is licensed under the  Creative Commons Attribution-NonCommercial License .", 
             "title": "License"
         }, 
         {
             "location": "/download/index.html", 
-            "text": "This page desribes how to download and install Unity and Fungus.\n\n\nDownload links\n\n\n\n\nFungus on the \nUnity Asset Store\n\n\nLatest Fungus release on \nGithub\n\n\nUnity installer on \nUnity3D.com\n\n\n\n\nInstallation tutorial\n\n\n\n\n\nHow do I install Fungus?\n\n\n\n\nInstall the latest version of \nUnity\n.\n\n\nDownload the latest Fungus .unitypackage using one of the links above.\n\n\nLaunch Unity and create a new Project by selecting File \n New Project.\n\n\nSelect 'Use Defaults for 2D' when creating the new project.\n\n\nNote: Fungus can easily be used for 3D games, but our examples are primarily in 2D.\n\n\nImport Fungus into the new project by selecting Assets \n Import Package \n Custom Package.\n\n\nDisplay the Flowchart editor window by selecting Window \n Tools \n Fungus \n Flowchart Window.\n\n\nFor convenience, you should dock the Flowchart window somewhere in the editor window.\n\n\n\n\nYou are now ready to use Fungus. To start with, try playing the example scenes and watch how the gameplay is controlled by the flowchart in the Fungus Script window.\n\n\n\n\nIn the project window, open The Hunter example scene (FungusExamples \n TheHunter \n TheHunter.unity). \n\n\nPress play and click through the example game.\n\n\n\n\nHow do I upgrade an existing Fungus project ?\n\n\nTo upgrade an existing project to the latest version of Fungus.\n\n\n\n\nTake a backup of your project. No really, do it!\n\n\nUpdate to the latest version of \nUnity\n.\n\n\nDelete the Fungus and FungusExamples folders from your project.\n\n\nDownload and import the latest version of Fungus.\n\n\n\n\nWe try to maintain backwards compatibility between releases but sometimes breaking changes are necessary. If you're having trouble upgrading your project just ask for assistance on the forum.", 
-            "title": "Download"
+            "text": "This page desribes how to download and install Unity and Fungus.\n\n\nDownload links\n\n\n\n\nFungus on the \nUnity Asset Store\n\n\nLatest Fungus release on \nGithub\n\n\nUnity installer on \nUnity3D.com\n\n\n\n\nInstallation tutorial\n\n\n\n\n\nHow do I install Fungus?\n\n\n\n\nInstall the latest version of \nUnity\n.\n\n\nDownload the latest Fungus .unitypackage using one of the links above.\n\n\nLaunch Unity and create a new Project by selecting File \n New Project.\n\n\nSelect 'Use Defaults for 2D' when creating the new project.\n\n\nNote: Fungus can easily be used for 3D games, but our examples are primarily in 2D.\n\n\nImport Fungus into the new project by selecting Assets \n Import Package \n Custom Package.\n\n\nDisplay the Flowchart editor window by selecting Window \n Tools \n Fungus \n Flowchart Window.\n\n\nFor convenience, you should dock the Flowchart window somewhere in the editor window.\n\n\n\n\nYou are now ready to use Fungus. To start with, try playing the example scenes and watch how the gameplay is controlled by the flowchart in the Fungus Script window.\n\n\n\n\nIn the project window, open The Hunter example scene (FungusExamples \n TheHunter \n TheHunter.unity). \n\n\nPress play and click through the example game.\n\n\n\n\nHow do I upgrade an existing Fungus project ?\n\n\nTo upgrade an existing project to the latest version of Fungus.\n\n\n\n\nTake a backup of your project. No really, do it!\n\n\nUpdate to the latest version of \nUnity\n.\n\n\nDelete the Fungus and FungusExamples folders from your project.\n\n\nDownload and import the latest version of Fungus.\n\n\n\n\nWe try to maintain backwards compatibility between releases but sometimes breaking changes are necessary. If you're having trouble upgrading your project just ask for assistance on the forum.\n\n\nFungus System Requirements\n\n\n\n\nWe recommend installing the latest version of Unity 3D.\n\n\nFungus requires at least Unity 5.0 and is not compatible with Unity 4.x or earlier.\n\n\nFungus works with both the PC \n Mac versions of Unity\n\n\nFungus works with both the free Personal and Professional editions of Unity\n\n\nOfficial Unity list of system requirements \navailable here\n.", 
+            "title": "Installation"
         }, 
         {
             "location": "/download/index.html#download-links", 
@@ -66,149 +86,9 @@
             "title": "How do I upgrade an existing Fungus project ?"
         }, 
         {
-            "location": "/tutorial_videos/index.html", 
-            "text": "These free tutorial videos cover most of the functionality available in Fungus.\nThe Fungus tutorials are also available as a \nYouTube playlist\n.\n\n\nFungus Overview\n\n\n\n\nInstalling Fungus in your project\n\n\n\n\nBasics of using Fungus\n\n\n\n\nUsing Event Handlers\n\n\n\n\nControlling the camera\n\n\n\n\n2D graphics with Sprites\n\n\n\n\nPlaying music and sound effects\n\n\n\n\nControlling animations\n\n\n\n\nNarrative based gameplay\n\n\n\n\nCommand flow and loops\n\n\n\n\nScripting scene objects\n\n\n\n\nUsing variables to track state\n\n\n\n\nTweening game objects using iTween\n\n\n\n\nSupporting multiple languages\n\n\n\n\nEditing story text\n\n\n\n\nUsing Spine animations\n\n\n\n\nCustom commands and event handlers\n\n\n\n\nControlling Unity UI objects\n\n\n\n\nUnite Europe 2015 talk\n\n\n\n\nFungus Live Stream #1\n\n\n\n\nFungus Live Stream #2\n\n\n\n\nFungus Live Stream #3", 
-            "title": "Tutorial Videos"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#fungus-overview", 
-            "text": "", 
-            "title": "Fungus Overview"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#installing-fungus-in-your-project", 
-            "text": "", 
-            "title": "Installing Fungus in your project"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#basics-of-using-fungus", 
-            "text": "", 
-            "title": "Basics of using Fungus"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#using-event-handlers", 
-            "text": "", 
-            "title": "Using Event Handlers"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#controlling-the-camera", 
-            "text": "", 
-            "title": "Controlling the camera"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#2d-graphics-with-sprites", 
-            "text": "", 
-            "title": "2D graphics with Sprites"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#playing-music-and-sound-effects", 
-            "text": "", 
-            "title": "Playing music and sound effects"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#controlling-animations", 
-            "text": "", 
-            "title": "Controlling animations"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#narrative-based-gameplay", 
-            "text": "", 
-            "title": "Narrative based gameplay"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#command-flow-and-loops", 
-            "text": "", 
-            "title": "Command flow and loops"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#scripting-scene-objects", 
-            "text": "", 
-            "title": "Scripting scene objects"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#using-variables-to-track-state", 
-            "text": "", 
-            "title": "Using variables to track state"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#tweening-game-objects-using-itween", 
-            "text": "", 
-            "title": "Tweening game objects using iTween"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#supporting-multiple-languages", 
-            "text": "", 
-            "title": "Supporting multiple languages"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#editing-story-text", 
-            "text": "", 
-            "title": "Editing story text"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#using-spine-animations", 
-            "text": "", 
-            "title": "Using Spine animations"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#custom-commands-and-event-handlers", 
-            "text": "", 
-            "title": "Custom commands and event handlers"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#controlling-unity-ui-objects", 
-            "text": "", 
-            "title": "Controlling Unity UI objects"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#unite-europe-2015-talk", 
-            "text": "", 
-            "title": "Unite Europe 2015 talk"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#fungus-live-stream-1", 
-            "text": "", 
-            "title": "Fungus Live Stream #1"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#fungus-live-stream-2", 
-            "text": "", 
-            "title": "Fungus Live Stream #2"
-        }, 
-        {
-            "location": "/tutorial_videos/index.html#fungus-live-stream-3", 
-            "text": "", 
-            "title": "Fungus Live Stream #3"
-        }, 
-        {
-            "location": "/training_course/index.html", 
-            "text": "Fungus Training Course\n\n\n\nWe've teamed up with Paul Mc Grath to create an extensive \ntraining course\n which teaches how to make storytelling games using Fungus and Unity. Sales of this course help us to continue developing Fungus, so it's a nice way to learn Fungus and to support the work we're doing on the project.\n\n\n\n\n\n\n\n\nCourse Description\n\n\nThis course is aimed at anyone who wants to make interactive story based games, but, who doesn't know how to code.\n\n\nFungus is a free Unity 3D plugin that allows non coders (like me) access to some of Unity's core features.\n\n\nIf you have never used game development software, or if you have struggled with code trying to make games, Fungus and this course are exactly what you need.\n\n\nWhat are the requirements?\n\n\n\n\nA Mac or PC that is capable of running Unity 3D.\n\n\nThe latest version of Unity 3D (we will talk you through download and install on the course).\n\n\nThe latest Version of Fungus (We will talk you through download and install on the course).\n\n\n\n\nWhat am I going to get from this course?\n\n\n\n\nOver 43 lectures and 8 hours of content!\n\n\nYou will have a Full working knowledge of Fungus and how it integrates with Unity.\n\n\nYou will be able to create narrative story games, point and click adventures and hidden object games.\n\n\nYou will be able to publish your games to Unity\u2019s webplayer and WebGL and have them on your own website, publish them to Android and IOS versions (if you have a Apple developer Licence) and sell them through - Google play or the apple store.\n\n\nMost importantly you will be able to do all of this without writing one line of code.\n\n\n\n\nWhat is the target audience?\n\n\n\n\nIf you don\u2019t know how to code and want to make Interactive Story Games. This course is for you.\n\n\nIf you\u2019re an artist, illustrator or writer and would like to delve into game development in an easy and approachable manner, this course if for you.\n\n\nIf you have struggled with code to create games in unity, this course is for you.\n\n\nIf you're able to code and know your way round unity and love the joy of a visual coding interface, this course is for you.", 
-            "title": "Training Course"
-        }, 
-        {
-            "location": "/training_course/index.html#fungus-training-course", 
-            "text": "We've teamed up with Paul Mc Grath to create an extensive  training course  which teaches how to make storytelling games using Fungus and Unity. Sales of this course help us to continue developing Fungus, so it's a nice way to learn Fungus and to support the work we're doing on the project.", 
-            "title": "Fungus Training Course"
-        }, 
-        {
-            "location": "/training_course/index.html#course-description", 
-            "text": "This course is aimed at anyone who wants to make interactive story based games, but, who doesn't know how to code.  Fungus is a free Unity 3D plugin that allows non coders (like me) access to some of Unity's core features.  If you have never used game development software, or if you have struggled with code trying to make games, Fungus and this course are exactly what you need.", 
-            "title": "Course Description"
-        }, 
-        {
-            "location": "/training_course/index.html#what-are-the-requirements", 
-            "text": "A Mac or PC that is capable of running Unity 3D.  The latest version of Unity 3D (we will talk you through download and install on the course).  The latest Version of Fungus (We will talk you through download and install on the course).", 
-            "title": "What are the requirements?"
-        }, 
-        {
-            "location": "/training_course/index.html#what-am-i-going-to-get-from-this-course", 
-            "text": "Over 43 lectures and 8 hours of content!  You will have a Full working knowledge of Fungus and how it integrates with Unity.  You will be able to create narrative story games, point and click adventures and hidden object games.  You will be able to publish your games to Unity\u2019s webplayer and WebGL and have them on your own website, publish them to Android and IOS versions (if you have a Apple developer Licence) and sell them through - Google play or the apple store.  Most importantly you will be able to do all of this without writing one line of code.", 
-            "title": "What am I going to get from this course?"
-        }, 
-        {
-            "location": "/training_course/index.html#what-is-the-target-audience", 
-            "text": "If you don\u2019t know how to code and want to make Interactive Story Games. This course is for you.  If you\u2019re an artist, illustrator or writer and would like to delve into game development in an easy and approachable manner, this course if for you.  If you have struggled with code to create games in unity, this course is for you.  If you're able to code and know your way round unity and love the joy of a visual coding interface, this course is for you.", 
-            "title": "What is the target audience?"
+            "location": "/download/index.html#fungus-system-requirements", 
+            "text": "We recommend installing the latest version of Unity 3D.  Fungus requires at least Unity 5.0 and is not compatible with Unity 4.x or earlier.  Fungus works with both the PC   Mac versions of Unity  Fungus works with both the free Personal and Professional editions of Unity  Official Unity list of system requirements  available here .", 
+            "title": "Fungus System Requirements"
         }, 
         {
             "location": "/getting_started/index.html", 
@@ -547,18 +427,18 @@
         }, 
         {
             "location": "/articles/index.html", 
-            "text": "Community Articles\n\n\nIf you've created an article, podcast, video, wooly jumper etc. about Fungus let us know on the forum and we'll add it here.\n\n\nPodcasts\n\n\n\n\nTwo and a Half D: the Unity Game Dev Podcast\n\n\nController Unplugged\n\n\n\n\nDavid Sherlock\n\n\nhttp://davidsherlock.co.uk\n\n\n\n\nCreating Revision Apps as Text Adventures\n\n\nMore attempts to create revision apps using free resources\n\n\nCreating your own hidden object game\n\n\nSetting up Unity and Fungus to make #appliedgames\n\n\n\n\nLeah Lee\n\n\nhttp://leahlee.studio\n\n\n\n\nFungus Research Week 1\n\n\n\n\nRyan Hill\n\n\nhttp://horriblepain.com\n\n\n\n\nFungus Animation In Unity\n\n\nArbitrary Buttons In Fungus\n\n\nYet Another Thing For Fungus\n\n\n\n\nKonrad Gadzina\n\n\n\n\nVisual scripting w Unity (Polish)", 
+            "text": "Community Articles\n\n\nIf you've created an article or video about Fungus let us know on the forum and we'll add it here.\n\n\nDavid Arcila\n\n\n\n\nGame Development Resources\n\n\n\n\nDavid Sherlock\n\n\nhttp://davidsherlock.co.uk\n\n\n\n\nCreating Revision Apps as Text Adventures\n\n\nMore attempts to create revision apps using free resources\n\n\nCreating your own hidden object game\n\n\nSetting up Unity and Fungus to make #appliedgames\n\n\n\n\nLeah Lee\n\n\nhttp://leahlee.studio\n\n\n\n\nFungus Research Week 1\n\n\n\n\nKonrad Gadzina\n\n\n\n\nVisual scripting w Unity (Polish)", 
             "title": "Community Articles"
         }, 
         {
             "location": "/articles/index.html#community-articles", 
-            "text": "If you've created an article, podcast, video, wooly jumper etc. about Fungus let us know on the forum and we'll add it here.", 
+            "text": "If you've created an article or video about Fungus let us know on the forum and we'll add it here.", 
             "title": "Community Articles"
         }, 
         {
-            "location": "/articles/index.html#podcasts", 
-            "text": "Two and a Half D: the Unity Game Dev Podcast  Controller Unplugged", 
-            "title": "Podcasts"
+            "location": "/articles/index.html#david-arcila", 
+            "text": "Game Development Resources", 
+            "title": "David Arcila"
         }, 
         {
             "location": "/articles/index.html#david-sherlock", 
@@ -569,11 +449,6 @@
             "location": "/articles/index.html#leah-lee", 
             "text": "http://leahlee.studio   Fungus Research Week 1", 
             "title": "Leah Lee"
-        }, 
-        {
-            "location": "/articles/index.html#ryan-hill", 
-            "text": "http://horriblepain.com   Fungus Animation In Unity  Arbitrary Buttons In Fungus  Yet Another Thing For Fungus", 
-            "title": "Ryan Hill"
         }, 
         {
             "location": "/articles/index.html#konrad-gadzina", 
@@ -672,7 +547,7 @@
         }, 
         {
             "location": "/faq/index.html", 
-            "text": "Frequently Asked Questions\n\n\nWhat is Fungus ?\n\n\nFungus is a free open source tool for creating storytelling games, with a strong focus on accessibility for novice game developers. Users all over the world are now using it to create a wonderfully diverse range of storytelling games.\n\n\nWho makes Fungus ?\n\n\nFungus is developed by \nSnozbot\n, a small independent games company. Chris Gregan is the main developer of Fungus.\n\n\nWhere do I get Fungus ?\n\n\nFungus is available on the \nUnity Asset Store\n and in the download section of this website.\n\n\nIs Fungus really free to use?\n\n\nYes. Fungus has an Open Source M.I.T. license. You can use Fungus with any version of the Unity game engine, including the freely available personal edition.\n\n\nCan I sell the apps I make with Fungus ?\n\n\nYes. We do not charge a license fee.\n\n\nWhat platforms does Fungus support ?\n\n\nFungus runs on any platform supported by the Unity game engine. See here for a list of supported platforms.\n\n\nDo I need to be a programmer to use Fungus ?\n\n\nNo. Fungus can be used to make a variety of story-driven games with no coding required.\n\n\nIs Fungus useful for programmers ?\n\n\nYes. Fungus provides an easy way to add visual novel features to any Unity game. It is also possible to extend Fungus to customise the workflow for your team. Checkout the documentation and tutorials for more information.\n\n\nWhere can I learn more about Fungus ?\n\n\nWe provide extensive tutorials and documentation on our website here. There is also a comprehensive online training course suitable for beginners at Udemy.\n\n\nI've made something cool with Fungus. Wanna see?\n\n\nMost definitely! Please tweet @gofungus and/or post an item in the announcements section of our forum.\n\n\nHow can I upload my Fungus game for others to see?\n\n\nAfter creating a build, you can use a hosting service such as \nitch.io\n, \ngamejolt.com\n or \nnewgrounds.com\n\n\nHow can I suggest new features for Fungus ?\n\n\nPlease use the forum to request new features. You can also checkout our github issues list to see what we have planned.\n\n\nHow do I report a bug in Fungus?\n\n\nPlease use the forum to report bugs.\n\n\nHow long will I have to wait for a bug-fix ?\n\n\nIf a bug is critical and we can't offer a sensible workaround, we will try to fix it as soon as possible. Otherwise, we will aim to fix the issue in the next release.\n\n\nCan I get my hands on beta versions of Fungus ?\n\n\nThe very latest version is always available at our \ngithub repository\n\n\nHow can I contribute to Fungus?\n\n\nThere are lots of ways to help the Fungus community to grow\n1. Answer questions and post tips on the forum\n2. Contribute code either via a Github pull request or post code snippets in the forums.\n3. Improve the documentation by editing the \nfungus-site repo\n and send in a pull request.\n4. Let us know on the forum if you've made a game with Fungus so we can add it to the site.\n5. If you write an article, blog post, podcast, etc. about Fungus send it in and we'll add it to the site.\n\n\nAre you planning to integrate Fungus into other game engines ?\n\n\nNot currently. We're sticking with Unity for the foreseeable future.", 
+            "text": "Frequently Asked Questions\n\n\nWhat is Fungus ?\n\n\nFungus is a free open source tool for creating storytelling games, with a strong focus on accessibility for novice game developers. Users all over the world are now using it to create a wonderfully diverse range of storytelling games.\n\n\nWho makes Fungus ?\n\n\nFungus is developed by \nSnozbot\n, a small independent games company. Chris Gregan is the main developer of Fungus.\n\n\nWhere do I get Fungus ?\n\n\nFungus is available on the \nUnity Asset Store\n and in the download section of this website.\n\n\nIs Fungus really free to use?\n\n\nYes. Fungus has an Open Source M.I.T. license. You can use Fungus with any version of the Unity game engine, including the freely available personal edition.\n\n\nCan I sell the apps I make with Fungus ?\n\n\nYes. We do not charge a license fee.\n\n\nWhat platforms does Fungus support ?\n\n\nFungus runs on any platform supported by the Unity game engine. See here for a list of supported platforms.\n\n\nDo I need to be a programmer to use Fungus ?\n\n\nNo. Fungus can be used to make a variety of story-driven games with no coding required.\n\n\nIs Fungus useful for programmers ?\n\n\nYes. Fungus provides an easy way to add visual novel features to any Unity game. It is also possible to extend Fungus to customise the workflow for your team. Checkout the documentation and tutorials for more information.\n\n\nWhere can I learn more about Fungus ?\n\n\nWe provide extensive tutorials and documentation on our website here. There is also a comprehensive online training course suitable for beginners at Udemy.\n\n\nI've made something cool with Fungus. Wanna see?\n\n\nMost definitely! Please tweet @gofungus and/or post an item in the announcements section of our forum.\n\n\nHow can I upload my Fungus game for others to see?\n\n\nAfter creating a build, you can use a hosting service such as \nitch.io\n, \ngamejolt.com\n or \nnewgrounds.com\n\n\nHow can I suggest new features for Fungus ?\n\n\nPlease use the forum to request new features. You can also checkout our github issues list to see what we have planned.\n\n\nHow do I report a bug in Fungus?\n\n\nPlease use the forum to report bugs.\n\n\nHow long will I have to wait for a bug-fix ?\n\n\nIf a bug is critical and we can't offer a sensible workaround, we will try to fix it as soon as possible. Otherwise, we will aim to fix the issue in the next release.\n\n\nCan I get my hands on beta versions of Fungus ?\n\n\nThe very latest version is always available at our \ngithub repository\n\n\nHow can I contribute to Fungus?\n\n\nThere are lots of ways to help the Fungus community to grow\n\n\n\n\nAnswer questions and post tips on the forum\n\n\nContribute code either via a Github pull request or post code snippets in the forums.\n\n\nImprove the documentation by editing the \nfungus-site repo\n and send in a pull request.\n\n\nLet us know on the forum if you've made a game with Fungus so we can add it to the site.\n\n\nIf you write an article, blog post, podcast, etc. about Fungus send it in and we'll add it to the \ncommunity articles\n section.\n\n\n\n\nAre you planning to integrate Fungus into other game engines ?\n\n\nNot currently. We're sticking with Unity for the foreseeable future.", 
             "title": "FAQ"
         }, 
         {
@@ -757,7 +632,7 @@
         }, 
         {
             "location": "/faq/index.html#how-can-i-contribute-to-fungus", 
-            "text": "There are lots of ways to help the Fungus community to grow\n1. Answer questions and post tips on the forum\n2. Contribute code either via a Github pull request or post code snippets in the forums.\n3. Improve the documentation by editing the  fungus-site repo  and send in a pull request.\n4. Let us know on the forum if you've made a game with Fungus so we can add it to the site.\n5. If you write an article, blog post, podcast, etc. about Fungus send it in and we'll add it to the site.", 
+            "text": "There are lots of ways to help the Fungus community to grow   Answer questions and post tips on the forum  Contribute code either via a Github pull request or post code snippets in the forums.  Improve the documentation by editing the  fungus-site repo  and send in a pull request.  Let us know on the forum if you've made a game with Fungus so we can add it to the site.  If you write an article, blog post, podcast, etc. about Fungus send it in and we'll add it to the  community articles  section.", 
             "title": "How can I contribute to Fungus?"
         }, 
         {
@@ -1341,49 +1216,149 @@
             "title": "Fungus Advanced - Narrative Parser Tokens Reference"
         }, 
         {
-            "location": "/conduct/index.html", 
-            "text": "TL;DR\n\n\nBe nice to each other :)\n\n\nCode of conduct\n\n\nWe want an open and respectful community at Fungus. So we would ask you when communicating (for example, posting on our Forums, Comments or github repository ) to be friendly and helpful. We find, for most people, this is not a problem. Our list of guidelines below is not exhaustive but should give a strong indication of what we consider acceptable community behaviour.\n\n\nBe welcoming\n\n\nWe welcome and support people of all backgrounds and identities. This includes, but is not limited to members of any race, ethnicity, culture, national origin, colour, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.\n\n\nBe respectful\n\n\nIt's ok to disagree with someone. It's not ok to personally attack someone. Instead, focus on helping to resolve issues and learning from mistakes.\n\n\nBullying or Harassment will not be tolerated\nThe following behaviours are not acceptable:\n\n\n\n\nViolent threats or language directed against another person.\n\n\nSexist, racist, or otherwise discriminatory jokes and language.\n\n\nPosting sexually explicit or violent material.\n\n\nPosting (or threatening to post) other people's personally identifying information (\"doxing\").\n\n\nSharing private content, such as emails sent privately or non-publicly, or unlogged forums such as IRC channel history.\n\n\nPersonal insults, especially those using racist or sexist terms.\n\n\nUnwelcome sexual attention.\n\n\nExcessive or unnecessary profanity.\n\n\nRepeated harassment of others. In general, if someone asks you to stop, then stop.\n\n\nAdvocating for, or encouraging, any of the above behaviour.\n\n\n\n\nAssume Good Intentions\n\n\nGive people the benefit of the doubt. If you believe they have acted against the code of conduct, please refer them to this document. Remember, although English is the primary language of Fungus development, that not all members have English as their primary language.\n\n\nThanks to \nhttp://www.apache.org/foundation/policies/conduct.html\n and \nhttps://www.djangoproject.com/conduct\n for inspiration and content.\n\n\nIf you have any questions about these guidelines please contact us.", 
-            "title": "Code of Conduct"
+            "location": "/tutorial_videos/index.html", 
+            "text": "These free tutorial videos cover most of the functionality available in Fungus.\n\n\nThe videos are also available as a \nYouTube playlist\n. Many thanks to \nPaul Mc Grath\n for contributing the videos, and \nEric Chen\n for Chinese subtitles.\n\n\nFungus Overview\n\n\n\n\nInstalling Fungus in your project\n\n\n\n\nBasics of using Fungus\n\n\n\n\nUsing Event Handlers\n\n\n\n\nControlling the camera\n\n\n\n\n2D graphics with Sprites\n\n\n\n\nPlaying music and sound effects\n\n\n\n\nControlling animations\n\n\n\n\nNarrative based gameplay\n\n\n\n\nCommand flow and loops\n\n\n\n\nScripting scene objects\n\n\n\n\nUsing variables to track state\n\n\n\n\nTweening game objects using iTween\n\n\n\n\nSupporting multiple languages\n\n\n\n\nEditing story text\n\n\n\n\nUsing Spine animations\n\n\n\n\nCustom commands and event handlers\n\n\n\n\nControlling Unity UI objects\n\n\n\n\nUnite Europe 2015 talk\n\n\n\n\nFungus Live Stream #1\n\n\n\n\nFungus Live Stream #2\n\n\n\n\nFungus Live Stream #3", 
+            "title": "Tutorial Videos"
         }, 
         {
-            "location": "/conduct/index.html#tldr", 
-            "text": "Be nice to each other :)", 
-            "title": "TL;DR"
+            "location": "/tutorial_videos/index.html#fungus-overview", 
+            "text": "", 
+            "title": "Fungus Overview"
         }, 
         {
-            "location": "/conduct/index.html#code-of-conduct", 
-            "text": "We want an open and respectful community at Fungus. So we would ask you when communicating (for example, posting on our Forums, Comments or github repository ) to be friendly and helpful. We find, for most people, this is not a problem. Our list of guidelines below is not exhaustive but should give a strong indication of what we consider acceptable community behaviour.", 
-            "title": "Code of conduct"
+            "location": "/tutorial_videos/index.html#installing-fungus-in-your-project", 
+            "text": "", 
+            "title": "Installing Fungus in your project"
         }, 
         {
-            "location": "/conduct/index.html#be-welcoming", 
-            "text": "We welcome and support people of all backgrounds and identities. This includes, but is not limited to members of any race, ethnicity, culture, national origin, colour, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.", 
-            "title": "Be welcoming"
+            "location": "/tutorial_videos/index.html#basics-of-using-fungus", 
+            "text": "", 
+            "title": "Basics of using Fungus"
         }, 
         {
-            "location": "/conduct/index.html#be-respectful", 
-            "text": "It's ok to disagree with someone. It's not ok to personally attack someone. Instead, focus on helping to resolve issues and learning from mistakes.  Bullying or Harassment will not be tolerated\nThe following behaviours are not acceptable:   Violent threats or language directed against another person.  Sexist, racist, or otherwise discriminatory jokes and language.  Posting sexually explicit or violent material.  Posting (or threatening to post) other people's personally identifying information (\"doxing\").  Sharing private content, such as emails sent privately or non-publicly, or unlogged forums such as IRC channel history.  Personal insults, especially those using racist or sexist terms.  Unwelcome sexual attention.  Excessive or unnecessary profanity.  Repeated harassment of others. In general, if someone asks you to stop, then stop.  Advocating for, or encouraging, any of the above behaviour.", 
-            "title": "Be respectful"
+            "location": "/tutorial_videos/index.html#using-event-handlers", 
+            "text": "", 
+            "title": "Using Event Handlers"
         }, 
         {
-            "location": "/conduct/index.html#assume-good-intentions", 
-            "text": "Give people the benefit of the doubt. If you believe they have acted against the code of conduct, please refer them to this document. Remember, although English is the primary language of Fungus development, that not all members have English as their primary language.  Thanks to  http://www.apache.org/foundation/policies/conduct.html  and  https://www.djangoproject.com/conduct  for inspiration and content.  If you have any questions about these guidelines please contact us.", 
-            "title": "Assume Good Intentions"
+            "location": "/tutorial_videos/index.html#controlling-the-camera", 
+            "text": "", 
+            "title": "Controlling the camera"
         }, 
         {
-            "location": "/forum/index.html", 
-            "text": "Welcome\n\n\nWe aim to help everybody who's using Fungus, no matter what your experience level. If you're stuck just ask! \n\n\nCode of conduct\n\n\nWe would ask that all users of the community forum respect our \ncode of conduct\n.\n\n\nfungus", 
-            "title": "Forum"
+            "location": "/tutorial_videos/index.html#2d-graphics-with-sprites", 
+            "text": "", 
+            "title": "2D graphics with Sprites"
         }, 
         {
-            "location": "/forum/index.html#welcome", 
-            "text": "We aim to help everybody who's using Fungus, no matter what your experience level. If you're stuck just ask!", 
-            "title": "Welcome"
+            "location": "/tutorial_videos/index.html#playing-music-and-sound-effects", 
+            "text": "", 
+            "title": "Playing music and sound effects"
         }, 
         {
-            "location": "/forum/index.html#code-of-conduct", 
-            "text": "We would ask that all users of the community forum respect our  code of conduct .  fungus", 
-            "title": "Code of conduct"
+            "location": "/tutorial_videos/index.html#controlling-animations", 
+            "text": "", 
+            "title": "Controlling animations"
+        }, 
+        {
+            "location": "/tutorial_videos/index.html#narrative-based-gameplay", 
+            "text": "", 
+            "title": "Narrative based gameplay"
+        }, 
+        {
+            "location": "/tutorial_videos/index.html#command-flow-and-loops", 
+            "text": "", 
+            "title": "Command flow and loops"
+        }, 
+        {
+            "location": "/tutorial_videos/index.html#scripting-scene-objects", 
+            "text": "", 
+            "title": "Scripting scene objects"
+        }, 
+        {
+            "location": "/tutorial_videos/index.html#using-variables-to-track-state", 
+            "text": "", 
+            "title": "Using variables to track state"
+        }, 
+        {
+            "location": "/tutorial_videos/index.html#tweening-game-objects-using-itween", 
+            "text": "", 
+            "title": "Tweening game objects using iTween"
+        }, 
+        {
+            "location": "/tutorial_videos/index.html#supporting-multiple-languages", 
+            "text": "", 
+            "title": "Supporting multiple languages"
+        }, 
+        {
+            "location": "/tutorial_videos/index.html#editing-story-text", 
+            "text": "", 
+            "title": "Editing story text"
+        }, 
+        {
+            "location": "/tutorial_videos/index.html#using-spine-animations", 
+            "text": "", 
+            "title": "Using Spine animations"
+        }, 
+        {
+            "location": "/tutorial_videos/index.html#custom-commands-and-event-handlers", 
+            "text": "", 
+            "title": "Custom commands and event handlers"
+        }, 
+        {
+            "location": "/tutorial_videos/index.html#controlling-unity-ui-objects", 
+            "text": "", 
+            "title": "Controlling Unity UI objects"
+        }, 
+        {
+            "location": "/tutorial_videos/index.html#unite-europe-2015-talk", 
+            "text": "", 
+            "title": "Unite Europe 2015 talk"
+        }, 
+        {
+            "location": "/tutorial_videos/index.html#fungus-live-stream-1", 
+            "text": "", 
+            "title": "Fungus Live Stream #1"
+        }, 
+        {
+            "location": "/tutorial_videos/index.html#fungus-live-stream-2", 
+            "text": "", 
+            "title": "Fungus Live Stream #2"
+        }, 
+        {
+            "location": "/tutorial_videos/index.html#fungus-live-stream-3", 
+            "text": "", 
+            "title": "Fungus Live Stream #3"
+        }, 
+        {
+            "location": "/training_course/index.html", 
+            "text": "Fungus Training Course\n\n\n\nWe've teamed up with Paul Mc Grath to create an extensive \ntraining course\n which teaches how to make storytelling games using Fungus and Unity. Sales of this course help us to continue developing Fungus, so it's a nice way to learn Fungus and to support the work we're doing on the project.\n\n\n\n\n\n\n\n\nCourse Description\n\n\nThis course is aimed at anyone who wants to make interactive story based games, but, who doesn't know how to code.\n\n\nFungus is a free Unity 3D plugin that allows non coders (like me) access to some of Unity's core features.\n\n\nIf you have never used game development software, or if you have struggled with code trying to make games, Fungus and this course are exactly what you need.\n\n\nWhat are the requirements?\n\n\n\n\nA Mac or PC that is capable of running Unity 3D.\n\n\nThe latest version of Unity 3D (we will talk you through download and install on the course).\n\n\nThe latest Version of Fungus (We will talk you through download and install on the course).\n\n\n\n\nWhat am I going to get from this course?\n\n\n\n\nOver 43 lectures and 8 hours of content!\n\n\nYou will have a Full working knowledge of Fungus and how it integrates with Unity.\n\n\nYou will be able to create narrative story games, point and click adventures and hidden object games.\n\n\nYou will be able to publish your games to Unity\u2019s webplayer and WebGL and have them on your own website, publish them to Android and IOS versions (if you have a Apple developer Licence) and sell them through - Google play or the apple store.\n\n\nMost importantly you will be able to do all of this without writing one line of code.\n\n\n\n\nWhat is the target audience?\n\n\n\n\nIf you don\u2019t know how to code and want to make Interactive Story Games. This course is for you.\n\n\nIf you\u2019re an artist, illustrator or writer and would like to delve into game development in an easy and approachable manner, this course if for you.\n\n\nIf you have struggled with code to create games in unity, this course is for you.\n\n\nIf you're able to code and know your way round unity and love the joy of a visual coding interface, this course is for you.", 
+            "title": "Training Course"
+        }, 
+        {
+            "location": "/training_course/index.html#fungus-training-course", 
+            "text": "We've teamed up with Paul Mc Grath to create an extensive  training course  which teaches how to make storytelling games using Fungus and Unity. Sales of this course help us to continue developing Fungus, so it's a nice way to learn Fungus and to support the work we're doing on the project.", 
+            "title": "Fungus Training Course"
+        }, 
+        {
+            "location": "/training_course/index.html#course-description", 
+            "text": "This course is aimed at anyone who wants to make interactive story based games, but, who doesn't know how to code.  Fungus is a free Unity 3D plugin that allows non coders (like me) access to some of Unity's core features.  If you have never used game development software, or if you have struggled with code trying to make games, Fungus and this course are exactly what you need.", 
+            "title": "Course Description"
+        }, 
+        {
+            "location": "/training_course/index.html#what-are-the-requirements", 
+            "text": "A Mac or PC that is capable of running Unity 3D.  The latest version of Unity 3D (we will talk you through download and install on the course).  The latest Version of Fungus (We will talk you through download and install on the course).", 
+            "title": "What are the requirements?"
+        }, 
+        {
+            "location": "/training_course/index.html#what-am-i-going-to-get-from-this-course", 
+            "text": "Over 43 lectures and 8 hours of content!  You will have a Full working knowledge of Fungus and how it integrates with Unity.  You will be able to create narrative story games, point and click adventures and hidden object games.  You will be able to publish your games to Unity\u2019s webplayer and WebGL and have them on your own website, publish them to Android and IOS versions (if you have a Apple developer Licence) and sell them through - Google play or the apple store.  Most importantly you will be able to do all of this without writing one line of code.", 
+            "title": "What am I going to get from this course?"
+        }, 
+        {
+            "location": "/training_course/index.html#what-is-the-target-audience", 
+            "text": "If you don\u2019t know how to code and want to make Interactive Story Games. This course is for you.  If you\u2019re an artist, illustrator or writer and would like to delve into game development in an easy and approachable manner, this course if for you.  If you have struggled with code to create games in unity, this course is for you.  If you're able to code and know your way round unity and love the joy of a visual coding interface, this course is for you.", 
+            "title": "What is the target audience?"
         }
     ]
 }
