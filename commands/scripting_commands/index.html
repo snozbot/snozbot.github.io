@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="http://fungusgames.com/commands/scripting_commands/index.html">
+        <link rel="shortcut icon" href="../../images/favicon.ico">
+        
+
+	<title>Scripting Commands - Fungus</title>
+
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-70024522-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" style="padding: 2px 0px 2px 0px;" href="../../index.html"><img src="../../images/logo_100.png" style='height: 50px;'></a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../../index.html">About</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../download/index.html">Download</a>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Learn <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+<li >
+    <a href="../../tutorial_videos/index.html">Tutorial Videos</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../training_course/index.html">Training Course</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../getting_started/index.html">Getting Started</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../flowcharts/index.html">Flowcharts</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../blocks/index.html">Blocks</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../telling_a_story/index.html">Telling a Story</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../playing_audio/index.html">Playing Audio</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../articles/index.html">Community Articles</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../glossary/index.html">Glossary</a>
+</li>
+
+                    
+                        
+<li >
+    <a href="../../faq/index.html">FAQ</a>
+</li>
+
+                    
+                        
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Reference</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../animation_commands/index.html">Animation Commands</a>
+</li>
+
+        
+            
+<li >
+    <a href="../audio_commands/index.html">Audio Commands</a>
+</li>
+
+        
+            
+<li >
+    <a href="../camera_commands/index.html">Camera Commands</a>
+</li>
+
+        
+            
+<li >
+    <a href="../flow_commands/index.html">Flow Commands</a>
+</li>
+
+        
+            
+<li >
+    <a href="../itween_commands/index.html">iTween Commands</a>
+</li>
+
+        
+            
+<li >
+    <a href="../narrative_commands/index.html">Narrative Commands</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="index.html">Scripting Commands</a>
+</li>
+
+        
+            
+<li >
+    <a href="../sprite_commands/index.html">Sprite Commands</a>
+</li>
+
+        
+            
+<li >
+    <a href="../variable_commands/index.html">Variable Commands</a>
+</li>
+
+        
+            
+<li >
+    <a href="../event_handlers/core_events/index.html">Events (Core) Commands</a>
+</li>
+
+        
+            
+<li >
+    <a href="../event_handlers/input_events/index.html">Events (Input) Commands</a>
+</li>
+
+        
+            
+<li >
+    <a href="../event_handlers/sprite_events/index.html">Events (Sprite) Commands</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../advanced/narrative_parser_tokens/index.html">Narrative Parser Tokens</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                    
+                        
+<li >
+    <a href="../../conduct/index.html">Code of Conduct</a>
+</li>
+
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../forum/index.html">Forum</a>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                <!--
+                <li >
+                    <a rel="next" href="../narrative_commands/index.html">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../sprite_commands/index.html">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                -->
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#comment">Comment</a></li>
+        
+    
+        <li class="main "><a href="#call-method">Call Method</a></li>
+        
+    
+        <li class="main "><a href="#debug-log">Debug Log</a></li>
+        
+    
+        <li class="main "><a href="#destroy">Destroy</a></li>
+        
+    
+        <li class="main "><a href="#execute-lua">Execute Lua</a></li>
+        
+    
+        <li class="main "><a href="#invoke-event">Invoke Event</a></li>
+        
+    
+        <li class="main "><a href="#invoke-method">Invoke Method</a></li>
+        
+    
+        <li class="main "><a href="#open-url">Open URL</a></li>
+        
+    
+        <li class="main "><a href="#set-active">Set Active</a></li>
+        
+    
+        <li class="main "><a href="#spawn-object">Spawn Object</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h2 id="comment">Comment</h2>
+<p>Use comments to record design notes and reminders about your game.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Commenter Name</td>
+<td>System.String</td>
+<td>Name of Commenter</td>
+</tr>
+<tr>
+<td>Comment Text</td>
+<td>System.String</td>
+<td>Text to display for this comment</td>
+</tr>
+</tbody>
+</table>
+<h2 id="call-method">Call Method</h2>
+<p>Calls a named method on a GameObject using the GameObject.SendMessage() system.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Target Object</td>
+<td>UnityEngine.GameObject</td>
+<td>Target monobehavior which contains the method we want to call</td>
+</tr>
+<tr>
+<td>Method Name</td>
+<td>System.String</td>
+<td>Name of the method to call</td>
+</tr>
+<tr>
+<td>Delay</td>
+<td>System.Single</td>
+<td>Delay (in seconds) before the method will be called</td>
+</tr>
+</tbody>
+</table>
+<h2 id="debug-log">Debug Log</h2>
+<p>Writes a log message to the debug console.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Log Type</td>
+<td>Fungus.DebugLog+DebugLogType</td>
+<td>Display type of debug log info</td>
+</tr>
+<tr>
+<td>Log Message</td>
+<td>Fungus.StringData</td>
+<td>Text to write to the debug log. Supports variable substitution, e.g. {$Myvar}</td>
+</tr>
+</tbody>
+</table>
+<h2 id="destroy">Destroy</h2>
+<p>Destroys a specified game object in the scene.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>_target Game Object</td>
+<td>Fungus.GameObjectData</td>
+<td>Reference to game object to destroy</td>
+</tr>
+</tbody>
+</table>
+<h2 id="execute-lua">Execute Lua</h2>
+<p>Executes a Lua code chunk using a Lua Environment.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lua Environment</td>
+<td>Fungus.LuaEnvironment</td>
+<td>Lua Environment to use to execute this Lua script</td>
+</tr>
+<tr>
+<td>Lua Script</td>
+<td>System.String</td>
+<td>Lua script to execute. Use {$VarName} to insert a Flowchart variable in the Lua script.</td>
+</tr>
+<tr>
+<td>Run As Coroutine</td>
+<td>System.Boolean</td>
+<td>Execute this Lua script as a Lua coroutine</td>
+</tr>
+<tr>
+<td>Wait Until Finished</td>
+<td>System.Boolean</td>
+<td>Pause command execution until the Lua script has finished execution</td>
+</tr>
+<tr>
+<td>Return Variable</td>
+<td>Fungus.Variable</td>
+<td>A Flowchart variable to store the returned value in.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="invoke-event">Invoke Event</h2>
+<p>Calls a list of component methods via the Unity Event System (as used in the Unity UI). This command is more efficient than the Invoke Method command but can only pass a single parameter and doesn't support return values.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Delay</td>
+<td>System.Single</td>
+<td>Delay (in seconds) before the methods will be called</td>
+</tr>
+<tr>
+<td>Static Event</td>
+<td>UnityEngine.Events.UnityEvent</td>
+<td>List of methods to call. Supports methods with no parameters or exactly one string, int, float or object parameter.</td>
+</tr>
+<tr>
+<td>Boolean Parameter</td>
+<td>Fungus.BooleanData</td>
+<td>Boolean parameter to pass to the invoked methods.</td>
+</tr>
+<tr>
+<td>Boolean Event</td>
+<td>Fungus.InvokeEvent+BooleanEvent</td>
+<td>List of methods to call. Supports methods with one boolean parameter.</td>
+</tr>
+<tr>
+<td>Integer Parameter</td>
+<td>Fungus.IntegerData</td>
+<td>Integer parameter to pass to the invoked methods.</td>
+</tr>
+<tr>
+<td>Integer Event</td>
+<td>Fungus.InvokeEvent+IntegerEvent</td>
+<td>List of methods to call. Supports methods with one integer parameter.</td>
+</tr>
+<tr>
+<td>Float Parameter</td>
+<td>Fungus.FloatData</td>
+<td>Float parameter to pass to the invoked methods.</td>
+</tr>
+<tr>
+<td>Float Event</td>
+<td>Fungus.InvokeEvent+FloatEvent</td>
+<td>List of methods to call. Supports methods with one float parameter.</td>
+</tr>
+<tr>
+<td>String Parameter</td>
+<td>Fungus.StringData</td>
+<td>String parameter to pass to the invoked methods.</td>
+</tr>
+<tr>
+<td>String Event</td>
+<td>Fungus.InvokeEvent+StringEvent</td>
+<td>List of methods to call. Supports methods with one string parameter.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="invoke-method">Invoke Method</h2>
+<p>Invokes a method of a component via reflection. Supports passing multiple parameters and storing returned values in a Fungus variable.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Target Object</td>
+<td>UnityEngine.GameObject</td>
+<td>GameObject containing the component method to be invoked</td>
+</tr>
+<tr>
+<td>Target Component Assembly Name</td>
+<td>System.String</td>
+<td>Name of assembly containing the target component</td>
+</tr>
+<tr>
+<td>Target Component Fullname</td>
+<td>System.String</td>
+<td>Full name of the target component</td>
+</tr>
+<tr>
+<td>Target Component Text</td>
+<td>System.String</td>
+<td>Display name of the target component</td>
+</tr>
+<tr>
+<td>Target Method</td>
+<td>System.String</td>
+<td>Name of target method to invoke on the target component</td>
+</tr>
+<tr>
+<td>Target Method Text</td>
+<td>System.String</td>
+<td>Display name of target method to invoke on the target component</td>
+</tr>
+<tr>
+<td>Method Parameters</td>
+<td>Fungus.InvokeMethodParameter[]</td>
+<td>List of parameters to pass to the invoked method</td>
+</tr>
+<tr>
+<td>Save Return Value</td>
+<td>System.Boolean</td>
+<td>If true, store the return value in a flowchart variable of the same type.</td>
+</tr>
+<tr>
+<td>Return Value Variable Key</td>
+<td>System.String</td>
+<td>Name of Fungus variable to store the return value in</td>
+</tr>
+<tr>
+<td>Return Value Type</td>
+<td>System.String</td>
+<td>The type of the return value</td>
+</tr>
+<tr>
+<td>Show Inherited</td>
+<td>System.Boolean</td>
+<td>If true, list all inherited methods for the component</td>
+</tr>
+<tr>
+<td>Call Mode</td>
+<td>Fungus.Call+CallMode</td>
+<td>The coroutine call behavior for methods that return IEnumerator</td>
+</tr>
+</tbody>
+</table>
+<h2 id="open-url">Open URL</h2>
+<p>Opens the specified URL in the browser.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Url</td>
+<td>Fungus.StringData</td>
+<td>URL to open in the browser</td>
+</tr>
+</tbody>
+</table>
+<h2 id="set-active">Set Active</h2>
+<p>Sets a game object in the scene to be active / inactive.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>_target Game Object</td>
+<td>Fungus.GameObjectData</td>
+<td>Reference to game object to enable / disable</td>
+</tr>
+<tr>
+<td>Active State</td>
+<td>Fungus.BooleanData</td>
+<td>Set to true to enable the game object</td>
+</tr>
+</tbody>
+</table>
+<h2 id="spawn-object">Spawn Object</h2>
+<p>Spawns a new object based on a reference to a scene or prefab game object.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>_source Object</td>
+<td>Fungus.GameObjectData</td>
+<td>Game object to copy when spawning. Can be a scene object or a prefab.</td>
+</tr>
+<tr>
+<td>_parent Transform</td>
+<td>Fungus.TransformData</td>
+<td>Transform to use for position of newly spawned object.</td>
+</tr>
+<tr>
+<td>_spawn Position</td>
+<td>Fungus.Vector3Data</td>
+<td>Local position of newly spawned object.</td>
+</tr>
+<tr>
+<td>_spawn Rotation</td>
+<td>Fungus.Vector3Data</td>
+<td>Local rotation of newly spawned object.</td>
+</tr>
+</tbody>
+</table></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
+        </footer>
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
