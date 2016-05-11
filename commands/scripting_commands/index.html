@@ -458,7 +458,7 @@
 </tr>
 <tr>
 <td>Log Message</td>
-<td>Fungus.StringData</td>
+<td>Fungus.StringDataMulti</td>
 <td>Text to write to the debug log. Supports variable substitution, e.g. {$Myvar}</td>
 </tr>
 </tbody>
@@ -498,9 +498,14 @@
 <td>Lua Environment to use to execute this Lua script</td>
 </tr>
 <tr>
+<td>Lua File</td>
+<td>UnityEngine.TextAsset</td>
+<td>A text file containing Lua script to execute.</td>
+</tr>
+<tr>
 <td>Lua Script</td>
 <td>System.String</td>
-<td>Lua script to execute. Use {$VarName} to insert a Flowchart variable in the Lua script.</td>
+<td>Lua script to execute. This text is appended to the contents of Lua file (if one is specified).</td>
 </tr>
 <tr>
 <td>Run As Coroutine</td>
@@ -572,7 +577,7 @@
 </tr>
 <tr>
 <td>String Parameter</td>
-<td>Fungus.StringData</td>
+<td>Fungus.StringDataMulti</td>
 <td>String parameter to pass to the invoked methods.</td>
 </tr>
 <tr>

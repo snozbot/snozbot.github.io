@@ -391,6 +391,9 @@
         <li class="main "><a href="#stop">Stop</a></li>
         
     
+        <li class="main "><a href="#stop-block">Stop Block</a></li>
+        
+    
         <li class="main "><a href="#stop-flowchart">Stop Flowchart</a></li>
         
     
@@ -472,7 +475,7 @@
 </tr>
 <tr>
 <td>String Data</td>
-<td>Fungus.StringData</td>
+<td>Fungus.StringDataMulti</td>
 <td>String value to compare against</td>
 </tr>
 <tr>
@@ -517,7 +520,7 @@
 </tr>
 <tr>
 <td>String Data</td>
-<td>Fungus.StringData</td>
+<td>Fungus.StringDataMulti</td>
 <td>String value to compare against</td>
 </tr>
 <tr>
@@ -613,6 +616,29 @@
 </table>
 <h2 id="stop">Stop</h2>
 <p>Stop executing the Block that contains this command.</p>
+<h2 id="stop-block">Stop Block</h2>
+<p>Stops executing the named Block</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Flowchart</td>
+<td>Fungus.Flowchart</td>
+<td>Flowchart containing the Block. If none is specified, the parent Flowchart is used.</td>
+</tr>
+<tr>
+<td>Block Name</td>
+<td>Fungus.StringData</td>
+<td>Name of the Block to stop</td>
+</tr>
+</tbody>
+</table>
 <h2 id="stop-flowchart">Stop Flowchart</h2>
 <p>Stops execution of all Blocks in a Flowchart</p>
 <table>
@@ -705,7 +731,7 @@
 </tr>
 <tr>
 <td>String Data</td>
-<td>Fungus.StringData</td>
+<td>Fungus.StringDataMulti</td>
 <td>String value to compare against</td>
 </tr>
 <tr>
