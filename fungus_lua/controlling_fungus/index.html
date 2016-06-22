@@ -364,6 +364,9 @@
         <li class="main "><a href="#say-dialog-functions">Say Dialog functions</a></li>
         
     
+        <li class="main "><a href="#portrait-functions">Portrait functions</a></li>
+        
+    
         <li class="main "><a href="#menu-dialog-functions">Menu Dialog functions</a></li>
         
     
@@ -376,7 +379,7 @@
 
 <h1 id="controlling-fungus">Controlling Fungus</h1>
 <p>The Fungus module provides several functions for working with the standard Fungus narrative features and flowcharts.</p>
-<p>You can control Say and Menu dialogs in much the same way you use Say and Menu commands in a normal Fungus flowchart. </p>
+<p>You can control Say and Menu dialogs in much the same way you use Say and Menu commands in a normal Fungus flowchart.</p>
 <p>When you use the menu() function, you supply another Lua function to call when that menu option is selected. Make sure to define the function higher up in the file before referencing it in a menu() call. If you don't explicitly set a SayDialog or MenuDialog object to use default ones are created automatically.</p>
 <h1 id="narrative-example">Narrative example</h1>
 <p>This example Lua script demonstrates some of the Say and Menu dialog functions. To try it out, add a Lua object to the scene (Tools &gt; Fungus &gt; Create &gt; Lua) and copy this script into the Lua Script text box. You may also need to add an EventSystem object in the scene (GameObject &gt; UI &gt; Event System) so that the menu buttons will respond to user input.</p>
@@ -411,7 +414,7 @@ menu(&quot;Go right&quot;, goright)
 </code></pre>
 
 <p>You can bind Character objects in a similar fashion, and set the speaking character using the setcharacter() function.</p>
-<p>This is the list of available functions for controlling SayDialogs. </p>
+<p>This is the list of available functions for controlling SayDialogs.</p>
 <pre><code class="lua">-- Options for configuring Say Dialog behaviour
 sayoptions.clearprevious = true | false
 sayoptions.waitforinput = true | false
@@ -434,6 +437,36 @@ setcharacter(character, portrait)
 -- text: A string to write to the say dialog
 -- voice: A voiceover audioclip to play
 say(text, voiceclip)
+</code></pre>
+
+<h1 id="portrait-functions">Portrait functions</h1>
+<p>Stage portraits can be controlled by using the stage.</p>
+<p>First, add your characters and stage to the LuaBindings list.</p>
+<p><img alt="Lua Stage Binding" src="../images/lua_stageBinding.png" /></p>
+<p>Then, in a lua script, use the stage commands show, showPortrait and hide to control the portraits on stage.</p>
+<pre><code class="lua">-- Show a character at this stage position
+stage.show(character, &quot;left&quot;)
+
+-- show a character with a specific portrait and move it
+-- from one stage position to another.
+stage.show(character, &quot;happy&quot;, &quot;offscreen right&quot;, &quot;right&quot;)
+
+-- show a specific portrait
+stage.showPortrait(character, &quot;amused&quot;)
+
+-- hide a character
+stage.hide(character)
+
+-- Hide a character fading out to a position
+stage.hide(character, &quot;offscreen left&quot;)
+</code></pre>
+
+<p>You can also specify any Portrait option available by using named arguments.</p>
+<pre><code class="lua">stage.show{character=character, fromPosition=&quot;left&quot;, toPosition=&quot;right&quot;}
+
+stage.show{character=character, portrait=&quot;angry&quot;}
+
+stage.hide{character=character}
 </code></pre>
 
 <h1 id="menu-dialog-functions">Menu Dialog functions</h1>
@@ -475,7 +508,7 @@ clearmenu()
 <pre><code class="lua">-- Assume the 'flowchart' variable is bound to a Flowchart component in LuaBindings
 -- MyVar is a string variable defined on the Flowchart
 
-local myvar = getvar(flowchart, &quot;MyVar&quot;) 
+local myvar = getvar(flowchart, &quot;MyVar&quot;)
 
 print(myvar.value)
 
@@ -485,7 +518,7 @@ myvar.value = &quot;New value for string&quot;
 <p>This is the list of available functions for controlling Flowcharts.</p>
 <pre><code class="lua">-- Returns the specified Variable in a Flowchart.
 -- To access the value of the variable, use its .value property. e.g.
---  v = getvar(flowchart, &quot;FloatVar&quot;) 
+--  v = getvar(flowchart, &quot;FloatVar&quot;)
 --  v.value = 10    -- Sets the value of the variable to 10
 --  f = v.value     -- f now contains 10
 -- flowchart: The Fungus Flowchart containing the Block to run.
