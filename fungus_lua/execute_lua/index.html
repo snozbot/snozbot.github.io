@@ -370,7 +370,9 @@
 
 <h1 id="the-executelua-command">The ExecuteLua Command</h1>
 <p>This command allows you to embed a Lua script to be executed as part of a command sequence in a Block. The Lua script to be executed can be specified in the inspector or in a text file, in the same way as in the <a href="../lua_script/index.html#lua-script-and-files">Lua Script component</a>.</p>
-<p>You can provide an optional LuaEnvironment to use for the execution. If none is provided then a LuaEnvironment will be selected / created automatically. You can choose to store the return value from the Lua script in a Flowchart variable.</p>
+<p>You can provide an optional LuaEnvironment to use for the execution. If none is provided then a LuaEnvironment will be selected / created automatically. If a LuaEnvironment has been set on the parent Flowchart then that environment will be used by default. </p>
+<p>The parent Flowchart will be bound to a global Lua variable prior to executing the Lua script. By default the binding name is 'flowchart', but you can change it to anything you want via the Lua Binding Name property of the parent Flowchart.</p>
+<p>You can also store the return value from the Lua script in a Flowchart variable.</p>
 <h1 id="evaluating-expressions">Evaluating expressions</h1>
 <p>The Fungus If command can only compare 2 variables at a time. For more complex expressions involving multiple variables or <a href="http://lua-users.org/wiki/MathLibraryTutorial">math functions</a>, you can use Lua to evaluate the expression and store the result in a Flowchart variable.</p>
 <ol>
