@@ -6,11 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="http://fungusgames.com/flowcharts/index.html">
+        <link rel="canonical" href="http://fungusgames.com/conversation/index.html">
         <link rel="shortcut icon" href="../images/favicon.ico">
         
 
-	<title>Flowcharts - Fungus</title>
+	<title>Conversation - Fungus</title>
 
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -90,8 +90,8 @@
 
                     
                         
-<li class="active">
-    <a href="index.html">Flowcharts</a>
+<li >
+    <a href="../flowcharts/index.html">Flowcharts</a>
 </li>
 
                     
@@ -114,8 +114,8 @@
 
                     
                         
-<li >
-    <a href="../conversation/index.html">Conversation</a>
+<li class="active">
+    <a href="index.html">Conversation</a>
 </li>
 
                     
@@ -341,12 +341,12 @@
                 </li>
                 <!--
                 <li >
-                    <a rel="next" href="../getting_started/index.html">
+                    <a rel="next" href="../playing_audio/index.html">
                         <i class="fa fa-arrow-left"></i> Previous
                     </a>
                 </li>
                 <li >
-                    <a rel="prev" href="../blocks/index.html">
+                    <a rel="prev" href="../articles/index.html">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </li>
@@ -361,105 +361,84 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#flowcharts">Flowcharts</a></li>
+        <li class="main active"><a href="#the-conversation-system">The Conversation system</a></li>
         
-            <li><a href="#what-is-a-flowchart">What is a Flowchart?</a></li>
+    
+        <li class="main "><a href="#example">Example</a></li>
         
-            <li><a href="#opening-and-docking-the-flowchart-window">Opening and docking the Flowchart window</a></li>
+    
+        <li class="main "><a href="#format">Format</a></li>
         
-            <li><a href="#creating-a-flowchart">Creating a Flowchart</a></li>
+    
+        <li class="main "><a href="#string-substitution">String substitution</a></li>
         
-            <li><a href="#panning-the-flowchart-window">Panning the Flowchart window</a></li>
+    
+        <li class="main "><a href="#localization">Localization</a></li>
         
-            <li><a href="#zooming-the-flowchart-window">Zooming the Flowchart window</a></li>
+    
+        <li class="main "><a href="#lua">Lua</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h1 id="flowcharts">Flowcharts</h1>
-<p>A fundamental concept of Fungus is the <strong>Flowchart</strong>. Scenes can contain a single Flowchart or multiple Flowcharts.</p>
-<!-- **************************************************** -->
+<h1 id="the-conversation-system">The Conversation system</h1>
+<p>The Say and Portrait commands are a powerful way to build character dialogue, but it can be tedious to add large amounts of dialogue this way.</p>
+<p>The Conversation system provides a simplified format that allows you to quickly control:</p>
+<ul>
+<li>Which character is speaking</li>
+<li>Which portrait image to use (either on the Say Dialog or on the Stage portrait)</li>
+<li>Which stage position to move to the character to (if using the Stage)</li>
+<li>When to hide a character</li>
+</ul>
+<p>To create a conversation, add the Conversation command (Narrative &gt; Conversation) to a Block and enter the conversation text. </p>
+<h1 id="example">Example</h1>
+<pre><code class="text">john bored left: Oh, so that's how you use the Conversation command.
+sherlock eyeroll right: Yes, well done John.
+You catch on quickly don't you?
+hide john &quot;offscreen left&quot;: I sure do.
 
-<h2 id="what-is-a-flowchart">What is a Flowchart?</h2>
-<p>A Fungus <strong>Flowchart</strong> contains the Blocks in which all your Fungus Commands are located. A Unity scene can contain multiple Flowcharts, and commands can be executing simultaneously in different Flowcharts. However, for many games it is sufficient for one Block in one Flowcart to be executing at any one time.</p>
-<p>Here is an example of a Fungus Flowchart:
-<br>
-<img alt="flowchart example" src="./images/001_what_is/1_example_flowchart.png" title="flowchart example" />
-<br></p>
-<!-- **************************************************** -->
+-- This is a comment, it doesn't appear in the conversation
 
-<h2 id="opening-and-docking-the-flowchart-window">Opening and docking the Flowchart window</h2>
-<p>You'll need the Fungus Flowchart window when working with Fungus. Open and dock this window somewhere handy by following these steps:</p>
-<ol>
-<li>
-<p>Choose menu: <code>Tools | Fungus | Flowchart Window</code>
-<br>
-<img alt="Menu open Fungus window" src="./images/002_docking/1_menu.png" title="Menu open Fungus window" />
-<br>
-<br></p>
-</li>
-<li>
-<p>Drag-and-drop the Flowchart window to the location you wish to dock it:
-<br>
-<img alt="Drag Fungus window" src="./images/002_docking/2_window.png" title="Drag Fungus window" />
-<br>
-<br></p>
-</li>
-<li>
-<p>The Flowchart window is now docked and part of your Unity window layout:
-<br>
-<img alt="Docked Fungus window" src="./images/002_docking/3_docked.png" title="Docked Fungus window" /></p>
-</li>
-</ol>
-<!-- **************************************************** -->
+john angry middle: Wait, what!
+left: There's no need to be rude Sherlock!
+bored: Not like that would stop you.
 
-<h2 id="creating-a-flowchart">Creating a Flowchart</h2>
-<p>To create a Fungus Flowchart do the following:</p>
-<ol>
-<li>
-<p>Choose menu: <code>Tools | Fungus | Create Flowchart</code>
-<br>
-<img alt="menu create Flowchart" src="./images/005_create_flowchart/1_tools_create.png" title="menu create Flowchart" />
-<br>
-<br></p>
-</li>
-<li>
-<p>A new <strong>Flowchart</strong> gameObject should appear in the Hierarchy window.
-<br>
-<img alt="new Flowchart gameobject" src="./images/005_create_flowchart/2_flowchart_gameobject.png" title="new Flowchart gameobject" />
-<br>
-<br></p>
-</li>
-<li>
-<p>Select the <strong>Flowchart</strong> gameObject in the Hierarchy window, and you'll see the <strong>Flowchart's</strong> properties in the Inspector Window:
-<br>
-<img alt="Flowchart properties" src="./images/005_create_flowchart/3_flowchart_properties.png" title="Flowchart properties" />
-<br>
-<br></p>
-</li>
-<li>
-<p>If you have not already displayed the Flowchart Window, you can do so by clicking the Flowchart Window button in the Inspector.</p>
-</li>
-<li>
-<p>As you can see, when a new Flowchat is created a single command Block named "New Block" is automatically created, with the Event handler "Game Started" (so it will start executing Fungus commands as soon as the scene goes into <strong>Play Mode</strong>).</p>
-</li>
-</ol>
-<!-- **************************************************** -->
+sherlock excited: AHA! So that's how you do a conversation from Lua!
+Fascinating.
+john: Yes, riveting.
 
-<h2 id="panning-the-flowchart-window">Panning the Flowchart window</h2>
-<p>Panning means moving the contents of the Flowchart window as if they are on a piece of paper. Click and drag with the RIGHT mouse button to pan the contents of the Flowchart window.</p>
-<p><img alt="pan flowchart 1" src="./images/003_panning/1_pan1.png" title="pan flowchart 1" /></p>
-<p><img alt="pan flowchart 2" src="./images/003_panning/2_pan2.png" title="pan flowchart 2" /></p>
-<p><img alt="pan flowchart animated" src="./images/003_panning/animated_drag_to_pan.gif" title="pan flowchart animated" /></p>
-<!-- **************************************************** -->
+john hide:
+sherlock hide:
+</code></pre>
 
-<h2 id="zooming-the-flowchart-window">Zooming the Flowchart window</h2>
-<p>Zooming refers to making the contents larger or smaller. To zoom the Flowchart window contents either click and drag the UI slider, or use the mouse wheel (or trackpad).</p>
-<p><img alt="zoom flowchart 1" src="./images/004_zooming/1_zoom1.png" title="zoom flowchart 1" /></p>
-<p><img alt="zoom flowchart 2" src="./images/004_zooming/2_zoom2.png" title="zoom flowchart 2" /></p>
-<p><img alt="zoom flowchart 2" src="./images/004_zooming/animated_zoom.gif" title="zoom flowchart animated" /></p></div>
+<h1 id="format">Format</h1>
+<p>The format for conversation text is:</p>
+<pre><code class="text">[character] [portrait] [position] [hide] : [Dialogue text]
+</code></pre>
+
+<ul>
+<li>character: The gameobject name or Name Text value of the speaking character.</li>
+<li>portrait: The name of a sprite in the character's Portraits list.</li>
+<li>position: The name of a position object in the Stage (e.g. Left, Middle, Right, Offscreen Left, Offscreen Right)</li>
+<li>hide: Hides the character</li>
+</ul>
+<p>Parameters go on the left of the colon and the dialogue text goes on the right. You can omit any parameter and specify them in any order. Parameters are separated by spaces. If you need to use a name which contains spaces, wrap it in quotation marks e.g. "John Watson". Parameters are case insensitive. Blank lines and comment lines starting with -- are ignored. A line of dialogue text on its own will be spoken by the most recent character. You can omit dialogue text, but remember you still need to add the : character at the end of the line.</p>
+<h1 id="string-substitution">String substitution</h1>
+<p>You can use the normal string subsitution syntax {$VarName} anywhere in the conversation text. For example if you have a string Flowchart variable called PlayerName you can embed this in a conversation like this:</p>
+<pre><code class="text">john: Hi there {$PlayerName}.
+</code></pre>
+
+<h1 id="localization">Localization</h1>
+<p>You can use the string substitution feature above with a <a href="../fungus_lua/string_table/index.html">Lua string table</a> to localize the conversation for multiple languages.</p>
+<p>The Conversation system does not work with the Localization component in Fungus because the syntax makes it difficult to localize that way. </p>
+<h1 id="lua">Lua</h1>
+<p>The conversation() function in <a href="../fungus_lua/index.html">FungusLua</a> starts a conversation in a Lua script. Lua's multiline string syntax [[ ]] is handy here. As the conversation() function takes a single string parameter you can also omit the usual function parenthesis.</p>
+<pre><code class="text">conversation [[
+john: Hello!
+]]
+</code></pre></div>
         </div>
 
         <footer class="col-md-12">
