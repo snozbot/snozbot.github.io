@@ -457,7 +457,7 @@
         }, 
         {
             "location": "/articles/index.html", 
-            "text": "Community Articles\n\n\nIf you've created an article or video about Fungus let us know on the forum and we'll add it here.\n\n\nSercan Altun\n\n\n\n\nFungus Game: Loading Characters Dynamically\n\n\n\n\nDavid Arcila\n\n\n\n\nGame Development Resources\n\n\n\n\nDavid Sherlock\n\n\nhttp://davidsherlock.co.uk\n\n\n\n\nCreating Revision Apps as Text Adventures\n\n\nMore attempts to create revision apps using free resources\n\n\nCreating your own hidden object game\n\n\nSetting up Unity and Fungus to make #appliedgames\n\n\n\n\nLeah Lee\n\n\nhttp://leahlee.studio\n\n\n\n\nFungus Research\n\n\nContributing to Fungus\n\n\nUsing a video as a texture\n\n\n\n\nKonrad Gadzina\n\n\n\n\nVisual scripting w Unity (Polish)\n\n\n\n\nChen\n\n\n2D text adventure game dialogue system in Unity 5 (Chinese)", 
+            "text": "Community Articles\n\n\nIf you've created an article or video about Fungus let us know on the forum and we'll add it here.\n\n\nSercan Altun\n\n\n\n\nInput Dialog \n Writing Custom Commands\n\n\nLoading Characters Dynamically\n\n\n\n\nDavid Arcila\n\n\n\n\nGame Development Resources\n\n\n\n\nDavid Sherlock\n\n\nhttp://davidsherlock.co.uk\n\n\n\n\nCreating Revision Apps as Text Adventures\n\n\nMore attempts to create revision apps using free resources\n\n\nCreating your own hidden object game\n\n\nSetting up Unity and Fungus to make #appliedgames\n\n\n\n\nLeah Lee\n\n\nhttp://leahlee.studio\n\n\n\n\nFungus Research\n\n\nContributing to Fungus\n\n\nUsing a video as a texture\n\n\n\n\nKonrad Gadzina\n\n\n\n\nVisual scripting w Unity (Polish)\n\n\n\n\nChen\n\n\n2D text adventure game dialogue system in Unity 5 (Chinese)", 
             "title": "Community Articles"
         }, 
         {
@@ -467,7 +467,7 @@
         }, 
         {
             "location": "/articles/index.html#sercan-altun", 
-            "text": "Fungus Game: Loading Characters Dynamically", 
+            "text": "Input Dialog   Writing Custom Commands  Loading Characters Dynamically", 
             "title": "Sercan Altun"
         }, 
         {
