@@ -1,0 +1,26 @@
+var class_fungus_1_1_localization =
+[
+    [ "TextItem", "class_fungus_1_1_localization_1_1_text_item.html", "class_fungus_1_1_localization_1_1_text_item" ],
+    [ "AddCSVDataItems", "class_fungus_1_1_localization.html#a49d82643502ea1008b999a2cc896272d", null ],
+    [ "CacheLocalizeableObjects", "class_fungus_1_1_localization.html#a90c6359107805fa5e3f241311f35af2f", null ],
+    [ "ClearLocalizeableCache", "class_fungus_1_1_localization.html#acc4b79335860243de362fad6d8fd2990", null ],
+    [ "FindTextItems", "class_fungus_1_1_localization.html#a29f736fb321832bafdcb723200ad582f", null ],
+    [ "GetCSVData", "class_fungus_1_1_localization.html#a07220afda9eb72ca1bd44fb5cb80b016", null ],
+    [ "GetStandardText", "class_fungus_1_1_localization.html#a70deceacb673d25e032cf8edba30e342", null ],
+    [ "Init", "class_fungus_1_1_localization.html#a630b9bbd7607ad23b541c75d36aae50a", null ],
+    [ "LevelWasLoaded", "class_fungus_1_1_localization.html#ad9daa7c9d7884b465b02b222d826f725", null ],
+    [ "OnLevelWasLoaded", "class_fungus_1_1_localization.html#a2a9b587253b977178c6d18c3a31142fd", null ],
+    [ "PopulateTextProperty", "class_fungus_1_1_localization.html#ad33a7b408fe19df2632b1d939c495bfe", null ],
+    [ "SetActiveLanguage", "class_fungus_1_1_localization.html#a9e1119b368e780f5bfccb4446769fa43", null ],
+    [ "SetStandardText", "class_fungus_1_1_localization.html#ad5129892ca5fd911c06aa25fcb3dfaeb", null ],
+    [ "Start", "class_fungus_1_1_localization.html#a111dffa938b10274a708ad2aa03a026d", null ],
+    [ "SubstituteStrings", "class_fungus_1_1_localization.html#a989a7186ed147c5d19353eb348098b00", null ],
+    [ "activeLanguage", "class_fungus_1_1_localization.html#ac7ba8de86b270f3865a284b2472e76b0", null ],
+    [ "initialized", "class_fungus_1_1_localization.html#aabb20ae2ab12066de8141730f3f988ad", null ],
+    [ "localizationFile", "class_fungus_1_1_localization.html#aba06fbbe0659836c5ca8d613edb88a68", null ],
+    [ "localizeableObjects", "class_fungus_1_1_localization.html#a9af43d26f1482dcea803b6b28ec9e510", null ],
+    [ "notificationText", "class_fungus_1_1_localization.html#a77f0ddbffe1829e4ca5d1cee29a0aca8", null ],
+    [ "ActiveLanguage", "class_fungus_1_1_localization.html#a63b2d68bba3d53f24ae7e989bae1bd6d", null ],
+    [ "LocalizationFile", "class_fungus_1_1_localization.html#aee03aebbec953de7b91e0c6706f80fc1", null ],
+    [ "NotificationText", "class_fungus_1_1_localization.html#a34b74c1d254558eed7745a7c6448612e", null ]
+];
