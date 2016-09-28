@@ -2,14 +2,13 @@ var class_fungus_1_1_writer =
 [
     [ "Awake", "class_fungus_1_1_writer.html#a19e2fc0710ce72292199457b3cff26fb", null ],
     [ "CheckParamCount", "class_fungus_1_1_writer.html#a8fd836919dbbb673a240266ce8f8c164", null ],
-    [ "ConcatenateString", "class_fungus_1_1_writer.html#a348f13f1d3b3a2806ab5744666e6733c", null ],
+    [ "ConcatenateString", "class_fungus_1_1_writer.html#ac3decf500b78d031fc72c13145e66b3f", null ],
     [ "DoWait", "class_fungus_1_1_writer.html#a46a558de39584f3f0c451c8693416ce2", null ],
     [ "DoWait", "class_fungus_1_1_writer.html#a772937f47c973690dc2afa2f15cf49e7", null ],
     [ "DoWaitForInput", "class_fungus_1_1_writer.html#a00795fc5b0b8040c49715edab2ed9bac", null ],
     [ "DoWords", "class_fungus_1_1_writer.html#af330dbeb0181eb2e61f65498b608e206", null ],
     [ "FindAudio", "class_fungus_1_1_writer.html#a29d8bb39fb0c654c90480f1d701cd795", null ],
     [ "Flash", "class_fungus_1_1_writer.html#a0fae269c97446e7e65b31f8080195254", null ],
-    [ "GetTagHelp", "class_fungus_1_1_writer.html#aa416da35f5524dee9378c70a4e690f7d", null ],
     [ "HasTextObject", "class_fungus_1_1_writer.html#a0bbc67d4dd3af50ee95558b673925ac3", null ],
     [ "IsPunctuation", "class_fungus_1_1_writer.html#a697d33b30df8e445f9e5dcd50ea4ab44", null ],
     [ "NotifyEnd", "class_fungus_1_1_writer.html#a65ce4b573a2256b97d50503ed90a6869", null ],
@@ -19,7 +18,7 @@ var class_fungus_1_1_writer =
     [ "NotifyResume", "class_fungus_1_1_writer.html#a1feed11ee4b33205c75994d735d3f684", null ],
     [ "NotifyStart", "class_fungus_1_1_writer.html#aa470e81d3ce4fe65f7387cb0d9668ca2", null ],
     [ "OnNextLineEvent", "class_fungus_1_1_writer.html#aac66847217ae08fa42de2d5b16d2aaec", null ],
-    [ "PartitionString", "class_fungus_1_1_writer.html#ac8ba158d2751e665723ac7d9342c1b7c", null ],
+    [ "PartitionString", "class_fungus_1_1_writer.html#aceb12c9eccd0b3ec74df3455260015c8", null ],
     [ "ProcessTokens", "class_fungus_1_1_writer.html#afb6e0f36350183842b34e35d0e8e3dc6", null ],
     [ "Punch", "class_fungus_1_1_writer.html#aefb1c49cb621ae8c76fa9bb5fc0ca4d9", null ],
     [ "SetTextAlpha", "class_fungus_1_1_writer.html#a46cd50048203fcd6b654356c6eaf7969", null ],
@@ -66,5 +65,5 @@ var class_fungus_1_1_writer =
     [ "writingSpeed", "class_fungus_1_1_writer.html#a40fc628210265c53dd28fa680b9a8b0d", null ],
     [ "IsWaitingForInput", "class_fungus_1_1_writer.html#aaed5c7fd667469f37879f3beaafc7436", null ],
     [ "IsWriting", "class_fungus_1_1_writer.html#acda70c4fc6739221222d2d9ef70719cb", null ],
-    [ "text", "class_fungus_1_1_writer.html#ac12fde59d5ab389e73221a1d78d34e80", null ]
+    [ "Text", "class_fungus_1_1_writer.html#ac4e2a3d6cd82186286cdf0302b48b964", null ]
 ];

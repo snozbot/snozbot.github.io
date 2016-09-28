@@ -14,5 +14,6 @@ var searchData=
   ['onscreen',['onScreen',['../class_fungus_1_1_utils_1_1_portrait_state.html#aba72fa00bf6b3b4df46edeb2c496a766',1,'Fungus::Utils::PortraitState']]],
   ['openstring',['openString',['../class_fungus_1_1_writer.html#a40cc4b11b853d745a6e747cc0a96787d',1,'Fungus::Writer']]],
   ['orderinlayer',['orderInLayer',['../class_fungus_1_1_commands_1_1_set_sprite_order.html#ad98da05c6efeb0da2824424342dc24ba',1,'Fungus::Commands::SetSpriteOrder']]],
-  ['outputstring',['outputString',['../class_fungus_1_1_writer.html#a8dc19b15afce3e995b2d23a03e625df6',1,'Fungus::Writer']]]
+  ['outputstring',['outputString',['../class_fungus_1_1_writer.html#a8dc19b15afce3e995b2d23a03e625df6',1,'Fungus::Writer']]],
+  ['overtarget',['overTarget',['../class_fungus_1_1_event_handlers_1_1_drag_completed.html#a5707d52f2892fce9d47f23773b906769',1,'Fungus::EventHandlers::DragCompleted']]]
 ];

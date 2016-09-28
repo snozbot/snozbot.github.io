@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['pause',['Pause',['../namespace_fungus.html#a889bd18993a3e82814676f65d96299b1a105b296a83f9c105355403f3332af50f',1,'Fungus']]],
   ['pauseloop',['PauseLoop',['../namespace_fungus_1_1_commands.html#a735a38540c87389cd7b9bb6fdbbc2787acff39f381f1747f146f28bd364b55632',1,'Fungus::Commands']]],
   ['playloop',['PlayLoop',['../namespace_fungus_1_1_commands.html#a735a38540c87389cd7b9bb6fdbbc2787a589cd3e960909b75e47b4a9f62a45f73',1,'Fungus::Commands']]],
   ['playonce',['PlayOnce',['../namespace_fungus_1_1_commands.html#a735a38540c87389cd7b9bb6fdbbc2787a5b7a367a883ed0e16dbf4e64bc916637',1,'Fungus::Commands']]],

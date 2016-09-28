@@ -1,7 +1,7 @@
 var class_fungus_1_1_commands_1_1_if =
 [
-    [ "EvaluateAndContinue", "class_fungus_1_1_commands_1_1_if.html#aed979061c0dc1c450529166d8813100d", null ],
-    [ "EvaluateCondition", "class_fungus_1_1_commands_1_1_if.html#a511c55aec7866873404979c290cb9147", null ],
+    [ "EvaluateAndContinue", "class_fungus_1_1_commands_1_1_if.html#a76de88af467aca3f6dac14f410e6091b", null ],
+    [ "EvaluateCondition", "class_fungus_1_1_commands_1_1_if.html#aba575718d3839b60459f1e9c70e03736", null ],
     [ "GetButtonColor", "class_fungus_1_1_commands_1_1_if.html#a01741636f0b2524ffc9f15d47270f40b", null ],
     [ "GetSummary", "class_fungus_1_1_commands_1_1_if.html#af6354fd8029c6a0e078342955e1c6cb2", null ],
     [ "HasReference", "class_fungus_1_1_commands_1_1_if.html#a54b4f94f50ed8b9e04d8b2af5218878c", null ],

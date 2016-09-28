@@ -6,7 +6,7 @@ var class_fungus_1_1_command =
     [ "Execute", "class_fungus_1_1_command.html#ab15afdb41121264e30a046d4a78a0c4e", null ],
     [ "GetButtonColor", "class_fungus_1_1_command.html#a81b8985331b32f0c6d601beb093235ed", null ],
     [ "GetConnectedBlocks", "class_fungus_1_1_command.html#a92063996f9081ee8f77be51d212c0c7f", null ],
-    [ "GetFlowchart", "class_fungus_1_1_command.html#a97b8fae1a74f680f47fbaf51efc01a99", null ],
+    [ "GetFlowchart", "class_fungus_1_1_command.html#ac1bb91bd62abc32d4e728f993770d224", null ],
     [ "GetFlowchartLocalizationId", "class_fungus_1_1_command.html#a34c133c71b3e21bc4e4210916a8df904", null ],
     [ "GetHelpText", "class_fungus_1_1_command.html#a56517b048ffd4503e3a74346b2b27f97", null ],
     [ "GetSummary", "class_fungus_1_1_command.html#a5682c19ec9194fdc4a78e54729381816", null ],

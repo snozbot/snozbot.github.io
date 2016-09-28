@@ -1,7 +1,6 @@
 var searchData=
 [
   ['textitem',['TextItem',['../class_fungus_1_1_localization_1_1_text_item.html',1,'Fungus::Localization']]],
-  ['texttagparser',['TextTagParser',['../class_fungus_1_1_utils_1_1_text_tag_parser.html',1,'Fungus::Utils']]],
   ['texttagtoken',['TextTagToken',['../class_fungus_1_1_utils_1_1_text_tag_token.html',1,'Fungus::Utils']]],
   ['texturedata',['TextureData',['../struct_fungus_1_1_variables_1_1_texture_data.html',1,'Fungus::Variables']]],
   ['texturedatadrawer',['TextureDataDrawer',['../class_fungus_1_1_editor_utils_1_1_texture_data_drawer.html',1,'Fungus::EditorUtils']]],

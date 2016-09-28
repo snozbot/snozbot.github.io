@@ -1,8 +1,8 @@
 var class_fungus_1_1_dialog_input =
 [
-    [ "SetButtonClickedFlag", "class_fungus_1_1_dialog_input.html#ac4a3e7093f1b2f2e35b8250804a96412", null ],
-    [ "SetDialogClickedFlag", "class_fungus_1_1_dialog_input.html#a20eb793569accea1bf818cefccfc5cba", null ],
-    [ "SetNextLineFlag", "class_fungus_1_1_dialog_input.html#a0e02f40456774b067076b3d8f11e5827", null ],
+    [ "SetButtonClickedFlag", "class_fungus_1_1_dialog_input.html#aa4ab5c5dbbf8b71bce8f044b6b7d6dcc", null ],
+    [ "SetDialogClickedFlag", "class_fungus_1_1_dialog_input.html#a32e7bd8c7e62defffcf5e91c8ce3d40e", null ],
+    [ "SetNextLineFlag", "class_fungus_1_1_dialog_input.html#ad63da13c185aee4da0bedc4fef05b97d", null ],
     [ "Update", "class_fungus_1_1_dialog_input.html#a7b16072a2adc695b94a142dc9284e443", null ],
     [ "cancelEnabled", "class_fungus_1_1_dialog_input.html#aa3a90d3598af18f5ced4238ad86dbf61", null ],
     [ "clickMode", "class_fungus_1_1_dialog_input.html#a919f0671ac4dcf0f445d2e0cf0fc3b5e", null ],

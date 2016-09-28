@@ -12,10 +12,10 @@ var searchData=
   ['replacedcharacterprop',['replacedCharacterProp',['../class_fungus_1_1_editor_utils_1_1_portrait_editor.html#a75ff035aab7295c50f1b7f9c85027209',1,'Fungus::EditorUtils::PortraitEditor']]],
   ['replacedstage',['replacedStage',['../class_fungus_1_1_commands_1_1_control_stage.html#a1bdd17cd440787bfe623ce6ec70deaf1',1,'Fungus::Commands::ControlStage']]],
   ['replacedstageprop',['replacedStageProp',['../class_fungus_1_1_editor_utils_1_1_stage_editor.html#ad3699bf5d4d16323b598e3d471e707e6',1,'Fungus::EditorUtils::StageEditor']]],
-  ['replacetagendwith',['replaceTagEndWith',['../class_fungus_1_1_custom_tag.html#ade7010dd342d51469ee2d66e1387b830',1,'Fungus.CustomTag.replaceTagEndWith()'],['../class_fungus_1_1_custom_tag.html#a574c81e58c31bf759a4b3287515127ba',1,'Fungus.CustomTag.ReplaceTagEndWith()'],['../interface_fungus_1_1_i_custom_tag.html#a4060df7d1234f75e2b11d8081f4a1b78',1,'Fungus.ICustomTag.ReplaceTagEndWith()']]],
-  ['replacetagstartwith',['replaceTagStartWith',['../class_fungus_1_1_custom_tag.html#ac9a3bfc01a2cae76a7eb3b4ad51f6571',1,'Fungus.CustomTag.replaceTagStartWith()'],['../class_fungus_1_1_custom_tag.html#aac9e370e3b0729ec7dfe28e1d7699d8d',1,'Fungus.CustomTag.ReplaceTagStartWith()'],['../interface_fungus_1_1_i_custom_tag.html#abfcb6b6ed460775efa43813475678af7',1,'Fungus.ICustomTag.ReplaceTagStartWith()']]],
+  ['replacetagendwith',['ReplaceTagEndWith',['../class_fungus_1_1_custom_tag.html#a574c81e58c31bf759a4b3287515127ba',1,'Fungus.CustomTag.ReplaceTagEndWith()'],['../class_fungus_1_1_custom_tag.html#ade7010dd342d51469ee2d66e1387b830',1,'Fungus.CustomTag.replaceTagEndWith()']]],
+  ['replacetagstartwith',['replaceTagStartWith',['../class_fungus_1_1_custom_tag.html#ac9a3bfc01a2cae76a7eb3b4ad51f6571',1,'Fungus.CustomTag.replaceTagStartWith()'],['../class_fungus_1_1_custom_tag.html#aac9e370e3b0729ec7dfe28e1d7699d8d',1,'Fungus.CustomTag.ReplaceTagStartWith()']]],
   ['reset',['Reset',['../class_fungus_1_1_commands_1_1_reset.html',1,'Fungus::Commands']]],
-  ['reset',['Reset',['../class_fungus_1_1_flowchart.html#a6579253e165f0f4f6ebe21e3bde47409',1,'Fungus.Flowchart.Reset()'],['../interface_fungus_1_1_i_flowchart.html#a0b4a9f77436047e883ed041f762e2d2a',1,'Fungus.IFlowchart.Reset()']]],
+  ['reset',['Reset',['../class_fungus_1_1_flowchart.html#a6579253e165f0f4f6ebe21e3bde47409',1,'Fungus::Flowchart']]],
   ['reset_2ecs',['Reset.cs',['../_reset_8cs.html',1,'']]],
   ['resetanimtrigger',['ResetAnimTrigger',['../class_fungus_1_1_commands_1_1_reset_anim_trigger.html',1,'Fungus::Commands']]],
   ['resetanimtrigger_2ecs',['ResetAnimTrigger.cs',['../_reset_anim_trigger_8cs.html',1,'']]],
@@ -23,7 +23,7 @@ var searchData=
   ['resetmousecursor',['ResetMouseCursor',['../class_fungus_1_1_commands_1_1_set_mouse_cursor.html#ae46f9190fa3179e1283c1d36a0cb88fe',1,'Fungus::Commands::SetMouseCursor']]],
   ['resetvariables',['resetVariables',['../class_fungus_1_1_commands_1_1_reset.html#ae48dc5a5af18bec54056a22da7f881ee',1,'Fungus::Commands::Reset']]],
   ['resize',['resize',['../class_fungus_1_1_editor_utils_1_1_block_inspector_editor.html#a90ea96d88ea5c279b075858555fb76c2',1,'Fungus::EditorUtils::BlockInspectorEditor']]],
-  ['resume',['Resume',['../class_fungus_1_1_writer_audio.html#ada5a3fc5496ef4946cd338dda7bb8f0a',1,'Fungus::WriterAudio']]],
+  ['resume',['Resume',['../class_fungus_1_1_writer_audio.html#ada5a3fc5496ef4946cd338dda7bb8f0a',1,'Fungus.WriterAudio.Resume()'],['../namespace_fungus.html#a889bd18993a3e82814676f65d96299b1af1cefec9e2196c672a622347f1fbc325',1,'Fungus.Resume()']]],
   ['returnduration',['returnDuration',['../class_fungus_1_1_draggable2_d.html#a3a7af9b51b691e4e2ea7e56ebd13d868',1,'Fungus::Draggable2D']]],
   ['returnoncancelled',['returnOnCancelled',['../class_fungus_1_1_draggable2_d.html#a0e100abbf69ea58ac8f096c3e2031e07',1,'Fungus::Draggable2D']]],
   ['returnoncompleted',['returnOnCompleted',['../class_fungus_1_1_draggable2_d.html#a8ba392627a7a32af5fc22160e45944db',1,'Fungus::Draggable2D']]],
@@ -40,5 +40,5 @@ var searchData=
   ['rotateto_2ecs',['RotateTo.cs',['../_rotate_to_8cs.html',1,'']]],
   ['runascoroutine',['runAsCoroutine',['../class_fungus_1_1_commands_1_1_execute_lua.html#ae440bfe2ee9fb120d836642452a920e2',1,'Fungus::Commands::ExecuteLua']]],
   ['runblock',['RunBlock',['../class_fungus_1_1_editor_utils_1_1_block_editor.html#a155fc7f7f4590b15f1840cab0584f78e',1,'Fungus::EditorUtils::BlockEditor']]],
-  ['runportraitcommand',['RunPortraitCommand',['../class_fungus_1_1_portrait_controller.html#ada65707b0d1b5b0f9d9b6ccc6e092d65',1,'Fungus.PortraitController.RunPortraitCommand()'],['../interface_fungus_1_1_i_portrait_controller.html#af5bde368c517bd0fd5ec4d8c9878be67',1,'Fungus.IPortraitController.RunPortraitCommand()']]]
+  ['runportraitcommand',['RunPortraitCommand',['../class_fungus_1_1_portrait_controller.html#ada65707b0d1b5b0f9d9b6ccc6e092d65',1,'Fungus::PortraitController']]]
 ];

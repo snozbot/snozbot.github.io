@@ -15,6 +15,5 @@ var class_fungus_1_1_commands_1_1_execute_lua =
     [ "luaScript", "class_fungus_1_1_commands_1_1_execute_lua.html#a4bfdac4efe3c6240072487428ea2f9cb", null ],
     [ "returnVariable", "class_fungus_1_1_commands_1_1_execute_lua.html#ac95d20b790130b2a47cc0491b8aa7205", null ],
     [ "runAsCoroutine", "class_fungus_1_1_commands_1_1_execute_lua.html#ae440bfe2ee9fb120d836642452a920e2", null ],
-    [ "waitUntilFinished", "class_fungus_1_1_commands_1_1_execute_lua.html#a6ea9335dbcb9600d15489bbbc347912e", null ],
-    [ "LuaEnv", "class_fungus_1_1_commands_1_1_execute_lua.html#abd640b4e67a36951655d9c89dce45cae", null ]
+    [ "waitUntilFinished", "class_fungus_1_1_commands_1_1_execute_lua.html#a6ea9335dbcb9600d15489bbbc347912e", null ]
 ];

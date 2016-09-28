@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['namestartswith',['NameStartsWith',['../class_fungus_1_1_character.html#a28eb16eb73daf5c37391204c225b86c1',1,'Fungus.Character.NameStartsWith()'],['../interface_fungus_1_1_i_character.html#aacbab583d5fe633db1c9386d70b48cfd',1,'Fungus.ICharacter.NameStartsWith()']]],
-  ['nextitemid',['NextItemId',['../class_fungus_1_1_flowchart.html#ae1a86f4d35cbd1de865776f000a7a068',1,'Fungus.Flowchart.NextItemId()'],['../interface_fungus_1_1_i_flowchart.html#af12495fbda980d4cda11f02b5eeef16e',1,'Fungus.IFlowchart.NextItemId()']]],
+  ['namestartswith',['NameStartsWith',['../class_fungus_1_1_character.html#a28eb16eb73daf5c37391204c225b86c1',1,'Fungus::Character']]],
+  ['nextitemid',['NextItemId',['../class_fungus_1_1_flowchart.html#ae1a86f4d35cbd1de865776f000a7a068',1,'Fungus::Flowchart']]],
   ['notifyend',['NotifyEnd',['../class_fungus_1_1_writer.html#a65ce4b573a2256b97d50503ed90a6869',1,'Fungus::Writer']]],
   ['notifyglyph',['NotifyGlyph',['../class_fungus_1_1_writer.html#ae2e845a6c4206f746df26d303c032f34',1,'Fungus::Writer']]],
   ['notifyinput',['NotifyInput',['../class_fungus_1_1_writer.html#aef201677708d5cb47a1488a6fb08358d',1,'Fungus::Writer']]],

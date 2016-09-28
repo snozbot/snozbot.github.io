@@ -18,7 +18,7 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", "functions_vars" ],
-        [ "Properties", "functions_prop.html", "functions_prop" ]
+        [ "Properties", "functions_prop.html", null ]
       ] ]
     ] ],
     [ "Files", null, [
@@ -34,19 +34,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_animator_variable_8cs.html",
-"_i_updateable_8cs_source.html",
-"_sprite_fader_8cs.html#a7d67e097df9376eb709b6a23aa3c7d23",
-"class_fungus_1_1_clickable2_d.html#a2b257ecd1c37cf70cd69056cf1d06f27",
-"class_fungus_1_1_commands_1_1_if.html#a54b4f94f50ed8b9e04d8b2af5218878c",
-"class_fungus_1_1_commands_1_1_punch_scale.html#ad842625f4eeb1c03eef2918b1fb9f265",
-"class_fungus_1_1_commands_1_1_set_sorting_layer.html#a9612b2141bcd5f436f9b308204bfe70f",
-"class_fungus_1_1_editor_utils_1_1_block_editor.html#a34033da38e33fbf5c4ca283ed27fcc82",
-"class_fungus_1_1_editor_utils_1_1_set_variable_editor.html#a0fde3c0923aeba454c29308cc69fc6f9",
-"class_fungus_1_1_localization.html#a9af43d26f1482dcea803b6b28ec9e510",
-"class_fungus_1_1_writer.html#a0bbc67d4dd3af50ee95558b673925ac3",
-"getting_started.html#block_properties",
-"interface_fungus_1_1_i_variable.html#a9d18abf901f3350acd3412c3d1d96b33",
-"struct_fungus_1_1_variables_1_1_transform_data.html#a0dbc9e7c38d87270bead236260f6ffb6"
+"_localization_editor_8cs_source.html",
+"_text_tag_token_8cs.html#a216d34d6f1e0fcf7e0ed72b225fd096da4568cd0211ed313ed52e677281c7f55e",
+"class_fungus_1_1_command.html#a7f31ae3c8c4fc446c111c9e88caa797e",
+"class_fungus_1_1_commands_1_1_invoke_event_1_1_string_event.html",
+"class_fungus_1_1_commands_1_1_reset.html#a0d68feb77640d881040b5bcd103f52cb",
+"class_fungus_1_1_commands_1_1_set_variable.html#a900ba657a24501a5c3d59f8976e18a96",
+"class_fungus_1_1_editor_utils_1_1_block_inspector_editor.html#a3d3906435f34ca76dd7b7bce8c5e633f",
+"class_fungus_1_1_editor_utils_1_1_variable_data_drawer.html#ac9e7b6d7552f673ccd4a3ae50c44d095",
+"class_fungus_1_1_menu_dialog.html#ab9910eb4b92be8436b9562d2d24d8305",
+"class_fungus_1_1_writer.html#a8dc19b15afce3e995b2d23a03e625df6",
+"itween_commands.html#MoveFrom",
+"telling_a_story.html#portrait_command"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

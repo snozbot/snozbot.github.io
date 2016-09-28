@@ -112,9 +112,9 @@ $(document).ready(function(){initNavTree('class_fungus_1_1_say_dialog.html','');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_fungus_1_1_say_dialog-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -122,7 +122,7 @@ $(document).ready(function(){initNavTree('class_fungus_1_1_say_dialog.html','');
 </div><!--header-->
 <div class="contents">
 
-<p>Presents story text to the player in a dialogue box.  
+<p>Display story text in a visual novel style dialog box.  
  <a href="class_fungus_1_1_say_dialog.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Fungus.SayDialog:</div>
@@ -130,7 +130,6 @@ Inheritance diagram for Fungus.SayDialog:</div>
  <div class="center">
   <img src="class_fungus_1_1_say_dialog.png" usemap="#Fungus.SayDialog_map" alt=""/>
   <map id="Fungus.SayDialog_map" name="Fungus.SayDialog_map">
-<area href="interface_fungus_1_1_i_say_dialog.html" title="Display story text in a visual novel style dialog box. " alt="Fungus.ISayDialog" shape="rect" coords="129,0,248,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -139,9 +138,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a28cf85d76739395ae3f3ae58150f1458"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a28cf85d76739395ae3f3ae58150f1458">SetActive</a> (bool state)</td></tr>
 <tr class="memdesc:a28cf85d76739395ae3f3ae58150f1458"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the active state of the Say Dialog gameobject.  <a href="#a28cf85d76739395ae3f3ae58150f1458">More...</a><br /></td></tr>
 <tr class="separator:a28cf85d76739395ae3f3ae58150f1458"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e1d71152368015af5e2312fcbea17ab"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a9e1d71152368015af5e2312fcbea17ab">SetCharacter</a> (<a class="el" href="interface_fungus_1_1_i_character.html">ICharacter</a> character, <a class="el" href="interface_fungus_1_1_i_flowchart.html">IFlowchart</a> flowchart=null)</td></tr>
-<tr class="memdesc:a9e1d71152368015af5e2312fcbea17ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the active speaking character.  <a href="#a9e1d71152368015af5e2312fcbea17ab">More...</a><br /></td></tr>
-<tr class="separator:a9e1d71152368015af5e2312fcbea17ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8538ad0fbdd2648d11e667d9802def90"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a8538ad0fbdd2648d11e667d9802def90">SetCharacter</a> (<a class="el" href="class_fungus_1_1_character.html">Character</a> character, <a class="el" href="class_fungus_1_1_flowchart.html">Flowchart</a> flowchart=null)</td></tr>
+<tr class="memdesc:a8538ad0fbdd2648d11e667d9802def90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the active speaking character.  <a href="#a8538ad0fbdd2648d11e667d9802def90">More...</a><br /></td></tr>
+<tr class="separator:a8538ad0fbdd2648d11e667d9802def90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b9ccc605a95d23d75f28b6d765d3ba6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a5b9ccc605a95d23d75f28b6d765d3ba6">SetCharacterImage</a> (Sprite image)</td></tr>
 <tr class="memdesc:a5b9ccc605a95d23d75f28b6d765d3ba6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the character image to display on the Say Dialog.  <a href="#a5b9ccc605a95d23d75f28b6d765d3ba6">More...</a><br /></td></tr>
 <tr class="separator:a5b9ccc605a95d23d75f28b6d765d3ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,8 +148,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af8e28c3df2dbaf7ab2747d6acabc76a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the character name to display on the Say Dialog.  <a href="#af8e28c3df2dbaf7ab2747d6acabc76a5">More...</a><br /></td></tr>
 <tr class="separator:af8e28c3df2dbaf7ab2747d6acabc76a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f55d787c35fd527c824e38e03163135"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a0f55d787c35fd527c824e38e03163135">Say</a> (string text, bool clearPrevious, bool waitForInput, bool <a class="el" href="class_fungus_1_1_say_dialog.html#a1b9e403612a1b4780b1bbb84e95a1954">fadeWhenDone</a>, bool stopVoiceover, AudioClip voiceOverClip, Action onComplete)</td></tr>
+<tr class="memdesc:a0f55d787c35fd527c824e38e03163135"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a line of story text to the Say Dialog.  <a href="#a0f55d787c35fd527c824e38e03163135">More...</a><br /></td></tr>
 <tr class="separator:a0f55d787c35fd527c824e38e03163135"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dacd34988dd134905fd960efdc6d70c"><td class="memItemLeft" align="right" valign="top">virtual IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a7dacd34988dd134905fd960efdc6d70c">DoSay</a> (string text, bool clearPrevious, bool waitForInput, bool <a class="el" href="class_fungus_1_1_say_dialog.html#a1b9e403612a1b4780b1bbb84e95a1954">fadeWhenDone</a>, bool stopVoiceover, AudioClip voiceOverClip, Action onComplete)</td></tr>
+<tr class="memdesc:a7dacd34988dd134905fd960efdc6d70c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a line of story text to the Say Dialog.  <a href="#a7dacd34988dd134905fd960efdc6d70c">More...</a><br /></td></tr>
 <tr class="separator:a7dacd34988dd134905fd960efdc6d70c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7ac53bceccbd5d0175c114bc7159f43"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#ad7ac53bceccbd5d0175c114bc7159f43">Stop</a> ()</td></tr>
 <tr class="memdesc:ad7ac53bceccbd5d0175c114bc7159f43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the Say Dialog while its writing text.  <a href="#ad7ac53bceccbd5d0175c114bc7159f43">More...</a><br /></td></tr>
@@ -158,32 +159,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad80d1c6f9fba0a89a39cc86dcec11126"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#ad80d1c6f9fba0a89a39cc86dcec11126">Clear</a> ()</td></tr>
 <tr class="memdesc:ad80d1c6f9fba0a89a39cc86dcec11126"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops writing text and clears the Say Dialog.  <a href="#ad80d1c6f9fba0a89a39cc86dcec11126">More...</a><br /></td></tr>
 <tr class="separator:ad80d1c6f9fba0a89a39cc86dcec11126"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_interface_fungus_1_1_i_say_dialog"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_fungus_1_1_i_say_dialog')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="interface_fungus_1_1_i_say_dialog.html">Fungus.ISayDialog</a></td></tr>
-<tr class="memitem:a503fe5b6b32c7624673951f88b22d9b1 inherit pub_methods_interface_fungus_1_1_i_say_dialog"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_say_dialog.html#a503fe5b6b32c7624673951f88b22d9b1">Say</a> (string text, bool clearPrevious, bool waitForInput, bool fadeWhenDone, bool stopVoiceover, AudioClip voiceOverClip, System.Action onComplete)</td></tr>
-<tr class="memdesc:a503fe5b6b32c7624673951f88b22d9b1 inherit pub_methods_interface_fungus_1_1_i_say_dialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a line of story text to the Say Dialog.  <a href="#a503fe5b6b32c7624673951f88b22d9b1">More...</a><br /></td></tr>
-<tr class="separator:a503fe5b6b32c7624673951f88b22d9b1 inherit pub_methods_interface_fungus_1_1_i_say_dialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbe45d81867f45b5097d256fdf1f73e7 inherit pub_methods_interface_fungus_1_1_i_say_dialog"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_say_dialog.html#afbe45d81867f45b5097d256fdf1f73e7">DoSay</a> (string text, bool clearPrevious, bool waitForInput, bool fadeWhenDone, bool stopVoiceover, AudioClip voiceOverClip, System.Action onComplete)</td></tr>
-<tr class="memdesc:afbe45d81867f45b5097d256fdf1f73e7 inherit pub_methods_interface_fungus_1_1_i_say_dialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a line of story text to the Say Dialog.  <a href="#afbe45d81867f45b5097d256fdf1f73e7">More...</a><br /></td></tr>
-<tr class="separator:afbe45d81867f45b5097d256fdf1f73e7 inherit pub_methods_interface_fungus_1_1_i_say_dialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a82fccddf6f0b93e0368bc0a1cfe4c0a0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="interface_fungus_1_1_i_say_dialog.html">ISayDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a82fccddf6f0b93e0368bc0a1cfe4c0a0">GetSayDialog</a> ()</td></tr>
-<tr class="separator:a82fccddf6f0b93e0368bc0a1cfe4c0a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a9ffa99ecee3c471ee5553970bc9b67"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_fungus_1_1_say_dialog.html">SayDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a9a9ffa99ecee3c471ee5553970bc9b67">GetSayDialog</a> ()</td></tr>
+<tr class="memdesc:a9a9ffa99ecee3c471ee5553970bc9b67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="class_fungus_1_1_say_dialog.html" title="Display story text in a visual novel style dialog box. ">SayDialog</a> by searching for one in the scene or creating one if none exists.  <a href="#a9a9ffa99ecee3c471ee5553970bc9b67">More...</a><br /></td></tr>
+<tr class="separator:a9a9ffa99ecee3c471ee5553970bc9b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa452e3594a345e2717e22f25685e5706"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#aa452e3594a345e2717e22f25685e5706">StopPortraitTweens</a> ()</td></tr>
+<tr class="memdesc:aa452e3594a345e2717e22f25685e5706"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops all active portrait tweens.  <a href="#aa452e3594a345e2717e22f25685e5706">More...</a><br /></td></tr>
 <tr class="separator:aa452e3594a345e2717e22f25685e5706"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a30b5e9ff4a27177f40cb3dc14de6841f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="interface_fungus_1_1_i_say_dialog.html">ISayDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a30b5e9ff4a27177f40cb3dc14de6841f">activeSayDialog</a></td></tr>
-<tr class="separator:a30b5e9ff4a27177f40cb3dc14de6841f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06e4e8e5dca31530d1aa90c34d290ccb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="interface_fungus_1_1_i_character.html">ICharacter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a06e4e8e5dca31530d1aa90c34d290ccb">speakingCharacter</a></td></tr>
-<tr class="separator:a06e4e8e5dca31530d1aa90c34d290ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a4f67bdaa8ad73a85c266f86970792436"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_fungus_1_1_i_writer.html">IWriter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a4f67bdaa8ad73a85c266f86970792436">GetWriter</a> ()</td></tr>
-<tr class="separator:a4f67bdaa8ad73a85c266f86970792436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace4ff8e0ee97e1e7d7451bb81956c119"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fungus_1_1_writer.html">Writer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#ace4ff8e0ee97e1e7d7451bb81956c119">GetWriter</a> ()</td></tr>
+<tr class="separator:ace4ff8e0ee97e1e7d7451bb81956c119"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80dd8b1bd069d0d2ff77226661ce34ff"><td class="memItemLeft" align="right" valign="top">CanvasGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a80dd8b1bd069d0d2ff77226661ce34ff">GetCanvasGroup</a> ()</td></tr>
 <tr class="separator:a80dd8b1bd069d0d2ff77226661ce34ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb32afff0a54e687ab33a824073393c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fungus_1_1_writer_audio.html">WriterAudio</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#adb32afff0a54e687ab33a824073393c3">GetWriterAudio</a> ()</td></tr>
@@ -219,8 +208,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a4561eae26d4b9f0502305b38256ac989"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cf766f0d2fcf106f15de49dc7f31c39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fungus_1_1_writer_audio.html">WriterAudio</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a9cf766f0d2fcf106f15de49dc7f31c39">writerAudio</a></td></tr>
 <tr class="separator:a9cf766f0d2fcf106f15de49dc7f31c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4178329fc2731eb629fc981412ffb21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_fungus_1_1_i_writer.html">IWriter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#ae4178329fc2731eb629fc981412ffb21">writer</a></td></tr>
-<tr class="separator:ae4178329fc2731eb629fc981412ffb21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c9a015faced5bd459894c40ca372c99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fungus_1_1_writer.html">Writer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a3c9a015faced5bd459894c40ca372c99">writer</a></td></tr>
+<tr class="separator:a3c9a015faced5bd459894c40ca372c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0df46e2556e2319844e7b27b3a7b8410"><td class="memItemLeft" align="right" valign="top">CanvasGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a0df46e2556e2319844e7b27b3a7b8410">canvasGroup</a></td></tr>
 <tr class="separator:a0df46e2556e2319844e7b27b3a7b8410"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b9e403612a1b4780b1bbb84e95a1954"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a1b9e403612a1b4780b1bbb84e95a1954">fadeWhenDone</a> = true</td></tr>
@@ -232,21 +221,26 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:adc40a36b6f49797d830cbfa1c894abbf"><td class="memItemLeft" align="right" valign="top">Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#adc40a36b6f49797d830cbfa1c894abbf">currentCharacterImage</a></td></tr>
 <tr class="separator:adc40a36b6f49797d830cbfa1c894abbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a7d35dacb3aaea22f5e44e59dab372161"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_fungus_1_1_character.html">Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a7d35dacb3aaea22f5e44e59dab372161">speakingCharacter</a></td></tr>
+<tr class="separator:a7d35dacb3aaea22f5e44e59dab372161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:ac15e32226f07000bd1a5b4f632701138"><td class="memItemLeft" align="right" valign="top">virtual Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#ac15e32226f07000bd1a5b4f632701138">StoryText</a><code> [get]</code></td></tr>
 <tr class="separator:ac15e32226f07000bd1a5b4f632701138"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38a9c0adbe25b453adbbeb990df436e0"><td class="memItemLeft" align="right" valign="top">virtual Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a38a9c0adbe25b453adbbeb990df436e0">CharacterImage</a><code> [get]</code></td></tr>
 <tr class="separator:a38a9c0adbe25b453adbbeb990df436e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7585d79b2d633997cca4b89dfc0f2178"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_fungus_1_1_say_dialog.html">SayDialog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a7585d79b2d633997cca4b89dfc0f2178">ActiveSayDialog</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a7585d79b2d633997cca4b89dfc0f2178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently active Say Dialog used to display Say text  <a href="#a7585d79b2d633997cca4b89dfc0f2178">More...</a><br /></td></tr>
+<tr class="separator:a7585d79b2d633997cca4b89dfc0f2178"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6967c7394abb38e19a3a67007b34046"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#aa6967c7394abb38e19a3a67007b34046">FadeWhenDone</a><code> [set]</code></td></tr>
+<tr class="memdesc:aa6967c7394abb38e19a3a67007b34046"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell the Say Dialog to fade out once writing and player input have finished.  <a href="#aa6967c7394abb38e19a3a67007b34046">More...</a><br /></td></tr>
 <tr class="separator:aa6967c7394abb38e19a3a67007b34046"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header properties_interface_fungus_1_1_i_say_dialog"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_fungus_1_1_i_say_dialog')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_fungus_1_1_i_say_dialog.html">Fungus.ISayDialog</a></td></tr>
-<tr class="memitem:a2a9f97075447b3a0199e1eef0b86d1ac inherit properties_interface_fungus_1_1_i_say_dialog"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_say_dialog.html#a2a9f97075447b3a0199e1eef0b86d1ac">FadeWhenDone</a><code> [set]</code></td></tr>
-<tr class="memdesc:a2a9f97075447b3a0199e1eef0b86d1ac inherit properties_interface_fungus_1_1_i_say_dialog"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell the Say Dialog to fade out once writing and player input have finished.  <a href="#a2a9f97075447b3a0199e1eef0b86d1ac">More...</a><br /></td></tr>
-<tr class="separator:a2a9f97075447b3a0199e1eef0b86d1ac inherit properties_interface_fungus_1_1_i_say_dialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Presents story text to the player in a dialogue box. </p>
+<div class="textblock"><p>Display story text in a visual novel style dialog box. </p>
 
 <p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00014">14</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -273,9 +267,7 @@ Properties</h2></td></tr>
 
 <p>Stops writing text and clears the Say Dialog. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_say_dialog.html#a04ad9fc2129e73e430222cbaf93aed69">Fungus.ISayDialog</a>.</p>
-
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00414">414</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00465">465</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -300,7 +292,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00208">208</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00177">177</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -366,7 +358,22 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00373">373</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Write a line of story text to the Say Dialog. </p>
+<p>Must be started as a coroutine. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>The text to display.</td></tr>
+    <tr><td class="paramname">clearPrevious</td><td>Clear any previous text in the Say Dialog.</td></tr>
+    <tr><td class="paramname">waitForInput</td><td>Wait for player input before continuing once text is written.</td></tr>
+    <tr><td class="paramname">fadeWhenDone</td><td>Fade out the Say Dialog when writing and player input has finished.</td></tr>
+    <tr><td class="paramname">stopVoiceover</td><td>Stop any existing voiceover audio before writing starts.</td></tr>
+    <tr><td class="paramname">voiceOverClip</td><td>Voice over audio clip to play.</td></tr>
+    <tr><td class="paramname">onComplete</td><td>Callback to execute when writing and player input have finished.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00415">415</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -391,11 +398,11 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00102">102</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00071">71</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a82fccddf6f0b93e0368bc0a1cfe4c0a0"></a>
+<a class="anchor" id="a9a9ffa99ecee3c471ee5553970bc9b67"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -403,7 +410,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="interface_fungus_1_1_i_say_dialog.html">ISayDialog</a> Fungus.SayDialog.GetSayDialog </td>
+          <td class="memname">static <a class="el" href="class_fungus_1_1_say_dialog.html">SayDialog</a> Fungus.SayDialog.GetSayDialog </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -416,11 +423,13 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00058">58</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Returns a <a class="el" href="class_fungus_1_1_say_dialog.html" title="Display story text in a visual novel style dialog box. ">SayDialog</a> by searching for one in the scene or creating one if none exists. </p>
+
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00195">195</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4f67bdaa8ad73a85c266f86970792436"></a>
+<a class="anchor" id="ace4ff8e0ee97e1e7d7451bb81956c119"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -428,7 +437,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="interface_fungus_1_1_i_writer.html">IWriter</a> Fungus.SayDialog.GetWriter </td>
+          <td class="memname"><a class="el" href="class_fungus_1_1_writer.html">Writer</a> Fungus.SayDialog.GetWriter </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -441,7 +450,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00086">86</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00055">55</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -466,7 +475,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00118">118</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00087">87</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -491,7 +500,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00161">161</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00130">130</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -557,7 +566,22 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00368">368</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Write a line of story text to the Say Dialog. </p>
+<p>Starts coroutine automatically. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>The text to display.</td></tr>
+    <tr><td class="paramname">clearPrevious</td><td>Clear any previous text in the Say Dialog.</td></tr>
+    <tr><td class="paramname">waitForInput</td><td>Wait for player input before continuing once text is written.</td></tr>
+    <tr><td class="paramname">fadeWhenDone</td><td>Fade out the Say Dialog when writing and player input has finished.</td></tr>
+    <tr><td class="paramname">stopVoiceover</td><td>Stop any existing voiceover audio before writing starts.</td></tr>
+    <tr><td class="paramname">voiceOverClip</td><td>Voice over audio clip to play.</td></tr>
+    <tr><td class="paramname">onComplete</td><td>Callback to execute when writing and player input have finished.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00400">400</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -585,13 +609,11 @@ Properties</h2></td></tr>
 
 <p>Sets the active state of the Say Dialog gameobject. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_say_dialog.html#ab6e2f0e9774b8875e3d33b3be77d76a6">Fungus.ISayDialog</a>.</p>
-
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00243">243</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00254">254</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9e1d71152368015af5e2312fcbea17ab"></a>
+<a class="anchor" id="a8538ad0fbdd2648d11e667d9802def90"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -601,13 +623,13 @@ Properties</h2></td></tr>
         <tr>
           <td class="memname">virtual void Fungus.SayDialog.SetCharacter </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="interface_fungus_1_1_i_character.html">ICharacter</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_fungus_1_1_character.html">Character</a>&#160;</td>
           <td class="paramname"><em>character</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="interface_fungus_1_1_i_flowchart.html">IFlowchart</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_fungus_1_1_flowchart.html">Flowchart</a>&#160;</td>
           <td class="paramname"><em>flowchart</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -632,9 +654,7 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_say_dialog.html#add9bc70c6c6b466d9a8b1d219d6b4015">Fungus.ISayDialog</a>.</p>
-
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00248">248</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00264">264</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -662,9 +682,7 @@ Properties</h2></td></tr>
 
 <p>Sets the character image to display on the Say Dialog. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_say_dialog.html#a59d6ea5daac146126ead77150c679f51">Fungus.ISayDialog</a>.</p>
-
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00307">307</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00326">326</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -702,9 +720,7 @@ Properties</h2></td></tr>
 
 <p>Sets the character name to display on the Say Dialog. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_say_dialog.html#a13dc6bb3b6d24548421ab07a20e9e8d8">Fungus.ISayDialog</a>.</p>
-
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00359">359</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00381">381</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -729,7 +745,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00134">134</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00103">103</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -756,9 +772,7 @@ Properties</h2></td></tr>
 
 <p>Stop the Say Dialog while its writing text. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_say_dialog.html#ac533ab48e913d442b844e6820c171f59">Fungus.ISayDialog</a>.</p>
-
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00408">408</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00456">456</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -783,7 +797,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00216">216</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Stops all active portrait tweens. </p>
+
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00226">226</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -808,33 +824,11 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00171">171</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00140">140</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a30b5e9ff4a27177f40cb3dc14de6841f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="interface_fungus_1_1_i_say_dialog.html">ISayDialog</a> Fungus.SayDialog.activeSayDialog</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00053">53</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a0df46e2556e2319844e7b27b3a7b8410"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1055,7 +1049,7 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a06e4e8e5dca31530d1aa90c34d290ccb"></a>
+<a class="anchor" id="a7d35dacb3aaea22f5e44e59dab372161"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1063,17 +1057,17 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="interface_fungus_1_1_i_character.html">ICharacter</a> Fungus.SayDialog.speakingCharacter</td>
+          <td class="memname"><a class="el" href="class_fungus_1_1_character.html">Character</a> Fungus.SayDialog.speakingCharacter</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00056">56</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00053">53</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1165,7 +1159,7 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae4178329fc2731eb629fc981412ffb21"></a>
+<a class="anchor" id="a3c9a015faced5bd459894c40ca372c99"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1173,7 +1167,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="interface_fungus_1_1_i_writer.html">IWriter</a> Fungus.SayDialog.writer</td>
+          <td class="memname"><a class="el" href="class_fungus_1_1_writer.html">Writer</a> Fungus.SayDialog.writer</td>
         </tr>
       </table>
   </td>
@@ -1210,6 +1204,30 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a class="anchor" id="a7585d79b2d633997cca4b89dfc0f2178"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_fungus_1_1_say_dialog.html">SayDialog</a> Fungus.SayDialog.ActiveSayDialog</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Currently active Say Dialog used to display Say text </p>
+
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00190">190</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a38a9c0adbe25b453adbbeb990df436e0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1250,7 +1268,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00406">406</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Tell the Say Dialog to fade out once writing and player input have finished. </p>
+
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00451">451</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1285,7 +1305,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_say_dialog.html">SayDialog</a></li>
-    <li class="footer">Generated on Thu Sep 22 2016 16:34:39 for Fungus by
+    <li class="footer">Generated on Wed Sep 28 2016 14:38:58 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

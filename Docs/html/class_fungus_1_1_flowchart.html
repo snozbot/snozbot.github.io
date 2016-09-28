@@ -112,7 +112,6 @@ $(document).ready(function(){initNavTree('class_fungus_1_1_flowchart.html','');}
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
@@ -131,7 +130,6 @@ Inheritance diagram for Fungus.Flowchart:</div>
  <div class="center">
   <img src="class_fungus_1_1_flowchart.png" usemap="#Fungus.Flowchart_map" alt=""/>
   <map id="Fungus.Flowchart_map" name="Fungus.Flowchart_map">
-<area href="interface_fungus_1_1_i_flowchart.html" title="Visual scripting controller for the Flowchart programming language. " alt="Fungus.IFlowchart" shape="rect" coords="134,0,258,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -149,14 +147,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac53b68a3e7599f062495191a9ef3b363"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_fungus_1_1_block.html">Block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#ac53b68a3e7599f062495191a9ef3b363">CreateBlock</a> (Vector2 position)</td></tr>
 <tr class="memdesc:ac53b68a3e7599f062495191a9ef3b363"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new block node which you can then add commands to.  <a href="#ac53b68a3e7599f062495191a9ef3b363">More...</a><br /></td></tr>
 <tr class="separator:ac53b68a3e7599f062495191a9ef3b363"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a808ec03f41042eaed60eab3532b9434e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="interface_fungus_1_1_i_block.html">IBlock</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a808ec03f41042eaed60eab3532b9434e">FindBlock</a> (string blockName)</td></tr>
-<tr class="memdesc:a808ec03f41042eaed60eab3532b9434e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the named <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> in the flowchart, or null if not found.  <a href="#a808ec03f41042eaed60eab3532b9434e">More...</a><br /></td></tr>
-<tr class="separator:a808ec03f41042eaed60eab3532b9434e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71a744972a70cf5d0fb41ddd037d2300"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_fungus_1_1_block.html">Block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a71a744972a70cf5d0fb41ddd037d2300">FindBlock</a> (string blockName)</td></tr>
+<tr class="memdesc:a71a744972a70cf5d0fb41ddd037d2300"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the named <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> in the flowchart, or null if not found.  <a href="#a71a744972a70cf5d0fb41ddd037d2300">More...</a><br /></td></tr>
+<tr class="separator:a71a744972a70cf5d0fb41ddd037d2300"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a673035fa9cf28cf0aeae49e4d48540ce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a673035fa9cf28cf0aeae49e4d48540ce">ExecuteBlock</a> (string blockName)</td></tr>
 <tr class="memdesc:a673035fa9cf28cf0aeae49e4d48540ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute a child block in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>.  <a href="#a673035fa9cf28cf0aeae49e4d48540ce">More...</a><br /></td></tr>
 <tr class="separator:a673035fa9cf28cf0aeae49e4d48540ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5449697fc0a335482bb68928465d6029"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a5449697fc0a335482bb68928465d6029">ExecuteBlock</a> (<a class="el" href="interface_fungus_1_1_i_block.html">IBlock</a> block, int commandIndex=0, Action onComplete=null)</td></tr>
-<tr class="separator:a5449697fc0a335482bb68928465d6029"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b2c2a0b90ad807cb06f37edc6c8067b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a6b2c2a0b90ad807cb06f37edc6c8067b">ExecuteBlock</a> (<a class="el" href="class_fungus_1_1_block.html">Block</a> block, int commandIndex=0, Action onComplete=null)</td></tr>
+<tr class="memdesc:a6b2c2a0b90ad807cb06f37edc6c8067b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute a child block in the flowchart.  <a href="#a6b2c2a0b90ad807cb06f37edc6c8067b">More...</a><br /></td></tr>
+<tr class="separator:a6b2c2a0b90ad807cb06f37edc6c8067b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa54223908862ad3c051f5cfee1c8bf1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#aaa54223908862ad3c051f5cfee1c8bf1">StopAllBlocks</a> ()</td></tr>
 <tr class="memdesc:aaa54223908862ad3c051f5cfee1c8bf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop all executing Blocks in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>.  <a href="#aaa54223908862ad3c051f5cfee1c8bf1">More...</a><br /></td></tr>
 <tr class="separator:aaa54223908862ad3c051f5cfee1c8bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,9 +165,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1ecbf2baa65e0c07cbaf7f727ce31ae2"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a1ecbf2baa65e0c07cbaf7f727ce31ae2">GetUniqueVariableKey</a> (string originalKey, <a class="el" href="class_fungus_1_1_variable.html">Variable</a> ignoreVariable=null)</td></tr>
 <tr class="memdesc:a1ecbf2baa65e0c07cbaf7f727ce31ae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new variable key that is guaranteed not to clash with any existing variable in the list.  <a href="#a1ecbf2baa65e0c07cbaf7f727ce31ae2">More...</a><br /></td></tr>
 <tr class="separator:a1ecbf2baa65e0c07cbaf7f727ce31ae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74dcc042362db9d5f968245c36d866d2"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a74dcc042362db9d5f968245c36d866d2">GetUniqueBlockKey</a> (string originalKey, <a class="el" href="interface_fungus_1_1_i_block.html">IBlock</a> ignoreBlock=null)</td></tr>
-<tr class="memdesc:a74dcc042362db9d5f968245c36d866d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> key that is guaranteed not to clash with any existing <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>.  <a href="#a74dcc042362db9d5f968245c36d866d2">More...</a><br /></td></tr>
-<tr class="separator:a74dcc042362db9d5f968245c36d866d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1117ffe7c0f684307df0bb465728cdac"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a1117ffe7c0f684307df0bb465728cdac">GetUniqueBlockKey</a> (string originalKey, <a class="el" href="class_fungus_1_1_block.html">Block</a> ignoreBlock=null)</td></tr>
+<tr class="memdesc:a1117ffe7c0f684307df0bb465728cdac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> key that is guaranteed not to clash with any existing <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>.  <a href="#a1117ffe7c0f684307df0bb465728cdac">More...</a><br /></td></tr>
+<tr class="separator:a1117ffe7c0f684307df0bb465728cdac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1f439e23ecfeda872352536ca7abe6d"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#ae1f439e23ecfeda872352536ca7abe6d">GetUniqueLabelKey</a> (string originalKey, <a class="el" href="class_fungus_1_1_commands_1_1_label.html">Label</a> ignoreLabel)</td></tr>
 <tr class="memdesc:ae1f439e23ecfeda872352536ca7abe6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new Label key that is guaranteed not to clash with any existing Label in the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>.  <a href="#ae1f439e23ecfeda872352536ca7abe6d">More...</a><br /></td></tr>
 <tr class="separator:ae1f439e23ecfeda872352536ca7abe6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -226,31 +225,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aebd50c11df5c5dea4d86fa42a054bc7c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#aebd50c11df5c5dea4d86fa42a054bc7c">HasExecutingBlocks</a> ()</td></tr>
 <tr class="memdesc:aebd50c11df5c5dea4d86fa42a054bc7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if there are any executing blocks in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>.  <a href="#aebd50c11df5c5dea4d86fa42a054bc7c">More...</a><br /></td></tr>
 <tr class="separator:aebd50c11df5c5dea4d86fa42a054bc7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48b5d27f455308af07e306d0c923fafa"><td class="memItemLeft" align="right" valign="top">virtual List&lt; <a class="el" href="interface_fungus_1_1_i_block.html">IBlock</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a48b5d27f455308af07e306d0c923fafa">GetExecutingBlocks</a> ()</td></tr>
-<tr class="memdesc:a48b5d27f455308af07e306d0c923fafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of all executing blocks in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>.  <a href="#a48b5d27f455308af07e306d0c923fafa">More...</a><br /></td></tr>
-<tr class="separator:a48b5d27f455308af07e306d0c923fafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18804923f7f0c461062e53c09d0a1625"><td class="memItemLeft" align="right" valign="top">virtual List&lt; <a class="el" href="class_fungus_1_1_block.html">Block</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a18804923f7f0c461062e53c09d0a1625">GetExecutingBlocks</a> ()</td></tr>
+<tr class="memdesc:a18804923f7f0c461062e53c09d0a1625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of all executing blocks in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>.  <a href="#a18804923f7f0c461062e53c09d0a1625">More...</a><br /></td></tr>
+<tr class="separator:a18804923f7f0c461062e53c09d0a1625"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5751c4efb21547ad10e7fd9576cfd56"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#ae5751c4efb21547ad10e7fd9576cfd56">SubstituteVariables</a> (string input)</td></tr>
 <tr class="memdesc:ae5751c4efb21547ad10e7fd9576cfd56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Substitute variables in the input text with the format {$VarName} This will first match with private variables in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>, and then with public variables in all Flowcharts in the scene (and any component in the scene that implements StringSubstituter.ISubstitutionHandler).  <a href="#ae5751c4efb21547ad10e7fd9576cfd56">More...</a><br /></td></tr>
 <tr class="separator:ae5751c4efb21547ad10e7fd9576cfd56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3092c931dd58f8f30bac67c81313724"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#ad3092c931dd58f8f30bac67c81313724">SubstituteStrings</a> (StringBuilder input)</td></tr>
 <tr class="memdesc:ad3092c931dd58f8f30bac67c81313724"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of StringSubstituter.ISubstitutionHandler which matches any public variable in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>.  <a href="#ad3092c931dd58f8f30bac67c81313724">More...</a><br /></td></tr>
 <tr class="separator:ad3092c931dd58f8f30bac67c81313724"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_interface_fungus_1_1_i_flowchart"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_fungus_1_1_i_flowchart')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="interface_fungus_1_1_i_flowchart.html">Fungus.IFlowchart</a></td></tr>
-<tr class="memitem:a312fe922f9c9632cbc37f8dd04cc8b9c inherit pub_methods_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#a312fe922f9c9632cbc37f8dd04cc8b9c">ExecuteBlock</a> (<a class="el" href="interface_fungus_1_1_i_block.html">IBlock</a> block, int commandIndex=0, System.Action onComplete=null)</td></tr>
-<tr class="memdesc:a312fe922f9c9632cbc37f8dd04cc8b9c inherit pub_methods_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute a child block in the flowchart.  <a href="#a312fe922f9c9632cbc37f8dd04cc8b9c">More...</a><br /></td></tr>
-<tr class="separator:a312fe922f9c9632cbc37f8dd04cc8b9c inherit pub_methods_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab7921abb128ba708d3c2d4bd4f3bf687"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#ab7921abb128ba708d3c2d4bd4f3bf687">BroadcastFungusMessage</a> (string messageName)</td></tr>
 <tr class="memdesc:ab7921abb128ba708d3c2d4bd4f3bf687"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a message to all <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> objects in the current scene.  <a href="#ab7921abb128ba708d3c2d4bd4f3bf687">More...</a><br /></td></tr>
 <tr class="separator:ab7921abb128ba708d3c2d4bd4f3bf687"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a152e9f2095890a0a54e95853a14b2cee"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_fungus_1_1_flowchart.html">Flowchart</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a152e9f2095890a0a54e95853a14b2cee">cachedFlowcharts</a> = new List&lt;<a class="el" href="class_fungus_1_1_flowchart.html">Flowchart</a>&gt;()</td></tr>
-<tr class="memdesc:a152e9f2095890a0a54e95853a14b2cee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cached list of flowchart objects in the scene for fast lookup.  <a href="#a152e9f2095890a0a54e95853a14b2cee">More...</a><br /></td></tr>
-<tr class="separator:a152e9f2095890a0a54e95853a14b2cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -322,107 +311,73 @@ Protected Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a152e9f2095890a0a54e95853a14b2cee"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_fungus_1_1_flowchart.html">Flowchart</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a152e9f2095890a0a54e95853a14b2cee">cachedFlowcharts</a> = new List&lt;<a class="el" href="class_fungus_1_1_flowchart.html">Flowchart</a>&gt;()</td></tr>
+<tr class="separator:a152e9f2095890a0a54e95853a14b2cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e8529937ec3ce64d376a4ce87f025fc"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a3e8529937ec3ce64d376a4ce87f025fc">eventSystemPresent</a></td></tr>
 <tr class="separator:a3e8529937ec3ce64d376a4ce87f025fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:a3229ed0a1fac118129a866698f42c9da"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_fungus_1_1_flowchart.html">Flowchart</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a3229ed0a1fac118129a866698f42c9da">CachedFlowcharts</a><code> [get]</code></td></tr>
+<tr class="memdesc:a3229ed0a1fac118129a866698f42c9da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cached list of flowchart objects in the scene for fast lookup.  <a href="#a3229ed0a1fac118129a866698f42c9da">More...</a><br /></td></tr>
+<tr class="separator:a3229ed0a1fac118129a866698f42c9da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a932a9f843bbbb7476409485d52001c38"><td class="memItemLeft" align="right" valign="top">virtual Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a932a9f843bbbb7476409485d52001c38">ScrollPos</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a932a9f843bbbb7476409485d52001c38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scroll position of <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor window.  <a href="#a932a9f843bbbb7476409485d52001c38">More...</a><br /></td></tr>
 <tr class="separator:a932a9f843bbbb7476409485d52001c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7ce552ed85b5e8a01fe2f551f8e6797"><td class="memItemLeft" align="right" valign="top">virtual Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#af7ce552ed85b5e8a01fe2f551f8e6797">VariablesScrollPos</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:af7ce552ed85b5e8a01fe2f551f8e6797"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scroll position of <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> variables window.  <a href="#af7ce552ed85b5e8a01fe2f551f8e6797">More...</a><br /></td></tr>
 <tr class="separator:af7ce552ed85b5e8a01fe2f551f8e6797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8fc29ed7b111530de9b4e731bac2f8e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#ae8fc29ed7b111530de9b4e731bac2f8e">VariablesExpanded</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ae8fc29ed7b111530de9b4e731bac2f8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show the variables pane.  <a href="#ae8fc29ed7b111530de9b4e731bac2f8e">More...</a><br /></td></tr>
 <tr class="separator:ae8fc29ed7b111530de9b4e731bac2f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3535be8599902196194356c56d3a502d"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a3535be8599902196194356c56d3a502d">BlockViewHeight</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a3535be8599902196194356c56d3a502d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Height of command block view in inspector.  <a href="#a3535be8599902196194356c56d3a502d">More...</a><br /></td></tr>
 <tr class="separator:a3535be8599902196194356c56d3a502d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb563dae815de7d6502b64141fc542a1"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#afb563dae815de7d6502b64141fc542a1">Zoom</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:afb563dae815de7d6502b64141fc542a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zoom level of <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor window.  <a href="#afb563dae815de7d6502b64141fc542a1">More...</a><br /></td></tr>
 <tr class="separator:afb563dae815de7d6502b64141fc542a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a536f5ba10ad779e8892a3a85b541972d"><td class="memItemLeft" align="right" valign="top">virtual Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a536f5ba10ad779e8892a3a85b541972d">ScrollViewRect</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a536f5ba10ad779e8892a3a85b541972d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scrollable area for <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor window.  <a href="#a536f5ba10ad779e8892a3a85b541972d">More...</a><br /></td></tr>
 <tr class="separator:a536f5ba10ad779e8892a3a85b541972d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95a3a193463d1849bdc74366e2d56a0b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_fungus_1_1_block.html">Block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a95a3a193463d1849bdc74366e2d56a0b">SelectedBlock</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a95a3a193463d1849bdc74366e2d56a0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently selected block in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor.  <a href="#a95a3a193463d1849bdc74366e2d56a0b">More...</a><br /></td></tr>
 <tr class="separator:a95a3a193463d1849bdc74366e2d56a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84c8397c5b47373495e327987590bca5"><td class="memItemLeft" align="right" valign="top">virtual List&lt; <a class="el" href="class_fungus_1_1_command.html">Command</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a84c8397c5b47373495e327987590bca5">SelectedCommands</a><code> [get]</code></td></tr>
+<tr class="memdesc:a84c8397c5b47373495e327987590bca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently selected command in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor.  <a href="#a84c8397c5b47373495e327987590bca5">More...</a><br /></td></tr>
 <tr class="separator:a84c8397c5b47373495e327987590bca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa447b8d7db19eb57e9051e96d3a0e60"><td class="memItemLeft" align="right" valign="top">virtual List&lt; <a class="el" href="class_fungus_1_1_variable.html">Variable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#aaa447b8d7db19eb57e9051e96d3a0e60">Variables</a><code> [get]</code></td></tr>
+<tr class="memdesc:aaa447b8d7db19eb57e9051e96d3a0e60"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of variables that can be accessed by the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>.  <a href="#aaa447b8d7db19eb57e9051e96d3a0e60">More...</a><br /></td></tr>
 <tr class="separator:aaa447b8d7db19eb57e9051e96d3a0e60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bf8788fc4ced57fd1a803a687e425a6"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a8bf8788fc4ced57fd1a803a687e425a6">Description</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8bf8788fc4ced57fd1a803a687e425a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Description text displayed in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor window  <a href="#a8bf8788fc4ced57fd1a803a687e425a6">More...</a><br /></td></tr>
 <tr class="separator:a8bf8788fc4ced57fd1a803a687e425a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1156219cabb5fe9c453228927d68a6ad"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a1156219cabb5fe9c453228927d68a6ad">StepPause</a><code> [get]</code></td></tr>
+<tr class="memdesc:a1156219cabb5fe9c453228927d68a6ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slow down execution in the editor to make it easier to visualise program flow.  <a href="#a1156219cabb5fe9c453228927d68a6ad">More...</a><br /></td></tr>
 <tr class="separator:a1156219cabb5fe9c453228927d68a6ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a038a835751e59343d6588449779edb6e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a038a835751e59343d6588449779edb6e">ColorCommands</a><code> [get]</code></td></tr>
+<tr class="memdesc:a038a835751e59343d6588449779edb6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use command color when displaying the command list in the inspector.  <a href="#a038a835751e59343d6588449779edb6e">More...</a><br /></td></tr>
 <tr class="separator:a038a835751e59343d6588449779edb6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad023ea2ca78716cd67bad233fef3df65"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#ad023ea2ca78716cd67bad233fef3df65">SaveSelection</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad023ea2ca78716cd67bad233fef3df65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the selected block and commands when saving the scene.  <a href="#ad023ea2ca78716cd67bad233fef3df65">More...</a><br /></td></tr>
 <tr class="separator:ad023ea2ca78716cd67bad233fef3df65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ef400e4d30e8df8f25cdddb5e3aaa8d"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a1ef400e4d30e8df8f25cdddb5e3aaa8d">LocalizationId</a><code> [get]</code></td></tr>
+<tr class="memdesc:a1ef400e4d30e8df8f25cdddb5e3aaa8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique identifier for identifying this flowchart in localized string keys.  <a href="#a1ef400e4d30e8df8f25cdddb5e3aaa8d">More...</a><br /></td></tr>
 <tr class="separator:a1ef400e4d30e8df8f25cdddb5e3aaa8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54e15cfed08fff3e26d765139dab43d1"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a54e15cfed08fff3e26d765139dab43d1">ShowLineNumbers</a><code> [get]</code></td></tr>
+<tr class="memdesc:a54e15cfed08fff3e26d765139dab43d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display line numbers in the command list in the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> inspector.  <a href="#a54e15cfed08fff3e26d765139dab43d1">More...</a><br /></td></tr>
 <tr class="separator:a54e15cfed08fff3e26d765139dab43d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc16e8a6011c36fbfa5b66920512d589"><td class="memItemLeft" align="right" valign="top">virtual ILuaEnvironment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#acc16e8a6011c36fbfa5b66920512d589">LuaEnv</a><code> [get]</code></td></tr>
-<tr class="separator:acc16e8a6011c36fbfa5b66920512d589"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88e079ade4c8834f6c69618e9dd64681"><td class="memItemLeft" align="right" valign="top">virtual LuaEnvironment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a88e079ade4c8834f6c69618e9dd64681">LuaEnv</a><code> [get]</code></td></tr>
+<tr class="memdesc:a88e079ade4c8834f6c69618e9dd64681"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lua Environment to be used by default for all Execute Lua commands in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>.  <a href="#a88e079ade4c8834f6c69618e9dd64681">More...</a><br /></td></tr>
+<tr class="separator:a88e079ade4c8834f6c69618e9dd64681"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73d0b9dd388b6df5e60d30ffe607e378"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a73d0b9dd388b6df5e60d30ffe607e378">LuaBindingName</a><code> [get]</code></td></tr>
+<tr class="memdesc:a73d0b9dd388b6df5e60d30ffe607e378"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ExecuteLua command adds a global Lua variable with this name bound to the flowchart prior to executing.  <a href="#a73d0b9dd388b6df5e60d30ffe607e378">More...</a><br /></td></tr>
 <tr class="separator:a73d0b9dd388b6df5e60d30ffe607e378"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab86da2f3f9778c9355fce3b4c64c623b"><td class="memItemLeft" align="right" valign="top">virtual Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#ab86da2f3f9778c9355fce3b4c64c623b">CenterPosition</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ab86da2f3f9778c9355fce3b4c64c623b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position in the center of all blocks in the flowchart.  <a href="#ab86da2f3f9778c9355fce3b4c64c623b">More...</a><br /></td></tr>
 <tr class="separator:ab86da2f3f9778c9355fce3b4c64c623b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17e6eae112dc7f249af0b198d5f02e8f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a17e6eae112dc7f249af0b198d5f02e8f">Version</a><code> [set]</code></td></tr>
+<tr class="memdesc:a17e6eae112dc7f249af0b198d5f02e8f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_fungus_1_1_variable.html" title="Abstract base class for variables. ">Variable</a> to track flowchart's version so components can update to new versions.  <a href="#a17e6eae112dc7f249af0b198d5f02e8f">More...</a><br /></td></tr>
 <tr class="separator:a17e6eae112dc7f249af0b198d5f02e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header properties_interface_fungus_1_1_i_flowchart"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_fungus_1_1_i_flowchart')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_fungus_1_1_i_flowchart.html">Fungus.IFlowchart</a></td></tr>
-<tr class="memitem:abee20fe3dd1728e1436340d55b5efcdd inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#abee20fe3dd1728e1436340d55b5efcdd">ScrollPos</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:abee20fe3dd1728e1436340d55b5efcdd inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scroll position of <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor window.  <a href="#abee20fe3dd1728e1436340d55b5efcdd">More...</a><br /></td></tr>
-<tr class="separator:abee20fe3dd1728e1436340d55b5efcdd inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a237b71feb56c4b5187d47be42a3d3a2b inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#a237b71feb56c4b5187d47be42a3d3a2b">VariablesScrollPos</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a237b71feb56c4b5187d47be42a3d3a2b inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scroll position of <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> variables window.  <a href="#a237b71feb56c4b5187d47be42a3d3a2b">More...</a><br /></td></tr>
-<tr class="separator:a237b71feb56c4b5187d47be42a3d3a2b inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54f2c67f75d6de3ecf86c422c475f61a inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#a54f2c67f75d6de3ecf86c422c475f61a">VariablesExpanded</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a54f2c67f75d6de3ecf86c422c475f61a inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show the variables pane.  <a href="#a54f2c67f75d6de3ecf86c422c475f61a">More...</a><br /></td></tr>
-<tr class="separator:a54f2c67f75d6de3ecf86c422c475f61a inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5327101dec187351b7e0c43c32ab96d8 inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#a5327101dec187351b7e0c43c32ab96d8">BlockViewHeight</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a5327101dec187351b7e0c43c32ab96d8 inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Height of command block view in inspector.  <a href="#a5327101dec187351b7e0c43c32ab96d8">More...</a><br /></td></tr>
-<tr class="separator:a5327101dec187351b7e0c43c32ab96d8 inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7a906b0dd83ddf6229e7ec5ec944c4e inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#aa7a906b0dd83ddf6229e7ec5ec944c4e">Zoom</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:aa7a906b0dd83ddf6229e7ec5ec944c4e inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zoom level of <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor window.  <a href="#aa7a906b0dd83ddf6229e7ec5ec944c4e">More...</a><br /></td></tr>
-<tr class="separator:aa7a906b0dd83ddf6229e7ec5ec944c4e inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cd4f005c51af97da36e29291ec64979 inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#a6cd4f005c51af97da36e29291ec64979">ScrollViewRect</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a6cd4f005c51af97da36e29291ec64979 inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scrollable area for <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor window.  <a href="#a6cd4f005c51af97da36e29291ec64979">More...</a><br /></td></tr>
-<tr class="separator:a6cd4f005c51af97da36e29291ec64979 inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4307f1753785c58b7d002b060e512383 inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fungus_1_1_block.html">Block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#a4307f1753785c58b7d002b060e512383">SelectedBlock</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a4307f1753785c58b7d002b060e512383 inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently selected block in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor.  <a href="#a4307f1753785c58b7d002b060e512383">More...</a><br /></td></tr>
-<tr class="separator:a4307f1753785c58b7d002b060e512383 inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6aafcd13be25ddffa5d980721dd8ebbe inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_fungus_1_1_command.html">Command</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#a6aafcd13be25ddffa5d980721dd8ebbe">SelectedCommands</a><code> [get]</code></td></tr>
-<tr class="memdesc:a6aafcd13be25ddffa5d980721dd8ebbe inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently selected command in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor.  <a href="#a6aafcd13be25ddffa5d980721dd8ebbe">More...</a><br /></td></tr>
-<tr class="separator:a6aafcd13be25ddffa5d980721dd8ebbe inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49d839690efa1055499f8f6037f95e13 inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_fungus_1_1_variable.html">Variable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#a49d839690efa1055499f8f6037f95e13">Variables</a><code> [get]</code></td></tr>
-<tr class="memdesc:a49d839690efa1055499f8f6037f95e13 inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of variables that can be accessed by the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>.  <a href="#a49d839690efa1055499f8f6037f95e13">More...</a><br /></td></tr>
-<tr class="separator:a49d839690efa1055499f8f6037f95e13 inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5b1efad2e7e766b47e8f7831f54f022 inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#ab5b1efad2e7e766b47e8f7831f54f022">Description</a><code> [get]</code></td></tr>
-<tr class="memdesc:ab5b1efad2e7e766b47e8f7831f54f022 inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Description text displayed in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor window  <a href="#ab5b1efad2e7e766b47e8f7831f54f022">More...</a><br /></td></tr>
-<tr class="separator:ab5b1efad2e7e766b47e8f7831f54f022 inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ca18a0e1e320690dddee634628db1ba inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#a3ca18a0e1e320690dddee634628db1ba">StepPause</a><code> [get]</code></td></tr>
-<tr class="memdesc:a3ca18a0e1e320690dddee634628db1ba inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slow down execution in the editor to make it easier to visualise program flow.  <a href="#a3ca18a0e1e320690dddee634628db1ba">More...</a><br /></td></tr>
-<tr class="separator:a3ca18a0e1e320690dddee634628db1ba inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02f6b3b8384d20cf05618914fd5d277c inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#a02f6b3b8384d20cf05618914fd5d277c">ColorCommands</a><code> [get]</code></td></tr>
-<tr class="memdesc:a02f6b3b8384d20cf05618914fd5d277c inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use command color when displaying the command list in the inspector.  <a href="#a02f6b3b8384d20cf05618914fd5d277c">More...</a><br /></td></tr>
-<tr class="separator:a02f6b3b8384d20cf05618914fd5d277c inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a805ff69f5e91b7298dc3d659e5f50fe7 inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#a805ff69f5e91b7298dc3d659e5f50fe7">SaveSelection</a><code> [get]</code></td></tr>
-<tr class="memdesc:a805ff69f5e91b7298dc3d659e5f50fe7 inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves the selected block and commands when saving the scene.  <a href="#a805ff69f5e91b7298dc3d659e5f50fe7">More...</a><br /></td></tr>
-<tr class="separator:a805ff69f5e91b7298dc3d659e5f50fe7 inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14e2df4d4e1db813cc004b27258b784c inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#a14e2df4d4e1db813cc004b27258b784c">LocalizationId</a><code> [get]</code></td></tr>
-<tr class="memdesc:a14e2df4d4e1db813cc004b27258b784c inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique identifier for identifying this flowchart in localized string keys.  <a href="#a14e2df4d4e1db813cc004b27258b784c">More...</a><br /></td></tr>
-<tr class="separator:a14e2df4d4e1db813cc004b27258b784c inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a679b18192a6a5d7e4e6bf37cfdef20ec inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#a679b18192a6a5d7e4e6bf37cfdef20ec">ShowLineNumbers</a><code> [get]</code></td></tr>
-<tr class="memdesc:a679b18192a6a5d7e4e6bf37cfdef20ec inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display line numbers in the command list in the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> inspector.  <a href="#a679b18192a6a5d7e4e6bf37cfdef20ec">More...</a><br /></td></tr>
-<tr class="separator:a679b18192a6a5d7e4e6bf37cfdef20ec inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad09a86edf5a46b4b460d2f9d3620f08d inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">ILuaEnvironment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#ad09a86edf5a46b4b460d2f9d3620f08d">LuaEnv</a><code> [get]</code></td></tr>
-<tr class="memdesc:ad09a86edf5a46b4b460d2f9d3620f08d inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lua Environment to be used by default for all Execute Lua commands in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>.  <a href="#ad09a86edf5a46b4b460d2f9d3620f08d">More...</a><br /></td></tr>
-<tr class="separator:ad09a86edf5a46b4b460d2f9d3620f08d inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae886d8af0bbf89a40e576b9de6cd1a9b inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#ae886d8af0bbf89a40e576b9de6cd1a9b">LuaBindingName</a><code> [get]</code></td></tr>
-<tr class="memdesc:ae886d8af0bbf89a40e576b9de6cd1a9b inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ExecuteLua command adds a global Lua variable with this name bound to the flowchart prior to executing.  <a href="#ae886d8af0bbf89a40e576b9de6cd1a9b">More...</a><br /></td></tr>
-<tr class="separator:ae886d8af0bbf89a40e576b9de6cd1a9b inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18c1bcefee2d04419f2d61480e926f14 inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#a18c1bcefee2d04419f2d61480e926f14">CenterPosition</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a18c1bcefee2d04419f2d61480e926f14 inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position in the center of all blocks in the flowchart.  <a href="#a18c1bcefee2d04419f2d61480e926f14">More...</a><br /></td></tr>
-<tr class="separator:a18c1bcefee2d04419f2d61480e926f14 inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bfa3f838a8367c3fec69796188d76f7 inherit properties_interface_fungus_1_1_i_flowchart"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_flowchart.html#a3bfa3f838a8367c3fec69796188d76f7">Version</a><code> [set]</code></td></tr>
-<tr class="memdesc:a3bfa3f838a8367c3fec69796188d76f7 inherit properties_interface_fungus_1_1_i_flowchart"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_fungus_1_1_variable.html" title="Abstract base class for variables. ">Variable</a> to track flowchart's version so components can update to new versions.  <a href="#a3bfa3f838a8367c3fec69796188d76f7">More...</a><br /></td></tr>
-<tr class="separator:a3bfa3f838a8367c3fec69796188d76f7 inherit properties_interface_fungus_1_1_i_flowchart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Visual scripting controller for the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> programming language. </p>
@@ -454,9 +409,7 @@ Properties</h2></td></tr>
 
 <p>Adds a command to the list of selected commands. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#ab9f080392382a1dd11a1c8afe1def535">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00769">769</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00930">930</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -485,7 +438,7 @@ Properties</h2></td></tr>
 <p>Sends a message to all <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> objects in the current scene. </p>
 <p>Any block with a matching MessageReceived event handler will start executing. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00102">102</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00284">284</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -510,7 +463,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00138">138</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00122">122</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -535,7 +488,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00198">198</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00182">182</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -560,7 +513,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00226">226</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00210">210</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -587,9 +540,7 @@ Properties</h2></td></tr>
 
 <p>Clears the list of selected commands. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#af5bfdb14348a2e3d00f25d467eea9a8e">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00764">764</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00922">922</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -617,9 +568,7 @@ Properties</h2></td></tr>
 
 <p>Create a new block node which you can then add commands to. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#aead5f813449d60bfa30347b2afb8969a">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00356">356</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00429">429</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -645,7 +594,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00283">283</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00267">267</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -674,13 +623,11 @@ Properties</h2></td></tr>
 <p>Execute a child block in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 <p>You can use this method in a UI event. e.g. to handle a button click. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#ac76abb12243f6ec35a5e8d9ebd33330e">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00380">380</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00459">459</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5449697fc0a335482bb68928465d6029"></a>
+<a class="anchor" id="a6b2c2a0b90ad807cb06f37edc6c8067b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -690,7 +637,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="memname">virtual bool Fungus.Flowchart.ExecuteBlock </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="interface_fungus_1_1_i_block.html">IBlock</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_fungus_1_1_block.html">Block</a>&#160;</td>
           <td class="paramname"><em>block</em>, </td>
         </tr>
         <tr>
@@ -718,11 +665,14 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00396">396</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Execute a child block in the flowchart. </p>
+<p>The block must be in an idle state to be executed. This version provides extra options to control how the block is executed. Returns true if the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> started execution. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00481">481</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a808ec03f41042eaed60eab3532b9434e"></a>
+<a class="anchor" id="a71a744972a70cf5d0fb41ddd037d2300"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -730,7 +680,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="interface_fungus_1_1_i_block.html">IBlock</a> Fungus.Flowchart.FindBlock </td>
+          <td class="memname">virtual <a class="el" href="class_fungus_1_1_block.html">Block</a> Fungus.Flowchart.FindBlock </td>
           <td>(</td>
           <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>blockName</em></td><td>)</td>
@@ -746,9 +696,7 @@ Properties</h2></td></tr>
 
 <p>Returns the named <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> in the flowchart, or null if not found. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#a6f3ff5f6c81e35ee7f6c62e6c1869641">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00366">366</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00442">442</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -777,13 +725,11 @@ Properties</h2></td></tr>
 <p>Gets the value of a boolean variable. </p>
 <p>Returns false if the variable key does not exist. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#a1dbdd0c028fef9864b61ff15e78255fd">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00629">629</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00754">754</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a48b5d27f455308af07e306d0c923fafa"></a>
+<a class="anchor" id="a18804923f7f0c461062e53c09d0a1625"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -791,7 +737,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual List&lt;<a class="el" href="interface_fungus_1_1_i_block.html">IBlock</a>&gt; Fungus.Flowchart.GetExecutingBlocks </td>
+          <td class="memname">virtual List&lt;<a class="el" href="class_fungus_1_1_block.html">Block</a>&gt; Fungus.Flowchart.GetExecutingBlocks </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -806,9 +752,7 @@ Properties</h2></td></tr>
 
 <p>Returns a list of all executing blocks in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#a3ba827f0ac95175b40ab6fe3d51c3a07">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00825">825</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00998">998</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -837,9 +781,7 @@ Properties</h2></td></tr>
 <p>Gets the value of a float variable. </p>
 <p>Returns 0 if the variable key does not exist. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#a6c78e9011770b329aade80bbf7455886">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00675">675</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00816">816</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -868,9 +810,7 @@ Properties</h2></td></tr>
 <p>Gets the value of an integer variable. </p>
 <p>Returns 0 if the variable key does not exist. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#a23889d47131a3836867a807532c3eb59">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00652">652</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00785">785</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -889,9 +829,7 @@ Properties</h2></td></tr>
 
 <p>Returns the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> gameobject name. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#a1e1a54af4d4b4eca6a4c8711c7fa63f4">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00334">334</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00399">399</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -918,9 +856,7 @@ Properties</h2></td></tr>
 
 <p>Gets a list of all variables with public scope in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#aecfe19a59c5d654368ce96235dca1b40">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00615">615</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00736">736</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -949,13 +885,11 @@ Properties</h2></td></tr>
 <p>Gets the value of a string variable. </p>
 <p>Returns the empty string if the variable key does not exist. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#ac54ee963b176951f2f2b402e025c3e96">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00698">698</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00847">847</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a74dcc042362db9d5f968245c36d866d2"></a>
+<a class="anchor" id="a1117ffe7c0f684307df0bb465728cdac"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -971,7 +905,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="interface_fungus_1_1_i_block.html">IBlock</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_fungus_1_1_block.html">Block</a>&#160;</td>
           <td class="paramname"><em>ignoreBlock</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -989,9 +923,7 @@ Properties</h2></td></tr>
 
 <p>Returns a new <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> key that is guaranteed not to clash with any existing <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#ad438c9ecaeb6ad38dce0c4fcfff05eb8">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00489">489</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00587">587</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1029,9 +961,7 @@ Properties</h2></td></tr>
 
 <p>Returns a new Label key that is guaranteed not to clash with any existing Label in the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#a950e9aceac82114de7f3c60eb079753c">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00529">529</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00630">630</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1069,9 +999,7 @@ Properties</h2></td></tr>
 
 <p>Returns a new variable key that is guaranteed not to clash with any existing variable in the list. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#ab6f145778ddac96cdb196ad0563b09c3">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00443">443</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00538">538</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1092,9 +1020,7 @@ Properties</h2></td></tr>
 <p>Returns the variable with the specified key, or null if the key is not found. </p>
 <p>You will need to cast the returned variable to the correct sub-type. You can then access the variable's value using the Value property. e.g. BooleanVariable boolVar = flowchart.GetVariable("MyBool") as BooleanVariable; boolVar.Value = false; </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#ad1af73200921243dbb3199d6f05bcd03">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00570">570</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00678">678</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1114,8 +1040,6 @@ Properties</h2></td></tr>
 
 <p>Returns the variable with the specified key, or null if the key is not found. </p>
 <p>You can then access the variable's value using the Value property. e.g. BooleanVariable boolVar = flowchart.GetVariable&lt;BooleanVariable&gt;("MyBool"); boolVar.Value = false; </p>
-
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#ac80b6de5f595c87063c3111c0df0d77a">Fungus.IFlowchart</a>.</p>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -1125,7 +1049,7 @@ Properties</h2></td></tr>
 </dl>
 </div>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00583">583</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00697">697</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1152,9 +1076,7 @@ Properties</h2></td></tr>
 
 <p>Returns true if there are any executing blocks in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#a75bbbcf0d6fe5b69978da30360b64520">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00812">812</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00982">982</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1173,9 +1095,7 @@ Properties</h2></td></tr>
 
 <p>Returns true if the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> gameobject is active. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#abd94b6859b3db06da751672b0e0a6cce">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00329">329</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00391">391</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1203,9 +1123,7 @@ Properties</h2></td></tr>
 
 <p>Override this in a <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> subclass to filter which commands are shown in the Add <a class="el" href="class_fungus_1_1_command.html" title="Base class for Commands. ">Command</a> list. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#a78cff452cdc786d43f80a85870a9cd3c">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00797">797</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00964">964</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1230,7 +1148,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00125">125</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00109">109</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1250,9 +1168,7 @@ Properties</h2></td></tr>
 <p>Returns the next id to assign to a new flowchart item. </p>
 <p>Item ids increase monotically so they are guaranteed to be unique within a <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#af12495fbda980d4cda11f02b5eeef16e">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00339">339</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00409">409</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1277,7 +1193,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00193">193</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00177">177</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1302,7 +1218,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00160">160</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00144">144</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1328,7 +1244,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00119">119</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00103">103</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1366,9 +1282,7 @@ Properties</h2></td></tr>
 
 <p>Reset the commands and variables in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#a0b4a9f77436047e883ed041f762e2d2a">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00777">777</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00941">941</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1397,9 +1311,7 @@ Properties</h2></td></tr>
 <p>Sends a message to this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> only. </p>
 <p>Any block with a matching MessageReceived event handler will start executing. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#a4fdba40b4325818a6db831b9e98a0c08">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00434">434</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00526">526</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1438,9 +1350,7 @@ Properties</h2></td></tr>
 <p>Sets the value of a boolean variable. </p>
 <p>The variable must already be added to the list of variables for this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#a8e2dd64e50d03ff643887cc03f2618f8">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00643">643</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00772">772</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1479,9 +1389,7 @@ Properties</h2></td></tr>
 <p>Sets the value of a float variable. </p>
 <p>The variable must already be added to the list of variables for this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#a48a7e053bb0ccb96e5874784bbaeb028">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00689">689</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00834">834</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1520,9 +1428,7 @@ Properties</h2></td></tr>
 <p>Sets the value of an integer variable. </p>
 <p>The variable must already be added to the list of variables for this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#a1807478901849a884c2e957efae0cb62">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00666">666</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00803">803</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1561,9 +1467,7 @@ Properties</h2></td></tr>
 <p>Sets the value of a string variable. </p>
 <p>The variable must already be added to the list of variables for this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#a8db56009b43c675eb63ef7105ab2d2c4">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00712">712</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00865">865</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1593,8 +1497,6 @@ Properties</h2></td></tr>
 
 <p>Register a new variable with the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> at runtime. </p>
 <p>The variable should be added as a component on the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> game object. </p>
-
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#ae612701c6a184a0083ddec7d8d7765bf">Fungus.IFlowchart</a>.</p>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">
@@ -1604,7 +1506,7 @@ Properties</h2></td></tr>
 </dl>
 </div>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00597">597</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00715">715</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1629,7 +1531,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00131">131</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00115">115</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1656,9 +1558,7 @@ Properties</h2></td></tr>
 
 <p>Stop all executing Blocks in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#a0ab97c6b1f1b441214a36f87e2c22adc">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00422">422</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00510">510</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1687,7 +1587,7 @@ Properties</h2></td></tr>
 <p>Implementation of StringSubstituter.ISubstitutionHandler which matches any public variable in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 <p>To perform full variable substitution with all substitution handlers in the scene, you should use the <a class="el" href="class_fungus_1_1_flowchart.html#ae5751c4efb21547ad10e7fd9576cfd56" title="Substitute variables in the input text with the format {$VarName} This will first match with private ...">SubstituteVariables()</a> method instead. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00903">903</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01082">1082</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1715,9 +1615,7 @@ Properties</h2></td></tr>
 
 <p>Substitute variables in the input text with the format {$VarName} This will first match with private variables in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>, and then with public variables in all Flowcharts in the scene (and any component in the scene that implements StringSubstituter.ISubstitutionHandler). </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#a09711ccf2c10a0e58e71f32e46c3ed40">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00840">840</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01019">1019</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1744,9 +1642,7 @@ Properties</h2></td></tr>
 
 <p>Set the block objects to be hidden or visible depending on the hideComponents property. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_flowchart.html#acef7d378526e43dd2cb21e1d2da8bd7f">Fungus.IFlowchart</a>.</p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00721">721</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00877">877</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1771,7 +1667,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00172">172</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00156">156</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1811,14 +1707,12 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Cached list of flowchart objects in the scene for fast lookup. </p>
-
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00096">96</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00089">89</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1884,7 +1778,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00089">89</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00091">91</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2170,7 +2064,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00091">91</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00093">93</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2303,7 +2197,33 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00297">297</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Height of command block view in inspector. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00311">311</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3229ed0a1fac118129a866698f42c9da"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_fungus_1_1_flowchart.html">Flowchart</a>&gt; Fungus.Flowchart.CachedFlowcharts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Cached list of flowchart objects in the scene for fast lookup. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00278">278</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2325,7 +2245,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00325">325</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Position in the center of all blocks in the flowchart. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00381">381</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2347,7 +2269,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00313">313</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Use command color when displaying the command list in the inspector. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00351">351</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2369,7 +2293,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00309">309</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Description text displayed in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor window </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00341">341</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2391,7 +2317,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00317">317</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Unique identifier for identifying this flowchart in localized string keys. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00361">361</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2413,11 +2341,13 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00323">323</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>The ExecuteLua command adds a global Lua variable with this name bound to the flowchart prior to executing. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00376">376</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="acc16e8a6011c36fbfa5b66920512d589"></a>
+<a class="anchor" id="a88e079ade4c8834f6c69618e9dd64681"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2425,7 +2355,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual ILuaEnvironment Fungus.Flowchart.LuaEnv</td>
+          <td class="memname">virtual LuaEnvironment Fungus.Flowchart.LuaEnv</td>
         </tr>
       </table>
   </td>
@@ -2435,7 +2365,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00321">321</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Lua Environment to be used by default for all Execute Lua commands in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00371">371</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2457,7 +2389,10 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00315">315</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Saves the selected block and commands when saving the scene. </p>
+<p>Helps avoid version control conflicts if you've only changed the active selection. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00356">356</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2479,7 +2414,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00291">291</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Scroll position of <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor window. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00296">296</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2501,7 +2438,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00301">301</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Scrollable area for <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor window. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00321">321</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2523,7 +2462,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00303">303</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Currently selected block in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00326">326</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2545,7 +2486,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00305">305</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Currently selected command in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00331">331</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2567,7 +2510,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00319">319</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Display line numbers in the command list in the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> inspector. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00366">366</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2589,7 +2534,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00311">311</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Slow down execution in the editor to make it easier to visualise program flow. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00346">346</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2611,7 +2558,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00307">307</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>The list of variables that can be accessed by the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00336">336</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2633,7 +2582,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00295">295</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Show the variables pane. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00306">306</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2655,7 +2606,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00293">293</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Scroll position of <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> variables window. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00301">301</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2677,7 +2630,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00327">327</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p><a class="el" href="class_fungus_1_1_variable.html" title="Abstract base class for variables. ">Variable</a> to track flowchart's version so components can update to new versions. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00386">386</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2699,7 +2654,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00299">299</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Zoom level of <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor window. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00316">316</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2712,7 +2669,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_flowchart.html">Flowchart</a></li>
-    <li class="footer">Generated on Thu Sep 22 2016 16:34:39 for Fungus by
+    <li class="footer">Generated on Wed Sep 28 2016 14:38:58 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

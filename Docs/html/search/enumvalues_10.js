@@ -10,6 +10,7 @@ var searchData=
   ['soundeffect',['SoundEffect',['../namespace_fungus.html#a715a1449f39b0e49a114cbce845d0f2fa078f6f9d0068fedb79050a274b0ace96',1,'Fungus']]],
   ['speedend',['SpeedEnd',['../namespace_fungus_1_1_utils.html#a216d34d6f1e0fcf7e0ed72b225fd096da9bd9cc090ad4a875be4de79b2404d4fa',1,'Fungus::Utils']]],
   ['speedstart',['SpeedStart',['../namespace_fungus_1_1_utils.html#a216d34d6f1e0fcf7e0ed72b225fd096daa08f16679e523a0f10f0de88dfd18e62',1,'Fungus::Utils']]],
+  ['start',['Start',['../namespace_fungus.html#a889bd18993a3e82814676f65d96299b1aa6122a65eaa676f700ae68d393054a37',1,'Fungus']]],
   ['static',['Static',['../namespace_fungus_1_1_commands.html#a18461d94707ae4016441b82a1c6377fda84a8921b25f505d0d2077aeb5db4bc16',1,'Fungus::Commands']]],
   ['stop',['Stop',['../namespace_fungus_1_1_commands.html#aa77b0e2191d9c2d1374a0b65a0f347d8a11a755d598c0c417f9a36758c3da7481',1,'Fungus::Commands']]],
   ['stoploop',['StopLoop',['../namespace_fungus_1_1_commands.html#a735a38540c87389cd7b9bb6fdbbc2787a27f65bfa9826e6296dac07b29bfe6727',1,'Fungus::Commands']]],

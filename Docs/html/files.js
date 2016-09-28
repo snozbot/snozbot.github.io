@@ -11,9 +11,7 @@ var files =
       [ "AudioSourceVariable", "class_fungus_1_1_variables_1_1_audio_source_variable.html", null ],
       [ "AudioSourceData", "struct_fungus_1_1_variables_1_1_audio_source_data.html", "struct_fungus_1_1_variables_1_1_audio_source_data" ]
     ] ],
-    [ "Block.cs", "_block_8cs.html", [
-      [ "Block", "class_fungus_1_1_block.html", "class_fungus_1_1_block" ]
-    ] ],
+    [ "Block.cs", "_block_8cs.html", "_block_8cs" ],
     [ "BlockEditor.cs", "_block_editor_8cs.html", [
       [ "BlockEditor", "class_fungus_1_1_editor_utils_1_1_block_editor.html", "class_fungus_1_1_editor_utils_1_1_block_editor" ],
       [ "SetEventHandlerOperation", "class_fungus_1_1_editor_utils_1_1_block_editor_1_1_set_event_handler_operation.html", "class_fungus_1_1_editor_utils_1_1_block_editor_1_1_set_event_handler_operation" ],
@@ -23,6 +21,7 @@ var files =
       [ "BlockInspector", "class_fungus_1_1_editor_utils_1_1_block_inspector.html", "class_fungus_1_1_editor_utils_1_1_block_inspector" ],
       [ "BlockInspectorEditor", "class_fungus_1_1_editor_utils_1_1_block_inspector_editor.html", "class_fungus_1_1_editor_utils_1_1_block_inspector_editor" ]
     ] ],
+    [ "BlockSignals.cs", "_block_signals_8cs.html", null ],
     [ "BooleanVariable.cs", "_boolean_variable_8cs.html", [
       [ "BooleanVariable", "class_fungus_1_1_variables_1_1_boolean_variable.html", "class_fungus_1_1_variables_1_1_boolean_variable" ],
       [ "BooleanData", "struct_fungus_1_1_variables_1_1_boolean_data.html", "struct_fungus_1_1_variables_1_1_boolean_data" ]
@@ -175,34 +174,8 @@ var files =
     [ "GLDraw.cs", "_g_l_draw_8cs.html", [
       [ "GLDraw", "class_fungus_1_1_editor_utils_1_1_g_l_draw.html", null ]
     ] ],
-    [ "IBlock.cs", "_i_block_8cs.html", "_i_block_8cs" ],
-    [ "ICameraController.cs", "_i_camera_controller_8cs.html", [
-      [ "ICameraController", "interface_fungus_1_1_i_camera_controller.html", "interface_fungus_1_1_i_camera_controller" ]
-    ] ],
-    [ "ICharacter.cs", "_i_character_8cs.html", [
-      [ "ICharacter", "interface_fungus_1_1_i_character.html", "interface_fungus_1_1_i_character" ]
-    ] ],
-    [ "IClickable2D.cs", "_i_clickable2_d_8cs.html", [
-      [ "IClickable2D", "interface_fungus_1_1_i_clickable2_d.html", "interface_fungus_1_1_i_clickable2_d" ]
-    ] ],
-    [ "ICommand.cs", "_i_command_8cs.html", [
-      [ "ICommand", "interface_fungus_1_1_i_command.html", "interface_fungus_1_1_i_command" ]
-    ] ],
-    [ "IConversationManager.cs", "_i_conversation_manager_8cs.html", [
-      [ "IConversationManager", "interface_fungus_1_1_i_conversation_manager.html", "interface_fungus_1_1_i_conversation_manager" ]
-    ] ],
-    [ "ICustomTag.cs", "_i_custom_tag_8cs.html", [
-      [ "ICustomTag", "interface_fungus_1_1_i_custom_tag.html", "interface_fungus_1_1_i_custom_tag" ]
-    ] ],
-    [ "IDialogInput.cs", "_i_dialog_input_8cs.html", [
-      [ "IDialogInput", "interface_fungus_1_1_i_dialog_input.html", "interface_fungus_1_1_i_dialog_input" ],
+    [ "IDialogInputListener.cs", "_i_dialog_input_listener_8cs.html", [
       [ "IDialogInputListener", "interface_fungus_1_1_i_dialog_input_listener.html", "interface_fungus_1_1_i_dialog_input_listener" ]
-    ] ],
-    [ "IDraggable2D.cs", "_i_draggable2_d_8cs.html", [
-      [ "IDraggable2D", "interface_fungus_1_1_i_draggable2_d.html", "interface_fungus_1_1_i_draggable2_d" ]
-    ] ],
-    [ "IEventHandler.cs", "_i_event_handler_8cs.html", [
-      [ "IEventHandler", "interface_fungus_1_1_i_event_handler.html", "interface_fungus_1_1_i_event_handler" ]
     ] ],
     [ "If.cs", "_if_8cs.html", [
       [ "If", "class_fungus_1_1_commands_1_1_if.html", "class_fungus_1_1_commands_1_1_if" ]
@@ -210,21 +183,8 @@ var files =
     [ "IfEditor.cs", "_if_editor_8cs.html", [
       [ "IfEditor", "class_fungus_1_1_editor_utils_1_1_if_editor.html", "class_fungus_1_1_editor_utils_1_1_if_editor" ]
     ] ],
-    [ "IFlowchart.cs", "_i_flowchart_8cs.html", [
-      [ "IFlowchart", "interface_fungus_1_1_i_flowchart.html", "interface_fungus_1_1_i_flowchart" ]
-    ] ],
-    [ "IFungusState.cs", "_i_fungus_state_8cs.html", [
-      [ "IFungusState", "interface_fungus_1_1_i_fungus_state.html", "interface_fungus_1_1_i_fungus_state" ]
-    ] ],
-    [ "ILocalization.cs", "_i_localization_8cs.html", [
-      [ "ILocalization", "interface_fungus_1_1_i_localization.html", "interface_fungus_1_1_i_localization" ],
+    [ "ILocalizable.cs", "_i_localizable_8cs.html", [
       [ "ILocalizable", "interface_fungus_1_1_i_localizable.html", "interface_fungus_1_1_i_localizable" ]
-    ] ],
-    [ "IMenuDialog.cs", "_i_menu_dialog_8cs.html", [
-      [ "IMenuDialog", "interface_fungus_1_1_i_menu_dialog.html", "interface_fungus_1_1_i_menu_dialog" ]
-    ] ],
-    [ "IMusicController.cs", "_i_music_controller_8cs.html", [
-      [ "IMusicController", "interface_fungus_1_1_i_music_controller.html", "interface_fungus_1_1_i_music_controller" ]
     ] ],
     [ "IntegerVariable.cs", "_integer_variable_8cs.html", [
       [ "IntegerVariable", "class_fungus_1_1_variables_1_1_integer_variable.html", "class_fungus_1_1_variables_1_1_integer_variable" ],
@@ -236,26 +196,11 @@ var files =
     ] ],
     [ "InvokeMethod.cs", "_invoke_method_8cs.html", "_invoke_method_8cs" ],
     [ "InvokeMethodEditor.cs", "_invoke_method_editor_8cs.html", "_invoke_method_editor_8cs" ],
-    [ "IPortraitController.cs", "_i_portrait_controller_8cs.html", "_i_portrait_controller_8cs" ],
-    [ "ISayDialog.cs", "_i_say_dialog_8cs.html", [
-      [ "ISayDialog", "interface_fungus_1_1_i_say_dialog.html", "interface_fungus_1_1_i_say_dialog" ]
-    ] ],
-    [ "IStage.cs", "_i_stage_8cs.html", [
-      [ "IStage", "interface_fungus_1_1_i_stage.html", "interface_fungus_1_1_i_stage" ]
-    ] ],
-    [ "ITextTagParser.cs", "_i_text_tag_parser_8cs.html", [
-      [ "ITextTagParser", "interface_fungus_1_1_i_text_tag_parser.html", "interface_fungus_1_1_i_text_tag_parser" ]
-    ] ],
     [ "iTweenCommand.cs", "i_tween_command_8cs.html", "i_tween_command_8cs" ],
     [ "IUpdateable.cs", "_i_updateable_8cs.html", [
       [ "IUpdateable", "interface_fungus_1_1_i_updateable.html", "interface_fungus_1_1_i_updateable" ]
     ] ],
-    [ "IVariable.cs", "_i_variable_8cs.html", "_i_variable_8cs" ],
-    [ "IView.cs", "_i_view_8cs.html", [
-      [ "IView", "interface_fungus_1_1_i_view.html", "interface_fungus_1_1_i_view" ]
-    ] ],
-    [ "IWriter.cs", "_i_writer_8cs.html", [
-      [ "IWriter", "interface_fungus_1_1_i_writer.html", "interface_fungus_1_1_i_writer" ],
+    [ "IWriterListener.cs", "_i_writer_listener_8cs.html", [
       [ "IWriterListener", "interface_fungus_1_1_i_writer_listener.html", "interface_fungus_1_1_i_writer_listener" ]
     ] ],
     [ "Jump.cs", "_jump_8cs.html", [
@@ -517,9 +462,7 @@ var files =
       [ "StringData", "struct_fungus_1_1_variables_1_1_string_data.html", "struct_fungus_1_1_variables_1_1_string_data" ],
       [ "StringDataMulti", "struct_fungus_1_1_variables_1_1_string_data_multi.html", "struct_fungus_1_1_variables_1_1_string_data_multi" ]
     ] ],
-    [ "TextTagParser.cs", "_text_tag_parser_8cs.html", [
-      [ "TextTagParser", "class_fungus_1_1_utils_1_1_text_tag_parser.html", "class_fungus_1_1_utils_1_1_text_tag_parser" ]
-    ] ],
+    [ "TextTagParser.cs", "_text_tag_parser_8cs.html", null ],
     [ "TextTagToken.cs", "_text_tag_token_8cs.html", "_text_tag_token_8cs" ],
     [ "TextureVariable.cs", "_texture_variable_8cs.html", [
       [ "TextureVariable", "class_fungus_1_1_variables_1_1_texture_variable.html", null ],
@@ -530,12 +473,7 @@ var files =
       [ "TransformData", "struct_fungus_1_1_variables_1_1_transform_data.html", "struct_fungus_1_1_variables_1_1_transform_data" ]
     ] ],
     [ "TweenUI.cs", "_tween_u_i_8cs.html", "_tween_u_i_8cs" ],
-    [ "Variable.cs", "_variable_8cs.html", [
-      [ "VariableInfoAttribute", "class_fungus_1_1_variable_info_attribute.html", "class_fungus_1_1_variable_info_attribute" ],
-      [ "VariablePropertyAttribute", "class_fungus_1_1_variable_property_attribute.html", "class_fungus_1_1_variable_property_attribute" ],
-      [ "Variable", "class_fungus_1_1_variable.html", "class_fungus_1_1_variable" ],
-      [ "VariableBase", "class_fungus_1_1_variable_base.html", "class_fungus_1_1_variable_base" ]
-    ] ],
+    [ "Variable.cs", "_variable_8cs.html", "_variable_8cs" ],
     [ "VariableEditor.cs", "_variable_editor_8cs.html", [
       [ "VariableEditor", "class_fungus_1_1_editor_utils_1_1_variable_editor.html", "class_fungus_1_1_editor_utils_1_1_variable_editor" ],
       [ "VariableDrawer", "class_fungus_1_1_editor_utils_1_1_variable_drawer.html", "class_fungus_1_1_editor_utils_1_1_variable_drawer" ],
@@ -588,5 +526,6 @@ var files =
     [ "WriterAudio.cs", "_writer_audio_8cs.html", "_writer_audio_8cs" ],
     [ "WriterAudioEditor.cs", "_writer_audio_editor_8cs.html", [
       [ "WriterAudioEditor", "class_fungus_1_1_editor_utils_1_1_writer_audio_editor.html", "class_fungus_1_1_editor_utils_1_1_writer_audio_editor" ]
-    ] ]
+    ] ],
+    [ "WriterSignals.cs", "_writer_signals_8cs.html", null ]
 ];

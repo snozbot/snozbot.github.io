@@ -129,16 +129,15 @@ Inheritance diagram for Fungus.Block:</div>
   <img src="class_fungus_1_1_block.png" usemap="#Fungus.Block_map" alt=""/>
   <map id="Fungus.Block_map" name="Fungus.Block_map">
 <area href="class_fungus_1_1_node.html" title="Base class for Flowchart nodes. " alt="Fungus.Node" shape="rect" coords="0,56,178,80"/>
-<area href="interface_fungus_1_1_i_block.html" title="A container for a sequence of Fungus comands. " alt="Fungus.IBlock" shape="rect" coords="188,56,366,80"/>
-<area href="class_fungus_1_1_command_copy_buffer.html" title="Temporary buffer object used when copying and pasting commands. " alt="Fungus.CommandCopyBuffer" shape="rect" coords="94,168,272,192"/>
+<area href="class_fungus_1_1_command_copy_buffer.html" title="Temporary buffer object used when copying and pasting commands. " alt="Fungus.CommandCopyBuffer" shape="rect" coords="0,168,178,192"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7455c7970b1e39799e86e47f9c206ce4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="interface_fungus_1_1_i_flowchart.html">IFlowchart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_block.html#a7455c7970b1e39799e86e47f9c206ce4">GetFlowchart</a> ()</td></tr>
-<tr class="memdesc:a7455c7970b1e39799e86e47f9c206ce4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the parent <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> for this <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>.  <a href="#a7455c7970b1e39799e86e47f9c206ce4">More...</a><br /></td></tr>
-<tr class="separator:a7455c7970b1e39799e86e47f9c206ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a791728f55c223a7f2875737e4882ccd5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_fungus_1_1_flowchart.html">Flowchart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_block.html#a791728f55c223a7f2875737e4882ccd5">GetFlowchart</a> ()</td></tr>
+<tr class="memdesc:a791728f55c223a7f2875737e4882ccd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the parent <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> for this <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>.  <a href="#a791728f55c223a7f2875737e4882ccd5">More...</a><br /></td></tr>
+<tr class="separator:a791728f55c223a7f2875737e4882ccd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0b01590d752a1bd133a758376fcaae7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_block.html#ae0b01590d752a1bd133a758376fcaae7">IsExecuting</a> ()</td></tr>
 <tr class="memdesc:ae0b01590d752a1bd133a758376fcaae7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> is executing a command.  <a href="#ae0b01590d752a1bd133a758376fcaae7">More...</a><br /></td></tr>
 <tr class="separator:ae0b01590d752a1bd133a758376fcaae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,6 +148,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7a5384fc0ac4294c8896c9ebf9976294"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start a coroutine which executes all commands in the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>.  <a href="#a7a5384fc0ac4294c8896c9ebf9976294">More...</a><br /></td></tr>
 <tr class="separator:a7a5384fc0ac4294c8896c9ebf9976294"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c844480b4e78ae978b903265b3284aa"><td class="memItemLeft" align="right" valign="top">virtual IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_block.html#a5c844480b4e78ae978b903265b3284aa">Execute</a> (int commandIndex=0, Action onComplete=null)</td></tr>
+<tr class="memdesc:a5c844480b4e78ae978b903265b3284aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">A coroutine method that executes all commands in the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>.  <a href="#a5c844480b4e78ae978b903265b3284aa">More...</a><br /></td></tr>
 <tr class="separator:a5c844480b4e78ae978b903265b3284aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4f9b80efa6e1b5e0b7aafb673a2ca2e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_block.html#ae4f9b80efa6e1b5e0b7aafb673a2ca2e">Stop</a> ()</td></tr>
 <tr class="memdesc:ae4f9b80efa6e1b5e0b7aafb673a2ca2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop executing commands in this <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>.  <a href="#ae4f9b80efa6e1b5e0b7aafb673a2ca2e">More...</a><br /></td></tr>
@@ -162,10 +162,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a474dc72934b9fa57e061d297c40785d5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_block.html#a474dc72934b9fa57e061d297c40785d5">UpdateIndentLevels</a> ()</td></tr>
 <tr class="memdesc:a474dc72934b9fa57e061d297c40785d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculate the indent levels for all commands in the list.  <a href="#a474dc72934b9fa57e061d297c40785d5">More...</a><br /></td></tr>
 <tr class="separator:a474dc72934b9fa57e061d297c40785d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_interface_fungus_1_1_i_block"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_fungus_1_1_i_block')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="interface_fungus_1_1_i_block.html">Fungus.IBlock</a></td></tr>
-<tr class="memitem:afbfcf69dea26e3520a82e1160002b0ab inherit pub_methods_interface_fungus_1_1_i_block"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_block.html#afbfcf69dea26e3520a82e1160002b0ab">Execute</a> (int commandIndex=0, System.Action onComplete=null)</td></tr>
-<tr class="memdesc:afbfcf69dea26e3520a82e1160002b0ab inherit pub_methods_interface_fungus_1_1_i_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">A coroutine method that executes all commands in the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>.  <a href="#afbfcf69dea26e3520a82e1160002b0ab">More...</a><br /></td></tr>
-<tr class="separator:afbfcf69dea26e3520a82e1160002b0ab inherit pub_methods_interface_fungus_1_1_i_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -206,59 +202,40 @@ Protected Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a29b12b6ea1b75b934e37c274b65f3c9c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_fungus.html#aae9a0a9d53684f7191530160d6ccc329">ExecutionState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_block.html#a29b12b6ea1b75b934e37c274b65f3c9c">State</a><code> [get]</code></td></tr>
+<tr class="memdesc:a29b12b6ea1b75b934e37c274b65f3c9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The execution state of the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>.  <a href="#a29b12b6ea1b75b934e37c274b65f3c9c">More...</a><br /></td></tr>
 <tr class="separator:a29b12b6ea1b75b934e37c274b65f3c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe5be4166c11252eae19413e2b38dc38"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_block.html#afe5be4166c11252eae19413e2b38dc38">ItemId</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:afe5be4166c11252eae19413e2b38dc38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique identifier for the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>.  <a href="#afe5be4166c11252eae19413e2b38dc38">More...</a><br /></td></tr>
 <tr class="separator:afe5be4166c11252eae19413e2b38dc38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7354ebd4bc2b113c7892c5bde2ffb025"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_block.html#a7354ebd4bc2b113c7892c5bde2ffb025">BlockName</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a7354ebd4bc2b113c7892c5bde2ffb025"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the block node as displayed in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> window.  <a href="#a7354ebd4bc2b113c7892c5bde2ffb025">More...</a><br /></td></tr>
 <tr class="separator:a7354ebd4bc2b113c7892c5bde2ffb025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2dd1175e4ddc052fe5060775303e1b22"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_block.html#a2dd1175e4ddc052fe5060775303e1b22">Description</a><code> [get]</code></td></tr>
+<tr class="memdesc:a2dd1175e4ddc052fe5060775303e1b22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Description text to display under the block node  <a href="#a2dd1175e4ddc052fe5060775303e1b22">More...</a><br /></td></tr>
 <tr class="separator:a2dd1175e4ddc052fe5060775303e1b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cf2266ff910e59512fdb7bf1e52753a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_fungus_1_1_event_handler.html">EventHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_block.html#a6cf2266ff910e59512fdb7bf1e52753a">_EventHandler</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a6cf2266ff910e59512fdb7bf1e52753a"><td class="mdescLeft">&#160;</td><td class="mdescRight">An optional Event Handler which can execute the block when an event occurs.  <a href="#a6cf2266ff910e59512fdb7bf1e52753a">More...</a><br /></td></tr>
 <tr class="separator:a6cf2266ff910e59512fdb7bf1e52753a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5b8bf0aaf96ead623be554d554c2194"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_fungus_1_1_command.html">Command</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_block.html#ae5b8bf0aaf96ead623be554d554c2194">ActiveCommand</a><code> [get]</code></td></tr>
+<tr class="memdesc:ae5b8bf0aaf96ead623be554d554c2194"><td class="mdescLeft">&#160;</td><td class="mdescRight">The currently executing command.  <a href="#ae5b8bf0aaf96ead623be554d554c2194">More...</a><br /></td></tr>
 <tr class="separator:ae5b8bf0aaf96ead623be554d554c2194"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8828f2058ae82157ed2ac58de4b1d8b4"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_block.html#a8828f2058ae82157ed2ac58de4b1d8b4">ExecutingIconTimer</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a8828f2058ae82157ed2ac58de4b1d8b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer for fading <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> execution icon.  <a href="#a8828f2058ae82157ed2ac58de4b1d8b4">More...</a><br /></td></tr>
 <tr class="separator:a8828f2058ae82157ed2ac58de4b1d8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96054f674e9423355e9e08e70f8e4767"><td class="memItemLeft" align="right" valign="top">virtual List&lt; <a class="el" href="class_fungus_1_1_command.html">Command</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_block.html#a96054f674e9423355e9e08e70f8e4767">CommandList</a><code> [get]</code></td></tr>
+<tr class="memdesc:a96054f674e9423355e9e08e70f8e4767"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of commands in the sequence.  <a href="#a96054f674e9423355e9e08e70f8e4767">More...</a><br /></td></tr>
 <tr class="separator:a96054f674e9423355e9e08e70f8e4767"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaeb903ea4b5d45bcc8d2cd7331dccecf"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_block.html#aaeb903ea4b5d45bcc8d2cd7331dccecf">JumpToCommandIndex</a><code> [set]</code></td></tr>
+<tr class="memdesc:aaeb903ea4b5d45bcc8d2cd7331dccecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Controls the next command to execute in the block execution coroutine.  <a href="#aaeb903ea4b5d45bcc8d2cd7331dccecf">More...</a><br /></td></tr>
 <tr class="separator:aaeb903ea4b5d45bcc8d2cd7331dccecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_fungus_1_1_node"><td colspan="2" onclick="javascript:toggleInherit('properties_class_fungus_1_1_node')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_fungus_1_1_node.html">Fungus.Node</a></td></tr>
 <tr class="memitem:afdc2b3b18c4014adcffcb05cb7c5bd40 inherit properties_class_fungus_1_1_node"><td class="memItemLeft" align="right" valign="top">virtual Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_node.html#afdc2b3b18c4014adcffcb05cb7c5bd40">_NodeRect</a><code> [get, set]</code></td></tr>
 <tr class="separator:afdc2b3b18c4014adcffcb05cb7c5bd40 inherit properties_class_fungus_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header properties_interface_fungus_1_1_i_block"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_fungus_1_1_i_block')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_fungus_1_1_i_block.html">Fungus.IBlock</a></td></tr>
-<tr class="memitem:a47065dddb2a3a8e96ece4120b868376b inherit properties_interface_fungus_1_1_i_block"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_fungus.html#aae9a0a9d53684f7191530160d6ccc329">ExecutionState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_block.html#a47065dddb2a3a8e96ece4120b868376b">State</a><code> [get]</code></td></tr>
-<tr class="memdesc:a47065dddb2a3a8e96ece4120b868376b inherit properties_interface_fungus_1_1_i_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">The execution state of the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>.  <a href="#a47065dddb2a3a8e96ece4120b868376b">More...</a><br /></td></tr>
-<tr class="separator:a47065dddb2a3a8e96ece4120b868376b inherit properties_interface_fungus_1_1_i_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6bb55dec28a635c45822663db0abb99 inherit properties_interface_fungus_1_1_i_block"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_block.html#ad6bb55dec28a635c45822663db0abb99">ItemId</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:ad6bb55dec28a635c45822663db0abb99 inherit properties_interface_fungus_1_1_i_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique identifier for the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>.  <a href="#ad6bb55dec28a635c45822663db0abb99">More...</a><br /></td></tr>
-<tr class="separator:ad6bb55dec28a635c45822663db0abb99 inherit properties_interface_fungus_1_1_i_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cb4b25c0905e90a3458667dfae80b73 inherit properties_interface_fungus_1_1_i_block"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_block.html#a9cb4b25c0905e90a3458667dfae80b73">BlockName</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a9cb4b25c0905e90a3458667dfae80b73 inherit properties_interface_fungus_1_1_i_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the block node as displayed in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> window.  <a href="#a9cb4b25c0905e90a3458667dfae80b73">More...</a><br /></td></tr>
-<tr class="separator:a9cb4b25c0905e90a3458667dfae80b73 inherit properties_interface_fungus_1_1_i_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b8bde3fa40a2a3cbc27138b7bbbf771 inherit properties_interface_fungus_1_1_i_block"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_block.html#a2b8bde3fa40a2a3cbc27138b7bbbf771">Description</a><code> [get]</code></td></tr>
-<tr class="memdesc:a2b8bde3fa40a2a3cbc27138b7bbbf771 inherit properties_interface_fungus_1_1_i_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Description text to display under the block node  <a href="#a2b8bde3fa40a2a3cbc27138b7bbbf771">More...</a><br /></td></tr>
-<tr class="separator:a2b8bde3fa40a2a3cbc27138b7bbbf771 inherit properties_interface_fungus_1_1_i_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1a86480461e07a5bc1b80651f57a6d5 inherit properties_interface_fungus_1_1_i_block"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fungus_1_1_event_handler.html">EventHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_block.html#aa1a86480461e07a5bc1b80651f57a6d5">_EventHandler</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:aa1a86480461e07a5bc1b80651f57a6d5 inherit properties_interface_fungus_1_1_i_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">An optional Event Handler which can execute the block when an event occurs.  <a href="#aa1a86480461e07a5bc1b80651f57a6d5">More...</a><br /></td></tr>
-<tr class="separator:aa1a86480461e07a5bc1b80651f57a6d5 inherit properties_interface_fungus_1_1_i_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35beb90a97a3bc9127584cd7604ea11a inherit properties_interface_fungus_1_1_i_block"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fungus_1_1_command.html">Command</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_block.html#a35beb90a97a3bc9127584cd7604ea11a">ActiveCommand</a><code> [get]</code></td></tr>
-<tr class="memdesc:a35beb90a97a3bc9127584cd7604ea11a inherit properties_interface_fungus_1_1_i_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">The currently executing command.  <a href="#a35beb90a97a3bc9127584cd7604ea11a">More...</a><br /></td></tr>
-<tr class="separator:a35beb90a97a3bc9127584cd7604ea11a inherit properties_interface_fungus_1_1_i_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae90e8bacb02b15d5ff5a6d50fcff4910 inherit properties_interface_fungus_1_1_i_block"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_block.html#ae90e8bacb02b15d5ff5a6d50fcff4910">ExecutingIconTimer</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:ae90e8bacb02b15d5ff5a6d50fcff4910 inherit properties_interface_fungus_1_1_i_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer for fading <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> execution icon.  <a href="#ae90e8bacb02b15d5ff5a6d50fcff4910">More...</a><br /></td></tr>
-<tr class="separator:ae90e8bacb02b15d5ff5a6d50fcff4910 inherit properties_interface_fungus_1_1_i_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26d1e7234260b7d5b2c8bc53d13149fe inherit properties_interface_fungus_1_1_i_block"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_fungus_1_1_command.html">Command</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_block.html#a26d1e7234260b7d5b2c8bc53d13149fe">CommandList</a><code> [get]</code></td></tr>
-<tr class="memdesc:a26d1e7234260b7d5b2c8bc53d13149fe inherit properties_interface_fungus_1_1_i_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of commands in the sequence.  <a href="#a26d1e7234260b7d5b2c8bc53d13149fe">More...</a><br /></td></tr>
-<tr class="separator:a26d1e7234260b7d5b2c8bc53d13149fe inherit properties_interface_fungus_1_1_i_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4483845d034e7d172ced05eb8cc744c2 inherit properties_interface_fungus_1_1_i_block"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_fungus_1_1_i_block.html#a4483845d034e7d172ced05eb8cc744c2">JumpToCommandIndex</a><code> [set]</code></td></tr>
-<tr class="memdesc:a4483845d034e7d172ced05eb8cc744c2 inherit properties_interface_fungus_1_1_i_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Controls the next command to execute in the block execution coroutine.  <a href="#a4483845d034e7d172ced05eb8cc744c2">More...</a><br /></td></tr>
-<tr class="separator:a4483845d034e7d172ced05eb8cc744c2 inherit properties_interface_fungus_1_1_i_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A container for a sequence of <a class="el" href="namespace_fungus.html">Fungus</a> comands. </p>
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00020">20</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00031">31</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a433e0806935393c6235e9b4f231eefc9"></a>
 <div class="memitem">
@@ -281,7 +258,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00053">53</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00064">64</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -317,7 +294,17 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00144">144</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>A coroutine method that executes all commands in the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>. </p>
+<p>Only one running instance of each <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> is permitted. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">commandIndex</td><td>Index of command to start execution at</td></tr>
+    <tr><td class="paramname">onComplete</td><td>Delegate function to call when execution completes</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00200">200</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -344,9 +331,7 @@ Properties</h2></td></tr>
 
 <p>Returns a list of all Blocks connected to this one. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_block.html#a2e9823723bbda6a5fd5a29b51d9015e9">Fungus.IBlock</a>.</p>
-
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00265">265</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00330">330</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -373,13 +358,11 @@ Properties</h2></td></tr>
 
 <p>Returns the number of times this <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> has executed. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_block.html#a385ac8f4bdeead9eead1261b42d7100a">Fungus.IBlock</a>.</p>
-
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00134">134</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00182">182</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7455c7970b1e39799e86e47f9c206ce4"></a>
+<a class="anchor" id="a791728f55c223a7f2875737e4882ccd5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -387,7 +370,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="interface_fungus_1_1_i_flowchart.html">IFlowchart</a> Fungus.Block.GetFlowchart </td>
+          <td class="memname">virtual <a class="el" href="class_fungus_1_1_flowchart.html">Flowchart</a> Fungus.Block.GetFlowchart </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -402,9 +385,7 @@ Properties</h2></td></tr>
 
 <p>Returns the parent <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> for this <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_block.html#aeb7a2b09526323e99456ea4ca5b25e77">Fungus.IBlock</a>.</p>
-
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00124">124</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00166">166</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -432,9 +413,7 @@ Properties</h2></td></tr>
 <p>Returns the type of the previously executing command. </p>
 <dl class="section return"><dt>Returns</dt><dd>The previous active command type.</dd></dl>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_block.html#a221bf3d9e7db0ff52df0e86ebf8b5826">Fungus.IBlock</a>.</p>
-
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00278">278</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00347">347</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -461,9 +440,7 @@ Properties</h2></td></tr>
 
 <p>Returns true if the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> is executing a command. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_block.html#a5754ac969114676b9c4eabfa23a319ac">Fungus.IBlock</a>.</p>
-
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00129">129</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00174">174</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -490,7 +467,7 @@ Properties</h2></td></tr>
 
 <p>Populate the command metadata used to control execution. </p>
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00061">61</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00072">72</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -518,9 +495,7 @@ Properties</h2></td></tr>
 <p>Start a coroutine which executes all commands in the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>. </p>
 <p>Only one running instance of each <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> is permitted. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_block.html#a91888676995417f4d5940e4aad20f0aa">Fungus.IBlock</a>.</p>
-
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00139">139</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00190">190</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -547,9 +522,7 @@ Properties</h2></td></tr>
 
 <p>Stop executing commands in this <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_block.html#a1d455cae2890cb47f87fbcac08005f54">Fungus.IBlock</a>.</p>
-
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00252">252</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00314">314</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -576,9 +549,7 @@ Properties</h2></td></tr>
 
 <p>Recalculate the indent levels for all commands in the list. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_block.html#a3045276a30abea8e4a0a87a64e889c7d">Fungus.IBlock</a>.</p>
-
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00289">289</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00361">361</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -601,7 +572,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00039">39</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00050">50</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -623,7 +594,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00026">26</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00037">37</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -645,7 +616,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00035">35</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00046">46</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -667,7 +638,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00030">30</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00041">41</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -689,7 +660,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00033">33</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00044">44</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -711,7 +682,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00049">49</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00060">60</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -733,7 +704,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00051">51</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00062">62</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -755,7 +726,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00037">37</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00048">48</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -777,7 +748,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00022">22</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00033">33</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -799,7 +770,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00047">47</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00058">58</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -823,7 +794,7 @@ Properties</h2></td></tr>
 
 <p></p>
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00045">45</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00056">56</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -846,7 +817,10 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00114">114</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>An optional Event Handler which can execute the block when an event occurs. </p>
+<p>Note: Using the concrete class instead of the interface here because of weird editor behaviour. </p>
+
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00141">141</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -868,7 +842,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00116">116</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>The currently executing command. </p>
+
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00146">146</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -890,7 +866,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00110">110</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>The name of the block node as displayed in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> window. </p>
+
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00130">130</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -912,7 +890,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00120">120</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>The list of commands in the sequence. </p>
+
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00156">156</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -934,7 +914,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00112">112</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Description text to display under the block node </p>
+
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00135">135</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -956,7 +938,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00118">118</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Timer for fading <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> execution icon. </p>
+
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00151">151</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -978,7 +962,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00108">108</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Unique identifier for the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>. </p>
+
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00125">125</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -1000,7 +986,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00122">122</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>Controls the next command to execute in the block execution coroutine. </p>
+
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00161">161</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -1022,7 +1010,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_block_8cs_source.html#l00106">106</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+<p>The execution state of the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>. </p>
+
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00120">120</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -1035,7 +1025,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_block.html">Block</a></li>
-    <li class="footer">Generated on Thu Sep 22 2016 16:34:39 for Fungus by
+    <li class="footer">Generated on Wed Sep 28 2016 14:38:58 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

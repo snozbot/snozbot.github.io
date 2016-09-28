@@ -22,7 +22,7 @@ var class_fungus_1_1_character =
     [ "Portraits", "class_fungus_1_1_character.html#a56dc008e5ae15c1f266e205efbe8e412", null ],
     [ "PortraitsFace", "class_fungus_1_1_character.html#acf75e524d093cf9ca8b5896836cfbdd0", null ],
     [ "ProfileSprite", "class_fungus_1_1_character.html#ad742d447f7b8fedd9de581a1784e2f83", null ],
-    [ "SetSayDialog", "class_fungus_1_1_character.html#a5c758fe93580fa2279091ec7421309e0", null ],
+    [ "SetSayDialog", "class_fungus_1_1_character.html#aadf120753dbdb5a4bcef2e3c72a2391e", null ],
     [ "SoundEffect", "class_fungus_1_1_character.html#a23a55be195e463cd16711f652131964a", null ],
     [ "State", "class_fungus_1_1_character.html#af40bc3e2226b4f9f1c1a962afce4e6fa", null ]
 ];

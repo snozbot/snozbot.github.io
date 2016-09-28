@@ -127,21 +127,20 @@ Inheritance diagram for Fungus.DialogInput:</div>
  <div class="center">
   <img src="class_fungus_1_1_dialog_input.png" usemap="#Fungus.DialogInput_map" alt=""/>
   <map id="Fungus.DialogInput_map" name="Fungus.DialogInput_map">
-<area href="interface_fungus_1_1_i_dialog_input.html" title="Input handler for say dialogues. " alt="Fungus.IDialogInput" shape="rect" coords="134,0,258,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0e02f40456774b067076b3d8f11e5827"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_dialog_input.html#a0e02f40456774b067076b3d8f11e5827">SetNextLineFlag</a> ()</td></tr>
-<tr class="memdesc:a0e02f40456774b067076b3d8f11e5827"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger next line input event from script.  <a href="#a0e02f40456774b067076b3d8f11e5827">More...</a><br /></td></tr>
-<tr class="separator:a0e02f40456774b067076b3d8f11e5827"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20eb793569accea1bf818cefccfc5cba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_dialog_input.html#a20eb793569accea1bf818cefccfc5cba">SetDialogClickedFlag</a> ()</td></tr>
-<tr class="memdesc:a20eb793569accea1bf818cefccfc5cba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the dialog clicked flag (usually from an Event Trigger component in the dialog UI).  <a href="#a20eb793569accea1bf818cefccfc5cba">More...</a><br /></td></tr>
-<tr class="separator:a20eb793569accea1bf818cefccfc5cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4a3e7093f1b2f2e35b8250804a96412"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_dialog_input.html#ac4a3e7093f1b2f2e35b8250804a96412">SetButtonClickedFlag</a> ()</td></tr>
-<tr class="memdesc:ac4a3e7093f1b2f2e35b8250804a96412"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the button clicked flag.  <a href="#ac4a3e7093f1b2f2e35b8250804a96412">More...</a><br /></td></tr>
-<tr class="separator:ac4a3e7093f1b2f2e35b8250804a96412"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad63da13c185aee4da0bedc4fef05b97d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_dialog_input.html#ad63da13c185aee4da0bedc4fef05b97d">SetNextLineFlag</a> ()</td></tr>
+<tr class="memdesc:ad63da13c185aee4da0bedc4fef05b97d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger next line input event from script.  <a href="#ad63da13c185aee4da0bedc4fef05b97d">More...</a><br /></td></tr>
+<tr class="separator:ad63da13c185aee4da0bedc4fef05b97d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32e7bd8c7e62defffcf5e91c8ce3d40e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_dialog_input.html#a32e7bd8c7e62defffcf5e91c8ce3d40e">SetDialogClickedFlag</a> ()</td></tr>
+<tr class="memdesc:a32e7bd8c7e62defffcf5e91c8ce3d40e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the dialog clicked flag (usually from an Event Trigger component in the dialog UI).  <a href="#a32e7bd8c7e62defffcf5e91c8ce3d40e">More...</a><br /></td></tr>
+<tr class="separator:a32e7bd8c7e62defffcf5e91c8ce3d40e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4ab5c5dbbf8b71bce8f044b6b7d6dcc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_dialog_input.html#aa4ab5c5dbbf8b71bce8f044b6b7d6dcc">SetButtonClickedFlag</a> ()</td></tr>
+<tr class="memdesc:aa4ab5c5dbbf8b71bce8f044b6b7d6dcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the button clicked flag.  <a href="#aa4ab5c5dbbf8b71bce8f044b6b7d6dcc">More...</a><br /></td></tr>
+<tr class="separator:aa4ab5c5dbbf8b71bce8f044b6b7d6dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -172,66 +171,84 @@ Protected Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="_dialog_input_8cs_source.html#l00027">27</a> of file <a class="el" href="_dialog_input_8cs_source.html">DialogInput.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ac4a3e7093f1b2f2e35b8250804a96412"></a>
+<a class="anchor" id="aa4ab5c5dbbf8b71bce8f044b6b7d6dcc"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Fungus.DialogInput.SetButtonClickedFlag </td>
+          <td class="memname">virtual void Fungus.DialogInput.SetButtonClickedFlag </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Sets the button clicked flag. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_dialog_input.html#a82ce0f64ae6aa6813309e390a936561c">Fungus.IDialogInput</a>.</p>
-
-<p>Definition at line <a class="el" href="_dialog_input_8cs_source.html#l00149">149</a> of file <a class="el" href="_dialog_input_8cs_source.html">DialogInput.cs</a>.</p>
+<p>Definition at line <a class="el" href="_dialog_input_8cs_source.html#l00158">158</a> of file <a class="el" href="_dialog_input_8cs_source.html">DialogInput.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a20eb793569accea1bf818cefccfc5cba"></a>
+<a class="anchor" id="a32e7bd8c7e62defffcf5e91c8ce3d40e"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Fungus.DialogInput.SetDialogClickedFlag </td>
+          <td class="memname">virtual void Fungus.DialogInput.SetDialogClickedFlag </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Set the dialog clicked flag (usually from an Event Trigger component in the dialog UI). </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_dialog_input.html#ad6f7429f0653ae86f311d4c24b06ebfd">Fungus.IDialogInput</a>.</p>
-
-<p>Definition at line <a class="el" href="_dialog_input_8cs_source.html#l00133">133</a> of file <a class="el" href="_dialog_input_8cs_source.html">DialogInput.cs</a>.</p>
+<p>Definition at line <a class="el" href="_dialog_input_8cs_source.html#l00139">139</a> of file <a class="el" href="_dialog_input_8cs_source.html">DialogInput.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a0e02f40456774b067076b3d8f11e5827"></a>
+<a class="anchor" id="ad63da13c185aee4da0bedc4fef05b97d"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Fungus.DialogInput.SetNextLineFlag </td>
+          <td class="memname">virtual void Fungus.DialogInput.SetNextLineFlag </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Trigger next line input event from script. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_dialog_input.html#a6de4317157a3c42f49af369ac6f4866c">Fungus.IDialogInput</a>.</p>
-
-<p>Definition at line <a class="el" href="_dialog_input_8cs_source.html#l00128">128</a> of file <a class="el" href="_dialog_input_8cs_source.html">DialogInput.cs</a>.</p>
+<p>Definition at line <a class="el" href="_dialog_input_8cs_source.html#l00131">131</a> of file <a class="el" href="_dialog_input_8cs_source.html">DialogInput.cs</a>.</p>
 
 </div>
 </div>
@@ -446,7 +463,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_dialog_input.html">DialogInput</a></li>
-    <li class="footer">Generated on Thu Sep 22 2016 16:34:39 for Fungus by
+    <li class="footer">Generated on Wed Sep 28 2016 14:38:58 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -113,18 +113,21 @@ $(document).ready(function(){initNavTree('class_fungus_1_1_music_controller.html
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="class_fungus_1_1_music_controller-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Fungus.MusicController Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Music manager which provides basic music and sound effect functionality.  
+ <a href="class_fungus_1_1_music_controller.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Fungus.MusicController:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="class_fungus_1_1_music_controller.png" usemap="#Fungus.MusicController_map" alt=""/>
   <map id="Fungus.MusicController_map" name="Fungus.MusicController_map">
-<area href="interface_fungus_1_1_i_music_controller.html" title="Music manager which provides basic music and sound effect functionality. " alt="Fungus.IMusicController" shape="rect" coords="161,0,312,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -148,20 +151,27 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad7806139a9a6c656fc62089658fb063d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="interface_fungus_1_1_i_music_controller.html">IMusicController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_music_controller.html#ad7806139a9a6c656fc62089658fb063d">GetInstance</a> ()</td></tr>
-<tr class="memdesc:ad7806139a9a6c656fc62089658fb063d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="class_fungus_1_1_music_controller.html">MusicController</a> singleton instance.  <a href="#ad7806139a9a6c656fc62089658fb063d">More...</a><br /></td></tr>
-<tr class="separator:ad7806139a9a6c656fc62089658fb063d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a370427bbc6f5d6715d41f3f09ed5fcbf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_fungus_1_1_music_controller.html">MusicController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_music_controller.html#a370427bbc6f5d6715d41f3f09ed5fcbf">GetInstance</a> ()</td></tr>
+<tr class="memdesc:a370427bbc6f5d6715d41f3f09ed5fcbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="class_fungus_1_1_music_controller.html" title="Music manager which provides basic music and sound effect functionality. ">MusicController</a> singleton instance.  <a href="#a370427bbc6f5d6715d41f3f09ed5fcbf">More...</a><br /></td></tr>
+<tr class="separator:a370427bbc6f5d6715d41f3f09ed5fcbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:aefbb08b64a7a52955d262bba25a799bc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_music_controller.html#aefbb08b64a7a52955d262bba25a799bc">Start</a> ()</td></tr>
 <tr class="separator:aefbb08b64a7a52955d262bba25a799bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a89945a06222580dc1fa1601273c8e8cf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_fungus_1_1_music_controller.html">MusicController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_music_controller.html#a89945a06222580dc1fa1601273c8e8cf">instance</a></td></tr>
+<tr class="separator:a89945a06222580dc1fa1601273c8e8cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="_music_controller_8cs_source.html#l00009">9</a> of file <a class="el" href="_music_controller_8cs_source.html">MusicController.cs</a>.</p>
+<div class="textblock"><p>Music manager which provides basic music and sound effect functionality. </p>
+<p>Music playback persists across scene loads. </p>
+
+<p>Definition at line <a class="el" href="_music_controller_8cs_source.html#l00013">13</a> of file <a class="el" href="_music_controller_8cs_source.html">MusicController.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ad7806139a9a6c656fc62089658fb063d"></a>
+<a class="anchor" id="a370427bbc6f5d6715d41f3f09ed5fcbf"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -169,7 +179,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="interface_fungus_1_1_i_music_controller.html">IMusicController</a> Fungus.MusicController.GetInstance </td>
+          <td class="memname">static <a class="el" href="class_fungus_1_1_music_controller.html">MusicController</a> Fungus.MusicController.GetInstance </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -182,10 +192,10 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the <a class="el" href="class_fungus_1_1_music_controller.html">MusicController</a> singleton instance. </p>
-<p>Will create a <a class="el" href="class_fungus_1_1_music_controller.html">MusicController</a> game object if none currently exists. </p>
+<p>Returns the <a class="el" href="class_fungus_1_1_music_controller.html" title="Music manager which provides basic music and sound effect functionality. ">MusicController</a> singleton instance. </p>
+<p>Will create a <a class="el" href="class_fungus_1_1_music_controller.html" title="Music manager which provides basic music and sound effect functionality. ">MusicController</a> game object if none currently exists. </p>
 
-<p>Definition at line <a class="el" href="_music_controller_8cs_source.html#l00017">17</a> of file <a class="el" href="_music_controller_8cs_source.html">MusicController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_music_controller_8cs_source.html#l00029">29</a> of file <a class="el" href="_music_controller_8cs_source.html">MusicController.cs</a>.</p>
 
 </div>
 </div>
@@ -228,9 +238,7 @@ Protected Member Functions</h2></td></tr>
 <p>Plays game music using an audio clip. </p>
 <p>One music clip may be played at a time. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_music_controller.html#a3fe1c84a8868ae7d26c9f12469c0514f">Fungus.IMusicController</a>.</p>
-
-<p>Definition at line <a class="el" href="_music_controller_8cs_source.html#l00037">37</a> of file <a class="el" href="_music_controller_8cs_source.html">MusicController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_music_controller_8cs_source.html#l00045">45</a> of file <a class="el" href="_music_controller_8cs_source.html">MusicController.cs</a>.</p>
 
 </div>
 </div>
@@ -275,9 +283,7 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_music_controller.html#a1a599a7b0a07751e73643821efa64707">Fungus.IMusicController</a>.</p>
-
-<p>Definition at line <a class="el" href="_music_controller_8cs_source.html#l00071">71</a> of file <a class="el" href="_music_controller_8cs_source.html">MusicController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_music_controller_8cs_source.html#l00084">84</a> of file <a class="el" href="_music_controller_8cs_source.html">MusicController.cs</a>.</p>
 
 </div>
 </div>
@@ -329,9 +335,7 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_music_controller.html#a2083cc75d34af070dbf8511b931cbd0d">Fungus.IMusicController</a>.</p>
-
-<p>Definition at line <a class="el" href="_music_controller_8cs_source.html#l00076">76</a> of file <a class="el" href="_music_controller_8cs_source.html">MusicController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_music_controller_8cs_source.html#l00095">95</a> of file <a class="el" href="_music_controller_8cs_source.html">MusicController.cs</a>.</p>
 
 </div>
 </div>
@@ -383,9 +387,7 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_music_controller.html#ad9a69116e76f88551a1a75eac0983cfd">Fungus.IMusicController</a>.</p>
-
-<p>Definition at line <a class="el" href="_music_controller_8cs_source.html#l00103">103</a> of file <a class="el" href="_music_controller_8cs_source.html">MusicController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_music_controller_8cs_source.html#l00128">128</a> of file <a class="el" href="_music_controller_8cs_source.html">MusicController.cs</a>.</p>
 
 </div>
 </div>
@@ -410,7 +412,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_music_controller_8cs_source.html#l00029">29</a> of file <a class="el" href="_music_controller_8cs_source.html">MusicController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_music_controller_8cs_source.html#l00017">17</a> of file <a class="el" href="_music_controller_8cs_source.html">MusicController.cs</a>.</p>
 
 </div>
 </div>
@@ -437,9 +439,30 @@ Protected Member Functions</h2></td></tr>
 
 <p>Stops playing game music. </p>
 
-<p>Implements <a class="el" href="interface_fungus_1_1_i_music_controller.html#aa4e20118853b9c601f2b8791311fe233">Fungus.IMusicController</a>.</p>
+<p>Definition at line <a class="el" href="_music_controller_8cs_source.html#l00154">154</a> of file <a class="el" href="_music_controller_8cs_source.html">MusicController.cs</a>.</p>
 
-<p>Definition at line <a class="el" href="_music_controller_8cs_source.html#l00126">126</a> of file <a class="el" href="_music_controller_8cs_source.html">MusicController.cs</a>.</p>
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a89945a06222580dc1fa1601273c8e8cf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_fungus_1_1_music_controller.html">MusicController</a> Fungus.MusicController.instance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_music_controller_8cs_source.html#l00015">15</a> of file <a class="el" href="_music_controller_8cs_source.html">MusicController.cs</a>.</p>
 
 </div>
 </div>
@@ -452,7 +475,7 @@ Protected Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_music_controller.html">MusicController</a></li>
-    <li class="footer">Generated on Thu Sep 22 2016 16:34:39 for Fungus by
+    <li class="footer">Generated on Wed Sep 28 2016 14:38:58 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

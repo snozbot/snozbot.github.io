@@ -23,6 +23,7 @@ var hierarchy =
       [ "Fungus.Commands.ControlStage", "class_fungus_1_1_commands_1_1_control_stage.html", null ]
     ] ],
     [ "Fungus.Utils.ConversationManager.ConversationItem", "struct_fungus_1_1_utils_1_1_conversation_manager_1_1_conversation_item.html", null ],
+    [ "Fungus.Utils.ConversationManager", "class_fungus_1_1_utils_1_1_conversation_manager.html", null ],
     [ "Fungus.EditorUtils.DialogInputEditor", "class_fungus_1_1_editor_utils_1_1_dialog_input_editor.html", null ],
     [ "Editor", null, [
       [ "Fungus.EditorUtils.BlockEditor", "class_fungus_1_1_editor_utils_1_1_block_editor.html", null ],
@@ -62,21 +63,52 @@ var hierarchy =
     [ "IBeginDragHandler", null, [
       [ "Fungus.Draggable2D", "class_fungus_1_1_draggable2_d.html", null ]
     ] ],
-    [ "Fungus.IBlock", "interface_fungus_1_1_i_block.html", [
-      [ "Fungus.Block", "class_fungus_1_1_block.html", [
-        [ "Fungus.CommandCopyBuffer", "class_fungus_1_1_command_copy_buffer.html", null ]
-      ] ]
+    [ "Fungus.IDialogInputListener", "interface_fungus_1_1_i_dialog_input_listener.html", [
+      [ "Fungus.Writer", "class_fungus_1_1_writer.html", null ]
     ] ],
-    [ "Fungus.ICameraController", "interface_fungus_1_1_i_camera_controller.html", [
-      [ "Fungus.CameraController", "class_fungus_1_1_camera_controller.html", null ]
+    [ "IDragHandler", null, [
+      [ "Fungus.Draggable2D", "class_fungus_1_1_draggable2_d.html", null ]
     ] ],
-    [ "Fungus.ICharacter", "interface_fungus_1_1_i_character.html", [
-      [ "Fungus.Character", "class_fungus_1_1_character.html", null ]
+    [ "IEndDragHandler", null, [
+      [ "Fungus.Draggable2D", "class_fungus_1_1_draggable2_d.html", null ]
     ] ],
-    [ "Fungus.IClickable2D", "interface_fungus_1_1_i_clickable2_d.html", [
+    [ "Fungus.ILocalizable", "interface_fungus_1_1_i_localizable.html", [
+      [ "Fungus.Character", "class_fungus_1_1_character.html", null ],
+      [ "Fungus.Commands.Menu", "class_fungus_1_1_commands_1_1_menu.html", null ],
+      [ "Fungus.Commands.Say", "class_fungus_1_1_commands_1_1_say.html", null ],
+      [ "Fungus.Commands.SetText", "class_fungus_1_1_commands_1_1_set_text.html", null ],
+      [ "Fungus.Commands.Write", "class_fungus_1_1_commands_1_1_write.html", null ]
+    ] ],
+    [ "Fungus.Variables.IntegerData", "struct_fungus_1_1_variables_1_1_integer_data.html", null ],
+    [ "Fungus.Commands.InvokeMethodParameter", "class_fungus_1_1_commands_1_1_invoke_method_parameter.html", null ],
+    [ "IPointerClickHandler", null, [
       [ "Fungus.Clickable2D", "class_fungus_1_1_clickable2_d.html", null ]
     ] ],
-    [ "Fungus.ICommand", "interface_fungus_1_1_i_command.html", [
+    [ "IPointerEnterHandler", null, [
+      [ "Fungus.Clickable2D", "class_fungus_1_1_clickable2_d.html", null ],
+      [ "Fungus.Draggable2D", "class_fungus_1_1_draggable2_d.html", null ]
+    ] ],
+    [ "IPointerExitHandler", null, [
+      [ "Fungus.Clickable2D", "class_fungus_1_1_clickable2_d.html", null ],
+      [ "Fungus.Draggable2D", "class_fungus_1_1_draggable2_d.html", null ]
+    ] ],
+    [ "IReorderableListAdaptor", null, [
+      [ "Fungus.EditorUtils.CommandListAdaptor", "class_fungus_1_1_editor_utils_1_1_command_list_adaptor.html", null ],
+      [ "Fungus.EditorUtils.VariableListAdaptor", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html", null ]
+    ] ],
+    [ "ISubstitutionHandler", null, [
+      [ "Fungus.Flowchart", "class_fungus_1_1_flowchart.html", null ],
+      [ "Fungus.Localization", "class_fungus_1_1_localization.html", null ]
+    ] ],
+    [ "Fungus.IUpdateable", "interface_fungus_1_1_i_updateable.html", null ],
+    [ "Fungus.IWriterListener", "interface_fungus_1_1_i_writer_listener.html", [
+      [ "Fungus.WriterAudio", "class_fungus_1_1_writer_audio.html", null ]
+    ] ],
+    [ "Fungus.Variables.MaterialData", "struct_fungus_1_1_variables_1_1_material_data.html", null ],
+    [ "MonoBehaviour", null, [
+      [ "Fungus.CameraController", "class_fungus_1_1_camera_controller.html", null ],
+      [ "Fungus.Character", "class_fungus_1_1_character.html", null ],
+      [ "Fungus.Clickable2D", "class_fungus_1_1_clickable2_d.html", null ],
       [ "Fungus.Command", "class_fungus_1_1_command.html", [
         [ "Fungus.Commands.Break", "class_fungus_1_1_commands_1_1_break.html", null ],
         [ "Fungus.Commands.Call", "class_fungus_1_1_commands_1_1_call.html", null ],
@@ -181,30 +213,10 @@ var hierarchy =
         ] ],
         [ "Fungus.Commands.Wait", "class_fungus_1_1_commands_1_1_wait.html", null ],
         [ "Fungus.Commands.Write", "class_fungus_1_1_commands_1_1_write.html", null ]
-      ] ]
-    ] ],
-    [ "Fungus.IConversationManager", "interface_fungus_1_1_i_conversation_manager.html", [
-      [ "Fungus.Utils.ConversationManager", "class_fungus_1_1_utils_1_1_conversation_manager.html", null ]
-    ] ],
-    [ "Fungus.ICustomTag", "interface_fungus_1_1_i_custom_tag.html", [
-      [ "Fungus.CustomTag", "class_fungus_1_1_custom_tag.html", null ]
-    ] ],
-    [ "Fungus.IDialogInput", "interface_fungus_1_1_i_dialog_input.html", [
-      [ "Fungus.DialogInput", "class_fungus_1_1_dialog_input.html", null ]
-    ] ],
-    [ "Fungus.IDialogInputListener", "interface_fungus_1_1_i_dialog_input_listener.html", [
-      [ "Fungus.Writer", "class_fungus_1_1_writer.html", null ]
-    ] ],
-    [ "Fungus.IDraggable2D", "interface_fungus_1_1_i_draggable2_d.html", [
-      [ "Fungus.Draggable2D", "class_fungus_1_1_draggable2_d.html", null ]
-    ] ],
-    [ "IDragHandler", null, [
-      [ "Fungus.Draggable2D", "class_fungus_1_1_draggable2_d.html", null ]
-    ] ],
-    [ "IEndDragHandler", null, [
-      [ "Fungus.Draggable2D", "class_fungus_1_1_draggable2_d.html", null ]
-    ] ],
-    [ "Fungus.IEventHandler", "interface_fungus_1_1_i_event_handler.html", [
+      ] ],
+      [ "Fungus.CustomTag", "class_fungus_1_1_custom_tag.html", null ],
+      [ "Fungus.DialogInput", "class_fungus_1_1_dialog_input.html", null ],
+      [ "Fungus.Draggable2D", "class_fungus_1_1_draggable2_d.html", null ],
       [ "Fungus.EventHandler", "class_fungus_1_1_event_handler.html", [
         [ "Fungus.EventHandlers.ButtonClicked", "class_fungus_1_1_event_handlers_1_1_button_clicked.html", null ],
         [ "Fungus.EventHandlers.DragCancelled", "class_fungus_1_1_event_handlers_1_1_drag_cancelled.html", null ],
@@ -218,105 +230,28 @@ var hierarchy =
         [ "Fungus.EventHandlers.KeyPressed", "class_fungus_1_1_event_handlers_1_1_key_pressed.html", null ],
         [ "Fungus.EventHandlers.MessageReceived", "class_fungus_1_1_event_handlers_1_1_message_received.html", null ],
         [ "Fungus.EventHandlers.ObjectClicked", "class_fungus_1_1_event_handlers_1_1_object_clicked.html", null ]
-      ] ]
-    ] ],
-    [ "Fungus.IFlowchart", "interface_fungus_1_1_i_flowchart.html", [
-      [ "Fungus.Flowchart", "class_fungus_1_1_flowchart.html", null ]
-    ] ],
-    [ "Fungus.IFungusState", "interface_fungus_1_1_i_fungus_state.html", [
-      [ "Fungus.FungusState", "class_fungus_1_1_fungus_state.html", null ]
-    ] ],
-    [ "Fungus.ILocalizable", "interface_fungus_1_1_i_localizable.html", [
-      [ "Fungus.Character", "class_fungus_1_1_character.html", null ],
-      [ "Fungus.Commands.Menu", "class_fungus_1_1_commands_1_1_menu.html", null ],
-      [ "Fungus.Commands.Say", "class_fungus_1_1_commands_1_1_say.html", null ],
-      [ "Fungus.Commands.SetText", "class_fungus_1_1_commands_1_1_set_text.html", null ],
-      [ "Fungus.Commands.Write", "class_fungus_1_1_commands_1_1_write.html", null ]
-    ] ],
-    [ "Fungus.ILocalization", "interface_fungus_1_1_i_localization.html", [
-      [ "Fungus.Localization", "class_fungus_1_1_localization.html", null ]
-    ] ],
-    [ "Fungus.IMenuDialog", "interface_fungus_1_1_i_menu_dialog.html", [
-      [ "Fungus.MenuDialog", "class_fungus_1_1_menu_dialog.html", null ]
-    ] ],
-    [ "Fungus.IMusicController", "interface_fungus_1_1_i_music_controller.html", [
-      [ "Fungus.MusicController", "class_fungus_1_1_music_controller.html", null ]
-    ] ],
-    [ "Fungus.Variables.IntegerData", "struct_fungus_1_1_variables_1_1_integer_data.html", null ],
-    [ "Fungus.Commands.InvokeMethodParameter", "class_fungus_1_1_commands_1_1_invoke_method_parameter.html", null ],
-    [ "IPointerClickHandler", null, [
-      [ "Fungus.Clickable2D", "class_fungus_1_1_clickable2_d.html", null ]
-    ] ],
-    [ "IPointerEnterHandler", null, [
-      [ "Fungus.Clickable2D", "class_fungus_1_1_clickable2_d.html", null ],
-      [ "Fungus.Draggable2D", "class_fungus_1_1_draggable2_d.html", null ]
-    ] ],
-    [ "IPointerExitHandler", null, [
-      [ "Fungus.Clickable2D", "class_fungus_1_1_clickable2_d.html", null ],
-      [ "Fungus.Draggable2D", "class_fungus_1_1_draggable2_d.html", null ]
-    ] ],
-    [ "Fungus.IPortraitController", "interface_fungus_1_1_i_portrait_controller.html", [
-      [ "Fungus.PortraitController", "class_fungus_1_1_portrait_controller.html", [
-        [ "Fungus.Stage", "class_fungus_1_1_stage.html", null ]
-      ] ]
-    ] ],
-    [ "IReorderableListAdaptor", null, [
-      [ "Fungus.EditorUtils.CommandListAdaptor", "class_fungus_1_1_editor_utils_1_1_command_list_adaptor.html", null ],
-      [ "Fungus.EditorUtils.VariableListAdaptor", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html", null ]
-    ] ],
-    [ "Fungus.ISayDialog", "interface_fungus_1_1_i_say_dialog.html", [
-      [ "Fungus.SayDialog", "class_fungus_1_1_say_dialog.html", null ]
-    ] ],
-    [ "Fungus.IStage", "interface_fungus_1_1_i_stage.html", [
-      [ "Fungus.Stage", "class_fungus_1_1_stage.html", null ]
-    ] ],
-    [ "ISubstitutionHandler", null, [
-      [ "Fungus.Flowchart", "class_fungus_1_1_flowchart.html", null ],
-      [ "Fungus.Localization", "class_fungus_1_1_localization.html", null ]
-    ] ],
-    [ "Fungus.ITextTagParser", "interface_fungus_1_1_i_text_tag_parser.html", [
-      [ "Fungus.Utils.TextTagParser", "class_fungus_1_1_utils_1_1_text_tag_parser.html", null ]
-    ] ],
-    [ "Fungus.IUpdateable", "interface_fungus_1_1_i_updateable.html", null ],
-    [ "Fungus.IVariable", "interface_fungus_1_1_i_variable.html", [
-      [ "Fungus.Variable", "class_fungus_1_1_variable.html", [
-        [ "Fungus.VariableBase< T >", "class_fungus_1_1_variable_base.html", null ]
-      ] ]
-    ] ],
-    [ "Fungus.IView", "interface_fungus_1_1_i_view.html", [
-      [ "Fungus.View", "class_fungus_1_1_view.html", null ]
-    ] ],
-    [ "Fungus.IWriter", "interface_fungus_1_1_i_writer.html", [
-      [ "Fungus.Writer", "class_fungus_1_1_writer.html", null ]
-    ] ],
-    [ "Fungus.IWriterListener", "interface_fungus_1_1_i_writer_listener.html", [
-      [ "Fungus.WriterAudio", "class_fungus_1_1_writer_audio.html", null ]
-    ] ],
-    [ "Fungus.Variables.MaterialData", "struct_fungus_1_1_variables_1_1_material_data.html", null ],
-    [ "MonoBehaviour", null, [
-      [ "Fungus.CameraController", "class_fungus_1_1_camera_controller.html", null ],
-      [ "Fungus.Character", "class_fungus_1_1_character.html", null ],
-      [ "Fungus.Clickable2D", "class_fungus_1_1_clickable2_d.html", null ],
-      [ "Fungus.Command", "class_fungus_1_1_command.html", null ],
-      [ "Fungus.CustomTag", "class_fungus_1_1_custom_tag.html", null ],
-      [ "Fungus.DialogInput", "class_fungus_1_1_dialog_input.html", null ],
-      [ "Fungus.Draggable2D", "class_fungus_1_1_draggable2_d.html", null ],
-      [ "Fungus.EventHandler", "class_fungus_1_1_event_handler.html", null ],
+      ] ],
       [ "Fungus.Flowchart", "class_fungus_1_1_flowchart.html", null ],
       [ "Fungus.FungusState", "class_fungus_1_1_fungus_state.html", null ],
       [ "Fungus.Localization", "class_fungus_1_1_localization.html", null ],
       [ "Fungus.MenuDialog", "class_fungus_1_1_menu_dialog.html", null ],
       [ "Fungus.MusicController", "class_fungus_1_1_music_controller.html", null ],
       [ "Fungus.Node", "class_fungus_1_1_node.html", [
-        [ "Fungus.Block", "class_fungus_1_1_block.html", null ]
+        [ "Fungus.Block", "class_fungus_1_1_block.html", [
+          [ "Fungus.CommandCopyBuffer", "class_fungus_1_1_command_copy_buffer.html", null ]
+        ] ]
       ] ],
       [ "Fungus.Parallax", "class_fungus_1_1_parallax.html", null ],
-      [ "Fungus.PortraitController", "class_fungus_1_1_portrait_controller.html", null ],
+      [ "Fungus.PortraitController", "class_fungus_1_1_portrait_controller.html", [
+        [ "Fungus.Stage", "class_fungus_1_1_stage.html", null ]
+      ] ],
       [ "Fungus.SayDialog", "class_fungus_1_1_say_dialog.html", null ],
       [ "Fungus.SceneLoader", "class_fungus_1_1_scene_loader.html", null ],
       [ "Fungus.SelectOnEnable", "class_fungus_1_1_select_on_enable.html", null ],
       [ "Fungus.SpriteFader", "class_fungus_1_1_sprite_fader.html", null ],
-      [ "Fungus.Variable", "class_fungus_1_1_variable.html", null ],
+      [ "Fungus.Variable", "class_fungus_1_1_variable.html", [
+        [ "Fungus.VariableBase< T >", "class_fungus_1_1_variable_base.html", null ]
+      ] ],
       [ "Fungus.View", "class_fungus_1_1_view.html", null ],
       [ "Fungus.Writer", "class_fungus_1_1_writer.html", null ],
       [ "Fungus.WriterAudio", "class_fungus_1_1_writer_audio.html", null ]

@@ -7,7 +7,7 @@ var searchData=
   ['waituntilfinishedprop',['waitUntilFinishedProp',['../class_fungus_1_1_editor_utils_1_1_control_audio_editor.html#a64749208faa18268dcc1ec918cf8d2e8',1,'Fungus.EditorUtils.ControlAudioEditor.waitUntilFinishedProp()'],['../class_fungus_1_1_editor_utils_1_1_portrait_editor.html#ac8bb531ca8a2341410ca034c34a8b482',1,'Fungus.EditorUtils.PortraitEditor.waitUntilFinishedProp()'],['../class_fungus_1_1_editor_utils_1_1_stage_editor.html#abda4fabd9ceafc26e7033c9ddfb6dadf',1,'Fungus.EditorUtils.StageEditor.waitUntilFinishedProp()'],['../class_fungus_1_1_editor_utils_1_1_write_editor.html#a4fd5a9a9faaa7c00a4244000a1b725cf',1,'Fungus.EditorUtils.WriteEditor.waitUntilFinishedProp()']]],
   ['windowblockmap',['windowBlockMap',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ae9eb8b27fb3afde335d9a36f8f94f2e1',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['windowheight',['windowHeight',['../class_fungus_1_1_editor_utils_1_1_block_inspector_editor.html#af094750692e0d7ae8a68f9b58be8ca24',1,'Fungus::EditorUtils::BlockInspectorEditor']]],
-  ['writer',['writer',['../class_fungus_1_1_say_dialog.html#ae4178329fc2731eb629fc981412ffb21',1,'Fungus::SayDialog']]],
+  ['writer',['writer',['../class_fungus_1_1_say_dialog.html#a3c9a015faced5bd459894c40ca372c99',1,'Fungus::SayDialog']]],
   ['writeraudio',['writerAudio',['../class_fungus_1_1_say_dialog.html#a9cf766f0d2fcf106f15de49dc7f31c39',1,'Fungus::SayDialog']]],
   ['writerlisteners',['writerListeners',['../class_fungus_1_1_writer.html#abe96097f469edb89229b6936aea88252',1,'Fungus::Writer']]],
   ['writewholewords',['writeWholeWords',['../class_fungus_1_1_writer.html#a1fef34dd58d6afdee14daacaf5211e01',1,'Fungus::Writer']]],

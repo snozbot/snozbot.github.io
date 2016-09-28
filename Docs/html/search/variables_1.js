@@ -12,8 +12,6 @@ var searchData=
   ['activehotspot',['activeHotspot',['../class_fungus_1_1_commands_1_1_set_mouse_cursor.html#a4548765bfdc562d1264a455fed89356e',1,'Fungus::Commands::SetMouseCursor']]],
   ['activelanguage',['activeLanguage',['../class_fungus_1_1_localization.html#ac7ba8de86b270f3865a284b2472e76b0',1,'Fungus::Localization']]],
   ['activelanguageprop',['activeLanguageProp',['../class_fungus_1_1_editor_utils_1_1_localization_editor.html#acf805d1239a2945bce3dd4527ada2d0f',1,'Fungus::EditorUtils::LocalizationEditor']]],
-  ['activemenudialog',['activeMenuDialog',['../class_fungus_1_1_menu_dialog.html#a1e97fd432df702ecedb850c1f6278a6a',1,'Fungus::MenuDialog']]],
-  ['activesaydialog',['activeSayDialog',['../class_fungus_1_1_say_dialog.html#a30b5e9ff4a27177f40cb3dc14de6841f',1,'Fungus::SayDialog']]],
   ['activestages',['activeStages',['../class_fungus_1_1_stage.html#accd79fbd5595f78257b3a485af4f3af9',1,'Fungus::Stage']]],
   ['activestate',['activeState',['../class_fungus_1_1_commands_1_1_set_active.html#a4061a3c31c24f9104580f251799d180f',1,'Fungus.Commands.SetActive.activeState()'],['../class_fungus_1_1_commands_1_1_set_clickable2_d.html#a0f4bab5563de4e9b1ba4827089459325',1,'Fungus.Commands.SetClickable2D.activeState()'],['../class_fungus_1_1_commands_1_1_set_collider.html#a5a4e5bdefb5543255ca33042e2b8452a',1,'Fungus.Commands.SetCollider.activeState()'],['../class_fungus_1_1_commands_1_1_set_draggable2_d.html#afd8462a05c24859ff5689d43268422e1',1,'Fungus.Commands.SetDraggable2D.activeState()']]],
   ['activestateprop',['activeStateProp',['../class_fungus_1_1_editor_utils_1_1_set_collider_editor.html#ae43b370937ee11ee9935bdc07aa611c0',1,'Fungus::EditorUtils::SetColliderEditor']]],
