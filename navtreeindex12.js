@@ -1,5 +1,18 @@
 var NAVTREEINDEX12 =
 {
+"struct_fungus_1_1_vector2_data.html#aed17bdbf0ab267179648854ec5639498":[4,0,0,178,3],
+"struct_fungus_1_1_vector3_data.html":[4,0,0,180],
+"struct_fungus_1_1_vector3_data.html#a4347bb3c880e84ef82150c7d37a624e0":[4,0,0,180,2],
+"struct_fungus_1_1_vector3_data.html#a5c8092309c40a9a04a92fcfb17591698":[4,0,0,180,1],
+"struct_fungus_1_1_vector3_data.html#a677f15b7a3083c5f38370e9f7979a489":[4,0,0,180,0],
+"struct_fungus_1_1_vector3_data.html#ab2b819040e41ab9fa3d262a21b166495":[4,0,0,180,3],
+"struct_fungus_1_1_vector3_data.html#ae096c40444679a6e3815c172e8db570d":[4,0,0,180,4],
+"telling_a_story.html":[0,7],
+"telling_a_story.html#background_color":[0,7,6],
+"telling_a_story.html#background_sprite":[0,7,7],
+"telling_a_story.html#branching":[0,7,5],
+"telling_a_story.html#characters":[0,7,0],
+"telling_a_story.html#fade_to_view":[0,7,9],
 "telling_a_story.html#playing_music":[0,7,4],
 "telling_a_story.html#portrait_command":[0,7,3],
 "telling_a_story.html#portraits":[0,7,1],

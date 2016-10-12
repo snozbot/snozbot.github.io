@@ -1,5 +1,17 @@
 var NAVTREEINDEX9 =
 {
+"class_fungus_1_1_set_text.html#aea29068067969408f82a10f545b01d43":[4,0,0,145,1],
+"class_fungus_1_1_set_variable.html":[4,0,0,146],
+"class_fungus_1_1_set_variable.html#a0fa7ef773ad6a54da2343349f6d184de":[4,0,0,146,9],
+"class_fungus_1_1_set_variable.html#a17e8f7c7774959851467f15baf11b609":[4,0,0,146,11],
+"class_fungus_1_1_set_variable.html#a2d9a1b9fd26eb3207702aeeeb38d964a":[4,0,0,146,2],
+"class_fungus_1_1_set_variable.html#a5e7e7a90ecbb2db0376eb4ed031d202d":[4,0,0,146,0],
+"class_fungus_1_1_set_variable.html#a6b8676f7351501cd5d758f287cb0464d":[4,0,0,146,7],
+"class_fungus_1_1_set_variable.html#a74974fcb7aa5f40cfd0f576ad9c8bd61":[4,0,0,146,8],
+"class_fungus_1_1_set_variable.html#a76ded7a06bd3dd8d8cf45bdf0696635f":[4,0,0,146,4],
+"class_fungus_1_1_set_variable.html#a77d7f95d19068cc5e614ae8fc47f7f67":[4,0,0,146,5],
+"class_fungus_1_1_set_variable.html#ac1e8ed7d1c4762aa65ad713cc1d46615":[4,0,0,146,6],
+"class_fungus_1_1_set_variable.html#adecdd5837bc3c113e2d18479c0966324":[4,0,0,146,1],
 "class_fungus_1_1_set_variable.html#adf76d4f17bb82c225f3096cb43df52aa":[4,0,0,146,3],
 "class_fungus_1_1_set_variable.html#ae4d076a665b8a5cd0914dd7bfa13533f":[4,0,0,146,10],
 "class_fungus_1_1_shake_camera.html":[4,0,0,147],
@@ -237,17 +249,5 @@ var NAVTREEINDEX9 =
 "class_fungus_1_1_writer.html#a65ce4b573a2256b97d50503ed90a6869":[4,0,0,186,11],
 "class_fungus_1_1_writer.html#a697d33b30df8e445f9e5dcd50ea4ab44":[4,0,0,186,10],
 "class_fungus_1_1_writer.html#a69d6c0e1ae6f5163a626234404bdf0c6":[4,0,0,186,42],
-"class_fungus_1_1_writer.html#a6b5450ec053f4ad93794e683e6666fc2":[4,0,0,186,50],
-"class_fungus_1_1_writer.html#a772937f47c973690dc2afa2f15cf49e7":[4,0,0,186,4],
-"class_fungus_1_1_writer.html#a7e95227ebd241a11fa06a30ce13671c0":[4,0,0,186,24],
-"class_fungus_1_1_writer.html#a82a2f5b033c4603f5e980d72942a3276":[4,0,0,186,58],
-"class_fungus_1_1_writer.html#a8c32be772d9c1382abfe87c0890ebe0b":[4,0,0,186,28],
-"class_fungus_1_1_writer.html#a8dc19b15afce3e995b2d23a03e625df6":[4,0,0,186,49],
-"class_fungus_1_1_writer.html#a8fd836919dbbb673a240266ce8f8c164":[4,0,0,186,1],
-"class_fungus_1_1_writer.html#a931666570bcaa40c20ec85a353931ddf":[4,0,0,186,27],
-"class_fungus_1_1_writer.html#a9a9d9586e71de9aecfc4df2f5a7237c8":[4,0,0,186,36],
-"class_fungus_1_1_writer.html#a9b079c15d7bff923cf8ebd0962e0daef":[4,0,0,186,26],
-"class_fungus_1_1_writer.html#aa470e81d3ce4fe65f7387cb0d9668ca2":[4,0,0,186,16],
-"class_fungus_1_1_writer.html#aa936e54639c32e5dbb37c34a3aa6e7e3":[4,0,0,186,47],
-"class_fungus_1_1_writer.html#aa94f70a08b25093e6ba5dbadccbcb518":[4,0,0,186,31]
+"class_fungus_1_1_writer.html#a6b5450ec053f4ad93794e683e6666fc2":[4,0,0,186,50]
 };

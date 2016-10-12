@@ -1,6 +1,7 @@
 var fungus_lua =
 [
     [ "About FungusLua", "lua_about_funguslua.html", [
+      [ "Platform Compatibility", "lua_about_funguslua.html#lua_platform_compatibility", null ],
       [ "Tutorial Video", "lua_about_funguslua.html#lua_tutorial_video", null ],
       [ "FungusLua without Fungus", "lua_about_funguslua.html#funguslua_without_fungus", null ],
       [ "About Lua", "lua_about_funguslua.html#about_lua", null ],

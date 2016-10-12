@@ -36,16 +36,16 @@ var NAVTREEINDEX =
 "_animator_variable_8cs.html",
 "_localization_8cs_source.html",
 "_text_tag_token_8cs.html#a1db437b9e85356df8aa76c326413cc2ba2864ea63113e83d07e2f28eaa16d2a26",
-"class_fungus_1_1_character.html#af9ae3dc0e1ca512f7c5780841f1268d0",
-"class_fungus_1_1_editor_utils_1_1_block_editor.html#a4d8ce8a1ecb8c584839624a8d0d07db9",
-"class_fungus_1_1_editor_utils_1_1_set_variable_editor.html#abc737a18819573a03363138929e77b15",
-"class_fungus_1_1_flowchart.html#af28755143144fb46d7b39b3402df2413",
-"class_fungus_1_1_move_to_view.html#a7e7d2ded10bcd7f6bdbd58655f5c3416",
-"class_fungus_1_1_say.html#a55843c9dc48ea5a0c3b51a67b66938a6",
-"class_fungus_1_1_set_variable.html#adf76d4f17bb82c225f3096cb43df52aa",
-"class_fungus_1_1_writer.html#aac66847217ae08fa42de2d5b16d2aaec",
-"interface_fungus_1_1_i_writer_listener.html#a98f486d07bb9eabdd70627941a8522c7",
-"telling_a_story.html#playing_music"
+"class_fungus_1_1_character.html#a909d14e854db8b5922df0462c3532546",
+"class_fungus_1_1_editor_utils_1_1_block_editor.html",
+"class_fungus_1_1_editor_utils_1_1_say_editor.html#ade033f42a4085c93ccad27bd357bcf2a",
+"class_fungus_1_1_flowchart.html#ad023ea2ca78716cd67bad233fef3df65",
+"class_fungus_1_1_move_from.html#a8b0602b4422ff51cf2754b65f048283f",
+"class_fungus_1_1_save_variable.html#aefb6392d361cd5e6960e2f85c579828e",
+"class_fungus_1_1_set_text.html#aea29068067969408f82a10f545b01d43",
+"class_fungus_1_1_writer.html#a772937f47c973690dc2afa2f15cf49e7",
+"interface_fungus_1_1_i_dialog_input_listener.html",
+"struct_fungus_1_1_vector2_data.html#aed17bdbf0ab267179648854ec5639498"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

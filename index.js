@@ -113,5 +113,18 @@ var index =
       [ "How can I contribute to Fungus?", "faq.html#faq_contribute", null ],
       [ "Are you planning to integrate Fungus into other game engines?", "faq.html#faq_other_engines", null ]
     ] ],
+    [ "Changelog", "changelog.html", [
+      [ "v3.3.0 ", "changelog.html#v3_3_0", null ],
+      [ "v3.2.0 ", "changelog.html#v3_2_0", null ],
+      [ "v3.1.0 ", "changelog.html#v3_1_0", null ],
+      [ "v3.0.0 ", "changelog.html#v3_0_0", null ],
+      [ "v2.4.0 ", "changelog.html#v2_4_0", null ],
+      [ "v2.3.1 ", "changelog.html#v2_3_1", null ],
+      [ "v2.3.0 ", "changelog.html#v2_3_0", null ],
+      [ "v2.2.2 ", "changelog.html#v2_2_2", null ],
+      [ "v2.2.1 ", "changelog.html#v2_2_1", null ],
+      [ "v2.2.0 ", "changelog.html#v2_2_0", null ],
+      [ "v2.1.0 ", "changelog.html#v2_1_0", null ]
+    ] ],
     [ "Code of conduct", "code_of_conduct.html", null ]
 ];

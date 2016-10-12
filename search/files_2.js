@@ -6,6 +6,7 @@ var searchData=
   ['camera_5fcommands_2emd',['camera_commands.md',['../camera__commands_8md.html',1,'']]],
   ['cameramanager_2ecs',['CameraManager.cs',['../_camera_manager_8cs.html',1,'']]],
   ['cameramenuitems_2ecs',['CameraMenuItems.cs',['../_camera_menu_items_8cs.html',1,'']]],
+  ['change_5flog_2emd',['change_log.md',['../change__log_8md.html',1,'']]],
   ['character_2ecs',['Character.cs',['../_character_8cs.html',1,'']]],
   ['charactereditor_2ecs',['CharacterEditor.cs',['../_character_editor_8cs.html',1,'']]],
   ['clearmenu_2ecs',['ClearMenu.cs',['../_clear_menu_8cs.html',1,'']]],
