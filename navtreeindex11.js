@@ -1,5 +1,9 @@
 var NAVTREEINDEX11 =
 {
+"installation.html#how_install":[0,3,1],
+"installation.html#system_requirements":[0,3,4],
+"installation.html#upgrade":[0,3,3],
+"installation.html#video":[0,3,0],
 "interface_fungus_1_1_i_dialog_input_listener.html":[4,0,0,61],
 "interface_fungus_1_1_i_dialog_input_listener.html#ac4b6fdcd1aa7aa38fb32c870e62888f6":[4,0,0,61,0],
 "interface_fungus_1_1_i_localizable.html":[4,0,0,63],
@@ -245,9 +249,5 @@ var NAVTREEINDEX11 =
 "struct_fungus_1_1_transform_data.html#aad8a07a1c5fd15dc2c2af08bcbc5595c":[4,0,0,171,4],
 "struct_fungus_1_1_transform_data.html#aea73e79a4a5f8567534ac91e80de0d7a":[4,0,0,171,0],
 "struct_fungus_1_1_transform_data.html#afd843f560b24dc8d60ae96717e0d1314":[4,0,0,171,3],
-"struct_fungus_1_1_vector2_data.html":[4,0,0,178],
-"struct_fungus_1_1_vector2_data.html#a0312752b91db7b79308574bba5d501cc":[4,0,0,178,2],
-"struct_fungus_1_1_vector2_data.html#a1c48b5d88bf0fb7375af81e7b19c0395":[4,0,0,178,1],
-"struct_fungus_1_1_vector2_data.html#a459652c292334b8c2b085dffccf871ac":[4,0,0,178,4],
-"struct_fungus_1_1_vector2_data.html#a6eeafd03e8a429fe88302542a3d379bb":[4,0,0,178,0]
+"struct_fungus_1_1_vector2_data.html":[4,0,0,178]
 };

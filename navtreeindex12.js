@@ -1,5 +1,9 @@
 var NAVTREEINDEX12 =
 {
+"struct_fungus_1_1_vector2_data.html#a0312752b91db7b79308574bba5d501cc":[4,0,0,178,2],
+"struct_fungus_1_1_vector2_data.html#a1c48b5d88bf0fb7375af81e7b19c0395":[4,0,0,178,1],
+"struct_fungus_1_1_vector2_data.html#a459652c292334b8c2b085dffccf871ac":[4,0,0,178,4],
+"struct_fungus_1_1_vector2_data.html#a6eeafd03e8a429fe88302542a3d379bb":[4,0,0,178,0],
 "struct_fungus_1_1_vector2_data.html#aed17bdbf0ab267179648854ec5639498":[4,0,0,178,3],
 "struct_fungus_1_1_vector3_data.html":[4,0,0,180],
 "struct_fungus_1_1_vector3_data.html#a4347bb3c880e84ef82150c7d37a624e0":[4,0,0,180,2],

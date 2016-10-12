@@ -94,6 +94,11 @@ var index =
       [ "Chen", "community_tutorials.html#chen", null ]
     ] ],
     [ "Narrative Text Tags", "narrative_text_tags.html", null ],
+    [ "Coding Tips", "coding_tips.html", [
+      [ "Executing Blocks", "coding_tips.html#executing_blocks", null ],
+      [ "Block Signals", "coding_tips.html#block_signals", null ],
+      [ "Writer Signals", "coding_tips.html#writer_signals", null ]
+    ] ],
     [ "Glossary", "glossary.html", null ],
     [ "Frequently Asked Questions", "faq.html", [
       [ "What is Fungus?", "faq.html#faq_what_is_fungus", null ],

@@ -12,6 +12,7 @@ var searchData=
   ['clearmenu_2ecs',['ClearMenu.cs',['../_clear_menu_8cs.html',1,'']]],
   ['clickable2d_2ecs',['Clickable2D.cs',['../_clickable2_d_8cs.html',1,'']]],
   ['code_5fof_5fconduct_2emd',['code_of_conduct.md',['../code__of__conduct_8md.html',1,'']]],
+  ['coding_5ftips_2emd',['coding_tips.md',['../coding__tips_8md.html',1,'']]],
   ['colorvariable_2ecs',['ColorVariable.cs',['../_color_variable_8cs.html',1,'']]],
   ['command_2ecs',['Command.cs',['../_command_8cs.html',1,'']]],
   ['command_5freference_2emd',['command_reference.md',['../command__reference_8md.html',1,'']]],
