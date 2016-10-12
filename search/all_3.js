@@ -81,7 +81,7 @@ var searchData=
   ['closestring',['closeString',['../class_fungus_1_1_writer.html#aa94f70a08b25093e6ba5dbadccbcb518',1,'Fungus::Writer']]],
   ['code_20of_20conduct',['Code of conduct',['../code_of_conduct.html',1,'index']]],
   ['code_5fof_5fconduct_2emd',['code_of_conduct.md',['../code__of__conduct_8md.html',1,'']]],
-  ['coding_20standard',['Coding standard',['../coding_standard.html',1,'index']]],
+  ['coding_20standard',['Coding Standard',['../coding_standard.html',1,'index']]],
   ['coding_5fstandard_2emd',['coding_standard.md',['../coding__standard_8md.html',1,'']]],
   ['coding_20tips',['Coding Tips',['../coding_tips.html',1,'index']]],
   ['coding_5ftips_2emd',['coding_tips.md',['../coding__tips_8md.html',1,'']]],

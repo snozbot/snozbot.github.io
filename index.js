@@ -99,7 +99,7 @@ var index =
       [ "Block Signals", "coding_tips.html#block_signals", null ],
       [ "Writer Signals", "coding_tips.html#writer_signals", null ]
     ] ],
-    [ "Coding standard", "coding_standard.html", [
+    [ "Coding Standard", "coding_standard.html", [
       [ "Code layout", "coding_standard.html#code_layout", null ],
       [ "Coding best practices", "coding_standard.html#coding_best_practices", null ]
     ] ],
