@@ -44,8 +44,8 @@ var NAVTREEINDEX =
 "class_fungus_1_1_save_variable.html#aefb6392d361cd5e6960e2f85c579828e",
 "class_fungus_1_1_set_text.html#aea29068067969408f82a10f545b01d43",
 "class_fungus_1_1_writer.html#a772937f47c973690dc2afa2f15cf49e7",
-"installation.html#how_install",
-"struct_fungus_1_1_vector2_data.html#a0312752b91db7b79308574bba5d501cc"
+"input_events.html#KeyPressed",
+"struct_fungus_1_1_transform_data.html#aea73e79a4a5f8567534ac91e80de0d7a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

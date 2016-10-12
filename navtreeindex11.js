@@ -1,5 +1,8 @@
 var NAVTREEINDEX11 =
 {
+"input_events.html#KeyPressed":[2,12,0],
+"installation.html":[0,3],
+"installation.html#first_steps":[0,3,2],
 "installation.html#how_install":[0,3,1],
 "installation.html#system_requirements":[0,3,4],
 "installation.html#upgrade":[0,3,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX11 =
 "struct_fungus_1_1_transform_data.html":[4,0,0,171],
 "struct_fungus_1_1_transform_data.html#a30f87013575f3db6a0e220fae6553ea9":[4,0,0,171,2],
 "struct_fungus_1_1_transform_data.html#a36d6ae437470c8239bde4f70f8c46867":[4,0,0,171,1],
-"struct_fungus_1_1_transform_data.html#aad8a07a1c5fd15dc2c2af08bcbc5595c":[4,0,0,171,4],
-"struct_fungus_1_1_transform_data.html#aea73e79a4a5f8567534ac91e80de0d7a":[4,0,0,171,0],
-"struct_fungus_1_1_transform_data.html#afd843f560b24dc8d60ae96717e0d1314":[4,0,0,171,3],
-"struct_fungus_1_1_vector2_data.html":[4,0,0,178]
+"struct_fungus_1_1_transform_data.html#aad8a07a1c5fd15dc2c2af08bcbc5595c":[4,0,0,171,4]
 };
