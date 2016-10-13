@@ -143,6 +143,9 @@ v3.3.0 </h1>
 <li>All interfaces now have their own source files.</li>
 <li>Added monodevelop project for editing docs files.</li>
 <li>Added Flip option (&lt;&lt;&lt; and &gt;&gt;&gt;) to conversation system #527</li>
+<li>Added WaitFrames command to wait for a number of frames</li>
+<li>Added GetToggleState, SetToggleState commands and ToggleChanged event handler</li>
+<li>Added Writer.Paused property to pause a writer from code.</li>
 </ul>
 <h2>Changed</h2>
 <ul>
@@ -167,6 +170,8 @@ v3.3.0 </h1>
 <li>Change all public methods to use virtual</li>
 <li>Removed all unnecessary using statements.</li>
 <li>All class and member comments use standard c# xml comment style</li>
+<li>Replaced foreach loops with for loops (avoids allocation for iterator)</li>
+<li>Added changelog to Doxygen documentation</li>
 </ul>
 <h2>Fixed</h2>
 <ul>
@@ -179,6 +184,9 @@ v3.3.0 </h1>
 <li>Fixed Spine.Unity namespace problem in integration scripts</li>
 <li>Fix Regex for character names with "." &amp; "'" #531 (thanks to Sercan Altun) Old Regex expression did not capture Character names with "." and "'". As a result characters with names like "Mr. Jones" or "Ab'ar" were not registering correctly.</li>
 <li>Fixed Lua setlanguage() function</li>
+<li>Fixed namespace issue in Spine integration.</li>
+<li>Fixes all integration tests to pass when run on Windows Standalone.</li>
+<li>Fixed Block inspector displayed for inactive flowchart #544</li>
 </ul>
 <h1><a class="anchor" id="v3_2_0"></a>
 v3.2.0 </h1>
@@ -617,7 +625,7 @@ v2.1.0 </h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">%Fungus Documentation</a></li>
-    <li class="footer">Generated on Thu Oct 13 2016 16:03:50 for Fungus by
+    <li class="footer">Generated on Thu Oct 13 2016 16:21:28 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
