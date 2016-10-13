@@ -117,16 +117,18 @@ $(document).ready(function(){initNavTree('ui_commands.html','');});
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#FadeUI">Fade UI</a></li>
 <li class="level1"><a href="#GetText">Get Text</a></li>
+<li class="level1"><a href="#GetToggleState">Get Toggle State</a></li>
 <li class="level1"><a href="#SetInteractable">Set Interactable</a></li>
 <li class="level1"><a href="#SetSliderValue">Set Slider Value</a></li>
 <li class="level1"><a href="#SetText">Set Text</a></li>
+<li class="level1"><a href="#SetToggleState">Set Toggle State</a></li>
 <li class="level1"><a href="#Write">Write</a></li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="FadeUI"></a>
 Fade UI</h1>
 <p>Fades a UI object</p>
-<p>Defined in Fungus.Commands.FadeUI</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_fade_u_i.html" title="Fades a UI object. ">Fungus.FadeUI</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
@@ -135,77 +137,107 @@ Fade UI</h1>
 <tr>
 <td>Tween Type </td><td>LeanTweenType </td><td>Type of tween easing to apply </td></tr>
 <tr>
-<td>Wait Until Finished </td><td>Fungus.Variables.BooleanData </td><td>Wait until this command completes before continuing execution </td></tr>
+<td>Wait Until Finished </td><td><a class="el" href="struct_fungus_1_1_boolean_data.html" title="Container for a Boolean variable reference or constant value. ">Fungus.BooleanData</a> </td><td>Wait until this command completes before continuing execution </td></tr>
 <tr>
-<td>Duration </td><td>Fungus.Variables.FloatData </td><td>Time for the tween to complete </td></tr>
+<td>Duration </td><td><a class="el" href="struct_fungus_1_1_float_data.html" title="Container for an float variable reference or constant value. ">Fungus.FloatData</a> </td><td>Time for the tween to complete </td></tr>
 </table>
 <h1><a class="anchor" id="GetText"></a>
 Get Text</h1>
 <p>Gets the text property from a UI Text object and stores it in a string variable.</p>
-<p>Defined in Fungus.Commands.GetText</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_get_text.html" title="Gets the text property from a UI Text object and stores it in a string variable. ">Fungus.GetText</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
 <tr>
 <td>Target Text Object </td><td>UnityEngine.GameObject </td><td>Text object to get text value from </td></tr>
 <tr>
-<td>String Variable </td><td>Fungus.Variables.StringVariable </td><td>String variable to store the text value in </td></tr>
+<td>String Variable </td><td><a class="el" href="class_fungus_1_1_string_variable.html" title="String variable type. ">Fungus.StringVariable</a> </td><td>String variable to store the text value in </td></tr>
+</table>
+<h1><a class="anchor" id="GetToggleState"></a>
+Get Toggle State</h1>
+<p>Gets the state of a toggle UI object and stores it in a boolean variable.</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_get_toggle_state.html" title="Gets the state of a toggle UI object and stores it in a boolean variable. ">Fungus.GetToggleState</a></p>
+<table class="doxtable">
+<tr>
+<th>Property </th><th>Type </th><th>Description  </th></tr>
+<tr>
+<td>Toggle </td><td>UnityEngine.UI.Toggle </td><td>Target toggle object to get the value from </td></tr>
+<tr>
+<td>Toggle State </td><td><a class="el" href="class_fungus_1_1_boolean_variable.html" title="Boolean variable type. ">Fungus.BooleanVariable</a> </td><td>Boolean variable to store the state of the toggle value in. </td></tr>
 </table>
 <h1><a class="anchor" id="SetInteractable"></a>
 Set Interactable</h1>
 <p>Set the interactable sate of selectable objects.</p>
-<p>Defined in Fungus.Commands.SetInteractable</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_set_interactable.html" title="Set the interactable state of selectable objects. ">Fungus.SetInteractable</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
 <tr>
 <td>Target Objects </td><td>System.Collections.Generic.List`1[UnityEngine.GameObject] </td><td>List of objects to be affected by the command </td></tr>
 <tr>
-<td>Interactable State </td><td>Fungus.Variables.BooleanData </td><td>Controls if the selectable UI object be interactable or not </td></tr>
+<td>Interactable State </td><td><a class="el" href="struct_fungus_1_1_boolean_data.html" title="Container for a Boolean variable reference or constant value. ">Fungus.BooleanData</a> </td><td>Controls if the selectable UI object be interactable or not </td></tr>
 </table>
 <h1><a class="anchor" id="SetSliderValue"></a>
 Set Slider Value</h1>
 <p>Sets the value property of a slider object</p>
-<p>Defined in Fungus.Commands.SetSliderValue</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_set_slider_value.html" title="Sets the value property of a slider object. ">Fungus.SetSliderValue</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
 <tr>
 <td>Slider </td><td>UnityEngine.UI.Slider </td><td>Target slider object to set the value on </td></tr>
 <tr>
-<td>Value </td><td>Fungus.Variables.FloatData </td><td>Float value to set the slider value to. </td></tr>
+<td>Value </td><td><a class="el" href="struct_fungus_1_1_float_data.html" title="Container for an float variable reference or constant value. ">Fungus.FloatData</a> </td><td>Float value to set the slider value to. </td></tr>
 </table>
 <h1><a class="anchor" id="SetText"></a>
 Set Text</h1>
 <p>Sets the text property on a UI Text object and/or an Input Field object.</p>
-<p>Defined in Fungus.Commands.SetText</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_set_text.html" title="Sets the text property on a UI Text object and/or an Input Field object. ">Fungus.SetText</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
 <tr>
 <td>Target Text Object </td><td>UnityEngine.GameObject </td><td>Text object to set text on. Can be a UI Text, Text Field or Text Mesh object. </td></tr>
 <tr>
-<td>Text </td><td>Fungus.Variables.StringDataMulti </td><td>String value to assign to the text object </td></tr>
+<td>Text </td><td><a class="el" href="struct_fungus_1_1_string_data_multi.html" title="Container for a string variable reference or constant value. ">Fungus.StringDataMulti</a> </td><td>String value to assign to the text object </td></tr>
 <tr>
 <td>Description </td><td>System.String </td><td>Notes about this story text for other authors, localization, etc. </td></tr>
+</table>
+<h1><a class="anchor" id="SetToggleState"></a>
+Set Toggle State</h1>
+<p>Sets the state of a toggle UI object</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_set_toggle_state.html" title="Sets the state of a toggle UI object. ">Fungus.SetToggleState</a></p>
+<table class="doxtable">
+<tr>
+<th>Property </th><th>Type </th><th>Description  </th></tr>
+<tr>
+<td>Toggle </td><td>UnityEngine.UI.Toggle </td><td>Target toggle object to set the state on </td></tr>
+<tr>
+<td>Value </td><td><a class="el" href="struct_fungus_1_1_boolean_data.html" title="Container for a Boolean variable reference or constant value. ">Fungus.BooleanData</a> </td><td>Boolean value to set the toggle state to. </td></tr>
 </table>
 <h1><a class="anchor" id="Write"></a>
 Write</h1>
 <p>Writes content to a UI Text or Text Mesh object.</p>
-<p>Defined in Fungus.Commands.Write</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_write.html" title="Writes content to a UI Text or Text Mesh object. ">Fungus.Write</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
 <tr>
 <td>Text Object </td><td>UnityEngine.GameObject </td><td>Text object to set text on. Text, Input Field and Text Mesh objects are supported. </td></tr>
 <tr>
-<td>Text </td><td>Fungus.Variables.StringDataMulti </td><td>String value to assign to the text object </td></tr>
+<td>Text </td><td><a class="el" href="struct_fungus_1_1_string_data_multi.html" title="Container for a string variable reference or constant value. ">Fungus.StringDataMulti</a> </td><td>String value to assign to the text object </td></tr>
 <tr>
 <td>Description </td><td>System.String </td><td>Notes about this story text for other authors, localization, etc. </td></tr>
 <tr>
 <td>Clear Text </td><td>System.Boolean </td><td>Clear existing text before writing new text </td></tr>
 <tr>
 <td>Wait Until Finished </td><td>System.Boolean </td><td>Wait until this command finishes before executing the next command </td></tr>
+<tr>
+<td>Text Color </td><td><a class="el" href="namespace_fungus.html#a659e0b5cad34216d45aea5ce447130a4" title="Text coloring mode for Write command. ">Fungus.TextColor</a> </td><td>Color mode to apply to the text. </td></tr>
+<tr>
+<td>Set Alpha </td><td><a class="el" href="struct_fungus_1_1_float_data.html" title="Container for an float variable reference or constant value. ">Fungus.FloatData</a> </td><td>Alpha to apply to the text. </td></tr>
+<tr>
+<td>Set Color </td><td><a class="el" href="struct_fungus_1_1_color_data.html" title="Container for a Color variable reference or constant value. ">Fungus.ColorData</a> </td><td>Color to apply to the text. </td></tr>
 </table>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
@@ -213,7 +245,7 @@ Write</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="command_reference.html">Command Reference</a></li>
-    <li class="footer">Generated on Thu Oct 13 2016 15:50:58 for Fungus by
+    <li class="footer">Generated on Thu Oct 13 2016 16:03:50 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

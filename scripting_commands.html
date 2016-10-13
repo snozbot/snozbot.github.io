@@ -130,7 +130,7 @@ $(document).ready(function(){initNavTree('scripting_commands.html','');});
 <div class="textblock"><h1><a class="anchor" id="Comment"></a>
 Comment</h1>
 <p>Use comments to record design notes and reminders about your game.</p>
-<p>Defined in Fungus.Commands.Comment</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_comment.html" title="Use comments to record design notes and reminders about your game. ">Fungus.Comment</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
@@ -142,7 +142,7 @@ Comment</h1>
 <h1><a class="anchor" id="CallMethod"></a>
 Call Method</h1>
 <p>Calls a named method on a GameObject using the GameObject.SendMessage() system.</p>
-<p>Defined in Fungus.Commands.CallMethod</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_call_method.html" title="Calls a named method on a GameObject using the GameObject.SendMessage() system. ">Fungus.CallMethod</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
@@ -156,29 +156,29 @@ Call Method</h1>
 <h1><a class="anchor" id="DebugLog"></a>
 Debug Log</h1>
 <p>Writes a log message to the debug console.</p>
-<p>Defined in Fungus.Commands.DebugLog</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_debug_log.html" title="Writes a log message to the debug console. ">Fungus.DebugLog</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
 <tr>
-<td>Log Type </td><td>Fungus.Commands.DebugLogType </td><td>Display type of debug log info </td></tr>
+<td>Log Type </td><td><a class="el" href="namespace_fungus.html#aa2e4177ce6a91129b0964757d7eb355f" title="Type of log message. ">Fungus.DebugLogType</a> </td><td>Display type of debug log info </td></tr>
 <tr>
-<td>Log Message </td><td>Fungus.Variables.StringDataMulti </td><td>Text to write to the debug log. Supports variable substitution, e.g. {$Myvar} </td></tr>
+<td>Log Message </td><td><a class="el" href="struct_fungus_1_1_string_data_multi.html" title="Container for a string variable reference or constant value. ">Fungus.StringDataMulti</a> </td><td>Text to write to the debug log. Supports variable substitution, e.g. {$Myvar} </td></tr>
 </table>
 <h1><a class="anchor" id="Destroy"></a>
 Destroy</h1>
 <p>Destroys a specified game object in the scene.</p>
-<p>Defined in Fungus.Commands.Destroy</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_destroy.html" title="Destroys a specified game object in the scene. ">Fungus.Destroy</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
 <tr>
-<td>_target Game Object </td><td>Fungus.Variables.GameObjectData </td><td>Reference to game object to destroy </td></tr>
+<td>_target Game Object </td><td><a class="el" href="struct_fungus_1_1_game_object_data.html" title="Container for a GameObject variable reference or constant value. ">Fungus.GameObjectData</a> </td><td>Reference to game object to destroy </td></tr>
 </table>
 <h1><a class="anchor" id="ExecuteLua"></a>
 Execute Lua</h1>
 <p>Executes a Lua code chunk using a Lua Environment.</p>
-<p>Defined in Fungus.Commands.ExecuteLua</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_execute_lua.html" title="Executes a Lua code chunk using a Lua Environment. ">Fungus.ExecuteLua</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
@@ -198,35 +198,37 @@ Execute Lua</h1>
 <h1><a class="anchor" id="InvokeEvent"></a>
 Invoke Event</h1>
 <p>Calls a list of component methods via the Unity Event System (as used in the Unity UI). This command is more efficient than the Invoke Method command but can only pass a single parameter and doesn't support return values.</p>
-<p>Defined in Fungus.Commands.InvokeEvent</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_invoke_event.html" title="Calls a list of component methods via the Unity Event System (as used in the Unity UI) This command i...">Fungus.InvokeEvent</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
 <tr>
 <td>Delay </td><td>System.Single </td><td>Delay (in seconds) before the methods will be called </td></tr>
 <tr>
+<td>Invoke Type </td><td><a class="el" href="namespace_fungus.html#a768d377d9dfb2f3213f5cea3494cdc90" title="Supported types of method invocation. ">Fungus.InvokeType</a> </td><td>Selects type of method parameter to pass </td></tr>
+<tr>
 <td>Static Event </td><td>UnityEngine.Events.UnityEvent </td><td>List of methods to call. Supports methods with no parameters or exactly one string, int, float or object parameter. </td></tr>
 <tr>
-<td>Boolean Parameter </td><td>Fungus.Variables.BooleanData </td><td>Boolean parameter to pass to the invoked methods. </td></tr>
+<td>Boolean Parameter </td><td><a class="el" href="struct_fungus_1_1_boolean_data.html" title="Container for a Boolean variable reference or constant value. ">Fungus.BooleanData</a> </td><td>Boolean parameter to pass to the invoked methods. </td></tr>
 <tr>
-<td>Boolean Event </td><td>Fungus.Commands.InvokeEvent+BooleanEvent </td><td>List of methods to call. Supports methods with one boolean parameter. </td></tr>
+<td>Boolean Event </td><td><a class="el" href="class_fungus_1_1_invoke_event.html" title="Calls a list of component methods via the Unity Event System (as used in the Unity UI) This command i...">Fungus.InvokeEvent</a>+BooleanEvent </td><td>List of methods to call. Supports methods with one boolean parameter. </td></tr>
 <tr>
-<td>Integer Parameter </td><td>Fungus.Variables.IntegerData </td><td>Integer parameter to pass to the invoked methods. </td></tr>
+<td>Integer Parameter </td><td><a class="el" href="struct_fungus_1_1_integer_data.html" title="Container for an integer variable reference or constant value. ">Fungus.IntegerData</a> </td><td>Integer parameter to pass to the invoked methods. </td></tr>
 <tr>
-<td>Integer Event </td><td>Fungus.Commands.InvokeEvent+IntegerEvent </td><td>List of methods to call. Supports methods with one integer parameter. </td></tr>
+<td>Integer Event </td><td><a class="el" href="class_fungus_1_1_invoke_event.html" title="Calls a list of component methods via the Unity Event System (as used in the Unity UI) This command i...">Fungus.InvokeEvent</a>+IntegerEvent </td><td>List of methods to call. Supports methods with one integer parameter. </td></tr>
 <tr>
-<td>Float Parameter </td><td>Fungus.Variables.FloatData </td><td>Float parameter to pass to the invoked methods. </td></tr>
+<td>Float Parameter </td><td><a class="el" href="struct_fungus_1_1_float_data.html" title="Container for an float variable reference or constant value. ">Fungus.FloatData</a> </td><td>Float parameter to pass to the invoked methods. </td></tr>
 <tr>
-<td>Float Event </td><td>Fungus.Commands.InvokeEvent+FloatEvent </td><td>List of methods to call. Supports methods with one float parameter. </td></tr>
+<td>Float Event </td><td><a class="el" href="class_fungus_1_1_invoke_event.html" title="Calls a list of component methods via the Unity Event System (as used in the Unity UI) This command i...">Fungus.InvokeEvent</a>+FloatEvent </td><td>List of methods to call. Supports methods with one float parameter. </td></tr>
 <tr>
-<td>String Parameter </td><td>Fungus.Variables.StringDataMulti </td><td>String parameter to pass to the invoked methods. </td></tr>
+<td>String Parameter </td><td><a class="el" href="struct_fungus_1_1_string_data_multi.html" title="Container for a string variable reference or constant value. ">Fungus.StringDataMulti</a> </td><td>String parameter to pass to the invoked methods. </td></tr>
 <tr>
-<td>String Event </td><td>Fungus.Commands.InvokeEvent+StringEvent </td><td>List of methods to call. Supports methods with one string parameter. </td></tr>
+<td>String Event </td><td><a class="el" href="class_fungus_1_1_invoke_event.html" title="Calls a list of component methods via the Unity Event System (as used in the Unity UI) This command i...">Fungus.InvokeEvent</a>+StringEvent </td><td>List of methods to call. Supports methods with one string parameter. </td></tr>
 </table>
 <h1><a class="anchor" id="InvokeMethod"></a>
 Invoke Method</h1>
 <p>Invokes a method of a component via reflection. Supports passing multiple parameters and storing returned values in a <a class="el" href="namespace_fungus.html">Fungus</a> variable.</p>
-<p>Defined in Fungus.Commands.InvokeMethod</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_invoke_method.html" title="Invokes a method of a component via reflection. ">Fungus.InvokeMethod</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
@@ -243,7 +245,7 @@ Invoke Method</h1>
 <tr>
 <td>Target Method Text </td><td>System.String </td><td>Display name of target method to invoke on the target component </td></tr>
 <tr>
-<td>Method Parameters </td><td>Fungus.Commands.InvokeMethodParameter[] </td><td>List of parameters to pass to the invoked method </td></tr>
+<td>Method Parameters </td><td><a class="el" href="class_fungus_1_1_invoke_method_parameter.html">Fungus.InvokeMethodParameter</a>[] </td><td>List of parameters to pass to the invoked method </td></tr>
 <tr>
 <td>Save Return Value </td><td>System.Boolean </td><td>If true, store the return value in a flowchart variable of the same type. </td></tr>
 <tr>
@@ -253,45 +255,45 @@ Invoke Method</h1>
 <tr>
 <td>Show Inherited </td><td>System.Boolean </td><td>If true, list all inherited methods for the component </td></tr>
 <tr>
-<td>Call Mode </td><td>Fungus.Commands.CallMode </td><td>The coroutine call behavior for methods that return IEnumerator </td></tr>
+<td>Call Mode </td><td><a class="el" href="namespace_fungus.html#a57f7b6af52868ef433a033ad7ee34ab6" title="Supported modes for calling a block. ">Fungus.CallMode</a> </td><td>The coroutine call behavior for methods that return IEnumerator </td></tr>
 </table>
 <h1><a class="anchor" id="OpenURL"></a>
 Open URL</h1>
 <p>Opens the specified URL in the browser.</p>
-<p>Defined in Fungus.Commands.LinkToWebsite</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_link_to_website.html" title="Opens the specified URL in the browser. ">Fungus.LinkToWebsite</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
 <tr>
-<td>Url </td><td>Fungus.Variables.StringData </td><td>URL to open in the browser </td></tr>
+<td>Url </td><td><a class="el" href="struct_fungus_1_1_string_data.html" title="Container for a string variable reference or constant value. ">Fungus.StringData</a> </td><td>URL to open in the browser </td></tr>
 </table>
 <h1><a class="anchor" id="SetActive"></a>
 Set Active</h1>
 <p>Sets a game object in the scene to be active / inactive.</p>
-<p>Defined in Fungus.Commands.SetActive</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_set_active.html" title="Sets a game object in the scene to be active / inactive. ">Fungus.SetActive</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
 <tr>
-<td>_target Game Object </td><td>Fungus.Variables.GameObjectData </td><td>Reference to game object to enable / disable </td></tr>
+<td>_target Game Object </td><td><a class="el" href="struct_fungus_1_1_game_object_data.html" title="Container for a GameObject variable reference or constant value. ">Fungus.GameObjectData</a> </td><td>Reference to game object to enable / disable </td></tr>
 <tr>
-<td>Active State </td><td>Fungus.Variables.BooleanData </td><td>Set to true to enable the game object </td></tr>
+<td>Active State </td><td><a class="el" href="struct_fungus_1_1_boolean_data.html" title="Container for a Boolean variable reference or constant value. ">Fungus.BooleanData</a> </td><td>Set to true to enable the game object </td></tr>
 </table>
 <h1><a class="anchor" id="SpawnObject"></a>
 Spawn Object</h1>
 <p>Spawns a new object based on a reference to a scene or prefab game object.</p>
-<p>Defined in Fungus.Commands.SpawnObject</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_spawn_object.html" title="Spawns a new object based on a reference to a scene or prefab game object. ">Fungus.SpawnObject</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
 <tr>
-<td>_source Object </td><td>Fungus.Variables.GameObjectData </td><td>Game object to copy when spawning. Can be a scene object or a prefab. </td></tr>
+<td>_source Object </td><td><a class="el" href="struct_fungus_1_1_game_object_data.html" title="Container for a GameObject variable reference or constant value. ">Fungus.GameObjectData</a> </td><td>Game object to copy when spawning. Can be a scene object or a prefab. </td></tr>
 <tr>
-<td>_parent Transform </td><td>Fungus.Variables.TransformData </td><td>Transform to use for position of newly spawned object. </td></tr>
+<td>_parent Transform </td><td><a class="el" href="struct_fungus_1_1_transform_data.html" title="Container for a Transform variable reference or constant value. ">Fungus.TransformData</a> </td><td>Transform to use for position of newly spawned object. </td></tr>
 <tr>
-<td>_spawn Position </td><td>Fungus.Variables.Vector3Data </td><td>Local position of newly spawned object. </td></tr>
+<td>_spawn Position </td><td><a class="el" href="struct_fungus_1_1_vector3_data.html" title="Container for a Vector3 variable reference or constant value. ">Fungus.Vector3Data</a> </td><td>Local position of newly spawned object. </td></tr>
 <tr>
-<td>_spawn Rotation </td><td>Fungus.Variables.Vector3Data </td><td>Local rotation of newly spawned object. </td></tr>
+<td>_spawn Rotation </td><td><a class="el" href="struct_fungus_1_1_vector3_data.html" title="Container for a Vector3 variable reference or constant value. ">Fungus.Vector3Data</a> </td><td>Local rotation of newly spawned object. </td></tr>
 </table>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
@@ -299,7 +301,7 @@ Spawn Object</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="command_reference.html">Command Reference</a></li>
-    <li class="footer">Generated on Thu Oct 13 2016 15:50:58 for Fungus by
+    <li class="footer">Generated on Thu Oct 13 2016 16:03:50 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

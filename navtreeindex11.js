@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"functions_vars_s.html":[4,2,2,18],
 "functions_vars_t.html":[4,2,2,19],
 "functions_vars_u.html":[4,2,2,20],
 "functions_vars_v.html":[4,2,2,21],
@@ -143,8 +144,8 @@ var NAVTREEINDEX11 =
 "lua_utils.html#pod_factory":[1,5,6],
 "lua_utils.html#register_types_directly":[1,5,4],
 "lua_utils.html#registering_types":[1,5,2],
-"namespace_fungus.html":[3,0,0],
 "namespace_fungus.html":[4,0,0],
+"namespace_fungus.html":[3,0,0],
 "namespace_fungus_1_1_editor_utils.html":[4,0,0,0],
 "namespace_fungus_1_1_editor_utils.html":[3,0,0,0],
 "namespacemembers.html":[3,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "struct_fungus_1_1_integer_data.html#aa1d6b0cd14c62d3dd20e18ba984c6b65":[4,0,0,65,0],
 "struct_fungus_1_1_material_data.html":[4,0,0,82],
 "struct_fungus_1_1_material_data.html#a0480348c97d882885381c17355c78678":[4,0,0,82,2],
-"struct_fungus_1_1_material_data.html#a364c4d4349fcd2479b9f3c4f696957bf":[4,0,0,82,4],
-"struct_fungus_1_1_material_data.html#a873f5bfd316944ac5f1db20b708fda19":[4,0,0,82,0]
+"struct_fungus_1_1_material_data.html#a364c4d4349fcd2479b9f3c4f696957bf":[4,0,0,82,4]
 };

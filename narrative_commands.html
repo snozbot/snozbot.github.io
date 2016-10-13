@@ -130,7 +130,7 @@ $(document).ready(function(){initNavTree('narrative_commands.html','');});
 <div class="textblock"><h1><a class="anchor" id="ClearMenu"></a>
 Clear Menu</h1>
 <p>Clears the options from a menu dialogue</p>
-<p>Defined in Fungus.Commands.ClearMenu</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_clear_menu.html" title="Clears the options from a menu dialogue. ">Fungus.ClearMenu</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
@@ -140,7 +140,7 @@ Clear Menu</h1>
 <h1><a class="anchor" id="ControlStage"></a>
 Control Stage</h1>
 <p>Controls the stage on which character portraits are displayed.</p>
-<p>Defined in Fungus.Commands.ControlStage</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_control_stage.html" title="Controls the stage on which character portraits are displayed. ">Fungus.ControlStage</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
@@ -155,16 +155,16 @@ Control Stage</h1>
 <tr>
 <td>Wait Until Finished </td><td>System.Boolean </td><td>Wait until the tween has finished before executing the next command </td></tr>
 <tr>
-<td>Display </td><td>Fungus.Commands.StageDisplayType </td><td>Display type </td></tr>
+<td>Display </td><td><a class="el" href="namespace_fungus.html#af5995bd61d4f4d57807f2d12cb1dd82e" title="Supported display operations for Stage. ">Fungus.StageDisplayType</a> </td><td>Display type </td></tr>
 </table>
 <h1><a class="anchor" id="Conversation"></a>
 Conversation</h1>
 <p>Do multiple say and portrait commands in a single block of text. Format is: [character] [portrait] [stage position] [: Story text]</p>
-<p>Defined in Fungus.Commands.Conversation </p>
+<p>Defined in <a class="el" href="class_fungus_1_1_conversation.html" title="Do multiple say and portrait commands in a single block of text. ">Fungus.Conversation</a> </p>
 <h1><a class="anchor" id="Menu"></a>
 Menu</h1>
 <p>Displays a button in a multiple choice menu</p>
-<p>Defined in Fungus.Commands.Menu</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_menu.html" title="Displays a button in a multiple choice menu. ">Fungus.Menu</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
@@ -177,26 +177,26 @@ Menu</h1>
 <tr>
 <td>Hide If Visited </td><td>System.Boolean </td><td>Hide this option if the target block has been executed previously </td></tr>
 <tr>
-<td>Interactable </td><td>Fungus.Variables.BooleanData </td><td>If false, the menu option will be displayed but will not be selectable </td></tr>
+<td>Interactable </td><td><a class="el" href="struct_fungus_1_1_boolean_data.html" title="Container for a Boolean variable reference or constant value. ">Fungus.BooleanData</a> </td><td>If false, the menu option will be displayed but will not be selectable </td></tr>
 <tr>
 <td>Set Menu Dialog </td><td><a class="el" href="class_fungus_1_1_menu_dialog.html" title="Presents multiple choice buttons to the players. ">Fungus.MenuDialog</a> </td><td>A custom Menu Dialog to use to display this menu. All subsequent Menu commands will use this dialog. </td></tr>
 </table>
 <h1><a class="anchor" id="MenuTimer"></a>
 Menu Timer</h1>
 <p>Displays a timer bar and executes a target block if the player fails to select a menu option in time.</p>
-<p>Defined in Fungus.Commands.MenuTimer</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_menu_timer.html" title="Displays a timer bar and executes a target block if the player fails to select a menu option in time...">Fungus.MenuTimer</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
 <tr>
-<td>_duration </td><td>Fungus.Variables.FloatData </td><td>Length of time to display the timer for </td></tr>
+<td>_duration </td><td><a class="el" href="struct_fungus_1_1_float_data.html" title="Container for an float variable reference or constant value. ">Fungus.FloatData</a> </td><td>Length of time to display the timer for </td></tr>
 <tr>
 <td>Target Block </td><td><a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Fungus.Block</a> </td><td>Block to execute when the timer expires </td></tr>
 </table>
 <h1><a class="anchor" id="Portrait"></a>
 Portrait</h1>
 <p>Controls a character portrait.</p>
-<p>Defined in Fungus.Commands.Portrait</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_portrait.html" title="Controls a character portrait. ">Fungus.Portrait</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
@@ -213,7 +213,7 @@ Portrait</h1>
 <tr>
 <td>From Position </td><td>UnityEngine.RectTransform </td><td>Move the portrait from this position </td></tr>
 <tr>
-<td>To Position </td><td>UnityEngine.RectTransform </td><td>Move the portrait to this positoin </td></tr>
+<td>To Position </td><td>UnityEngine.RectTransform </td><td>Move the portrait to this position </td></tr>
 <tr>
 <td>Facing </td><td><a class="el" href="namespace_fungus.html#a23c323390010f351afe40b05e58562f3" title="Directions that character portraits can face. ">Fungus.FacingDirection</a> </td><td>Direction character is facing </td></tr>
 <tr>
@@ -225,9 +225,9 @@ Portrait</h1>
 <tr>
 <td>Shift Offset </td><td>UnityEngine.Vector2 </td><td>Shift Offset </td></tr>
 <tr>
-<td>Move </td><td>System.Boolean </td><td>Move </td></tr>
+<td>Move </td><td>System.Boolean </td><td>Move portrait into new position </td></tr>
 <tr>
-<td>Shift Into Place </td><td>System.Boolean </td><td>Start from offset </td></tr>
+<td>Shift Into Place </td><td>System.Boolean </td><td>Start from offset position </td></tr>
 <tr>
 <td>Wait Until Finished </td><td>System.Boolean </td><td>Wait until the tween has finished before executing the next command </td></tr>
 <tr>
@@ -236,7 +236,7 @@ Portrait</h1>
 <h1><a class="anchor" id="Say"></a>
 Say</h1>
 <p>Writes text in a dialog box.</p>
-<p>Defined in Fungus.Commands.Say</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_say.html" title="Writes text in a dialog box. ">Fungus.Say</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
@@ -266,17 +266,17 @@ Say</h1>
 <h1><a class="anchor" id="SetLanguage"></a>
 Set Language</h1>
 <p>Set the active language for the scene. A Localization object with a localization file must be present in the scene.</p>
-<p>Defined in Fungus.Commands.SetLanguage</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_set_language.html" title="Set the active language for the scene. ">Fungus.SetLanguage</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
 <tr>
-<td>_language Code </td><td>Fungus.Variables.StringData </td><td>Code of the language to set. e.g. ES, DE, JA </td></tr>
+<td>_language Code </td><td><a class="el" href="struct_fungus_1_1_string_data.html" title="Container for a string variable reference or constant value. ">Fungus.StringData</a> </td><td>Code of the language to set. e.g. ES, DE, JA </td></tr>
 </table>
 <h1><a class="anchor" id="SetMenuDialog"></a>
 Set Menu Dialog</h1>
 <p>Sets a custom menu dialog to use when displaying multiple choice menus</p>
-<p>Defined in Fungus.Commands.SetMenuDialog</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_set_menu_dialog.html" title="Sets a custom menu dialog to use when displaying multiple choice menus. ">Fungus.SetMenuDialog</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
@@ -286,7 +286,7 @@ Set Menu Dialog</h1>
 <h1><a class="anchor" id="SetSayDialog"></a>
 Set Say Dialog</h1>
 <p>Sets a custom say dialog to use when displaying story text</p>
-<p>Defined in Fungus.Commands.SetSayDialog</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_set_say_dialog.html" title="Sets a custom say dialog to use when displaying story text. ">Fungus.SetSayDialog</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
@@ -299,7 +299,7 @@ Set Say Dialog</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="command_reference.html">Command Reference</a></li>
-    <li class="footer">Generated on Thu Oct 13 2016 15:50:58 for Fungus by
+    <li class="footer">Generated on Thu Oct 13 2016 16:03:50 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -42,6 +42,7 @@ var command_reference =
       [ "Stop Block", "flow_commands.html#StopBlock", null ],
       [ "Stop Flowchart", "flow_commands.html#StopFlowchart", null ],
       [ "Wait", "flow_commands.html#Wait", null ],
+      [ "WaitFrames", "flow_commands.html#WaitFrames", null ],
       [ "WaitInput", "flow_commands.html#WaitInput", null ],
       [ "While", "flow_commands.html#While", null ]
     ] ],
@@ -114,9 +115,11 @@ var command_reference =
     [ "UI commands", "ui_commands.html", [
       [ "Fade UI", "ui_commands.html#FadeUI", null ],
       [ "Get Text", "ui_commands.html#GetText", null ],
+      [ "Get Toggle State", "ui_commands.html#GetToggleState", null ],
       [ "Set Interactable", "ui_commands.html#SetInteractable", null ],
       [ "Set Slider Value", "ui_commands.html#SetSliderValue", null ],
       [ "Set Text", "ui_commands.html#SetText", null ],
+      [ "Set Toggle State", "ui_commands.html#SetToggleState", null ],
       [ "Write", "ui_commands.html#Write", null ]
     ] ],
     [ "Tests commands", "tests_commands.html", [
@@ -142,6 +145,7 @@ var command_reference =
     ] ],
     [ "UI event handlers", "ui_events.html", [
       [ "Button Clicked", "ui_events.html#ButtonClicked", null ],
-      [ "End Edit", "ui_events.html#EndEdit", null ]
+      [ "End Edit", "ui_events.html#EndEdit", null ],
+      [ "Toggle Changed", "ui_events.html#ToggleChanged", null ]
     ] ]
 ];
