@@ -39,7 +39,7 @@ var searchData=
   ['lookto',['LookTo',['../class_fungus_1_1_look_to.html',1,'Fungus']]],
   ['lookto_2ecs',['LookTo.cs',['../_look_to_8cs.html',1,'']]],
   ['lookupaspectratio',['LookupAspectRatio',['../class_fungus_1_1_editor_utils_1_1_view_editor.html#a3f7f1ce13efaa7edcc0404e986dc079d',1,'Fungus::EditorUtils::ViewEditor']]],
-  ['loop',['loop',['../class_fungus_1_1_play_music.html#a6803a7135e009079ada7ee069d64dbb8',1,'Fungus.PlayMusic.loop()'],['../class_fungus_1_1_writer_audio.html#a1489899731c58ab271a4b80ce7012d98',1,'Fungus.WriterAudio.loop()'],['../class_fungus_1_1_end.html#a41bc78bfa4eb88797715c4aefbbbaf7a',1,'Fungus.End.Loop()']]],
+  ['loop',['Loop',['../class_fungus_1_1_end.html#a41bc78bfa4eb88797715c4aefbbbaf7a',1,'Fungus.End.Loop()'],['../class_fungus_1_1_play_music.html#a6803a7135e009079ada7ee069d64dbb8',1,'Fungus.PlayMusic.loop()'],['../class_fungus_1_1_writer_audio.html#a1489899731c58ab271a4b80ce7012d98',1,'Fungus.WriterAudio.loop()']]],
   ['loopprop',['loopProp',['../class_fungus_1_1_editor_utils_1_1_writer_audio_editor.html#abff667ab5aa89695f99fe0e63360cc81',1,'Fungus::EditorUtils::WriterAudioEditor']]],
   ['looptype',['loopType',['../class_fungus_1_1i_tween_command.html#af3f811ba03469cdcf1b0e816a02a2760',1,'Fungus::iTweenCommand']]],
   ['lua_5fabout_5ffungus_5flua_2emd',['lua_about_fungus_lua.md',['../lua__about__fungus__lua_8md.html',1,'']]],

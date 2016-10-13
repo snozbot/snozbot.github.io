@@ -135,6 +135,7 @@ var hierarchy =
         [ "Fungus.FadeToView", "class_fungus_1_1_fade_to_view.html", null ],
         [ "Fungus.Fullscreen", "class_fungus_1_1_fullscreen.html", null ],
         [ "Fungus.GetText", "class_fungus_1_1_get_text.html", null ],
+        [ "Fungus.GetToggleState", "class_fungus_1_1_get_toggle_state.html", null ],
         [ "Fungus.InvokeEvent", "class_fungus_1_1_invoke_event.html", null ],
         [ "Fungus.InvokeMethod", "class_fungus_1_1_invoke_method.html", null ],
         [ "Fungus.iTweenCommand", "class_fungus_1_1i_tween_command.html", [
@@ -196,6 +197,7 @@ var hierarchy =
         [ "Fungus.SetSortingLayer", "class_fungus_1_1_set_sorting_layer.html", null ],
         [ "Fungus.SetSpriteOrder", "class_fungus_1_1_set_sprite_order.html", null ],
         [ "Fungus.SetText", "class_fungus_1_1_set_text.html", null ],
+        [ "Fungus.SetToggleState", "class_fungus_1_1_set_toggle_state.html", null ],
         [ "Fungus.SetVariable", "class_fungus_1_1_set_variable.html", null ],
         [ "Fungus.ShakeCamera", "class_fungus_1_1_shake_camera.html", null ],
         [ "Fungus.ShowSprite", "class_fungus_1_1_show_sprite.html", null ],
@@ -212,6 +214,7 @@ var hierarchy =
           [ "Fungus.FadeUI", "class_fungus_1_1_fade_u_i.html", null ]
         ] ],
         [ "Fungus.Wait", "class_fungus_1_1_wait.html", null ],
+        [ "Fungus.WaitFrames", "class_fungus_1_1_wait_frames.html", null ],
         [ "Fungus.Write", "class_fungus_1_1_write.html", null ]
       ] ],
       [ "Fungus.CustomTag", "class_fungus_1_1_custom_tag.html", null ],
@@ -229,7 +232,8 @@ var hierarchy =
         [ "Fungus.GameStarted", "class_fungus_1_1_game_started.html", null ],
         [ "Fungus.KeyPressed", "class_fungus_1_1_key_pressed.html", null ],
         [ "Fungus.MessageReceived", "class_fungus_1_1_message_received.html", null ],
-        [ "Fungus.ObjectClicked", "class_fungus_1_1_object_clicked.html", null ]
+        [ "Fungus.ObjectClicked", "class_fungus_1_1_object_clicked.html", null ],
+        [ "Fungus.ToggleChanged", "class_fungus_1_1_toggle_changed.html", null ]
       ] ],
       [ "Fungus.Flowchart", "class_fungus_1_1_flowchart.html", null ],
       [ "Fungus.FungusManager", "class_fungus_1_1_fungus_manager.html", null ],

@@ -65,5 +65,6 @@ var class_fungus_1_1_writer =
     [ "writingSpeed", "class_fungus_1_1_writer.html#a40fc628210265c53dd28fa680b9a8b0d", null ],
     [ "IsWaitingForInput", "class_fungus_1_1_writer.html#aaed5c7fd667469f37879f3beaafc7436", null ],
     [ "IsWriting", "class_fungus_1_1_writer.html#acda70c4fc6739221222d2d9ef70719cb", null ],
+    [ "Paused", "class_fungus_1_1_writer.html#a149241bacd1aa2741c73ec50c5f1413f", null ],
     [ "Text", "class_fungus_1_1_writer.html#ac4e2a3d6cd82186286cdf0302b48b964", null ]
 ];

@@ -32,6 +32,7 @@ var searchData=
   ['setsortinglayer',['SetSortingLayer',['../class_fungus_1_1_set_sorting_layer.html',1,'Fungus']]],
   ['setspriteorder',['SetSpriteOrder',['../class_fungus_1_1_set_sprite_order.html',1,'Fungus']]],
   ['settext',['SetText',['../class_fungus_1_1_set_text.html',1,'Fungus']]],
+  ['settogglestate',['SetToggleState',['../class_fungus_1_1_set_toggle_state.html',1,'Fungus']]],
   ['setvariable',['SetVariable',['../class_fungus_1_1_set_variable.html',1,'Fungus']]],
   ['setvariableeditor',['SetVariableEditor',['../class_fungus_1_1_editor_utils_1_1_set_variable_editor.html',1,'Fungus::EditorUtils']]],
   ['shakecamera',['ShakeCamera',['../class_fungus_1_1_shake_camera.html',1,'Fungus']]],

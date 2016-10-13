@@ -1,6 +1,7 @@
 var searchData=
 [
   ['parentblock',['ParentBlock',['../class_fungus_1_1_command.html#a269f7d782a81ed98c5aef785ad365af8',1,'Fungus.Command.ParentBlock()'],['../class_fungus_1_1_event_handler.html#a9066b5ae2edfd12cf9606e88748d3f81',1,'Fungus.EventHandler.ParentBlock()']]],
+  ['paused',['Paused',['../class_fungus_1_1_writer.html#a149241bacd1aa2741c73ec50c5f1413f',1,'Fungus::Writer']]],
   ['portrait',['Portrait',['../class_fungus_1_1_say.html#a1384b0a06ebe318e2e8bb88b31f31092',1,'Fungus.Say.Portrait()'],['../struct_fungus_1_1_conversation_manager_1_1_conversation_item.html#a500ae4c03e2a38da51b06c183ff1b40c',1,'Fungus.ConversationManager.ConversationItem.Portrait()']]],
   ['portraitcanvas',['PortraitCanvas',['../class_fungus_1_1_stage.html#ac6c711fbfce6f82ba69f522410b621de',1,'Fungus::Stage']]],
   ['portraits',['Portraits',['../class_fungus_1_1_character.html#a56dc008e5ae15c1f266e205efbe8e412',1,'Fungus::Character']]],

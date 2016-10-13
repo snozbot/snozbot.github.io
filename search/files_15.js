@@ -1,6 +1,7 @@
 var searchData=
 [
   ['wait_2ecs',['Wait.cs',['../_wait_8cs.html',1,'']]],
+  ['waitframes_2ecs',['WaitFrames.cs',['../_wait_frames_8cs.html',1,'']]],
   ['while_2ecs',['While.cs',['../_while_8cs.html',1,'']]],
   ['write_2ecs',['Write.cs',['../_write_8cs.html',1,'']]],
   ['writeeditor_2ecs',['WriteEditor.cs',['../_write_editor_8cs.html',1,'']]],

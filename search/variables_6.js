@@ -28,6 +28,7 @@ var searchData=
   ['flowchart',['flowchart',['../class_fungus_1_1_stop_block.html#a18e2c1c6d003244e8720c5c594f5d1a9',1,'Fungus.StopBlock.flowchart()'],['../class_fungus_1_1_editor_utils_1_1_flowchart_editor_1_1_add_variable_info.html#a165d464090fe7fe4f4e8028bd8b733cf',1,'Fungus.EditorUtils.FlowchartEditor.AddVariableInfo.flowchart()']]],
   ['forcerepaintcount',['forceRepaintCount',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ac1924160ac64717f1f3933eeb22ab6ba',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['forcerichtext',['forceRichText',['../class_fungus_1_1_writer.html#a64b4258d684b3aef497ffd5de2244be7',1,'Fungus::Writer']]],
+  ['framecount',['frameCount',['../class_fungus_1_1_wait_frames.html#a2f468f94a527c00628445abb049bb11a',1,'Fungus::WaitFrames']]],
   ['friendlyname',['friendlyName',['../class_fungus_1_1_execute_lua.html#ab900a4b2587fb74a55749e2cc6e3102c',1,'Fungus::ExecuteLua']]],
   ['fromposition',['fromPosition',['../class_fungus_1_1_portrait.html#a47578709fa45812e30d40c092cbe2a1d',1,'Fungus.Portrait.fromPosition()'],['../class_fungus_1_1_portrait_options.html#a618b2d690dc1b67f2e2fdb30c714b7b7',1,'Fungus.PortraitOptions.fromPosition()']]],
   ['frompositionold',['fromPositionOLD',['../class_fungus_1_1_look_from.html#a99409180d9a53f3085411be6a953a65d',1,'Fungus.LookFrom.fromPositionOLD()'],['../class_fungus_1_1_move_from.html#a68f5cc3971065fe5e27f3f4e612d0396',1,'Fungus.MoveFrom.fromPositionOLD()']]],

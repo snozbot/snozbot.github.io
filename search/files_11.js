@@ -33,6 +33,7 @@ var searchData=
   ['setslidervalue_2ecs',['SetSliderValue.cs',['../_set_slider_value_8cs.html',1,'']]],
   ['setspriteorder_2ecs',['SetSpriteOrder.cs',['../_set_sprite_order_8cs.html',1,'']]],
   ['settext_2ecs',['SetText.cs',['../_set_text_8cs.html',1,'']]],
+  ['settogglestate_2ecs',['SetToggleState.cs',['../_set_toggle_state_8cs.html',1,'']]],
   ['setvariable_2ecs',['SetVariable.cs',['../_set_variable_8cs.html',1,'']]],
   ['setvariableeditor_2ecs',['SetVariableEditor.cs',['../_set_variable_editor_8cs.html',1,'']]],
   ['shakecamera_2ecs',['ShakeCamera.cs',['../_shake_camera_8cs.html',1,'']]],

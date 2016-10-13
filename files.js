@@ -174,6 +174,7 @@ var files =
     [ "GetText.cs", "_get_text_8cs.html", [
       [ "GetText", "class_fungus_1_1_get_text.html", "class_fungus_1_1_get_text" ]
     ] ],
+    [ "GetToggleState.cs", "_get_toggle_state_8cs.html", "_get_toggle_state_8cs" ],
     [ "GLDraw.cs", "_g_l_draw_8cs.html", [
       [ "GLDraw", "class_fungus_1_1_editor_utils_1_1_g_l_draw.html", null ]
     ] ],
@@ -405,6 +406,7 @@ var files =
     [ "SetText.cs", "_set_text_8cs.html", [
       [ "SetText", "class_fungus_1_1_set_text.html", "class_fungus_1_1_set_text" ]
     ] ],
+    [ "SetToggleState.cs", "_set_toggle_state_8cs.html", "_set_toggle_state_8cs" ],
     [ "SetVariable.cs", "_set_variable_8cs.html", "_set_variable_8cs" ],
     [ "SetVariableEditor.cs", "_set_variable_editor_8cs.html", [
       [ "SetVariableEditor", "class_fungus_1_1_editor_utils_1_1_set_variable_editor.html", "class_fungus_1_1_editor_utils_1_1_set_variable_editor" ]
@@ -471,6 +473,7 @@ var files =
       [ "TextureVariable", "class_fungus_1_1_texture_variable.html", null ],
       [ "TextureData", "struct_fungus_1_1_texture_data.html", "struct_fungus_1_1_texture_data" ]
     ] ],
+    [ "ToggleChanged.cs", "_toggle_changed_8cs.html", "_toggle_changed_8cs" ],
     [ "TransformVariable.cs", "_transform_variable_8cs.html", [
       [ "TransformVariable", "class_fungus_1_1_transform_variable.html", null ],
       [ "TransformData", "struct_fungus_1_1_transform_data.html", "struct_fungus_1_1_transform_data" ]
@@ -517,6 +520,9 @@ var files =
     ] ],
     [ "Wait.cs", "_wait_8cs.html", [
       [ "Wait", "class_fungus_1_1_wait.html", "class_fungus_1_1_wait" ]
+    ] ],
+    [ "WaitFrames.cs", "_wait_frames_8cs.html", [
+      [ "WaitFrames", "class_fungus_1_1_wait_frames.html", "class_fungus_1_1_wait_frames" ]
     ] ],
     [ "While.cs", "_while_8cs.html", [
       [ "While", "class_fungus_1_1_while.html", "class_fungus_1_1_while" ]
