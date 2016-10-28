@@ -70,7 +70,7 @@ var searchData=
   ['clickable2d_2ecs',['Clickable2D.cs',['../_clickable2_d_8cs.html',1,'']]],
   ['clickableobject',['clickableObject',['../class_fungus_1_1_object_clicked.html#a0ce7eab07ed26d52a6aadbf4826870cc',1,'Fungus::ObjectClicked']]],
   ['clickanywhere',['ClickAnywhere',['../namespace_fungus.html#ac592f699fd98d59292b5fa61434ce168a82cd240a344165ce1c2f52d14c79e364',1,'Fungus']]],
-  ['clickenabled',['ClickEnabled',['../class_fungus_1_1_clickable2_d.html#a5581b1ebd10b9466228b333a9f2aa41b',1,'Fungus.Clickable2D.ClickEnabled()'],['../class_fungus_1_1_clickable2_d.html#a4c5779f94cd1494f2ee09b207c61ed72',1,'Fungus.Clickable2D.clickEnabled()']]],
+  ['clickenabled',['clickEnabled',['../class_fungus_1_1_clickable2_d.html#a4c5779f94cd1494f2ee09b207c61ed72',1,'Fungus.Clickable2D.clickEnabled()'],['../class_fungus_1_1_clickable2_d.html#a5581b1ebd10b9466228b333a9f2aa41b',1,'Fungus.Clickable2D.ClickEnabled()']]],
   ['clickmode',['clickMode',['../class_fungus_1_1_dialog_input.html#a919f0671ac4dcf0f445d2e0cf0fc3b5e',1,'Fungus.DialogInput.clickMode()'],['../namespace_fungus.html#ac592f699fd98d59292b5fa61434ce168',1,'Fungus.ClickMode()']]],
   ['clickonbutton',['ClickOnButton',['../namespace_fungus.html#ac592f699fd98d59292b5fa61434ce168a1177cbab0679f32487a9b9663df98e61',1,'Fungus']]],
   ['clickondialog',['ClickOnDialog',['../namespace_fungus.html#ac592f699fd98d59292b5fa61434ce168a0077a580a40e444e9210ebfb5242ec2c',1,'Fungus']]],

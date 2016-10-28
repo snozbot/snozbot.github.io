@@ -42,7 +42,7 @@ var command_reference =
       [ "Stop Block", "flow_commands.html#StopBlock", null ],
       [ "Stop Flowchart", "flow_commands.html#StopFlowchart", null ],
       [ "Wait", "flow_commands.html#Wait", null ],
-      [ "WaitFrames", "flow_commands.html#WaitFrames", null ],
+      [ "Wait Frames", "flow_commands.html#WaitFrames", null ],
       [ "WaitInput", "flow_commands.html#WaitInput", null ],
       [ "While", "flow_commands.html#While", null ]
     ] ],

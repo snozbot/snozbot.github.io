@@ -42,9 +42,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.3.0--></span>
+   &#160;<span id="projectnumber"><!--v3.4.0--></span>
    </div>
-   <div id="projectbrief">v3.3.0 Documentation</div>
+   <div id="projectbrief">v3.4.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('lua_environment.html','');});
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#multiple_environments">Multiple Environments</a></li>
-<li class="level1"><a href="#remote_debugger">Remote Debugger</a></li>
+<li class="level1"><a href="#remote_debugger">VS Code Debugger</a></li>
 <li class="level1"><a href="#lua_environment_lua_utils">LuaUtils</a></li>
 </ul>
 </div>
@@ -130,7 +130,8 @@ LuaEnvironment</div></div>
 Multiple Environments</h1>
 <p>You can use multiple LuaEnvironments in your scene to ’sandbox’ the variables, functions and executing code of independent sets of Lua scripts. If you do this, make sure to specify the appropriate LuaEnvironment when using LuaScript components, ExecuteLua commands, etc. or else they'll just use the first one they find in the scene.</p>
 <h1><a class="anchor" id="remote_debugger"></a>
-Remote Debugger</h1>
+VS Code Debugger</h1>
+<p>VS Code is a free open source IDE from Microsoft which you can use to write code for Unity projects. FungusLua automatically starts a VS Code debug server when in playmode in the Unity Editor. See the <a href="http://www.moonsharp.org/debugger.html">MoonSharp documentation</a> for how to configure VS Code to debug Lua scripts. Note that the game has to be running in the Unity Editor before you can connect the VS Code debugger to it.</p>
 <p>The 'Remote Debugger' option activates the built-in MoonSharp remote debugger tool. The application will halt execution on the first executed line of Lua code and open a MoonSharp debugger window in your browser. See the <a href="http://www.moonsharp.org/debugger.html">MoonSharp documentation</a> for more information on using this debugger.</p>
 <h1><a class="anchor" id="lua_environment_lua_utils"></a>
 LuaUtils</h1>
@@ -141,7 +142,7 @@ LuaUtils</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="fungus_lua.html">Fungus Lua</a></li>
-    <li class="footer">Generated on Thu Oct 13 2016 16:21:28 for Fungus by
+    <li class="footer">Generated on Fri Oct 28 2016 12:57:00 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

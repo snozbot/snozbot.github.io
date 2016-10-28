@@ -42,9 +42,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.3.0--></span>
+   &#160;<span id="projectnumber"><!--v3.4.0--></span>
    </div>
-   <div id="projectbrief">v3.3.0 Documentation</div>
+   <div id="projectbrief">v3.4.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -115,7 +115,8 @@ $(document).ready(function(){initNavTree('changelog.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#v3_3_0">v3.3.0 </a></li>
+<ul><li class="level1"><a href="#v3_4_0">v3.4.0 </a></li>
+<li class="level1"><a href="#v3_3_0">v3.3.0 </a></li>
 <li class="level1"><a href="#v3_2_0">v3.2.0 </a></li>
 <li class="level1"><a href="#v3_1_0">v3.1.0 </a></li>
 <li class="level1"><a href="#v3_0_0">v3.0.0 </a></li>
@@ -128,7 +129,37 @@ $(document).ready(function(){initNavTree('changelog.html','');});
 <li class="level1"><a href="#v2_1_0">v2.1.0 </a></li>
 </ul>
 </div>
-<div class="textblock"><h1><a class="anchor" id="v3_3_0"></a>
+<div class="textblock"><h1><a class="anchor" id="v3_4_0"></a>
+v3.4.0 </h1>
+<h2>Known Issues</h2>
+<ul>
+<li>FungusLua generates runtime errors running Lua when using .NET scripting backend. The IL2CPP backend works fine.</li>
+</ul>
+<h2>Added</h2>
+<ul>
+<li>Added accessors for GameObject and Transform variables in <a class="el" href="_flowchart_8cs.html">Flowchart.cs</a></li>
+<li>Added Flowchart.HasVariable() and GetVariableNames() - thanks murnyipl!</li>
+<li>Added WaitForFrames property to GameStarted event handler. Default is wait for 1 frame (should reduce startup order issues).</li>
+</ul>
+<h2>Changed</h2>
+<ul>
+<li>Upgraded to Moonsharp 2.0. Moonsharp source code is now included in Fungus/Thirdparty/MoonSharp</li>
+<li>Removed MoonSharp assembly from link.xml</li>
+<li>Converted MoonSharp line endings to OSX for consistency with rest of project.</li>
+<li>Updated documentation for Lua debugger (using VS Code)</li>
+<li>Removed LuaEnvironment Remote Debugger option. A VS Code debug server always starts when running in the editor.</li>
+<li>SayDialog now supports full variable substitution when setting character names.</li>
+</ul>
+<h2>Fixed</h2>
+<ul>
+<li>Fixed Command properties not copied when copying commands #546</li>
+<li>Fixed PODTypeFactory and FungusPrefs classes are not registered #549</li>
+<li>Fixed for compile errors on .NET Core scripting backend</li>
+<li>Fixed LuaBindings registered types in example scenes</li>
+<li>Fixed MoonSharp warning when not building for an AOT platform</li>
+<li>Fixed minor issues in some example scenes (e.g. missing sprite refs)</li>
+</ul>
+<h1><a class="anchor" id="v3_3_0"></a>
 v3.3.0 </h1>
 <h2>Known Issues</h2>
 <ul>
@@ -625,7 +656,7 @@ v2.1.0 </h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">%Fungus Documentation</a></li>
-    <li class="footer">Generated on Thu Oct 13 2016 16:21:28 for Fungus by
+    <li class="footer">Generated on Fri Oct 28 2016 12:57:00 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

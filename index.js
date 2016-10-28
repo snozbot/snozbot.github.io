@@ -123,6 +123,7 @@ var index =
       [ "Are you planning to integrate Fungus into other game engines?", "faq.html#faq_other_engines", null ]
     ] ],
     [ "Changelog", "changelog.html", [
+      [ "v3.4.0 ", "changelog.html#v3_4_0", null ],
       [ "v3.3.0 ", "changelog.html#v3_3_0", null ],
       [ "v3.2.0 ", "changelog.html#v3_2_0", null ],
       [ "v3.1.0 ", "changelog.html#v3_1_0", null ],

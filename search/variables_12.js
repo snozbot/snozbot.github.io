@@ -94,6 +94,7 @@ var searchData=
   ['stringparameterprop',['stringParameterProp',['../class_fungus_1_1_editor_utils_1_1_invoke_event_editor.html#a8b470f5613da8e46076d08b69c623f64',1,'Fungus::EditorUtils::InvokeEventEditor']]],
   ['stringref',['stringRef',['../struct_fungus_1_1_string_data.html#a8cf352e3ccdd620dd39bb86423ade3d3',1,'Fungus.StringData.stringRef()'],['../struct_fungus_1_1_string_data_multi.html#a274821f86636f88143b47ba8b699c88f',1,'Fungus.StringDataMulti.stringRef()']]],
   ['stringsubstituer',['stringSubstituer',['../class_fungus_1_1_flowchart.html#a470e0295cad419ca9a24574131f28bad',1,'Fungus::Flowchart']]],
+  ['stringsubstituter',['stringSubstituter',['../class_fungus_1_1_say_dialog.html#aadbd35d8ce79289e1860c017ebf7e1a7',1,'Fungus::SayDialog']]],
   ['stringval',['stringVal',['../struct_fungus_1_1_string_data.html#a3a0c223491bdb24ff144a8e8738f8aa9',1,'Fungus.StringData.stringVal()'],['../struct_fungus_1_1_string_data_multi.html#af6ce408fcfcc0390f211401aec58ef7c',1,'Fungus.StringDataMulti.stringVal()']]],
   ['stringvalue',['stringValue',['../class_fungus_1_1_object_value.html#afa6dc979732d2891c495015be0155c84',1,'Fungus::ObjectValue']]],
   ['stringvariable',['stringVariable',['../class_fungus_1_1_get_text.html#abe6b14ca6b966d08e752b5279ed541c4',1,'Fungus.GetText.stringVariable()'],['../class_fungus_1_1_read_text_file.html#a29a479757f807f551921fa06e9c499e5',1,'Fungus.ReadTextFile.stringVariable()']]],

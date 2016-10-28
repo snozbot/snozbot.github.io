@@ -2,7 +2,7 @@ var searchData=
 [
   ['the_20create_20menu',['The Create Menu',['../lua_create_menu.html',1,'fungus_lua']]],
   ['tagendsymbol',['TagEndSymbol',['../class_fungus_1_1_custom_tag.html#ac0494615826d7f77a3c04c36d1d2c2a5',1,'Fungus.CustomTag.TagEndSymbol()'],['../class_fungus_1_1_custom_tag.html#acf23c3fe4776387c30cb0d7366e55cbd',1,'Fungus.CustomTag.tagEndSymbol()']]],
-  ['tagstartsymbol',['TagStartSymbol',['../class_fungus_1_1_custom_tag.html#a957bb9258dd70814f4ed19a962431f1b',1,'Fungus.CustomTag.TagStartSymbol()'],['../class_fungus_1_1_custom_tag.html#a4ad1433bbec504a388ba7e6e4df02d8a',1,'Fungus.CustomTag.tagStartSymbol()']]],
+  ['tagstartsymbol',['tagStartSymbol',['../class_fungus_1_1_custom_tag.html#a4ad1433bbec504a388ba7e6e4df02d8a',1,'Fungus.CustomTag.tagStartSymbol()'],['../class_fungus_1_1_custom_tag.html#a957bb9258dd70814f4ed19a962431f1b',1,'Fungus.CustomTag.TagStartSymbol()']]],
   ['targetalpha',['targetAlpha',['../class_fungus_1_1_fade_screen.html#ac614d912a2c58386b7a7d2bfc5f28bbd',1,'Fungus.FadeScreen.targetAlpha()'],['../class_fungus_1_1_fade_u_i.html#a0c4b02f26878af00f72019d64a828663',1,'Fungus.FadeUI.targetAlpha()'],['../class_fungus_1_1_say_dialog.html#aae6618545476e23c395fee3526cbae0e',1,'Fungus.SayDialog.targetAlpha()']]],
   ['targetaudiosource',['targetAudioSource',['../class_fungus_1_1_writer_audio.html#a8dbe741c3660704d1b56ab1a8d6d6aac',1,'Fungus::WriterAudio']]],
   ['targetaudiosourceprop',['targetAudioSourceProp',['../class_fungus_1_1_editor_utils_1_1_writer_audio_editor.html#a90a17ae302a23da68c09ca60c28f50b0',1,'Fungus::EditorUtils::WriterAudioEditor']]],
@@ -40,7 +40,7 @@ var searchData=
   ['telling_5fa_5fstory_2emd',['telling_a_story.md',['../telling__a__story_8md.html',1,'']]],
   ['tests_20commands',['Tests commands',['../tests_commands.html',1,'command_reference']]],
   ['tests_5fcommands_2emd',['tests_commands.md',['../tests__commands_8md.html',1,'']]],
-  ['text',['Text',['../class_fungus_1_1_writer.html#ac4e2a3d6cd82186286cdf0302b48b964',1,'Fungus.Writer.Text()'],['../struct_fungus_1_1_conversation_manager_1_1_conversation_item.html#a9cc4f61053895d98f95d1a9c1006669b',1,'Fungus.ConversationManager.ConversationItem.Text()'],['../class_fungus_1_1_menu.html#a1b21bff5d44366fef7c909f2d0e52637',1,'Fungus.Menu.text()'],['../class_fungus_1_1_set_text.html#ac5e6f87d66a4472cca4b18b249122810',1,'Fungus.SetText.text()'],['../class_fungus_1_1_write.html#a42160cb7c16d426fa2f6e72ad4205fa8',1,'Fungus.Write.text()']]],
+  ['text',['text',['../class_fungus_1_1_menu.html#a1b21bff5d44366fef7c909f2d0e52637',1,'Fungus.Menu.text()'],['../class_fungus_1_1_set_text.html#ac5e6f87d66a4472cca4b18b249122810',1,'Fungus.SetText.text()'],['../class_fungus_1_1_write.html#a42160cb7c16d426fa2f6e72ad4205fa8',1,'Fungus.Write.text()'],['../class_fungus_1_1_writer.html#ac4e2a3d6cd82186286cdf0302b48b964',1,'Fungus.Writer.Text()'],['../struct_fungus_1_1_conversation_manager_1_1_conversation_item.html#a9cc4f61053895d98f95d1a9c1006669b',1,'Fungus.ConversationManager.ConversationItem.Text()']]],
   ['textcolor',['textColor',['../class_fungus_1_1_write.html#aa51fdefab01f29cc4f74c2346c427069',1,'Fungus.Write.textColor()'],['../namespace_fungus.html#a659e0b5cad34216d45aea5ce447130a4',1,'Fungus.TextColor()']]],
   ['textcolorprop',['textColorProp',['../class_fungus_1_1_editor_utils_1_1_write_editor.html#a885d945efa57c2d3359f58612585e36e',1,'Fungus::EditorUtils::WriteEditor']]],
   ['textcomponent',['textComponent',['../class_fungus_1_1_writer.html#a2e289ce03d0d76a3efb15a4992d67fc2',1,'Fungus::Writer']]],

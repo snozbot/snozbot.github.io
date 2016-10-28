@@ -42,9 +42,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.3.0--></span>
+   &#160;<span id="projectnumber"><!--v3.4.0--></span>
    </div>
-   <div id="projectbrief">v3.3.0 Documentation</div>
+   <div id="projectbrief">v3.4.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -146,9 +146,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a28cf85d76739395ae3f3ae58150f1458"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a28cf85d76739395ae3f3ae58150f1458">SetActive</a> (bool state)</td></tr>
 <tr class="memdesc:a28cf85d76739395ae3f3ae58150f1458"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the active state of the <a class="el" href="class_fungus_1_1_say.html" title="Writes text in a dialog box. ">Say</a> Dialog gameobject.  <a href="#a28cf85d76739395ae3f3ae58150f1458">More...</a><br /></td></tr>
 <tr class="separator:a28cf85d76739395ae3f3ae58150f1458"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8538ad0fbdd2648d11e667d9802def90"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a8538ad0fbdd2648d11e667d9802def90">SetCharacter</a> (<a class="el" href="class_fungus_1_1_character.html">Character</a> character, <a class="el" href="class_fungus_1_1_flowchart.html">Flowchart</a> flowchart=null)</td></tr>
-<tr class="memdesc:a8538ad0fbdd2648d11e667d9802def90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the active speaking character.  <a href="#a8538ad0fbdd2648d11e667d9802def90">More...</a><br /></td></tr>
-<tr class="separator:a8538ad0fbdd2648d11e667d9802def90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb1ca8f57d829893fb2349ebba0be010"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#afb1ca8f57d829893fb2349ebba0be010">SetCharacter</a> (<a class="el" href="class_fungus_1_1_character.html">Character</a> character)</td></tr>
+<tr class="memdesc:afb1ca8f57d829893fb2349ebba0be010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the active speaking character.  <a href="#afb1ca8f57d829893fb2349ebba0be010">More...</a><br /></td></tr>
+<tr class="separator:afb1ca8f57d829893fb2349ebba0be010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b9ccc605a95d23d75f28b6d765d3ba6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a5b9ccc605a95d23d75f28b6d765d3ba6">SetCharacterImage</a> (Sprite image)</td></tr>
 <tr class="memdesc:a5b9ccc605a95d23d75f28b6d765d3ba6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the character image to display on the <a class="el" href="class_fungus_1_1_say.html" title="Writes text in a dialog box. ">Say</a> Dialog.  <a href="#a5b9ccc605a95d23d75f28b6d765d3ba6">More...</a><br /></td></tr>
 <tr class="separator:a5b9ccc605a95d23d75f28b6d765d3ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,6 +228,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a5cc06df03bc72c2930a24991437eb710"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc40a36b6f49797d830cbfa1c894abbf"><td class="memItemLeft" align="right" valign="top">Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#adc40a36b6f49797d830cbfa1c894abbf">currentCharacterImage</a></td></tr>
 <tr class="separator:adc40a36b6f49797d830cbfa1c894abbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadbd35d8ce79289e1860c017ebf7e1a7"><td class="memItemLeft" align="right" valign="top">StringSubstituter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#aadbd35d8ce79289e1860c017ebf7e1a7">stringSubstituter</a> = new StringSubstituter()</td></tr>
+<tr class="separator:aadbd35d8ce79289e1860c017ebf7e1a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -300,7 +302,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00177">177</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00181">181</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -406,7 +408,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00071">71</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00073">73</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -433,7 +435,7 @@ Properties</h2></td></tr>
 
 <p>Returns a <a class="el" href="class_fungus_1_1_say_dialog.html" title="Display story text in a visual novel style dialog box. ">SayDialog</a> by searching for one in the scene or creating one if none exists. </p>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00195">195</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00199">199</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -458,7 +460,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00055">55</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00057">57</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -483,7 +485,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00087">87</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00089">89</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -508,7 +510,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00130">130</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00134">134</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -617,11 +619,11 @@ Properties</h2></td></tr>
 
 <p>Sets the active state of the <a class="el" href="class_fungus_1_1_say.html" title="Writes text in a dialog box. ">Say</a> Dialog gameobject. </p>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00255">255</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00259">259</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8538ad0fbdd2648d11e667d9802def90"></a>
+<a class="anchor" id="afb1ca8f57d829893fb2349ebba0be010"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -632,18 +634,8 @@ Properties</h2></td></tr>
           <td class="memname">virtual void Fungus.SayDialog.SetCharacter </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_fungus_1_1_character.html">Character</a>&#160;</td>
-          <td class="paramname"><em>character</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>character</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_fungus_1_1_flowchart.html">Flowchart</a>&#160;</td>
-          <td class="paramname"><em>flowchart</em> = <code>null</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -657,12 +649,11 @@ Properties</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">character</td><td>The active speaking character.</td></tr>
-    <tr><td class="paramname">flowchart</td><td>An optional <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> to use for variable substitution in the character name string.</td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00265">265</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00268">268</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -690,7 +681,7 @@ Properties</h2></td></tr>
 
 <p>Sets the character image to display on the <a class="el" href="class_fungus_1_1_say.html" title="Writes text in a dialog box. ">Say</a> Dialog. </p>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00330">330</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00328">328</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -727,8 +718,9 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sets the character name to display on the <a class="el" href="class_fungus_1_1_say.html" title="Writes text in a dialog box. ">Say</a> Dialog. </p>
+<p>Supports variable substitution e.g. John {$surname} </p>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00385">385</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00384">384</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -753,7 +745,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00103">103</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00105">105</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -807,7 +799,7 @@ Properties</h2></td></tr>
 
 <p>Stops all active portrait tweens. </p>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00226">226</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00230">230</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -832,7 +824,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00140">140</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00144">144</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1145,6 +1137,28 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aadbd35d8ce79289e1860c017ebf7e1a7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StringSubstituter Fungus.SayDialog.stringSubstituter = new StringSubstituter()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00055">55</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aae6618545476e23c395fee3526cbae0e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1232,7 +1246,7 @@ Properties</h2></td></tr>
 
 <p>Currently active <a class="el" href="class_fungus_1_1_say.html" title="Writes text in a dialog box. ">Say</a> Dialog used to display <a class="el" href="class_fungus_1_1_say.html" title="Writes text in a dialog box. ">Say</a> text </p>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00190">190</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00194">194</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1313,7 +1327,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_say_dialog.html">SayDialog</a></li>
-    <li class="footer">Generated on Thu Oct 13 2016 16:21:29 for Fungus by
+    <li class="footer">Generated on Fri Oct 28 2016 12:57:01 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

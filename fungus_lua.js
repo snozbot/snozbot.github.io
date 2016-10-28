@@ -17,7 +17,7 @@ var fungus_lua =
     ] ],
     [ "LuaEnvironment", "lua_environment.html", [
       [ "Multiple Environments", "lua_environment.html#multiple_environments", null ],
-      [ "Remote Debugger", "lua_environment.html#remote_debugger", null ],
+      [ "VS Code Debugger", "lua_environment.html#remote_debugger", null ],
       [ "LuaUtils", "lua_environment.html#lua_environment_lua_utils", null ]
     ] ],
     [ "LuaBindings", "lua_bindings.html", [

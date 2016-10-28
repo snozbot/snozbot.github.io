@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"class_fungus_1_1_draggable2_d.html#aa3bcf49572395288e6e6917f8a63726b":[4,0,0,37,1],
 "class_fungus_1_1_draggable2_d.html#aaf8675a9110b910ab05becce621ff8f6":[4,0,0,37,20],
 "class_fungus_1_1_draggable2_d.html#abb4e6d62846700b8c621e8719e3ba378":[4,0,0,37,28],
 "class_fungus_1_1_draggable2_d.html#aea2f39aff61f0a646ae0ee76d5286e6b":[4,0,0,37,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "class_fungus_1_1_editor_utils_1_1_say_editor.html":[4,0,0,0,35],
 "class_fungus_1_1_editor_utils_1_1_say_editor.html#a427f56c2251aafeaddca8f942bd98b2e":[4,0,0,0,35,2],
 "class_fungus_1_1_editor_utils_1_1_say_editor.html#a4cb0eba5d67e010f6ce3693eda5ad29d":[4,0,0,0,35,11],
-"class_fungus_1_1_editor_utils_1_1_say_editor.html#a4e1985d916372c834b93c65ec82cdb3b":[4,0,0,0,35,5],
-"class_fungus_1_1_editor_utils_1_1_say_editor.html#a5f994f99410fbdab0c6bc45de301bfd1":[4,0,0,0,35,7]
+"class_fungus_1_1_editor_utils_1_1_say_editor.html#a4e1985d916372c834b93c65ec82cdb3b":[4,0,0,0,35,5]
 };

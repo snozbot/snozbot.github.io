@@ -1,5 +1,14 @@
 var NAVTREEINDEX9 =
 {
+"class_fungus_1_1_set_sorting_layer.html#a468d8c0dee1c8c69cba329491928fcfe":[4,0,0,144,5],
+"class_fungus_1_1_set_sorting_layer.html#a4986c1fc3b0541440356e44e5b46f55f":[4,0,0,144,4],
+"class_fungus_1_1_set_sorting_layer.html#a5b901e1b7cd12adfa62eed62dde7c898":[4,0,0,144,1],
+"class_fungus_1_1_set_sorting_layer.html#a7bc47d61124ab870a70e07e5d4b1a3a5":[4,0,0,144,0],
+"class_fungus_1_1_set_sorting_layer.html#a9ff2ef058d4f1e4a5fbc4e1a7a556575":[4,0,0,144,2],
+"class_fungus_1_1_set_sorting_layer.html#abde1131546070bbe0ba57dab352508f3":[4,0,0,144,3],
+"class_fungus_1_1_set_sprite_order.html":[4,0,0,145],
+"class_fungus_1_1_set_sprite_order.html#a112c8fb9c6e230e3fba349f5ea7670dd":[4,0,0,145,0],
+"class_fungus_1_1_set_sprite_order.html#a4132b315cfb5220df941fca8de3d2981":[4,0,0,145,4],
 "class_fungus_1_1_set_sprite_order.html#a8a558ff87303282bc6d89d6854497c9e":[4,0,0,145,3],
 "class_fungus_1_1_set_sprite_order.html#a97ef5b28167942f5ca115c27241c02d1":[4,0,0,145,6],
 "class_fungus_1_1_set_sprite_order.html#aba2689c0a9961863d3c0a1def8ef2308":[4,0,0,145,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX9 =
 "class_fungus_1_1_write.html":[4,0,0,189],
 "class_fungus_1_1_write.html#a0809ede9ee76d6eaaf5622c1150c32a4":[4,0,0,189,4],
 "class_fungus_1_1_write.html#a17c54d84ccbed67816f691470e44cf1c":[4,0,0,189,0],
-"class_fungus_1_1_write.html#a250fafc0a487c5913d482659a639bde4":[4,0,0,189,10],
-"class_fungus_1_1_write.html#a2be529c72d256f5b9f3b3fa8c4d78aa1":[4,0,0,189,1],
-"class_fungus_1_1_write.html#a382b984432d0f06f6047397af1fb3889":[4,0,0,189,12],
-"class_fungus_1_1_write.html#a3f77af8f11bbb60b6606207d7139b65d":[4,0,0,189,6],
-"class_fungus_1_1_write.html#a42160cb7c16d426fa2f6e72ad4205fa8":[4,0,0,189,13],
-"class_fungus_1_1_write.html#a4d0a0b1c86394d66c6934e0b5c02db46":[4,0,0,189,7],
-"class_fungus_1_1_write.html#a80b2278367318d6df1ab3c872dbe5738":[4,0,0,189,2],
-"class_fungus_1_1_write.html#a9dbe7a5819a8e17a91ce70e435db436a":[4,0,0,189,5],
-"class_fungus_1_1_write.html#aa51fdefab01f29cc4f74c2346c427069":[4,0,0,189,14],
-"class_fungus_1_1_write.html#aac978744fa0c3ba31d3d0da470ca1376":[4,0,0,189,15]
+"class_fungus_1_1_write.html#a250fafc0a487c5913d482659a639bde4":[4,0,0,189,10]
 };

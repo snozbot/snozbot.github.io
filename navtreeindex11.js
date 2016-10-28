@@ -1,5 +1,14 @@
 var NAVTREEINDEX11 =
 {
+"functions_vars_i.html":[4,2,2,9],
+"functions_vars_j.html":[4,2,2,10],
+"functions_vars_k.html":[4,2,2,11],
+"functions_vars_l.html":[4,2,2,12],
+"functions_vars_m.html":[4,2,2,13],
+"functions_vars_n.html":[4,2,2,14],
+"functions_vars_o.html":[4,2,2,15],
+"functions_vars_p.html":[4,2,2,16],
+"functions_vars_r.html":[4,2,2,17],
 "functions_vars_s.html":[4,2,2,18],
 "functions_vars_t.html":[4,2,2,19],
 "functions_vars_u.html":[4,2,2,20],
@@ -240,14 +249,5 @@ var NAVTREEINDEX11 =
 "struct_fungus_1_1_game_object_data.html#a6b483e702a38acbeddbd74e324ad2150":[4,0,0,57,0],
 "struct_fungus_1_1_game_object_data.html#a79edbfae85eed37b359ff76def96af28":[4,0,0,57,1],
 "struct_fungus_1_1_game_object_data.html#a8e1deecc455c7bae15aac37ec8a247f9":[4,0,0,57,3],
-"struct_fungus_1_1_game_object_data.html#af846689c937c3c140d50ccd61296b2e0":[4,0,0,57,2],
-"struct_fungus_1_1_integer_data.html":[4,0,0,65],
-"struct_fungus_1_1_integer_data.html#a38a9ca934a9ee8513e128f0ead034645":[4,0,0,65,4],
-"struct_fungus_1_1_integer_data.html#a5625ed8e967f48d3fa8693e609c4201c":[4,0,0,65,1],
-"struct_fungus_1_1_integer_data.html#a5aad61babf3e4ad809081555d560e9be":[4,0,0,65,2],
-"struct_fungus_1_1_integer_data.html#a910ddfa5681111dcab6e5eccb7daa011":[4,0,0,65,3],
-"struct_fungus_1_1_integer_data.html#aa1d6b0cd14c62d3dd20e18ba984c6b65":[4,0,0,65,0],
-"struct_fungus_1_1_material_data.html":[4,0,0,82],
-"struct_fungus_1_1_material_data.html#a0480348c97d882885381c17355c78678":[4,0,0,82,2],
-"struct_fungus_1_1_material_data.html#a364c4d4349fcd2479b9f3c4f696957bf":[4,0,0,82,4]
+"struct_fungus_1_1_game_object_data.html#af846689c937c3c140d50ccd61296b2e0":[4,0,0,57,2]
 };
