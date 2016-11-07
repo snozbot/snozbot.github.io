@@ -7,6 +7,7 @@ var searchData=
   ['scrollviewrect',['ScrollViewRect',['../class_fungus_1_1_flowchart.html#a536f5ba10ad779e8892a3a85b541972d',1,'Fungus::Flowchart']]],
   ['secondaryaspectratio',['SecondaryAspectRatio',['../class_fungus_1_1_view.html#abeeae687e377c8651d863523503b8945',1,'Fungus::View']]],
   ['selectedblock',['SelectedBlock',['../class_fungus_1_1_flowchart.html#a95a3a193463d1849bdc74366e2d56a0b',1,'Fungus::Flowchart']]],
+  ['selectedblocks',['SelectedBlocks',['../class_fungus_1_1_flowchart.html#a64dd2799d47224758e5857c1da7aaa06',1,'Fungus::Flowchart']]],
   ['selectedcommands',['SelectedCommands',['../class_fungus_1_1_flowchart.html#a84c8397c5b47373495e327987590bca5',1,'Fungus::Flowchart']]],
   ['selectedflowchart',['SelectedFlowchart',['../class_fungus_1_1_fungus_state.html#a6daac803c5d0ca2f2cff96515dc5fe47',1,'Fungus::FungusState']]],
   ['setsaydialog',['SetSayDialog',['../class_fungus_1_1_character.html#aadf120753dbdb5a4bcef2e3c72a2391e',1,'Fungus::Character']]],

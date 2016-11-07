@@ -179,6 +179,10 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a8d51816ee9a1ab575b9ee8b6291e5153"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a8d51816ee9a1ab575b9ee8b6291e5153">Awake</a> ()</td></tr>
+<tr class="separator:a8d51816ee9a1ab575b9ee8b6291e5153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a751fb51bab826c2da4825c466ae93605"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a751fb51bab826c2da4825c466ae93605">OnDestroy</a> ()</td></tr>
+<tr class="separator:a751fb51bab826c2da4825c466ae93605"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace4ff8e0ee97e1e7d7451bb81956c119"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fungus_1_1_writer.html">Writer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#ace4ff8e0ee97e1e7d7451bb81956c119">GetWriter</a> ()</td></tr>
 <tr class="separator:ace4ff8e0ee97e1e7d7451bb81956c119"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80dd8b1bd069d0d2ff77226661ce34ff"><td class="memItemLeft" align="right" valign="top">CanvasGroup&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a80dd8b1bd069d0d2ff77226661ce34ff">GetCanvasGroup</a> ()</td></tr>
@@ -235,6 +239,8 @@ Protected Attributes</h2></td></tr>
 Static Protected Attributes</h2></td></tr>
 <tr class="memitem:a7d35dacb3aaea22f5e44e59dab372161"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_fungus_1_1_character.html">Character</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a7d35dacb3aaea22f5e44e59dab372161">speakingCharacter</a></td></tr>
 <tr class="separator:a7d35dacb3aaea22f5e44e59dab372161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e2248dd80a5c0718cccee7eb57f091b"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_fungus_1_1_say_dialog.html">SayDialog</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_say_dialog.html#a6e2248dd80a5c0718cccee7eb57f091b">activeSayDialogs</a> = new List&lt;<a class="el" href="class_fungus_1_1_say_dialog.html">SayDialog</a>&gt;()</td></tr>
+<tr class="separator:a6e2248dd80a5c0718cccee7eb57f091b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -252,8 +258,33 @@ Properties</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Display story text in a visual novel style dialog box. </p>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00014">14</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00015">15</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a8d51816ee9a1ab575b9ee8b6291e5153"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Fungus.SayDialog.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00061">61</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ad80d1c6f9fba0a89a39cc86dcec11126"></a>
 <div class="memitem">
 <div class="memproto">
@@ -277,7 +308,7 @@ Properties</h2></td></tr>
 
 <p>Stops writing text and clears the <a class="el" href="class_fungus_1_1_say.html" title="Writes text in a dialog box. ">Say</a> Dialog. </p>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00469">469</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00492">492</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -302,7 +333,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00181">181</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00198">198</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -383,7 +414,7 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00419">419</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00442">442</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -408,7 +439,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00073">73</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00090">90</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -435,7 +466,7 @@ Properties</h2></td></tr>
 
 <p>Returns a <a class="el" href="class_fungus_1_1_say_dialog.html" title="Display story text in a visual novel style dialog box. ">SayDialog</a> by searching for one in the scene or creating one if none exists. </p>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00199">199</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00216">216</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -460,7 +491,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00057">57</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00074">74</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -485,7 +516,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00089">89</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00106">106</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -510,7 +541,32 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00134">134</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00151">151</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a751fb51bab826c2da4825c466ae93605"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Fungus.SayDialog.OnDestroy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00069">69</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -591,7 +647,7 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00404">404</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00427">427</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -619,7 +675,7 @@ Properties</h2></td></tr>
 
 <p>Sets the active state of the <a class="el" href="class_fungus_1_1_say.html" title="Writes text in a dialog box. ">Say</a> Dialog gameobject. </p>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00259">259</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00282">282</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -653,7 +709,7 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00268">268</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00291">291</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -681,7 +737,7 @@ Properties</h2></td></tr>
 
 <p>Sets the character image to display on the <a class="el" href="class_fungus_1_1_say.html" title="Writes text in a dialog box. ">Say</a> Dialog. </p>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00328">328</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00351">351</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -720,7 +776,7 @@ Properties</h2></td></tr>
 <p>Sets the character name to display on the <a class="el" href="class_fungus_1_1_say.html" title="Writes text in a dialog box. ">Say</a> Dialog. </p>
 <p>Supports variable substitution e.g. John {$surname} </p>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00384">384</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00407">407</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -745,7 +801,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00105">105</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00122">122</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -772,7 +828,7 @@ Properties</h2></td></tr>
 
 <p><a class="el" href="class_fungus_1_1_stop.html" title="Stop executing the Block that contains this command. ">Stop</a> the <a class="el" href="class_fungus_1_1_say.html" title="Writes text in a dialog box. ">Say</a> Dialog while its writing text. </p>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00460">460</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00483">483</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -799,7 +855,7 @@ Properties</h2></td></tr>
 
 <p>Stops all active portrait tweens. </p>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00230">230</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00253">253</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -824,11 +880,33 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00144">144</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00161">161</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a6e2248dd80a5c0718cccee7eb57f091b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_fungus_1_1_say_dialog.html">SayDialog</a>&gt; Fungus.SayDialog.activeSayDialogs = new List&lt;<a class="el" href="class_fungus_1_1_say_dialog.html">SayDialog</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00059">59</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a0df46e2556e2319844e7b27b3a7b8410"></a>
 <div class="memitem">
 <div class="memproto">
@@ -847,7 +925,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00044">44</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00045">45</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -869,7 +947,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00033">33</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00034">34</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -891,7 +969,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00020">20</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00021">21</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -913,7 +991,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00050">50</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00051">51</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -935,7 +1013,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00023">23</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00024">24</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -957,7 +1035,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00048">48</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00049">49</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -979,7 +1057,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00017">17</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00018">18</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1001,7 +1079,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00046">46</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00047">47</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1023,7 +1101,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00037">37</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00038">38</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1045,7 +1123,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00026">26</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00027">27</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1067,7 +1145,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00053">53</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00054">54</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1089,7 +1167,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00040">40</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00041">41</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1111,7 +1189,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00039">39</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00040">40</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1133,7 +1211,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00029">29</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00030">30</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1155,7 +1233,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00055">55</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00056">56</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1177,7 +1255,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00047">47</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00048">48</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1199,7 +1277,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00043">43</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00044">44</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1221,7 +1299,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00042">42</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00043">43</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1246,7 +1324,7 @@ Properties</h2></td></tr>
 
 <p>Currently active <a class="el" href="class_fungus_1_1_say.html" title="Writes text in a dialog box. ">Say</a> Dialog used to display <a class="el" href="class_fungus_1_1_say.html" title="Writes text in a dialog box. ">Say</a> text </p>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00194">194</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00211">211</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1268,7 +1346,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00034">34</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00035">35</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1292,7 +1370,7 @@ Properties</h2></td></tr>
 
 <p>Tell the <a class="el" href="class_fungus_1_1_say.html" title="Writes text in a dialog box. ">Say</a> Dialog to fade out once writing and player input have finished. </p>
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00455">455</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00478">478</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1314,7 +1392,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00030">30</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
+<p>Definition at line <a class="el" href="_say_dialog_8cs_source.html#l00031">31</a> of file <a class="el" href="_say_dialog_8cs_source.html">SayDialog.cs</a>.</p>
 
 </div>
 </div>
@@ -1327,7 +1405,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_say_dialog.html">SayDialog</a></li>
-    <li class="footer">Generated on Fri Oct 28 2016 12:57:01 for Fungus by
+    <li class="footer">Generated on Mon Nov 7 2016 13:50:36 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -12,6 +12,7 @@ var searchData=
   ['activehotspot',['activeHotspot',['../class_fungus_1_1_set_mouse_cursor.html#ad9fc805856166e13417142aaaa99248e',1,'Fungus::SetMouseCursor']]],
   ['activelanguage',['activeLanguage',['../class_fungus_1_1_localization.html#ac7ba8de86b270f3865a284b2472e76b0',1,'Fungus::Localization']]],
   ['activelanguageprop',['activeLanguageProp',['../class_fungus_1_1_editor_utils_1_1_localization_editor.html#acf805d1239a2945bce3dd4527ada2d0f',1,'Fungus::EditorUtils::LocalizationEditor']]],
+  ['activesaydialogs',['activeSayDialogs',['../class_fungus_1_1_say_dialog.html#a6e2248dd80a5c0718cccee7eb57f091b',1,'Fungus::SayDialog']]],
   ['activestages',['activeStages',['../class_fungus_1_1_stage.html#accd79fbd5595f78257b3a485af4f3af9',1,'Fungus::Stage']]],
   ['activestate',['activeState',['../class_fungus_1_1_set_active.html#ac19abe8fa3b5b01c8a9ec4bbcdf5204b',1,'Fungus.SetActive.activeState()'],['../class_fungus_1_1_set_clickable2_d.html#abde91cf6a3648e6806a978485fe49761',1,'Fungus.SetClickable2D.activeState()'],['../class_fungus_1_1_set_collider.html#a6c99888f6f90917430ed8c2528e7c315',1,'Fungus.SetCollider.activeState()'],['../class_fungus_1_1_set_draggable2_d.html#a4472e48a44e6869ffee2f58795b61768',1,'Fungus.SetDraggable2D.activeState()']]],
   ['activestateprop',['activeStateProp',['../class_fungus_1_1_editor_utils_1_1_set_collider_editor.html#ae43b370937ee11ee9935bdc07aa611c0',1,'Fungus::EditorUtils::SetColliderEditor']]],

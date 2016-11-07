@@ -1,5 +1,6 @@
 var class_fungus_1_1_say_dialog =
 [
+    [ "Awake", "class_fungus_1_1_say_dialog.html#a8d51816ee9a1ab575b9ee8b6291e5153", null ],
     [ "Clear", "class_fungus_1_1_say_dialog.html#ad80d1c6f9fba0a89a39cc86dcec11126", null ],
     [ "ClearStoryText", "class_fungus_1_1_say_dialog.html#a130177428c65510ee3e3079dc4f20aa9", null ],
     [ "DoSay", "class_fungus_1_1_say_dialog.html#a7dacd34988dd134905fd960efdc6d70c", null ],
@@ -7,6 +8,7 @@ var class_fungus_1_1_say_dialog =
     [ "GetWriter", "class_fungus_1_1_say_dialog.html#ace4ff8e0ee97e1e7d7451bb81956c119", null ],
     [ "GetWriterAudio", "class_fungus_1_1_say_dialog.html#adb32afff0a54e687ab33a824073393c3", null ],
     [ "LateUpdate", "class_fungus_1_1_say_dialog.html#ad39477a50a71fe11c73ee091352400cc", null ],
+    [ "OnDestroy", "class_fungus_1_1_say_dialog.html#a751fb51bab826c2da4825c466ae93605", null ],
     [ "Say", "class_fungus_1_1_say_dialog.html#a0f55d787c35fd527c824e38e03163135", null ],
     [ "SetActive", "class_fungus_1_1_say_dialog.html#a28cf85d76739395ae3f3ae58150f1458", null ],
     [ "SetCharacter", "class_fungus_1_1_say_dialog.html#afb1ca8f57d829893fb2349ebba0be010", null ],

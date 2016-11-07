@@ -2,12 +2,16 @@ var class_fungus_1_1_editor_utils_1_1_flowchart_window =
 [
     [ "CalcFlowchartCenter", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a32455841a2028e2b1defae4625e47277", null ],
     [ "DeleteBlock", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a4d510d5827210d0500c873ee5d2e5047", null ],
+    [ "DoZoom", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a5dbf1a55225df057580ae1f861155a1b", null ],
     [ "DrawConnections", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ab99224609b09ee1c2cfbc04d431c299d", null ],
     [ "DrawFlowchartView", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a9b51deee30f20e9314a310cb7c7a6750", null ],
     [ "DrawGrid", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#aaef566c3d46a29800cd6927a1b4c0afe", null ],
     [ "DrawOverlay", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a70f4192d944fe1183b384764541bd75e", null ],
     [ "DrawRectConnection", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#afcb5341729a7568bc70fb08f5424525c", null ],
     [ "DrawWindow", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ad5f54f82a4e0f4e33b83bc0a252c2f0c", null ],
+    [ "GetAppendModifierDown", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a7b441d079dc7bfcbb29c8d5dc28a9687", null ],
+    [ "HandleSelectionBox", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a0e5f368ac1b2505ba687a771148f3dc2", null ],
+    [ "OnBecameVisible", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ad98040b37200ee8deb810418f4c2a256", null ],
     [ "OnEnable", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ab021896d6a7bd4a894aa37a7d43f6aa5", null ],
     [ "OnGUI", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a2f553f18990df86d13d3845fc6178496", null ],
     [ "OnInspectorUpdate", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ae49349a943301a905db84e263faf059d", null ],
@@ -18,8 +22,11 @@ var class_fungus_1_1_editor_utils_1_1_flowchart_window =
     [ "forceRepaintCount", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ac1924160ac64717f1f3933eeb22ab6ba", null ],
     [ "maxZoomValue", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a74304fcdc15f8e31280aa66c96ac1c6d", null ],
     [ "minZoomValue", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#aa0a36e49e4b75512f42e1ea3b50901d5", null ],
+    [ "mouseDownSelectionState", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ada936b43cddda5a8010e257462c52577", null ],
     [ "mouseOverVariables", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ad1318fda66cada74bf94f72ea7e0e571", null ],
     [ "nodeStyle", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ae127cf448e262da625ebce8fadabfbd5", null ],
+    [ "selectionBox", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ad9b6d4d60603efc4cb6a5be311c2e978", null ],
     [ "startDragPosition", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a623628cf0b517c224ccd0e6f70b38513", null ],
+    [ "startSelectionBoxPosition", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a7b4b7efd5b85cf0c1e75b7f1f32b26fb", null ],
     [ "windowBlockMap", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ae9eb8b27fb3afde335d9a36f8f94f2e1", null ]
 ];

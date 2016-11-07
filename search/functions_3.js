@@ -1,7 +1,8 @@
 var searchData=
 [
   ['delete',['Delete',['../class_fungus_1_1_editor_utils_1_1_block_editor.html#a4d8ce8a1ecb8c584839624a8d0d07db9',1,'Fungus::EditorUtils::BlockEditor']]],
-  ['deleteblock',['DeleteBlock',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a4d510d5827210d0500c873ee5d2e5047',1,'Fungus.EditorUtils.FlowchartWindow.DeleteBlock(Flowchart flowchart, Block block)'],['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ad68594289a0b564c1ff171ea7fc8ff42',1,'Fungus.EditorUtils.FlowchartWindow.DeleteBlock(object obj)']]],
+  ['deleteblock',['DeleteBlock',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a4d510d5827210d0500c873ee5d2e5047',1,'Fungus::EditorUtils::FlowchartWindow']]],
+  ['deleteblocks',['DeleteBlocks',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a16e85bb7ca362f6e07bb45a564934264',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['dimnonspeakingportraits',['DimNonSpeakingPortraits',['../class_fungus_1_1_control_stage.html#a3bdf0d5f42e661531836941e90467fae',1,'Fungus::ControlStage']]],
   ['dobegindrag',['DoBeginDrag',['../class_fungus_1_1_draggable2_d.html#aa3bcf49572395288e6e6917f8a63726b',1,'Fungus::Draggable2D']]],
   ['doconversation',['DoConversation',['../class_fungus_1_1_conversation.html#a0f7ec9032f3d78aa64c0df4a74b052d1',1,'Fungus.Conversation.DoConversation()'],['../class_fungus_1_1_conversation_manager.html#ad737c386616fa1b8367147c712f78fb6',1,'Fungus.ConversationManager.DoConversation()']]],
@@ -20,6 +21,7 @@ var searchData=
   ['dowait',['DoWait',['../class_fungus_1_1_play_sound.html#ac489c12cdb748149acd58d6184e84141',1,'Fungus.PlaySound.DoWait()'],['../class_fungus_1_1_writer.html#a46a558de39584f3f0c451c8693416ce2',1,'Fungus.Writer.DoWait(List&lt; string &gt; paramList)'],['../class_fungus_1_1_writer.html#a772937f47c973690dc2afa2f15cf49e7',1,'Fungus.Writer.DoWait(float duration)']]],
   ['dowaitforinput',['DoWaitForInput',['../class_fungus_1_1_writer.html#a00795fc5b0b8040c49715edab2ed9bac',1,'Fungus::Writer']]],
   ['dowords',['DoWords',['../class_fungus_1_1_writer.html#af330dbeb0181eb2e61f65498b608e206',1,'Fungus::Writer']]],
+  ['dozoom',['DoZoom',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a5dbf1a55225df057580ae1f861155a1b',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['drawbezier',['DrawBezier',['../class_fungus_1_1_editor_utils_1_1_g_l_draw.html#ab341c34f4445799afb1dc520f09f0d08',1,'Fungus.EditorUtils.GLDraw.DrawBezier(Vector2 start, Vector2 startTangent, Vector2 end, Vector2 endTangent, Color color, float width)'],['../class_fungus_1_1_editor_utils_1_1_g_l_draw.html#aeab55b66ce2ecd9edace349640607882',1,'Fungus.EditorUtils.GLDraw.DrawBezier(Vector2 start, Vector2 startTangent, Vector2 end, Vector2 endTangent, Color color, float width, int segments)']]],
   ['drawblockgui',['DrawBlockGUI',['../class_fungus_1_1_editor_utils_1_1_block_editor.html#a9be56dde0878ee178473948e91a52008',1,'Fungus::EditorUtils::BlockEditor']]],
   ['drawblockname',['DrawBlockName',['../class_fungus_1_1_editor_utils_1_1_block_editor.html#a11ee251764a76194595a806b1dd4a058',1,'Fungus::EditorUtils::BlockEditor']]],
@@ -48,5 +50,5 @@ var searchData=
   ['drawview',['DrawView',['../class_fungus_1_1_editor_utils_1_1_view_editor.html#acf3345a822bc1916f2c30f03285b4b83',1,'Fungus::EditorUtils::ViewEditor']]],
   ['drawwindow',['DrawWindow',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ad5f54f82a4e0f4e33b83bc0a252c2f0c',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['duplicate',['Duplicate',['../class_fungus_1_1_editor_utils_1_1_command_list_adaptor.html#ab9329627b9522b4819e7b365f769038c',1,'Fungus.EditorUtils.CommandListAdaptor.Duplicate()'],['../class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#aa1cf8e6a0be5ae987f771f609808211e',1,'Fungus.EditorUtils.VariableListAdaptor.Duplicate()']]],
-  ['duplicateblock',['DuplicateBlock',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#af390366c581c3b256b8e65b2dd096718',1,'Fungus::EditorUtils::FlowchartWindow']]]
+  ['duplicateblocks',['DuplicateBlocks',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a0a78ed32f792738652c2f480602c9302',1,'Fungus::EditorUtils::FlowchartWindow']]]
 ];

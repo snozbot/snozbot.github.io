@@ -38,14 +38,14 @@ var NAVTREEINDEX =
 "_text_tag_token_8cs.html#a1db437b9e85356df8aa76c326413cc2ba056a026b9c5175d2b29de2578e094bc9",
 "class_fungus_1_1_character.html#a02dc61f9e37268e27a56bed92f10e223",
 "class_fungus_1_1_draggable2_d.html#aa3bcf49572395288e6e6917f8a63726b",
-"class_fungus_1_1_editor_utils_1_1_say_editor.html#a5f994f99410fbdab0c6bc45de301bfd1",
-"class_fungus_1_1_flowchart.html#a95a3a193463d1849bdc74366e2d56a0b",
-"class_fungus_1_1_menu_timer.html",
-"class_fungus_1_1_rotate_add.html#a5dbb636759dc1441b2483ad7d3d765b2",
-"class_fungus_1_1_set_sorting_layer.html#a468d8c0dee1c8c69cba329491928fcfe",
-"class_fungus_1_1_write.html#a2be529c72d256f5b9f3b3fa8c4d78aa1",
-"functions_vars_i.html",
-"struct_fungus_1_1_integer_data.html"
+"class_fungus_1_1_editor_utils_1_1_portrait_editor.html#ac4061a57bf1ad62592250d99f302a90b",
+"class_fungus_1_1_flowchart.html#a7ded2ce60005cd63b04699988f3ed9b6",
+"class_fungus_1_1_menu_dialog.html#a80122e7085bc075c072a4508074ac6f2",
+"class_fungus_1_1_reset.html#a6b6c49d4478ef5b1aa08a165ba649e25",
+"class_fungus_1_1_set_save_profile.html#a58f91614518102a2a5e0840b019ca42a",
+"class_fungus_1_1_wait.html#ac81542d64ac82c00da278cf20d3d9ae5",
+"functions_o.html",
+"struct_fungus_1_1_conversation_manager_1_1_conversation_item.html#a503ae3886112c691d2d77f92c280612c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

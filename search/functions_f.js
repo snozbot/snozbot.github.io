@@ -13,6 +13,7 @@ var searchData=
   ['setaudiomode',['SetAudioMode',['../class_fungus_1_1_writer_audio.html#a6eb634d9ba278b3c10b88c43aa5624c2',1,'Fungus::WriterAudio']]],
   ['setaudiopitch',['SetAudioPitch',['../class_fungus_1_1_music_manager.html#a905309ceb4f08557b1315515b7f845d9',1,'Fungus::MusicManager']]],
   ['setaudiovolume',['SetAudioVolume',['../class_fungus_1_1_music_manager.html#a6de9aec5403bc5322132b9c5c809a1a0',1,'Fungus::MusicManager']]],
+  ['setblockforinspector',['SetBlockForInspector',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#af81230d7d45667319c792e29ce20d03c',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['setbooleanvariable',['SetBooleanVariable',['../class_fungus_1_1_flowchart.html#a54cdc0a5a4ba41148ed06d4fa49e29ae',1,'Fungus::Flowchart']]],
   ['setbuttonclickedflag',['SetButtonClickedFlag',['../class_fungus_1_1_dialog_input.html#aa4ab5c5dbbf8b71bce8f044b6b7d6dcc',1,'Fungus::DialogInput']]],
   ['setcameraz',['SetCameraZ',['../class_fungus_1_1_camera_manager.html#ab16552a6c14763cee372301a6b9798ab',1,'Fungus::CameraManager']]],

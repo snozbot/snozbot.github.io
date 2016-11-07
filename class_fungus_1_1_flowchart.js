@@ -1,9 +1,11 @@
 var class_fungus_1_1_flowchart =
 [
+    [ "AddSelectedBlock", "class_fungus_1_1_flowchart.html#ac106a142a14d89f301559113a13ef1d6", null ],
     [ "AddSelectedCommand", "class_fungus_1_1_flowchart.html#a7ed4415f532a4e61cbfdebdbf4c3dfdf", null ],
     [ "CheckEventSystem", "class_fungus_1_1_flowchart.html#a7aa5d3d33adeeb84014c53fa78439bce", null ],
     [ "CheckItemIds", "class_fungus_1_1_flowchart.html#a99dcd07ed04c6449da8e246fc81323db", null ],
     [ "CleanupComponents", "class_fungus_1_1_flowchart.html#aa64cda6d2ada78dd0e3505846cbbb6c0", null ],
+    [ "ClearSelectedBlocks", "class_fungus_1_1_flowchart.html#a1905744b403a3131c810422f9914fdcc", null ],
     [ "ClearSelectedCommands", "class_fungus_1_1_flowchart.html#a358ab367615515d31803a36139341742", null ],
     [ "CreateBlock", "class_fungus_1_1_flowchart.html#ac53b68a3e7599f062495191a9ef3b363", null ],
     [ "CreateBlockComponent", "class_fungus_1_1_flowchart.html#ac3ad9c2f76e9d878e38fec7f138f515e", null ],
@@ -60,7 +62,7 @@ var class_fungus_1_1_flowchart =
     [ "saveSelection", "class_fungus_1_1_flowchart.html#ad14d7f17f8ef0d1fe6bcb1481fa36a55", null ],
     [ "scrollPos", "class_fungus_1_1_flowchart.html#a297d030c8054c2860f2eff5d6e209f55", null ],
     [ "scrollViewRect", "class_fungus_1_1_flowchart.html#a44f4a16fc26ce4a5fede610f485ba1b8", null ],
-    [ "selectedBlock", "class_fungus_1_1_flowchart.html#a1bbdbd8671516aec21b39e152a7ad0af", null ],
+    [ "selectedBlocks", "class_fungus_1_1_flowchart.html#a0c01072e9dd3bd448086c2f376df049b", null ],
     [ "selectedCommands", "class_fungus_1_1_flowchart.html#a8fff870a9166e00feef208a4fec4f7a2", null ],
     [ "showLineNumbers", "class_fungus_1_1_flowchart.html#ac8b11be2ea299497b7c409b8919400c9", null ],
     [ "stepPause", "class_fungus_1_1_flowchart.html#a7ded2ce60005cd63b04699988f3ed9b6", null ],
@@ -81,6 +83,7 @@ var class_fungus_1_1_flowchart =
     [ "ScrollPos", "class_fungus_1_1_flowchart.html#a932a9f843bbbb7476409485d52001c38", null ],
     [ "ScrollViewRect", "class_fungus_1_1_flowchart.html#a536f5ba10ad779e8892a3a85b541972d", null ],
     [ "SelectedBlock", "class_fungus_1_1_flowchart.html#a95a3a193463d1849bdc74366e2d56a0b", null ],
+    [ "SelectedBlocks", "class_fungus_1_1_flowchart.html#a64dd2799d47224758e5857c1da7aaa06", null ],
     [ "SelectedCommands", "class_fungus_1_1_flowchart.html#a84c8397c5b47373495e327987590bca5", null ],
     [ "ShowLineNumbers", "class_fungus_1_1_flowchart.html#a54e15cfed08fff3e26d765139dab43d1", null ],
     [ "StepPause", "class_fungus_1_1_flowchart.html#a1156219cabb5fe9c453228927d68a6ad", null ],

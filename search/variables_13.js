@@ -50,6 +50,7 @@ var searchData=
   ['textureval',['textureVal',['../struct_fungus_1_1_texture_data.html#a6fabc5b8b1c79ac670a4ccf3d351a1ee',1,'Fungus::TextureData']]],
   ['texturevalue',['textureValue',['../class_fungus_1_1_object_value.html#a656e20f4ced6ce448cef3a9f32357b22',1,'Fungus::ObjectValue']]],
   ['time',['time',['../class_fungus_1_1_play_anim_state.html#afb133f0da1740f1b43924dcb146a02e0',1,'Fungus::PlayAnimState']]],
+  ['tint',['tint',['../class_fungus_1_1_node.html#ae384bd5dd04ff0a1757d61e9d20f8453',1,'Fungus::Node']]],
   ['toggle',['toggle',['../class_fungus_1_1_get_toggle_state.html#a85c78fe8b4daca193b4927dbd176df28',1,'Fungus.GetToggleState.toggle()'],['../class_fungus_1_1_set_toggle_state.html#aa542e5f97254e4202fccde70fdf1a7df',1,'Fungus.SetToggleState.toggle()']]],
   ['togglestate',['toggleState',['../class_fungus_1_1_get_toggle_state.html#ae6994d93abe1cc865bb04cd41dd3ba03',1,'Fungus.GetToggleState.toggleState()'],['../class_fungus_1_1_toggle_changed.html#a7c70bc74954fbad06d4962ad32ebad3f',1,'Fungus.ToggleChanged.toggleState()']]],
   ['toposition',['toPosition',['../class_fungus_1_1_portrait.html#af0ff268b403eb5ea6e318f824fd893fc',1,'Fungus.Portrait.toPosition()'],['../class_fungus_1_1_portrait_options.html#ad71a1944d9272070068b444d405473fc',1,'Fungus.PortraitOptions.toPosition()']]],

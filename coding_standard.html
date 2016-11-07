@@ -122,7 +122,7 @@ Code layout</h1>
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;using UnityEngine;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;namespace Fungus</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    /// &lt;summary&gt;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    /// Description of the component.</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    /// &lt;/summary&gt;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    public class MyComponent : MonoBehaviour</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    {</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        [Tooltip(&quot;Tooltip comment displayed in the editor.&quot;)]</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        [SerializeField] protected float myProperty = 10f;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        protected virtual void MyMethod()</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        {</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            if (myProperty &gt; 5f)</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                Debug.Log(&quot;A message&quot;);</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            }</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        }</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        #region Public members</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        /// &lt;summary&gt;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        /// Documentation comment for public property.</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        /// &lt;/summary&gt;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        public virtual float MyProperty { get; set; }</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        /// &lt;summary&gt;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        /// Aspect ratio of the secondary view rectangle. e.g. a 2:1 aspect ratio = 2/1 = 2.0.</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        /// &lt;/summary&gt;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        public virtual void DoSomething()</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        }</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        #endregion</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div></div><!-- fragment --><p>Things to note:</p>
 <ul>
 <li>using declarations all go together at the top of the file.</li>
-<li>You should remove any unused using declarations (can spot these easily with static code analysis - see below).</li>
+<li>Remove any unused using declarations (can spot these easily with static code analysis - see below).</li>
 <li>Runtime code goes in the <a class="el" href="namespace_fungus.html">Fungus</a> namespace.</li>
 <li>Editor code goes in the <a class="el" href="namespace_fungus_1_1_editor_utils.html">Fungus.EditorUtils</a> namespace.</li>
 <li>All public classes, structs, enums and class members should be documented using xml comments.</li>
@@ -149,7 +149,31 @@ Coding best practices</h1>
 <li>Use Mathf.Approximately when comparing float variables to constants.</li>
 <li>Treat compiler warnings as errors. There should be zero warnings at build or runtime in normal operation.</li>
 <li>Add global constants to <a class="el" href="_fungus_constants_8cs.html">FungusConstants.cs</a></li>
-<li>Always try to maintain backwards compatibility when introducing changes. We support Unity 5.0+ so beware of API differences in newer versions. </li>
+</ul>
+<h1><a class="anchor" id="backwards_compatibility"></a>
+Backwards compatibility</h1>
+<p>We aim to maintain backwards compatibility with each new release (to a reasonable extent).</p>
+<ul>
+<li>Projects should work correctly after upgrading to a newer Fungus version. Minor behavior changes are acceptable.</li>
+<li>Custom code which uses the Fungus API should compile without error after upgrading. Minor compile errors that are trivial to fix are sometimes acceptable.</li>
+<li>There are loads of Fungus tutorial videos and articles on the Internet, so avoid changing the UI too dramatically. Small UI tweaks and adding new controls is acceptable.</li>
+<li>We support Unity 5.0+ so beware of API differences in newer versions. If in doubt, install Unity 5.0 and test your changes.</li>
+</ul>
+<h1><a class="anchor" id="contributing"></a>
+Contributing</h1>
+<p>We welcome pull requests from everyone. By contributing to this project, you agree to abide by the <a class="el" href="code_of_conduct.html">Code of conduct</a>. You also agree that by submitting a pull request for this project, your contribution will be licensed under the <a href="https://github.com/snozbot/Fungus/blob/master/LICENSE">Open Source license</a> for this project.</p>
+<ul>
+<li>Fork and clone the Fungus repo.</li>
+<li>Make sure the tests pass locally (see the project readme for instructions).</li>
+<li>Make your change. Add tests for your change. Make the tests pass locally.</li>
+<li>Push to your fork and submit a pull request.</li>
+</ul>
+<p>Your pull request will have a better chance of being accepted if you do the following:</p>
+<ul>
+<li>Send one pull request for each new feature / bug fix. It's time consuming to review multi-feature changes and we won't merge a change unless we know exactly what it does.</li>
+<li>Write tests for each change / new feature (not always possible)</li>
+<li>Follow our coding standard (see above)</li>
+<li>Write a <a href="http://chris.beams.io/posts/git-commit/">good commit message</a>. </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
@@ -157,7 +181,7 @@ Coding best practices</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">%Fungus Documentation</a></li>
-    <li class="footer">Generated on Fri Oct 28 2016 12:57:00 for Fungus by
+    <li class="footer">Generated on Mon Nov 7 2016 13:50:35 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

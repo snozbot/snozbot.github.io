@@ -242,6 +242,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7ed4415f532a4e61cbfdebdbf4c3dfdf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a7ed4415f532a4e61cbfdebdbf4c3dfdf">AddSelectedCommand</a> (<a class="el" href="class_fungus_1_1_command.html">Command</a> command)</td></tr>
 <tr class="memdesc:a7ed4415f532a4e61cbfdebdbf4c3dfdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a command to the list of selected commands.  <a href="#a7ed4415f532a4e61cbfdebdbf4c3dfdf">More...</a><br /></td></tr>
 <tr class="separator:a7ed4415f532a4e61cbfdebdbf4c3dfdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1905744b403a3131c810422f9914fdcc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a1905744b403a3131c810422f9914fdcc">ClearSelectedBlocks</a> ()</td></tr>
+<tr class="memdesc:a1905744b403a3131c810422f9914fdcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the list of selected blocks.  <a href="#a1905744b403a3131c810422f9914fdcc">More...</a><br /></td></tr>
+<tr class="separator:a1905744b403a3131c810422f9914fdcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac106a142a14d89f301559113a13ef1d6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#ac106a142a14d89f301559113a13ef1d6">AddSelectedBlock</a> (<a class="el" href="class_fungus_1_1_block.html">Block</a> block)</td></tr>
+<tr class="memdesc:ac106a142a14d89f301559113a13ef1d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a block to the list of selected blocks.  <a href="#ac106a142a14d89f301559113a13ef1d6">More...</a><br /></td></tr>
+<tr class="separator:ac106a142a14d89f301559113a13ef1d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6579253e165f0f4f6ebe21e3bde47409"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a6579253e165f0f4f6ebe21e3bde47409">Reset</a> (bool resetCommands, bool resetVariables)</td></tr>
 <tr class="memdesc:a6579253e165f0f4f6ebe21e3bde47409"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_fungus_1_1_reset.html" title="Resets the state of all commands and variables in the Flowchart. ">Reset</a> the commands and variables in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>.  <a href="#a6579253e165f0f4f6ebe21e3bde47409">More...</a><br /></td></tr>
 <tr class="separator:a6579253e165f0f4f6ebe21e3bde47409"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -306,8 +312,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ab641c149a2365551666f2f9fa2d0366e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44f4a16fc26ce4a5fede610f485ba1b8"><td class="memItemLeft" align="right" valign="top">Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a44f4a16fc26ce4a5fede610f485ba1b8">scrollViewRect</a></td></tr>
 <tr class="separator:a44f4a16fc26ce4a5fede610f485ba1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bbdbd8671516aec21b39e152a7ad0af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fungus_1_1_block.html">Block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a1bbdbd8671516aec21b39e152a7ad0af">selectedBlock</a></td></tr>
-<tr class="separator:a1bbdbd8671516aec21b39e152a7ad0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c01072e9dd3bd448086c2f376df049b"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_fungus_1_1_block.html">Block</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a0c01072e9dd3bd448086c2f376df049b">selectedBlocks</a> = new List&lt;<a class="el" href="class_fungus_1_1_block.html">Block</a>&gt;()</td></tr>
+<tr class="separator:a0c01072e9dd3bd448086c2f376df049b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fff870a9166e00feef208a4fec4f7a2"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_fungus_1_1_command.html">Command</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a8fff870a9166e00feef208a4fec4f7a2">selectedCommands</a> = new List&lt;<a class="el" href="class_fungus_1_1_command.html">Command</a>&gt;()</td></tr>
 <tr class="separator:a8fff870a9166e00feef208a4fec4f7a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad49d79073d85e5a7001dc806ee81c428"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_fungus_1_1_variable.html">Variable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#ad49d79073d85e5a7001dc806ee81c428">variables</a> = new List&lt;<a class="el" href="class_fungus_1_1_variable.html">Variable</a>&gt;()</td></tr>
@@ -366,8 +372,10 @@ Properties</h2></td></tr>
 <tr class="memdesc:a536f5ba10ad779e8892a3a85b541972d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scrollable area for <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor window.  <a href="#a536f5ba10ad779e8892a3a85b541972d">More...</a><br /></td></tr>
 <tr class="separator:a536f5ba10ad779e8892a3a85b541972d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95a3a193463d1849bdc74366e2d56a0b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_fungus_1_1_block.html">Block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a95a3a193463d1849bdc74366e2d56a0b">SelectedBlock</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a95a3a193463d1849bdc74366e2d56a0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently selected block in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor.  <a href="#a95a3a193463d1849bdc74366e2d56a0b">More...</a><br /></td></tr>
+<tr class="memdesc:a95a3a193463d1849bdc74366e2d56a0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current actively selected block in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor.  <a href="#a95a3a193463d1849bdc74366e2d56a0b">More...</a><br /></td></tr>
 <tr class="separator:a95a3a193463d1849bdc74366e2d56a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64dd2799d47224758e5857c1da7aaa06"><td class="memItemLeft" align="right" valign="top">virtual List&lt; <a class="el" href="class_fungus_1_1_block.html">Block</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a64dd2799d47224758e5857c1da7aaa06">SelectedBlocks</a><code> [get, set]</code></td></tr>
+<tr class="separator:a64dd2799d47224758e5857c1da7aaa06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84c8397c5b47373495e327987590bca5"><td class="memItemLeft" align="right" valign="top">virtual List&lt; <a class="el" href="class_fungus_1_1_command.html">Command</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_flowchart.html#a84c8397c5b47373495e327987590bca5">SelectedCommands</a><code> [get]</code></td></tr>
 <tr class="memdesc:a84c8397c5b47373495e327987590bca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently selected command in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor.  <a href="#a84c8397c5b47373495e327987590bca5">More...</a><br /></td></tr>
 <tr class="separator:a84c8397c5b47373495e327987590bca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -411,6 +419,34 @@ Properties</h2></td></tr>
 
 <p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00020">20</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac106a142a14d89f301559113a13ef1d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Fungus.Flowchart.AddSelectedBlock </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_fungus_1_1_block.html">Block</a>&#160;</td>
+          <td class="paramname"><em>block</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds a block to the list of selected blocks. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01066">1066</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a7ed4415f532a4e61cbfdebdbf4c3dfdf"></a>
 <div class="memitem">
 <div class="memproto">
@@ -435,7 +471,7 @@ Properties</h2></td></tr>
 
 <p>Adds a command to the list of selected commands. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01035">1035</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01047">1047</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -464,7 +500,7 @@ Properties</h2></td></tr>
 <p>Sends a message to all <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> objects in the current scene. </p>
 <p>Any block with a matching <a class="el" href="class_fungus_1_1_message_received.html" title="The block will execute when the specified message is received from a Send Message command...">MessageReceived</a> event handler will start executing. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00287">287</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00286">286</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -489,7 +525,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00118">118</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00117">117</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -514,7 +550,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00180">180</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00179">179</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -539,7 +575,34 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00208">208</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00207">207</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1905744b403a3131c810422f9914fdcc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Fungus.Flowchart.ClearSelectedBlocks </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clears the list of selected blocks. </p>
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01058">1058</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -566,7 +629,7 @@ Properties</h2></td></tr>
 
 <p>Clears the list of selected commands. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01027">1027</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01039">1039</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -594,7 +657,7 @@ Properties</h2></td></tr>
 
 <p>Create a new block node which you can then add commands to. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00435">435</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00447">447</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -620,7 +683,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00270">270</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00269">269</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -649,7 +712,7 @@ Properties</h2></td></tr>
 <p>Execute a child block in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 <p>You can use this method in a UI event. e.g. to handle a button click. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00466">466</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00478">478</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -694,7 +757,7 @@ Properties</h2></td></tr>
 <p>Execute a child block in the flowchart. </p>
 <p>The block must be in an idle state to be executed. This version provides extra options to control how the block is executed. Returns true if the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> started execution. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00488">488</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00500">500</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -722,7 +785,7 @@ Properties</h2></td></tr>
 
 <p>Returns the named <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> in the flowchart, or null if not found. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00448">448</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00460">460</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -751,7 +814,7 @@ Properties</h2></td></tr>
 <p>Gets the value of a boolean variable. </p>
 <p>Returns false if the variable key does not exist. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00798">798</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00810">810</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -778,7 +841,7 @@ Properties</h2></td></tr>
 
 <p>Returns a list of all executing blocks in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01106">1106</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01137">1137</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -807,7 +870,7 @@ Properties</h2></td></tr>
 <p>Gets the value of a float variable. </p>
 <p>Returns 0 if the variable key does not exist. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00858">858</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00870">870</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -836,7 +899,7 @@ Properties</h2></td></tr>
 <p>Gets the value of a GameObject variable. </p>
 <p>Returns null if the variable key does not exist. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00918">918</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00930">930</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -865,7 +928,7 @@ Properties</h2></td></tr>
 <p>Gets the value of an integer variable. </p>
 <p>Returns 0 if the variable key does not exist. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00828">828</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00840">840</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -884,7 +947,7 @@ Properties</h2></td></tr>
 
 <p>Returns the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> gameobject name. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00403">403</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00415">415</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -911,7 +974,7 @@ Properties</h2></td></tr>
 
 <p>Gets a list of all variables with public scope in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00779">779</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00791">791</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -940,7 +1003,7 @@ Properties</h2></td></tr>
 <p>Gets the value of a string variable. </p>
 <p>Returns the empty string if the variable key does not exist. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00888">888</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00900">900</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -969,7 +1032,7 @@ Properties</h2></td></tr>
 <p>Gets the value of a Transform variable. </p>
 <p>Returns null if the variable key does not exist. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00949">949</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00961">961</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1007,7 +1070,7 @@ Properties</h2></td></tr>
 
 <p>Returns a new <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> key that is guaranteed not to clash with any existing <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00594">594</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00606">606</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1045,7 +1108,7 @@ Properties</h2></td></tr>
 
 <p>Returns a new <a class="el" href="class_fungus_1_1_label.html" title="Marks a position in the command list for execution to jump to. ">Label</a> key that is guaranteed not to clash with any existing <a class="el" href="class_fungus_1_1_label.html" title="Marks a position in the command list for execution to jump to. ">Label</a> in the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00636">636</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00648">648</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1083,7 +1146,7 @@ Properties</h2></td></tr>
 
 <p>Returns a new variable key that is guaranteed not to clash with any existing variable in the list. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00547">547</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00559">559</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1104,7 +1167,7 @@ Properties</h2></td></tr>
 <p>Returns the variable with the specified key, or null if the key is not found. </p>
 <p>You will need to cast the returned variable to the correct sub-type. You can then access the variable's value using the Value property. e.g. <a class="el" href="class_fungus_1_1_boolean_variable.html" title="Boolean variable type. ">BooleanVariable</a> boolVar = flowchart.GetVariable("MyBool") as <a class="el" href="class_fungus_1_1_boolean_variable.html" title="Boolean variable type. ">BooleanVariable</a>; boolVar.Value = false; </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00684">684</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00696">696</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1133,7 +1196,7 @@ Properties</h2></td></tr>
 </dl>
 </div>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00704">704</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00716">716</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1160,7 +1223,7 @@ Properties</h2></td></tr>
 
 <p>Returns the list of variable names in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00761">761</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00773">773</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1187,7 +1250,7 @@ Properties</h2></td></tr>
 
 <p>Returns true if there are any executing blocks in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01089">1089</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01120">1120</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1215,7 +1278,7 @@ Properties</h2></td></tr>
 
 <p>Checks if a given variable exists in the flowchart. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00745">745</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00757">757</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1234,7 +1297,7 @@ Properties</h2></td></tr>
 
 <p>Returns true if the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> gameobject is active. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00395">395</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00407">407</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1262,7 +1325,7 @@ Properties</h2></td></tr>
 
 <p>Override this in a <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> subclass to filter which commands are shown in the Add <a class="el" href="class_fungus_1_1_command.html" title="Base class for Commands. ">Command</a> list. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01071">1071</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01102">1102</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1287,7 +1350,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00105">105</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00104">104</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1307,7 +1370,7 @@ Properties</h2></td></tr>
 <p>Returns the next id to assign to a new flowchart item. </p>
 <p>Item ids increase monotically so they are guaranteed to be unique within a <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00413">413</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00425">425</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1332,7 +1395,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00175">175</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00174">174</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1357,7 +1420,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00140">140</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00139">139</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1383,7 +1446,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00099">99</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00098">98</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1421,7 +1484,7 @@ Properties</h2></td></tr>
 
 <p><a class="el" href="class_fungus_1_1_reset.html" title="Resets the state of all commands and variables in the Flowchart. ">Reset</a> the commands and variables in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01046">1046</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01077">1077</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1450,7 +1513,7 @@ Properties</h2></td></tr>
 <p>Sends a message to this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> only. </p>
 <p>Any block with a matching <a class="el" href="class_fungus_1_1_message_received.html" title="The block will execute when the specified message is received from a Send Message command...">MessageReceived</a> event handler will start executing. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00534">534</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00546">546</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1489,7 +1552,7 @@ Properties</h2></td></tr>
 <p>Sets the value of a boolean variable. </p>
 <p>The variable must already be added to the list of variables for this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00815">815</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00827">827</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1528,7 +1591,7 @@ Properties</h2></td></tr>
 <p>Sets the value of a float variable. </p>
 <p>The variable must already be added to the list of variables for this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00875">875</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00887">887</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1567,7 +1630,7 @@ Properties</h2></td></tr>
 <p>Sets the value of a GameObject variable. </p>
 <p>The variable must already be added to the list of variables for this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00936">936</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00948">948</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1606,7 +1669,7 @@ Properties</h2></td></tr>
 <p>Sets the value of an integer variable. </p>
 <p>The variable must already be added to the list of variables for this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00845">845</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00857">857</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1645,7 +1708,7 @@ Properties</h2></td></tr>
 <p>Sets the value of a string variable. </p>
 <p>The variable must already be added to the list of variables for this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00905">905</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00917">917</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1684,7 +1747,7 @@ Properties</h2></td></tr>
 <p>Sets the value of a Transform variable. </p>
 <p>The variable must already be added to the list of variables for this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00967">967</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00979">979</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1723,7 +1786,7 @@ Properties</h2></td></tr>
 </dl>
 </div>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00723">723</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00735">735</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1748,7 +1811,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00111">111</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00110">110</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1775,7 +1838,7 @@ Properties</h2></td></tr>
 
 <p><a class="el" href="class_fungus_1_1_stop.html" title="Stop executing the Block that contains this command. ">Stop</a> all executing Blocks in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00517">517</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00529">529</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1804,7 +1867,7 @@ Properties</h2></td></tr>
 <p>Implementation of StringSubstituter.ISubstitutionHandler which matches any public variable in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 <p>To perform full variable substitution with all substitution handlers in the scene, you should use the <a class="el" href="class_fungus_1_1_flowchart.html#ae5751c4efb21547ad10e7fd9576cfd56" title="Substitute variables in the input text with the format {$VarName} This will first match with private ...">SubstituteVariables()</a> method instead. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01190">1190</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01221">1221</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1832,7 +1895,7 @@ Properties</h2></td></tr>
 
 <p>Substitute variables in the input text with the format {$VarName} This will first match with private variables in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>, and then with public variables in all Flowcharts in the scene (and any component in the scene that implements StringSubstituter.ISubstitutionHandler). </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01128">1128</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l01159">1159</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1859,7 +1922,7 @@ Properties</h2></td></tr>
 
 <p>Set the block objects to be hidden or visible depending on the hideComponents property. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00979">979</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00991">991</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1884,7 +1947,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00152">152</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00151">151</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1929,7 +1992,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00085">85</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00084">84</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1951,7 +2014,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00062">62</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00061">61</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1973,7 +2036,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00055">55</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00054">54</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -1995,7 +2058,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00087">87</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00086">86</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2017,7 +2080,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00077">77</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00076">76</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2039,7 +2102,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00065">65</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00064">64</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2061,7 +2124,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00071">71</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00070">70</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2083,7 +2146,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00083">83</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00082">82</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2105,7 +2168,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00080">80</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00079">79</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2127,7 +2190,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00068">68</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00067">67</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2175,7 +2238,7 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1bbdbd8671516aec21b39e152a7ad0af"></a>
+<a class="anchor" id="a0c01072e9dd3bd448086c2f376df049b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2183,7 +2246,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_fungus_1_1_block.html">Block</a> Fungus.Flowchart.selectedBlock</td>
+          <td class="memname">List&lt;<a class="el" href="class_fungus_1_1_block.html">Block</a>&gt; Fungus.Flowchart.selectedBlocks = new List&lt;<a class="el" href="class_fungus_1_1_block.html">Block</a>&gt;()</td>
         </tr>
       </table>
   </td>
@@ -2193,7 +2256,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00045">45</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00044">44</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2215,7 +2278,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00048">48</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00047">47</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2237,7 +2300,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00074">74</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00073">73</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2259,7 +2322,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00059">59</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00058">58</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2281,7 +2344,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00089">89</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00088">88</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2303,7 +2366,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00051">51</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00050">50</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2416,7 +2479,7 @@ Properties</h2></td></tr>
 
 <p>Height of command block view in inspector. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00315">315</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00314">314</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2440,7 +2503,7 @@ Properties</h2></td></tr>
 
 <p>Cached list of flowchart objects in the scene for fast lookup. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00281">281</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00280">280</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2464,7 +2527,7 @@ Properties</h2></td></tr>
 
 <p>Position in the center of all blocks in the flowchart. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00385">385</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00397">397</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2488,7 +2551,7 @@ Properties</h2></td></tr>
 
 <p>Use command color when displaying the command list in the inspector. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00355">355</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00367">367</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2512,7 +2575,7 @@ Properties</h2></td></tr>
 
 <p>Description text displayed in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor window </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00345">345</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00357">357</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2536,7 +2599,7 @@ Properties</h2></td></tr>
 
 <p>Unique identifier for identifying this flowchart in localized string keys. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00365">365</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00377">377</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2560,7 +2623,7 @@ Properties</h2></td></tr>
 
 <p>The <a class="el" href="class_fungus_1_1_execute_lua.html" title="Executes a Lua code chunk using a Lua Environment. ">ExecuteLua</a> command adds a global Lua variable with this name bound to the flowchart prior to executing. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00380">380</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00392">392</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2584,7 +2647,7 @@ Properties</h2></td></tr>
 
 <p>Lua Environment to be used by default for all Execute Lua commands in this <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00375">375</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00387">387</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2609,7 +2672,7 @@ Properties</h2></td></tr>
 <p>Saves the selected block and commands when saving the scene. </p>
 <p>Helps avoid version control conflicts if you've only changed the active selection. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00360">360</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00372">372</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2633,7 +2696,7 @@ Properties</h2></td></tr>
 
 <p>Scroll position of <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor window. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00300">300</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00299">299</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2657,7 +2720,7 @@ Properties</h2></td></tr>
 
 <p>Scrollable area for <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor window. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00325">325</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00324">324</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2679,9 +2742,31 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Currently selected block in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor. </p>
+<p>Current actively selected block in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor. </p>
 
 <p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00330">330</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a64dd2799d47224758e5857c1da7aaa06"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual List&lt;<a class="el" href="class_fungus_1_1_block.html">Block</a>&gt; Fungus.Flowchart.SelectedBlocks</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00342">342</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2705,7 +2790,7 @@ Properties</h2></td></tr>
 
 <p>Currently selected command in the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00335">335</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00347">347</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2729,7 +2814,7 @@ Properties</h2></td></tr>
 
 <p>Display line numbers in the command list in the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a> inspector. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00370">370</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00382">382</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2753,7 +2838,7 @@ Properties</h2></td></tr>
 
 <p>Slow down execution in the editor to make it easier to visualise program flow. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00350">350</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00362">362</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2777,7 +2862,7 @@ Properties</h2></td></tr>
 
 <p>The list of variables that can be accessed by the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a>. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00340">340</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00352">352</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2801,7 +2886,7 @@ Properties</h2></td></tr>
 
 <p>Show the variables pane. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00310">310</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00309">309</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2825,7 +2910,7 @@ Properties</h2></td></tr>
 
 <p>Scroll position of <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> variables window. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00305">305</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00304">304</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2849,7 +2934,7 @@ Properties</h2></td></tr>
 
 <p><a class="el" href="class_fungus_1_1_variable.html" title="Abstract base class for variables. ">Variable</a> to track flowchart's version so components can update to new versions. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00390">390</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00402">402</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2873,7 +2958,7 @@ Properties</h2></td></tr>
 
 <p>Zoom level of <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> editor window. </p>
 
-<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00320">320</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
+<p>Definition at line <a class="el" href="_flowchart_8cs_source.html#l00319">319</a> of file <a class="el" href="_flowchart_8cs_source.html">Flowchart.cs</a>.</p>
 
 </div>
 </div>
@@ -2886,7 +2971,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_flowchart.html">Flowchart</a></li>
-    <li class="footer">Generated on Fri Oct 28 2016 12:57:00 for Fungus by
+    <li class="footer">Generated on Mon Nov 7 2016 13:50:36 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

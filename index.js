@@ -101,7 +101,9 @@ var index =
     ] ],
     [ "Coding Standard", "coding_standard.html", [
       [ "Code layout", "coding_standard.html#code_layout", null ],
-      [ "Coding best practices", "coding_standard.html#coding_best_practices", null ]
+      [ "Coding best practices", "coding_standard.html#coding_best_practices", null ],
+      [ "Backwards compatibility", "coding_standard.html#backwards_compatibility", null ],
+      [ "Contributing", "coding_standard.html#contributing", null ]
     ] ],
     [ "Glossary", "glossary.html", null ],
     [ "Frequently Asked Questions", "faq.html", [
