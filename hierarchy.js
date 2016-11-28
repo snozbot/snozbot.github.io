@@ -12,9 +12,12 @@ var hierarchy =
       [ "Fungus.VariableInfoAttribute", "class_fungus_1_1_variable_info_attribute.html", null ]
     ] ],
     [ "Fungus.AudioSourceData", "struct_fungus_1_1_audio_source_data.html", null ],
+    [ "Fungus.EditorUtils.FlowchartWindow.BlockCopy", "class_fungus_1_1_editor_utils_1_1_flowchart_window_1_1_block_copy.html", null ],
+    [ "Fungus.EditorUtils.FlowchartWindow.BlockGraphics", "struct_fungus_1_1_editor_utils_1_1_flowchart_window_1_1_block_graphics.html", null ],
     [ "Fungus.BooleanData", "struct_fungus_1_1_boolean_data.html", null ],
     [ "Fungus.EditorUtils.CameraMenuItems", "class_fungus_1_1_editor_utils_1_1_camera_menu_items.html", null ],
     [ "Fungus.CameraManager.CameraView", "class_fungus_1_1_camera_manager_1_1_camera_view.html", null ],
+    [ "Fungus.EditorUtils.FlowchartWindow.ClipboardObject", "class_fungus_1_1_editor_utils_1_1_flowchart_window_1_1_clipboard_object.html", null ],
     [ "Fungus.ColorData", "struct_fungus_1_1_color_data.html", null ],
     [ "Fungus.ControlWithDisplay< DisplayType >", "class_fungus_1_1_control_with_display.html", [
       [ "Fungus.Portrait", "class_fungus_1_1_portrait.html", null ]
@@ -59,7 +62,6 @@ var hierarchy =
     [ "Fungus.FloatData", "struct_fungus_1_1_float_data.html", null ],
     [ "Fungus.EditorUtils.FlowchartMenuItems", "class_fungus_1_1_editor_utils_1_1_flowchart_menu_items.html", null ],
     [ "Fungus.GameObjectData", "struct_fungus_1_1_game_object_data.html", null ],
-    [ "Fungus.EditorUtils.GLDraw", "class_fungus_1_1_editor_utils_1_1_g_l_draw.html", null ],
     [ "IBeginDragHandler", null, [
       [ "Fungus.Draggable2D", "class_fungus_1_1_draggable2_d.html", null ]
     ] ],

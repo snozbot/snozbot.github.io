@@ -154,12 +154,11 @@ var files =
     ] ],
     [ "FlowchartEnabled.cs", "_flowchart_enabled_8cs.html", "_flowchart_enabled_8cs" ],
     [ "FlowchartMenuItems.cs", "_flowchart_menu_items_8cs.html", "_flowchart_menu_items_8cs" ],
-    [ "FlowchartWindow.cs", "_flowchart_window_8cs.html", [
-      [ "FlowchartWindow", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html", "class_fungus_1_1_editor_utils_1_1_flowchart_window" ]
-    ] ],
+    [ "FlowchartWindow.cs", "_flowchart_window_8cs.html", "_flowchart_window_8cs" ],
     [ "Fullscreen.cs", "_fullscreen_8cs.html", "_fullscreen_8cs" ],
     [ "FungusConstants.cs", "_fungus_constants_8cs.html", null ],
-    [ "FungusEditorResources.cs", "_fungus_editor_resources_8cs.html", "_fungus_editor_resources_8cs" ],
+    [ "FungusEditorResources.cs", "_fungus_editor_resources_8cs.html", null ],
+    [ "FungusEditorResourcesGenerated.cs", "_fungus_editor_resources_generated_8cs.html", null ],
     [ "FungusManager.cs", "_fungus_manager_8cs.html", [
       [ "FungusManager", "class_fungus_1_1_fungus_manager.html", "class_fungus_1_1_fungus_manager" ]
     ] ],
@@ -175,9 +174,6 @@ var files =
       [ "GetText", "class_fungus_1_1_get_text.html", "class_fungus_1_1_get_text" ]
     ] ],
     [ "GetToggleState.cs", "_get_toggle_state_8cs.html", "_get_toggle_state_8cs" ],
-    [ "GLDraw.cs", "_g_l_draw_8cs.html", [
-      [ "GLDraw", "class_fungus_1_1_editor_utils_1_1_g_l_draw.html", null ]
-    ] ],
     [ "IDialogInputListener.cs", "_i_dialog_input_listener_8cs.html", [
       [ "IDialogInputListener", "interface_fungus_1_1_i_dialog_input_listener.html", "interface_fungus_1_1_i_dialog_input_listener" ]
     ] ],

@@ -7,7 +7,7 @@ var searchData=
   ['pantoposition',['PanToPosition',['../class_fungus_1_1_camera_manager.html#a509fc3e3abe31373ae44bd7066e53fa3',1,'Fungus::CameraManager']]],
   ['parse',['Parse',['../class_fungus_1_1_conversation_manager.html#a012a4f1fa6ef1af8db6ed36d4e6333d7',1,'Fungus::ConversationManager']]],
   ['partitionstring',['PartitionString',['../class_fungus_1_1_writer.html#aceb12c9eccd0b3ec74df3455260015c8',1,'Fungus::Writer']]],
-  ['paste',['Paste',['../class_fungus_1_1_editor_utils_1_1_block_editor.html#a7c8cfbce8574ea866cd5f6dae59d4ad6',1,'Fungus::EditorUtils::BlockEditor']]],
+  ['paste',['Paste',['../class_fungus_1_1_editor_utils_1_1_block_editor.html#a7c8cfbce8574ea866cd5f6dae59d4ad6',1,'Fungus.EditorUtils.BlockEditor.Paste()'],['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a8e927732d13783bb2929732b081f711e',1,'Fungus.EditorUtils.FlowchartWindow.Paste()']]],
   ['pause',['Pause',['../class_fungus_1_1_writer_audio.html#addb16dba8e2a0d436e594c5284d36a86',1,'Fungus::WriterAudio']]],
   ['pauseloop',['PauseLoop',['../class_fungus_1_1_control_audio.html#a5ed2ddbb52df1852b1fbe1c834a61909',1,'Fungus::ControlAudio']]],
   ['play',['Play',['../class_fungus_1_1_writer_audio.html#a36dc490eca7c4155c57f99437c36b824',1,'Fungus::WriterAudio']]],

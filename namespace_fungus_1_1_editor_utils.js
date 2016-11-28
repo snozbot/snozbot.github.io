@@ -22,7 +22,6 @@ var namespace_fungus_1_1_editor_utils =
     [ "FlowchartMenuItems", "class_fungus_1_1_editor_utils_1_1_flowchart_menu_items.html", null ],
     [ "FlowchartWindow", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html", "class_fungus_1_1_editor_utils_1_1_flowchart_window" ],
     [ "GameObjectDataDrawer", "class_fungus_1_1_editor_utils_1_1_game_object_data_drawer.html", null ],
-    [ "GLDraw", "class_fungus_1_1_editor_utils_1_1_g_l_draw.html", null ],
     [ "IfEditor", "class_fungus_1_1_editor_utils_1_1_if_editor.html", "class_fungus_1_1_editor_utils_1_1_if_editor" ],
     [ "IntegerDataDrawer", "class_fungus_1_1_editor_utils_1_1_integer_data_drawer.html", null ],
     [ "InvokeEventEditor", "class_fungus_1_1_editor_utils_1_1_invoke_event_editor.html", "class_fungus_1_1_editor_utils_1_1_invoke_event_editor" ],

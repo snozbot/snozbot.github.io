@@ -25,7 +25,8 @@ var NAVTREE =
       [ "File List", "files.html", "files" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Variables", "globals_vars.html", null ]
+        [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ]
       ] ]
     ] ]
   ] ]
@@ -38,14 +39,14 @@ var NAVTREEINDEX =
 "_text_tag_token_8cs.html#a1db437b9e85356df8aa76c326413cc2ba056a026b9c5175d2b29de2578e094bc9",
 "class_fungus_1_1_character.html#a02dc61f9e37268e27a56bed92f10e223",
 "class_fungus_1_1_draggable2_d.html#aa3bcf49572395288e6e6917f8a63726b",
-"class_fungus_1_1_editor_utils_1_1_portrait_editor.html#ac4061a57bf1ad62592250d99f302a90b",
-"class_fungus_1_1_flowchart.html#a7ded2ce60005cd63b04699988f3ed9b6",
-"class_fungus_1_1_menu_dialog.html#a80122e7085bc075c072a4508074ac6f2",
-"class_fungus_1_1_reset.html#a6b6c49d4478ef5b1aa08a165ba649e25",
-"class_fungus_1_1_set_save_profile.html#a58f91614518102a2a5e0840b019ca42a",
-"class_fungus_1_1_wait.html#ac81542d64ac82c00da278cf20d3d9ae5",
-"functions_o.html",
-"struct_fungus_1_1_conversation_manager_1_1_conversation_item.html#a503ae3886112c691d2d77f92c280612c"
+"class_fungus_1_1_editor_utils_1_1_menu_editor.html#ab778e247ca3b7ec9ed387b2d84445071",
+"class_fungus_1_1_flowchart.html#a46e727186840e23821f3046ad02dc88e",
+"class_fungus_1_1_menu.html",
+"class_fungus_1_1_random_float.html",
+"class_fungus_1_1_set_interactable.html#a17562078c49c397e3886cc4e3d6f9bcf",
+"class_fungus_1_1_variable_info_attribute.html#a28395dc60f4a3dadb1438a8d11247090",
+"functions_func_d.html",
+"struct_fungus_1_1_animator_data.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

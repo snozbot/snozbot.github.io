@@ -5,6 +5,5 @@ var searchData=
   ['gameobjectvariable',['GameObjectVariable',['../class_fungus_1_1_game_object_variable.html',1,'Fungus']]],
   ['gamestarted',['GameStarted',['../class_fungus_1_1_game_started.html',1,'Fungus']]],
   ['gettext',['GetText',['../class_fungus_1_1_get_text.html',1,'Fungus']]],
-  ['gettogglestate',['GetToggleState',['../class_fungus_1_1_get_toggle_state.html',1,'Fungus']]],
-  ['gldraw',['GLDraw',['../class_fungus_1_1_editor_utils_1_1_g_l_draw.html',1,'Fungus::EditorUtils']]]
+  ['gettogglestate',['GetToggleState',['../class_fungus_1_1_get_toggle_state.html',1,'Fungus']]]
 ];

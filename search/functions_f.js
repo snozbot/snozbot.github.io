@@ -1,7 +1,6 @@
 var searchData=
 [
   ['say',['Say',['../class_fungus_1_1_say_dialog.html#a0f55d787c35fd527c824e38e03163135',1,'Fungus::SayDialog']]],
-  ['segment_5frect_5fintersection',['segment_rect_intersection',['../class_fungus_1_1_editor_utils_1_1_g_l_draw.html#a1de25a5cd472b2a674f84e54ea8a020f',1,'Fungus::EditorUtils::GLDraw']]],
   ['selectall',['SelectAll',['../class_fungus_1_1_editor_utils_1_1_block_editor.html#a3fbb220d579780eb22644f5b79d4f5d5',1,'Fungus::EditorUtils::BlockEditor']]],
   ['selectblock',['SelectBlock',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a8d9ef5ee45172565211a5c2095def830',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['selectnext',['SelectNext',['../class_fungus_1_1_editor_utils_1_1_block_editor.html#a34033da38e33fbf5c4ca283ed27fcc82',1,'Fungus::EditorUtils::BlockEditor']]],

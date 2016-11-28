@@ -6,7 +6,7 @@ var searchData=
   ['waitandcontinue',['WaitAndContinue',['../class_fungus_1_1_control_audio.html#a231542a82c9a991d2ec7e9f3989ad474',1,'Fungus::ControlAudio']]],
   ['waitforclick',['waitForClick',['../class_fungus_1_1_say.html#a7d886f3edd6b095c59513cd9a73f8ff9',1,'Fungus::Say']]],
   ['waitforclickprop',['waitForClickProp',['../class_fungus_1_1_editor_utils_1_1_say_editor.html#adb3b648c40b37acc9cecf4c27d917b88',1,'Fungus::EditorUtils::SayEditor']]],
-  ['waitforframes',['waitForFrames',['../class_fungus_1_1_game_started.html#a6521be4b3e0b920f033faaf7ae4b84e7',1,'Fungus.GameStarted.waitForFrames()'],['../class_fungus_1_1_wait_frames.html#a727d83d531554e804344988a86284d5d',1,'Fungus.WaitFrames.WaitForFrames()']]],
+  ['waitforframes',['WaitForFrames',['../class_fungus_1_1_wait_frames.html#a727d83d531554e804344988a86284d5d',1,'Fungus.WaitFrames.WaitForFrames()'],['../class_fungus_1_1_game_started.html#a6521be4b3e0b920f033faaf7ae4b84e7',1,'Fungus.GameStarted.waitForFrames()']]],
   ['waitforinputandclear',['WaitForInputAndClear',['../namespace_fungus.html#a1db437b9e85356df8aa76c326413cc2ba09d93b0b7e697a486d7d58984a56b61c',1,'Fungus']]],
   ['waitforinputnoclear',['WaitForInputNoClear',['../namespace_fungus.html#a1db437b9e85356df8aa76c326413cc2ba7e7268541ecfa52f92e17c090ee2ca61',1,'Fungus']]],
   ['waitfortimeout',['WaitForTimeout',['../class_fungus_1_1_menu_dialog.html#a48220a3f4729530c403353d9e68dcf17',1,'Fungus::MenuDialog']]],

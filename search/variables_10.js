@@ -9,6 +9,8 @@ var searchData=
   ['pitch',['pitch',['../class_fungus_1_1_set_audio_pitch.html#adf83574b4544c3cf58249ed22afbf33f',1,'Fungus::SetAudioPitch']]],
   ['playbeeps',['playBeeps',['../class_fungus_1_1_writer_audio.html#ad6a87b8582a6f7e3be6d92fec8ecfc10',1,'Fungus::WriterAudio']]],
   ['playingvoiceover',['playingVoiceover',['../class_fungus_1_1_writer_audio.html#a135f3832f284175af33c8e16845c3044',1,'Fungus::WriterAudio']]],
+  ['popuprect',['popupRect',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a378083ca4d9e452e5ac38a6d70d11d47',1,'Fungus::EditorUtils::FlowchartWindow']]],
+  ['popupscroll',['popupScroll',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ae1d4597a48004baf0e725bd6195dadde',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['portaitstate',['portaitState',['../class_fungus_1_1_character.html#a6e270fe23010860428c918acaba9d9bf',1,'Fungus::Character']]],
   ['portrait',['portrait',['../class_fungus_1_1_portrait.html#a646bbe5f5ba17a1e73d9df58c6243c87',1,'Fungus.Portrait.portrait()'],['../class_fungus_1_1_say.html#a0329450563d2d6704425c7c0f698b144',1,'Fungus.Say.portrait()'],['../class_fungus_1_1_portrait_options.html#a0479cbe199ad9e8eccd2c15493baa5eb',1,'Fungus.PortraitOptions.portrait()'],['../class_fungus_1_1_portrait_state.html#aecda03d46e92c6b27d8d307ab961a40d',1,'Fungus.PortraitState.portrait()']]],
   ['portraitcanvas',['portraitCanvas',['../class_fungus_1_1_stage.html#acd70b78e716d3ac5990fe77812d307e7',1,'Fungus::Stage']]],

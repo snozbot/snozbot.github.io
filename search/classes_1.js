@@ -1,7 +1,9 @@
 var searchData=
 [
   ['block',['Block',['../class_fungus_1_1_block.html',1,'Fungus']]],
+  ['blockcopy',['BlockCopy',['../class_fungus_1_1_editor_utils_1_1_flowchart_window_1_1_block_copy.html',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['blockeditor',['BlockEditor',['../class_fungus_1_1_editor_utils_1_1_block_editor.html',1,'Fungus::EditorUtils']]],
+  ['blockgraphics',['BlockGraphics',['../struct_fungus_1_1_editor_utils_1_1_flowchart_window_1_1_block_graphics.html',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['blockinspector',['BlockInspector',['../class_fungus_1_1_editor_utils_1_1_block_inspector.html',1,'Fungus::EditorUtils']]],
   ['blockinspectoreditor',['BlockInspectorEditor',['../class_fungus_1_1_editor_utils_1_1_block_inspector_editor.html',1,'Fungus::EditorUtils']]],
   ['booleandata',['BooleanData',['../struct_fungus_1_1_boolean_data.html',1,'Fungus']]],
