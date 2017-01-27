@@ -42,9 +42,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.4.0--></span>
+   &#160;<span id="projectnumber"><!--v3.5.0--></span>
    </div>
-   <div id="projectbrief">v3.4.0 Documentation</div>
+   <div id="projectbrief">v3.5.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -93,6 +93,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
       <li><a href="functions_prop.html"><span>Properties</span></a></li>
+      <li><a href="functions_evnt.html"><span>Events</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -155,14 +156,20 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GameObjectData()
 : <a class="el" href="struct_fungus_1_1_game_object_data.html#a6b483e702a38acbeddbd74e324ad2150">Fungus.GameObjectData</a>
 </li>
+<li>GameStartCoroutine()
+: <a class="el" href="class_fungus_1_1_game_started.html#a46a3c34303b01e903104a498e6e9d7ca">Fungus.GameStarted</a>
+</li>
 <li>GetActiveStage()
 : <a class="el" href="class_fungus_1_1_stage.html#af98f500d888f4d9f728b57be107ff053">Fungus.Stage</a>
 </li>
 <li>GetAppendModifierDown()
 : <a class="el" href="class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a7b441d079dc7bfcbb29c8d5dc28a9687">Fungus.EditorUtils.FlowchartWindow</a>
 </li>
+<li>GetBlockAtPoint()
+: <a class="el" href="class_fungus_1_1_editor_utils_1_1_flowchart_window.html#aef6391e0b9442a8a0b8e60c07515242f">Fungus.EditorUtils.FlowchartWindow</a>
+</li>
 <li>GetBlockCenter()
-: <a class="el" href="class_fungus_1_1_editor_utils_1_1_flowchart_window.html#acd23056592162f5cb95440adf9ada9e1">Fungus.EditorUtils.FlowchartWindow</a>
+: <a class="el" href="class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a2340678e65f43bf2ba9a5c37f22e0434">Fungus.EditorUtils.FlowchartWindow</a>
 </li>
 <li>GetBlockGraphics()
 : <a class="el" href="class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a772be62518aa12e93d99efc83ece5273">Fungus.EditorUtils.FlowchartWindow</a>
@@ -274,6 +281,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetCSVData()
 : <a class="el" href="class_fungus_1_1_localization.html#a07220afda9eb72ca1bd44fb5cb80b016">Fungus.Localization</a>
 </li>
+<li>GetDelegateListCopy&lt; T &gt;()
+: <a class="el" href="class_fungus_1_1_event_dispatcher.html#ab0779cef50884405587a1ea8db4a227a">Fungus.EventDispatcher</a>
+</li>
 <li>GetDescription()
 : <a class="el" href="struct_fungus_1_1_animator_data.html#a8cd4757f4eb7f4611cfc4861436b2a09">Fungus.AnimatorData</a>
 , <a class="el" href="struct_fungus_1_1_audio_source_data.html#a33a0a0c64d94955bce36b3ba87c880a1">Fungus.AudioSourceData</a>
@@ -324,9 +334,6 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetGameObjectVariable()
 : <a class="el" href="class_fungus_1_1_flowchart.html#ad2302c1a5ec1d400d39f87757de89d1a">Fungus.Flowchart</a>
 </li>
-<li>GetHandlers&lt; T &gt;()
-: <a class="el" href="class_fungus_1_1_draggable2_d.html#a8cc8e6a19810c7f04bbf8433a03d03c4">Fungus.Draggable2D</a>
-</li>
 <li>GetHelpText()
 : <a class="el" href="class_fungus_1_1_command.html#a56517b048ffd4503e3a74346b2b27f97">Fungus.Command</a>
 </li>
@@ -339,6 +346,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetItemHeight()
 : <a class="el" href="class_fungus_1_1_editor_utils_1_1_command_list_adaptor.html#ada90b9ef1f64bacf35d14a90ca0c170b">Fungus.EditorUtils.CommandListAdaptor</a>
 , <a class="el" href="class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#a97f28bd378b8fc71447003b5a51c09c7">Fungus.EditorUtils.VariableListAdaptor</a>
+</li>
+<li>GetLabelIndex()
+: <a class="el" href="class_fungus_1_1_block.html#a8bee2ad5d6f4cc47962bc7e8d2f80465">Fungus.Block</a>
 </li>
 <li>GetLocalizedString()
 : <a class="el" href="class_fungus_1_1_localization.html#a9ded08b38888d2603db5442e4666fd51">Fungus.Localization</a>
@@ -536,7 +546,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Nov 28 2016 16:09:47 for Fungus by
+    <li class="footer">Generated on Fri Jan 27 2017 12:53:10 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

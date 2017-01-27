@@ -25,6 +25,7 @@ var searchData=
   ['notequals',['NotEquals',['../namespace_fungus.html#a9d109f78bebc5b1a315bc37eadc54251a34b5af77cc5bf3a5f2a999f11f578255',1,'Fungus']]],
   ['notificationtext',['notificationText',['../class_fungus_1_1_localization.html#a77f0ddbffe1829e4ca5d1cee29a0aca8',1,'Fungus.Localization.notificationText()'],['../class_fungus_1_1_localization.html#a34b74c1d254558eed7745a7c6448612e',1,'Fungus.Localization.NotificationText()']]],
   ['notifyend',['NotifyEnd',['../class_fungus_1_1_writer.html#a65ce4b573a2256b97d50503ed90a6869',1,'Fungus::Writer']]],
+  ['notifyeventhandlers',['NotifyEventHandlers',['../class_fungus_1_1_save_point_loaded.html#ad8cf587121145dc38798955be6b5e1ff',1,'Fungus::SavePointLoaded']]],
   ['notifyglyph',['NotifyGlyph',['../class_fungus_1_1_writer.html#ae2e845a6c4206f746df26d303c032f34',1,'Fungus::Writer']]],
   ['notifyinput',['NotifyInput',['../class_fungus_1_1_writer.html#aef201677708d5cb47a1488a6fb08358d',1,'Fungus::Writer']]],
   ['notifypause',['NotifyPause',['../class_fungus_1_1_writer.html#aeec3c48ce24df5be6e9e829f9dec0a83',1,'Fungus::Writer']]],

@@ -10,6 +10,7 @@ var searchData=
   ['targetbutton',['targetButton',['../class_fungus_1_1_button_clicked.html#a0834d60ca446bb41b7961a7b03028221',1,'Fungus::ButtonClicked']]],
   ['targetcamera',['targetCamera',['../class_fungus_1_1_fade_to_view.html#a01da7bad8ea2e0285f4ddeacb5bb3bf0',1,'Fungus.FadeToView.targetCamera()'],['../class_fungus_1_1_move_to_view.html#ac5b18775c89374349baab30215372865',1,'Fungus.MoveToView.targetCamera()'],['../class_fungus_1_1_start_swipe.html#a14f606fbbc9f178f75f2d53cd21c849c',1,'Fungus.StartSwipe.targetCamera()']]],
   ['targetclickable2d',['targetClickable2D',['../class_fungus_1_1_set_clickable2_d.html#abb144f8ef979b4234c6a81636aafa6bc',1,'Fungus::SetClickable2D']]],
+  ['targetcollider',['TargetCollider',['../class_fungus_1_1_drag_entered_1_1_drag_entered_event.html#a6671e2bbe90da2c1dca8e039cbd7a815',1,'Fungus.DragEntered.DragEnteredEvent.TargetCollider()'],['../class_fungus_1_1_drag_exited_1_1_drag_exited_event.html#a3db92857ab74b8ba9a7470981b12e15d',1,'Fungus.DragExited.DragExitedEvent.TargetCollider()']]],
   ['targetcolor',['targetColor',['../class_fungus_1_1_fade_u_i.html#a06fb307f72f3d8c86e08be03dbff3442',1,'Fungus::FadeUI']]],
   ['targetcolorold',['targetColorOLD',['../class_fungus_1_1_fade_sprite.html#a01ec211053e2c15aab3c5fb086eb9721',1,'Fungus::FadeSprite']]],
   ['targetcomponentassemblyname',['targetComponentAssemblyName',['../class_fungus_1_1_invoke_method.html#ad15b2479505587a5e302ced72796f845',1,'Fungus::InvokeMethod']]],

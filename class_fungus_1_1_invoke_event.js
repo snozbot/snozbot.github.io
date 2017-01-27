@@ -11,6 +11,7 @@ var class_fungus_1_1_invoke_event =
     [ "booleanEvent", "class_fungus_1_1_invoke_event.html#ad7cd9853990a897fe1514cd645fcbba1", null ],
     [ "booleanParameter", "class_fungus_1_1_invoke_event.html#a654a7655ebe588382c7713ff6a89c04a", null ],
     [ "delay", "class_fungus_1_1_invoke_event.html#adde105521627bafd46e2c4380719752f", null ],
+    [ "description", "class_fungus_1_1_invoke_event.html#ac626933103c6bc961c4c19464fda956f", null ],
     [ "floatEvent", "class_fungus_1_1_invoke_event.html#a29c7597ae3aabb97381137e62b825629", null ],
     [ "floatParameter", "class_fungus_1_1_invoke_event.html#ac0c4f8542ddb4d4443838d7d12655a5e", null ],
     [ "integerEvent", "class_fungus_1_1_invoke_event.html#a39dccb7d095179325e86b7044fd2861a", null ],

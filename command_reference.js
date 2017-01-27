@@ -37,6 +37,7 @@ var command_reference =
       [ "Label", "flow_commands.html#Label", null ],
       [ "Load Scene", "flow_commands.html#LoadScene", null ],
       [ "Quit", "flow_commands.html#Quit", null ],
+      [ "Save Point", "flow_commands.html#SavePoint", null ],
       [ "Send Message", "flow_commands.html#SendMessage", null ],
       [ "Stop", "flow_commands.html#Stop", null ],
       [ "Stop Block", "flow_commands.html#StopBlock", null ],
@@ -128,9 +129,7 @@ var command_reference =
       [ "TestNarrative", "tests_commands.html#TestNarrative", null ]
     ] ],
     [ "Core event handlers", "core_events.html", [
-      [ "Flowchart Enabled", "core_events.html#FlowchartEnabled", null ],
-      [ "Game Started", "core_events.html#GameStarted", null ],
-      [ "Message Received", "core_events.html#MessageReceived", null ]
+      [ "Game Started", "core_events.html#GameStarted", null ]
     ] ],
     [ "Input event handlers", "input_events.html", [
       [ "Key Pressed", "input_events.html#KeyPressed", null ]

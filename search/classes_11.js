@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['savedataitem',['SaveDataItem',['../class_fungus_1_1_save_data_item.html',1,'Fungus']]],
+  ['savemenuitems',['SaveMenuItems',['../class_fungus_1_1_editor_utils_1_1_save_menu_items.html',1,'Fungus::EditorUtils']]],
+  ['savepointloaded',['SavePointLoaded',['../class_fungus_1_1_save_point_loaded.html',1,'Fungus']]],
   ['savevariable',['SaveVariable',['../class_fungus_1_1_save_variable.html',1,'Fungus']]],
   ['say',['Say',['../class_fungus_1_1_say.html',1,'Fungus']]],
   ['saydialog',['SayDialog',['../class_fungus_1_1_say_dialog.html',1,'Fungus']]],
@@ -61,5 +64,6 @@ var searchData=
   ['stringdatamulti',['StringDataMulti',['../struct_fungus_1_1_string_data_multi.html',1,'Fungus']]],
   ['stringdatamultidrawer',['StringDataMultiDrawer',['../class_fungus_1_1_editor_utils_1_1_string_data_multi_drawer.html',1,'Fungus::EditorUtils']]],
   ['stringevent',['StringEvent',['../class_fungus_1_1_invoke_event_1_1_string_event.html',1,'Fungus::InvokeEvent']]],
+  ['stringvar',['StringVar',['../class_fungus_1_1_string_var.html',1,'Fungus']]],
   ['stringvariable',['StringVariable',['../class_fungus_1_1_string_variable.html',1,'Fungus']]]
 ];

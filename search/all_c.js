@@ -31,6 +31,7 @@ var searchData=
   ['localizationidprop',['localizationIdProp',['../class_fungus_1_1_editor_utils_1_1_flowchart_editor.html#a692c2da2e6cc5f466a4052050950be6d',1,'Fungus::EditorUtils::FlowchartEditor']]],
   ['localizeableobjects',['localizeableObjects',['../class_fungus_1_1_localization.html#a9af43d26f1482dcea803b6b28ec9e510',1,'Fungus::Localization']]],
   ['localizedstrings',['localizedStrings',['../class_fungus_1_1_localization_1_1_text_item.html#a6a6bd226617f602f77d4b261eee1ab2f',1,'Fungus.Localization.TextItem.localizedStrings()'],['../class_fungus_1_1_localization.html#aef7db39a9199fd8d25033eccfa6e1591',1,'Fungus.Localization.localizedStrings()']]],
+  ['log',['Log',['../class_fungus_1_1_event_dispatcher.html#a9e998f1bce0d1f6348e5fa0f35f7a4e0',1,'Fungus::EventDispatcher']]],
   ['logmessage',['logMessage',['../class_fungus_1_1_debug_log.html#a7786e8382cb907db2be7f78426522a14',1,'Fungus::DebugLog']]],
   ['logtype',['logType',['../class_fungus_1_1_debug_log.html#afbdd2ba969d4bc5a25f6cfa4d8069377',1,'Fungus::DebugLog']]],
   ['lookfrom',['LookFrom',['../class_fungus_1_1_look_from.html',1,'Fungus']]],

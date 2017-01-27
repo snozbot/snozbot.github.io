@@ -42,9 +42,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.4.0--></span>
+   &#160;<span id="projectnumber"><!--v3.5.0--></span>
    </div>
-   <div id="projectbrief">v3.4.0 Documentation</div>
+   <div id="projectbrief">v3.5.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -118,7 +118,9 @@ $(document).ready(function(){initNavTree('class_fungus_1_1_object_clicked.html',
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_fungus_1_1_object_clicked-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -138,6 +140,11 @@ Inheritance diagram for Fungus.ObjectClicked:</div>
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_object_clicked_1_1_object_clicked_event.html">ObjectClickedEvent</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a72aed0c3428bc65ed575cf975efc082b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_object_clicked.html#a72aed0c3428bc65ed575cf975efc082b">OnObjectClicked</a> (<a class="el" href="class_fungus_1_1_clickable2_d.html">Clickable2D</a> <a class="el" href="class_fungus_1_1_object_clicked.html#a0ce7eab07ed26d52a6aadbf4826870cc">clickableObject</a>)</td></tr>
@@ -151,10 +158,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab7f52636d820dd02a206671c51449d72 inherit pub_methods_class_fungus_1_1_event_handler"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Event Handler should call this method when the event is detected to start executing the <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>.  <a href="#ab7f52636d820dd02a206671c51449d72">More...</a><br /></td></tr>
 <tr class="separator:ab7f52636d820dd02a206671c51449d72 inherit pub_methods_class_fungus_1_1_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a542a9c24e42f407e136f4e2af11ba2f6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_object_clicked.html#a542a9c24e42f407e136f4e2af11ba2f6">OnEnable</a> ()</td></tr>
+<tr class="separator:a542a9c24e42f407e136f4e2af11ba2f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa87ed5b44b8025c814b023e5f797d5e1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_object_clicked.html#aa87ed5b44b8025c814b023e5f797d5e1">OnDisable</a> ()</td></tr>
+<tr class="separator:aa87ed5b44b8025c814b023e5f797d5e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41b737dff942ffbba5f32b2415d8e63b"><td class="memItemLeft" align="right" valign="top">virtual IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_object_clicked.html#a41b737dff942ffbba5f32b2415d8e63b">DoExecuteBlock</a> (int numFrames)</td></tr>
+<tr class="memdesc:a41b737dff942ffbba5f32b2415d8e63b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executing a block on the same frame that the object is clicked can cause input problems (e.g.  <a href="#a41b737dff942ffbba5f32b2415d8e63b">More...</a><br /></td></tr>
+<tr class="separator:a41b737dff942ffbba5f32b2415d8e63b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a0ce7eab07ed26d52a6aadbf4826870cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fungus_1_1_clickable2_d.html">Clickable2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_object_clicked.html#a0ce7eab07ed26d52a6aadbf4826870cc">clickableObject</a></td></tr>
 <tr class="separator:a0ce7eab07ed26d52a6aadbf4826870cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b15dfb06a299c5cfb360c109709fdcf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_object_clicked.html#a1b15dfb06a299c5cfb360c109709fdcf">waitFrames</a> = 1</td></tr>
+<tr class="separator:a1b15dfb06a299c5cfb360c109709fdcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48d8604a36e32c900d1eecdf544ecb92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fungus_1_1_event_dispatcher.html">EventDispatcher</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_object_clicked.html#a48d8604a36e32c900d1eecdf544ecb92">eventDispatcher</a></td></tr>
+<tr class="separator:a48d8604a36e32c900d1eecdf544ecb92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_fungus_1_1_event_handler"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_fungus_1_1_event_handler')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_fungus_1_1_event_handler.html">Fungus.EventHandler</a></td></tr>
 <tr class="memitem:affff6d43892534519af3749f67f78399 inherit pro_attribs_class_fungus_1_1_event_handler"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fungus_1_1_block.html">Block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_event_handler.html#affff6d43892534519af3749f67f78399">parentBlock</a></td></tr>
 <tr class="separator:affff6d43892534519af3749f67f78399 inherit pro_attribs_class_fungus_1_1_event_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,8 +190,37 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The block will execute when the user clicks or taps on the clickable object. </p>
 
-<p>Definition at line <a class="el" href="_object_clicked_8cs_source.html#l00015">15</a> of file <a class="el" href="_object_clicked_8cs_source.html">ObjectClicked.cs</a>.</p>
+<p>Definition at line <a class="el" href="_object_clicked_8cs_source.html#l00016">16</a> of file <a class="el" href="_object_clicked_8cs_source.html">ObjectClicked.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a41b737dff942ffbba5f32b2415d8e63b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual IEnumerator Fungus.ObjectClicked.DoExecuteBlock </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>numFrames</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Executing a block on the same frame that the object is clicked can cause input problems (e.g. </p>
+<p>auto completing <a class="el" href="class_fungus_1_1_say.html" title="Writes text in a dialog box. ">Say</a> Dialog text). A single frame delay fixes the problem. </p>
+
+<p>Definition at line <a class="el" href="_object_clicked_8cs_source.html#l00059">59</a> of file <a class="el" href="_object_clicked_8cs_source.html">ObjectClicked.cs</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ac3bc1c1ec5c3539cea746de898dc36ad"></a>
 <div class="memitem">
 <div class="memproto">
@@ -196,7 +246,57 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_fungus_1_1_event_handler.html#ab18e7b5a78ddd241b141d2a184d49ec3">Fungus.EventHandler</a>.</p>
 
-<p>Definition at line <a class="el" href="_object_clicked_8cs_source.html#l00033">33</a> of file <a class="el" href="_object_clicked_8cs_source.html">ObjectClicked.cs</a>.</p>
+<p>Definition at line <a class="el" href="_object_clicked_8cs_source.html#l00090">90</a> of file <a class="el" href="_object_clicked_8cs_source.html">ObjectClicked.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa87ed5b44b8025c814b023e5f797d5e1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Fungus.ObjectClicked.OnDisable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_object_clicked_8cs_source.html#l00042">42</a> of file <a class="el" href="_object_clicked_8cs_source.html">ObjectClicked.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a542a9c24e42f407e136f4e2af11ba2f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Fungus.ObjectClicked.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_object_clicked_8cs_source.html#l00035">35</a> of file <a class="el" href="_object_clicked_8cs_source.html">ObjectClicked.cs</a>.</p>
 
 </div>
 </div>
@@ -224,7 +324,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Called by the <a class="el" href="class_fungus_1_1_clickable2_d.html" title="Detects mouse clicks and touches on a Game Object, and sends an event to all Flowchart event handlers...">Clickable2D</a> object when it is clicked. </p>
 
-<p>Definition at line <a class="el" href="_object_clicked_8cs_source.html#l00025">25</a> of file <a class="el" href="_object_clicked_8cs_source.html">ObjectClicked.cs</a>.</p>
+<p>Definition at line <a class="el" href="_object_clicked_8cs_source.html#l00082">82</a> of file <a class="el" href="_object_clicked_8cs_source.html">ObjectClicked.cs</a>.</p>
 
 </div>
 </div>
@@ -247,7 +347,51 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_object_clicked_8cs_source.html#l00018">18</a> of file <a class="el" href="_object_clicked_8cs_source.html">ObjectClicked.cs</a>.</p>
+<p>Definition at line <a class="el" href="_object_clicked_8cs_source.html#l00028">28</a> of file <a class="el" href="_object_clicked_8cs_source.html">ObjectClicked.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a48d8604a36e32c900d1eecdf544ecb92"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_fungus_1_1_event_dispatcher.html">EventDispatcher</a> Fungus.ObjectClicked.eventDispatcher</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_object_clicked_8cs_source.html#l00033">33</a> of file <a class="el" href="_object_clicked_8cs_source.html">ObjectClicked.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1b15dfb06a299c5cfb360c109709fdcf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Fungus.ObjectClicked.waitFrames = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_object_clicked_8cs_source.html#l00031">31</a> of file <a class="el" href="_object_clicked_8cs_source.html">ObjectClicked.cs</a>.</p>
 
 </div>
 </div>
@@ -260,7 +404,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_object_clicked.html">ObjectClicked</a></li>
-    <li class="footer">Generated on Mon Nov 28 2016 16:09:46 for Fungus by
+    <li class="footer">Generated on Fri Jan 27 2017 12:53:09 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

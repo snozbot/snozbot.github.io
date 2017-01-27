@@ -1,0 +1,27 @@
+var class_fungus_1_1_save_manager =
+[
+    [ "AddSavePoint", "class_fungus_1_1_save_manager.html#a144abab980552bd3cea2a8cc436c5538", null ],
+    [ "ClearHistory", "class_fungus_1_1_save_manager.html#a2649365669d604b0a73d87f79b6352de", null ],
+    [ "Delete", "class_fungus_1_1_save_manager.html#a662d7fd47f87dc523bd6c0d833140ef4", null ],
+    [ "ExecuteBlocks", "class_fungus_1_1_save_manager.html#a679f06409d52f338ca40dc5a6a15bb7e", null ],
+    [ "ExecuteStartBlock", "class_fungus_1_1_save_manager.html#a7c125d4c2f65bbcd5045257fc1cbbfdc", null ],
+    [ "FastForward", "class_fungus_1_1_save_manager.html#a277f8671a564211a0b0c63a832ed87ec", null ],
+    [ "GetDebugInfo", "class_fungus_1_1_save_manager.html#a45e2913b34e619e0b97447e3efbe079f", null ],
+    [ "Load", "class_fungus_1_1_save_manager.html#a5a28ff6499d46e25032030ff8a6c75ac", null ],
+    [ "LoadSavedGame", "class_fungus_1_1_save_manager.html#a7c316a685d7bc12a5de3db336bb433a4", null ],
+    [ "OnDisable", "class_fungus_1_1_save_manager.html#a0062b4579952fc92a96a2b1805eb142a", null ],
+    [ "OnEnable", "class_fungus_1_1_save_manager.html#a36f896c2ab342b161a1a6c39b50309bd", null ],
+    [ "OnSavePointLoaded", "class_fungus_1_1_save_manager.html#aefc8e0b7f91f69a8975523ce005554d5", null ],
+    [ "OnSceneLoaded", "class_fungus_1_1_save_manager.html#a08546658299ab8ef8a08cb69fcb8b537", null ],
+    [ "ReadSaveHistory", "class_fungus_1_1_save_manager.html#a1b5622806d343b30c03093dce011822f", null ],
+    [ "Rewind", "class_fungus_1_1_save_manager.html#af5e77e03d77cb823582234bf3df66ed3", null ],
+    [ "Save", "class_fungus_1_1_save_manager.html#a0d55114cb0f63f06eafa5d43e9384254", null ],
+    [ "SaveDataExists", "class_fungus_1_1_save_manager.html#aa9dddfad6f8eda02792d1437275c5f93", null ],
+    [ "Update", "class_fungus_1_1_save_manager.html#a7fc83951a96d5b187f4edd67fbc8841d", null ],
+    [ "WriteSaveHistory", "class_fungus_1_1_save_manager.html#a121a7b1c21e8d3196c8288889e190167", null ],
+    [ "DefaultSaveDataKey", "class_fungus_1_1_save_manager.html#a6728f81b3ac58c38517707a9914bd2d6", null ],
+    [ "loadAction", "class_fungus_1_1_save_manager.html#ae15229b6d72aab5c4318319bb71a7cae", null ],
+    [ "NumRewoundSavePoints", "class_fungus_1_1_save_manager.html#a4cf99cebaff2ec02351653ea6636568f", null ],
+    [ "NumSavePoints", "class_fungus_1_1_save_manager.html#afdac2c942e89278adac522d684bd263b", null ],
+    [ "StartScene", "class_fungus_1_1_save_manager.html#a780dbea99b31f6770aa15767c49da1ec", null ]
+];

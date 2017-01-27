@@ -1,6 +1,7 @@
 var class_fungus_1_1_dialog_input =
 [
     [ "Awake", "class_fungus_1_1_dialog_input.html#a7f19ab85f1ce73bcad4a267432be19fb", null ],
+    [ "CheckEventSystem", "class_fungus_1_1_dialog_input.html#a6e05526ec04181e20bf9c4372412e555", null ],
     [ "SetButtonClickedFlag", "class_fungus_1_1_dialog_input.html#aa4ab5c5dbbf8b71bce8f044b6b7d6dcc", null ],
     [ "SetDialogClickedFlag", "class_fungus_1_1_dialog_input.html#a32e7bd8c7e62defffcf5e91c8ce3d40e", null ],
     [ "SetNextLineFlag", "class_fungus_1_1_dialog_input.html#ad63da13c185aee4da0bedc4fef05b97d", null ],

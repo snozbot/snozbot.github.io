@@ -10,6 +10,7 @@ var class_fungus_1_1_invoke_method =
     [ "SetVariable", "class_fungus_1_1_invoke_method.html#ab1d61c045415aedec8fcd9bdfbf371d3", null ],
     [ "callMode", "class_fungus_1_1_invoke_method.html#a2eee5a65e533d22fa813267b14a16145", null ],
     [ "componentType", "class_fungus_1_1_invoke_method.html#ab330530094ab036181291a1c001d57ae", null ],
+    [ "description", "class_fungus_1_1_invoke_method.html#ac5751f0214f39ad899b4d104843a5099", null ],
     [ "methodParameters", "class_fungus_1_1_invoke_method.html#abef5964cb6646e29ad2e4b0d053ab579", null ],
     [ "objComponent", "class_fungus_1_1_invoke_method.html#aa07536fb6834acdb7d070bdd4eb41005", null ],
     [ "objMethod", "class_fungus_1_1_invoke_method.html#aea8fad8ffe823efda7e50080882a2eb3", null ],

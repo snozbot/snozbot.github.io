@@ -85,6 +85,7 @@ var index =
       [ "Lua", "conversation_system.html#lua", null ]
     ] ],
     [ "Community tutorials", "community_tutorials.html", [
+      [ "Marco Secchi", "community_tutorials.html#marco_secchi", null ],
       [ "Morning Fun Games", "community_tutorials.html#morning_fun", null ],
       [ "Sercan Altun", "community_tutorials.html#sercun_altun", null ],
       [ "David Arcila", "community_tutorials.html#david_arcila", null ],
@@ -94,6 +95,27 @@ var index =
       [ "Chen", "community_tutorials.html#chen", null ]
     ] ],
     [ "Narrative Text Tags", "narrative_text_tags.html", null ],
+    [ "Saving and Loading", "save_system.html", [
+      [ "Introduction", "save_system.html#save_introduction", null ],
+      [ "The Save Game example scene", "save_system.html#save_example_scene", null ],
+      [ "The Save Menu UI", "save_system.html#save_menu_ui", [
+        [ "Creating Save Points", "save_system.html#save_creating_save_points", null ],
+        [ "Handling Save Point Loaded events", "save_system.html#save_point_loaded_events", null ],
+        [ "Saving Flowchart variables", "save_system.html#save_flowchart_variables", null ],
+        [ "Save Menu properties", "save_system.html#save_menu_properties", null ],
+        [ "Save button", "save_system.html#save_save_button", null ],
+        [ "Load button", "save_system.html#save_load_button", null ],
+        [ "Rewind and Fast Forward buttons", "save_system.html#save_rewind_button", null ],
+        [ "Restart button", "save_system.html#save_restart_button", null ]
+      ] ],
+      [ "Game Startup", "save_system.html#save_game_startup", null ],
+      [ "Terminology", "save_system.html#save_terminology", [
+        [ "Save Point", "save_system.html#save_term_save_point", null ],
+        [ "Save Point command", "save_system.html#save_term_save_point_command", null ],
+        [ "Save Point Key", "save_system.html#save_term_save_point_key", null ],
+        [ "Save History", "save_system.html#save_term_history", null ]
+      ] ]
+    ] ],
     [ "Coding Tips", "coding_tips.html", [
       [ "Executing Blocks", "coding_tips.html#executing_blocks", null ],
       [ "Block Signals", "coding_tips.html#block_signals", null ],
@@ -125,6 +147,7 @@ var index =
       [ "Are you planning to integrate Fungus into other game engines?", "faq.html#faq_other_engines", null ]
     ] ],
     [ "Changelog", "changelog.html", [
+      [ "v3.5.0 ", "changelog.html#v3_5_0", null ],
       [ "v3.4.0 ", "changelog.html#v3_4_0", null ],
       [ "v3.3.0 ", "changelog.html#v3_3_0", null ],
       [ "v3.2.0 ", "changelog.html#v3_2_0", null ],

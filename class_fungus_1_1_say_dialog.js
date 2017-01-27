@@ -19,6 +19,7 @@ var class_fungus_1_1_say_dialog =
     [ "UpdateAlpha", "class_fungus_1_1_say_dialog.html#abb249eb437d0c067541128338a30ee35", null ],
     [ "canvasGroup", "class_fungus_1_1_say_dialog.html#a0df46e2556e2319844e7b27b3a7b8410", null ],
     [ "characterImage", "class_fungus_1_1_say_dialog.html#a965d67a88a12d8513fcf312beef7789c", null ],
+    [ "closeOtherDialogs", "class_fungus_1_1_say_dialog.html#a383c749bfaeb1493d991eacb944506b0", null ],
     [ "continueButton", "class_fungus_1_1_say_dialog.html#ad7efd6b96cdda61ba026555ec25c0a74", null ],
     [ "currentCharacterImage", "class_fungus_1_1_say_dialog.html#adc40a36b6f49797d830cbfa1c894abbf", null ],
     [ "dialogCanvas", "class_fungus_1_1_say_dialog.html#ab64b56d216bbf6d757a18e38fa01c0ed", null ],

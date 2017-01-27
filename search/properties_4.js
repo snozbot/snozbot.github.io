@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['data',['Data',['../class_fungus_1_1_save_data_item.html#a3d29e8abf7170c477fac960828f4dd3b',1,'Fungus::SaveDataItem']]],
+  ['datatype',['DataType',['../class_fungus_1_1_save_data_item.html#a1eb13b34dac235a60029842783bca9aa',1,'Fungus::SaveDataItem']]],
   ['defaultposition',['DefaultPosition',['../class_fungus_1_1_stage.html#a2cd366787f9082ae2ef5c6fd330be89e',1,'Fungus::Stage']]],
   ['description',['Description',['../class_fungus_1_1_block.html#a2dd1175e4ddc052fe5060775303e1b22',1,'Fungus.Block.Description()'],['../class_fungus_1_1_flowchart.html#a8bf8788fc4ced57fd1a803a687e425a6',1,'Fungus.Flowchart.Description()']]],
   ['dimportraits',['DimPortraits',['../class_fungus_1_1_stage.html#ac121ab051b565052dad8be621af37546',1,'Fungus::Stage']]],

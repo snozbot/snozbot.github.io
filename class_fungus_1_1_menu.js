@@ -13,5 +13,6 @@ var class_fungus_1_1_menu =
     [ "interactable", "class_fungus_1_1_menu.html#a9d2249583ec7269798004579a5e40467", null ],
     [ "setMenuDialog", "class_fungus_1_1_menu.html#a6f63401850df760613614574d2de1c57", null ],
     [ "targetBlock", "class_fungus_1_1_menu.html#aaf8fc8a8a3da8922054ad020cdbce061", null ],
-    [ "text", "class_fungus_1_1_menu.html#a1b21bff5d44366fef7c909f2d0e52637", null ]
+    [ "text", "class_fungus_1_1_menu.html#a1b21bff5d44366fef7c909f2d0e52637", null ],
+    [ "SetMenuDialog", "class_fungus_1_1_menu.html#a04d948698eb121b74f7bae828487622c", null ]
 ];

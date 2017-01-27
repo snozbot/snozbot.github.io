@@ -4,6 +4,11 @@ var NAVTREE =
     [ "Fungus Documentation", "index.html", "index" ],
     [ "Fungus Lua", "fungus_lua.html", "fungus_lua" ],
     [ "Command Reference", "command_reference.html", "command_reference" ],
+    [ "Scene event handlers", "scene_events.html", [
+      [ "Flowchart Enabled", "scene_events.html#FlowchartEnabled", null ],
+      [ "Message Received", "scene_events.html#MessageReceived", null ],
+      [ "Save Point Loaded", "scene_events.html#SavePointLoaded", null ]
+    ] ],
     [ "Packages", null, [
       [ "Packages", "namespaces.html", "namespaces" ],
       [ "Package Functions", "namespacemembers.html", [
@@ -18,7 +23,8 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", "functions_vars" ],
-        [ "Properties", "functions_prop.html", null ]
+        [ "Properties", "functions_prop.html", null ],
+        [ "Events", "functions_evnt.html", null ]
       ] ]
     ] ],
     [ "Files", null, [
@@ -35,18 +41,19 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_animator_variable_8cs.html",
-"_load_variable_8cs_source.html",
-"_text_tag_token_8cs.html#a1db437b9e85356df8aa76c326413cc2ba056a026b9c5175d2b29de2578e094bc9",
-"class_fungus_1_1_character.html#a02dc61f9e37268e27a56bed92f10e223",
-"class_fungus_1_1_draggable2_d.html#aa3bcf49572395288e6e6917f8a63726b",
-"class_fungus_1_1_editor_utils_1_1_menu_editor.html#ab778e247ca3b7ec9ed387b2d84445071",
-"class_fungus_1_1_flowchart.html#a46e727186840e23821f3046ad02dc88e",
-"class_fungus_1_1_menu.html",
-"class_fungus_1_1_random_float.html",
-"class_fungus_1_1_set_interactable.html#a17562078c49c397e3886cc4e3d6f9bcf",
-"class_fungus_1_1_variable_info_attribute.html#a28395dc60f4a3dadb1438a8d11247090",
-"functions_func_d.html",
-"struct_fungus_1_1_animator_data.html"
+"_label_8cs_source.html",
+"_stage_editor_8cs.html",
+"class_fungus_1_1_call_method.html#a3de6a96fd4fd6ddbd45dec6fd9c13d0d",
+"class_fungus_1_1_drag_completed.html#a0acdb15d68744e435c55c57bdc7702ec",
+"class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a349aa5155d6e3d391fde6a8b04479baa",
+"class_fungus_1_1_else_if.html#a95b508858cd6613a0a54e5fcb3f0bd8d",
+"class_fungus_1_1_if.html#a8e15d5190c4e743972e543209dab5042",
+"class_fungus_1_1_object_clicked_1_1_object_clicked_event.html",
+"class_fungus_1_1_say.html#ad661dd1ba7bc7da80474ef4ad591b12d",
+"class_fungus_1_1_shake_camera.html#a193bdc11f6da041d73f9c6d099e295ed",
+"class_fungus_1_1_writer.html#a64b4258d684b3aef497ffd5de2244be7",
+"i_tween_command_8cs.html",
+"struct_fungus_1_1_object_data.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

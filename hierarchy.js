@@ -15,6 +15,7 @@ var hierarchy =
     [ "Fungus.EditorUtils.FlowchartWindow.BlockCopy", "class_fungus_1_1_editor_utils_1_1_flowchart_window_1_1_block_copy.html", null ],
     [ "Fungus.EditorUtils.FlowchartWindow.BlockGraphics", "struct_fungus_1_1_editor_utils_1_1_flowchart_window_1_1_block_graphics.html", null ],
     [ "Fungus.BooleanData", "struct_fungus_1_1_boolean_data.html", null ],
+    [ "Fungus.BoolVar", "class_fungus_1_1_bool_var.html", null ],
     [ "Fungus.EditorUtils.CameraMenuItems", "class_fungus_1_1_editor_utils_1_1_camera_menu_items.html", null ],
     [ "Fungus.CameraManager.CameraView", "class_fungus_1_1_camera_manager_1_1_camera_view.html", null ],
     [ "Fungus.EditorUtils.FlowchartWindow.ClipboardObject", "class_fungus_1_1_editor_utils_1_1_flowchart_window_1_1_clipboard_object.html", null ],
@@ -28,6 +29,11 @@ var hierarchy =
     [ "Fungus.ConversationManager.ConversationItem", "struct_fungus_1_1_conversation_manager_1_1_conversation_item.html", null ],
     [ "Fungus.ConversationManager", "class_fungus_1_1_conversation_manager.html", null ],
     [ "Fungus.EditorUtils.DialogInputEditor", "class_fungus_1_1_editor_utils_1_1_dialog_input_editor.html", null ],
+    [ "Fungus.DragCancelled.DragCancelledEvent", "class_fungus_1_1_drag_cancelled_1_1_drag_cancelled_event.html", null ],
+    [ "Fungus.DragCompleted.DragCompletedEvent", "class_fungus_1_1_drag_completed_1_1_drag_completed_event.html", null ],
+    [ "Fungus.DragEntered.DragEnteredEvent", "class_fungus_1_1_drag_entered_1_1_drag_entered_event.html", null ],
+    [ "Fungus.DragExited.DragExitedEvent", "class_fungus_1_1_drag_exited_1_1_drag_exited_event.html", null ],
+    [ "Fungus.DragStarted.DragStartedEvent", "class_fungus_1_1_drag_started_1_1_drag_started_event.html", null ],
     [ "Editor", null, [
       [ "Fungus.EditorUtils.BlockEditor", "class_fungus_1_1_editor_utils_1_1_block_editor.html", null ],
       [ "Fungus.EditorUtils.BlockInspectorEditor", "class_fungus_1_1_editor_utils_1_1_block_inspector_editor.html", null ],
@@ -56,10 +62,14 @@ var hierarchy =
       [ "Fungus.EditorUtils.WriterAudioEditor", "class_fungus_1_1_editor_utils_1_1_writer_audio_editor.html", null ]
     ] ],
     [ "EditorWindow", null, [
-      [ "Fungus.EditorUtils.FlowchartWindow", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html", null ]
+      [ "Fungus.EditorUtils.EventWindow", "class_fungus_1_1_editor_utils_1_1_event_window.html", [
+        [ "Fungus.EditorUtils.FlowchartWindow", "class_fungus_1_1_editor_utils_1_1_flowchart_window.html", null ]
+      ] ]
     ] ],
     [ "Fungus.EditorUtils.EditorZoomArea", "class_fungus_1_1_editor_utils_1_1_editor_zoom_area.html", null ],
     [ "Fungus.FloatData", "struct_fungus_1_1_float_data.html", null ],
+    [ "Fungus.FloatVar", "class_fungus_1_1_float_var.html", null ],
+    [ "Fungus.FlowchartData", "class_fungus_1_1_flowchart_data.html", null ],
     [ "Fungus.EditorUtils.FlowchartMenuItems", "class_fungus_1_1_editor_utils_1_1_flowchart_menu_items.html", null ],
     [ "Fungus.GameObjectData", "struct_fungus_1_1_game_object_data.html", null ],
     [ "IBeginDragHandler", null, [
@@ -82,6 +92,7 @@ var hierarchy =
       [ "Fungus.Write", "class_fungus_1_1_write.html", null ]
     ] ],
     [ "Fungus.IntegerData", "struct_fungus_1_1_integer_data.html", null ],
+    [ "Fungus.IntVar", "class_fungus_1_1_int_var.html", null ],
     [ "Fungus.InvokeMethodParameter", "class_fungus_1_1_invoke_method_parameter.html", null ],
     [ "IPointerClickHandler", null, [
       [ "Fungus.Clickable2D", "class_fungus_1_1_clickable2_d.html", null ]
@@ -222,6 +233,7 @@ var hierarchy =
       [ "Fungus.CustomTag", "class_fungus_1_1_custom_tag.html", null ],
       [ "Fungus.DialogInput", "class_fungus_1_1_dialog_input.html", null ],
       [ "Fungus.Draggable2D", "class_fungus_1_1_draggable2_d.html", null ],
+      [ "Fungus.EventDispatcher", "class_fungus_1_1_event_dispatcher.html", null ],
       [ "Fungus.EventHandler", "class_fungus_1_1_event_handler.html", [
         [ "Fungus.ButtonClicked", "class_fungus_1_1_button_clicked.html", null ],
         [ "Fungus.DragCancelled", "class_fungus_1_1_drag_cancelled.html", null ],
@@ -235,6 +247,7 @@ var hierarchy =
         [ "Fungus.KeyPressed", "class_fungus_1_1_key_pressed.html", null ],
         [ "Fungus.MessageReceived", "class_fungus_1_1_message_received.html", null ],
         [ "Fungus.ObjectClicked", "class_fungus_1_1_object_clicked.html", null ],
+        [ "Fungus.SavePointLoaded", "class_fungus_1_1_save_point_loaded.html", null ],
         [ "Fungus.ToggleChanged", "class_fungus_1_1_toggle_changed.html", null ]
       ] ],
       [ "Fungus.Flowchart", "class_fungus_1_1_flowchart.html", null ],
@@ -264,6 +277,7 @@ var hierarchy =
       [ "Fungus.WriterAudio", "class_fungus_1_1_writer_audio.html", null ]
     ] ],
     [ "Fungus.EditorUtils.NarrativeMenuItems", "class_fungus_1_1_editor_utils_1_1_narrative_menu_items.html", null ],
+    [ "Fungus.ObjectClicked.ObjectClickedEvent", "class_fungus_1_1_object_clicked_1_1_object_clicked_event.html", null ],
     [ "Fungus.ObjectData", "struct_fungus_1_1_object_data.html", null ],
     [ "Fungus.ObjectValue", "class_fungus_1_1_object_value.html", null ],
     [ "Fungus.PortraitOptions", "class_fungus_1_1_portrait_options.html", null ],
@@ -275,6 +289,8 @@ var hierarchy =
       [ "Fungus.EditorUtils.VariableDataDrawer< T >", "class_fungus_1_1_editor_utils_1_1_variable_data_drawer.html", null ],
       [ "Fungus.EditorUtils.VariableDrawer", "class_fungus_1_1_editor_utils_1_1_variable_drawer.html", null ]
     ] ],
+    [ "Fungus.SaveDataItem", "class_fungus_1_1_save_data_item.html", null ],
+    [ "Fungus.EditorUtils.SaveMenuItems", "class_fungus_1_1_editor_utils_1_1_save_menu_items.html", null ],
     [ "ScriptableObject", null, [
       [ "Fungus.EditorUtils.BlockInspector", "class_fungus_1_1_editor_utils_1_1_block_inspector.html", null ]
     ] ],
@@ -283,6 +299,7 @@ var hierarchy =
     [ "Fungus.EditorUtils.SpriteMenuItems", "class_fungus_1_1_editor_utils_1_1_sprite_menu_items.html", null ],
     [ "Fungus.StringData", "struct_fungus_1_1_string_data.html", null ],
     [ "Fungus.StringDataMulti", "struct_fungus_1_1_string_data_multi.html", null ],
+    [ "Fungus.StringVar", "class_fungus_1_1_string_var.html", null ],
     [ "Fungus.Localization.TextItem", "class_fungus_1_1_localization_1_1_text_item.html", null ],
     [ "Fungus.TextTagToken", "class_fungus_1_1_text_tag_token.html", null ],
     [ "Fungus.TextureData", "struct_fungus_1_1_texture_data.html", null ],

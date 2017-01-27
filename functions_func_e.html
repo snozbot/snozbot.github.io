@@ -42,9 +42,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.4.0--></span>
+   &#160;<span id="projectnumber"><!--v3.5.0--></span>
    </div>
-   <div id="projectbrief">v3.4.0 Documentation</div>
+   <div id="projectbrief">v3.5.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -93,6 +93,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
       <li><a href="functions_prop.html"><span>Properties</span></a></li>
+      <li><a href="functions_evnt.html"><span>Events</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -155,6 +156,9 @@ $(document).ready(function(){initNavTree('functions_func_e.html','');});
 <li>EditViewBounds()
 : <a class="el" href="class_fungus_1_1_editor_utils_1_1_view_editor.html#a11aac5ed9d8942c49b57669ed85551ef">Fungus.EditorUtils.ViewEditor</a>
 </li>
+<li>Encode()
+: <a class="el" href="class_fungus_1_1_flowchart_data.html#a8c538e7897805e110c3e87813b8d4b41">Fungus.FlowchartData</a>
+</li>
 <li>End()
 : <a class="el" href="class_fungus_1_1_editor_utils_1_1_editor_zoom_area.html#a239c28fe89e203a5ca7f13491edd3cb9">Fungus.EditorUtils.EditorZoomArea</a>
 </li>
@@ -174,8 +178,14 @@ $(document).ready(function(){initNavTree('functions_func_e.html','');});
 <li>EvaluateCondition()
 : <a class="el" href="class_fungus_1_1_if.html#ad14040753a572042edecc7c5f722996c">Fungus.If</a>
 </li>
+<li>EventAction()
+: <a class="el" href="class_fungus_1_1_editor_utils_1_1_event_window.html#a7fc190b4e82d6cefa41acb75d6b78760">Fungus.EditorUtils.EventWindow</a>
+</li>
 <li>EventHandlerInfoAttribute()
 : <a class="el" href="class_fungus_1_1_event_handler_info_attribute.html#a11886bd3c58b9f38dcf3af401dec91c3">Fungus.EventHandlerInfoAttribute</a>
+</li>
+<li>EventWindow()
+: <a class="el" href="class_fungus_1_1_editor_utils_1_1_event_window.html#af97c627508eed2f5d50491c80e9fc0d8">Fungus.EditorUtils.EventWindow</a>
 </li>
 <li>Execute()
 : <a class="el" href="class_fungus_1_1_block.html#a5c844480b4e78ae978b903265b3284aa">Fungus.Block</a>
@@ -183,10 +193,7 @@ $(document).ready(function(){initNavTree('functions_func_e.html','');});
 </li>
 <li>ExecuteBlock()
 : <a class="el" href="class_fungus_1_1_event_handler.html#ab7f52636d820dd02a206671c51449d72">Fungus.EventHandler</a>
-, <a class="el" href="class_fungus_1_1_flowchart.html#a6b2c2a0b90ad807cb06f37edc6c8067b">Fungus.Flowchart</a>
-</li>
-<li>ExecuteCommands()
-: <a class="el" href="class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ac6e0d4bd279d4c69f039235ff9bbf7fc">Fungus.EditorUtils.FlowchartWindow</a>
+, <a class="el" href="class_fungus_1_1_flowchart.html#a673035fa9cf28cf0aeae49e4d48540ce">Fungus.Flowchart</a>
 </li>
 <li>ExecuteCoroutine()
 : <a class="el" href="class_fungus_1_1_invoke_method.html#a4a99be2b8ba253955c684b647447e8bd">Fungus.InvokeMethod</a>
@@ -212,7 +219,7 @@ $(document).ready(function(){initNavTree('functions_func_e.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Nov 28 2016 16:09:47 for Fungus by
+    <li class="footer">Generated on Fri Jan 27 2017 12:53:10 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

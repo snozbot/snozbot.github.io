@@ -24,6 +24,7 @@ var searchData=
   ['interactableprop',['interactableProp',['../class_fungus_1_1_editor_utils_1_1_menu_editor.html#a73d636b48c4381fd0ed9d9e076047eff',1,'Fungus::EditorUtils::MenuEditor']]],
   ['interactablestate',['interactableState',['../class_fungus_1_1_set_interactable.html#a74c2e872a289acb1a3f161ec9e69b91a',1,'Fungus::SetInteractable']]],
   ['intvalue',['intValue',['../class_fungus_1_1_object_value.html#aeb31fb2d164d3e70e4f77c44c378cf6c',1,'Fungus::ObjectValue']]],
+  ['intvars',['intVars',['../class_fungus_1_1_flowchart_data.html#af3f5ee074d1805f6f5d313d325a05344',1,'Fungus::FlowchartData']]],
   ['invoketype',['invokeType',['../class_fungus_1_1_invoke_event.html#ac88c0985bda26f3eed0c8b79dc4e6095',1,'Fungus::InvokeEvent']]],
   ['invoketypeprop',['invokeTypeProp',['../class_fungus_1_1_editor_utils_1_1_invoke_event_editor.html#a1e8d1b693e5dfacba25fdf673e7e0792',1,'Fungus::EditorUtils::InvokeEventEditor']]],
   ['islocal',['isLocal',['../class_fungus_1_1_move_from.html#acd3820c263f3d5b67d136e7eb4d17bf3',1,'Fungus.MoveFrom.isLocal()'],['../class_fungus_1_1_move_to.html#a603e8aec226be8204a671138e4b07c75',1,'Fungus.MoveTo.isLocal()'],['../class_fungus_1_1_rotate_from.html#ac80c649d600d2ad739833e3999e1fc7c',1,'Fungus.RotateFrom.isLocal()'],['../class_fungus_1_1_rotate_to.html#a6e9de2602973955b499bb48b2d75c385',1,'Fungus.RotateTo.isLocal()'],['../class_fungus_1_1_shake_position.html#a49d99298a62b971c96ef18fca50e95bb',1,'Fungus.ShakePosition.isLocal()']]],

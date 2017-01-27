@@ -8,6 +8,7 @@ var searchData=
   ['integerdatadrawer',['IntegerDataDrawer',['../class_fungus_1_1_editor_utils_1_1_integer_data_drawer.html',1,'Fungus::EditorUtils']]],
   ['integerevent',['IntegerEvent',['../class_fungus_1_1_invoke_event_1_1_integer_event.html',1,'Fungus::InvokeEvent']]],
   ['integervariable',['IntegerVariable',['../class_fungus_1_1_integer_variable.html',1,'Fungus']]],
+  ['intvar',['IntVar',['../class_fungus_1_1_int_var.html',1,'Fungus']]],
   ['invokeevent',['InvokeEvent',['../class_fungus_1_1_invoke_event.html',1,'Fungus']]],
   ['invokeeventeditor',['InvokeEventEditor',['../class_fungus_1_1_editor_utils_1_1_invoke_event_editor.html',1,'Fungus::EditorUtils']]],
   ['invokemethod',['InvokeMethod',['../class_fungus_1_1_invoke_method.html',1,'Fungus']]],

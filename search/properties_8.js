@@ -2,6 +2,7 @@ var searchData=
 [
   ['indentlevel',['IndentLevel',['../class_fungus_1_1_command.html#a1484908b9284b87e23f19723ec5214cb',1,'Fungus::Command']]],
   ['instance',['Instance',['../class_fungus_1_1_fungus_manager.html#a19873286c58603e3b24edced95fc9559',1,'Fungus::FungusManager']]],
+  ['intvars',['IntVars',['../class_fungus_1_1_flowchart_data.html#a2da94b980fdf6f0f1826c0bbea880f26',1,'Fungus::FlowchartData']]],
   ['isexecuting',['IsExecuting',['../class_fungus_1_1_command.html#ab7eed4181a0897e30b973d244dd12a06',1,'Fungus::Command']]],
   ['iswaitingforinput',['IsWaitingForInput',['../class_fungus_1_1_writer.html#aaed5c7fd667469f37879f3beaafc7436',1,'Fungus::Writer']]],
   ['iswriting',['IsWriting',['../class_fungus_1_1_writer.html#acda70c4fc6739221222d2d9ef70719cb',1,'Fungus::Writer']]],

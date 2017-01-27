@@ -42,9 +42,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.4.0--></span>
+   &#160;<span id="projectnumber"><!--v3.5.0--></span>
    </div>
-   <div id="projectbrief">v3.4.0 Documentation</div>
+   <div id="projectbrief">v3.5.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -125,6 +125,7 @@ $(document).ready(function(){initNavTree('flow_commands.html','');});
 <li class="level1"><a href="#Label">Label</a></li>
 <li class="level1"><a href="#LoadScene">Load Scene</a></li>
 <li class="level1"><a href="#Quit">Quit</a></li>
+<li class="level1"><a href="#SavePoint">Save Point</a></li>
 <li class="level1"><a href="#SendMessage">Send Message</a></li>
 <li class="level1"><a href="#Stop">Stop</a></li>
 <li class="level1"><a href="#StopBlock">Stop Block</a></li>
@@ -150,6 +151,8 @@ Call</h1>
 <td>Target Flowchart </td><td><a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Fungus.Flowchart</a> </td><td>Flowchart which contains the block to execute. If none is specified then the current Flowchart is used. </td></tr>
 <tr>
 <td>Target Block </td><td><a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Fungus.Block</a> </td><td>Block to start executing </td></tr>
+<tr>
+<td>Start Label </td><td><a class="el" href="struct_fungus_1_1_string_data.html" title="Container for a string variable reference or constant value. ">Fungus.StringData</a> </td><td>Label to start execution at. Takes priority over startIndex. </td></tr>
 <tr>
 <td>Start Index </td><td>System.Int32 </td><td>Command index to start executing </td></tr>
 <tr>
@@ -239,6 +242,28 @@ Load Scene</h1>
 Quit</h1>
 <p>Quits the application. Does not work in Editor or Webplayer builds. Shouldn't generally be used on iOS.</p>
 <p>Defined in <a class="el" href="class_fungus_1_1_quit.html" title="Quits the application. ">Fungus.Quit</a> </p>
+<h1><a class="anchor" id="SavePoint"></a>
+Save Point</h1>
+<p>Creates a Save Point and adds it to the Save History. The player can save the Save History to persistent storage and load it again later using the Save Menu.</p>
+<p>Defined in Fungus.SavePoint</p>
+<table class="doxtable">
+<tr>
+<th>Property </th><th>Type </th><th>Description  </th></tr>
+<tr>
+<td>Is Start Point </td><td>System.Boolean </td><td>Marks this Save Point as the starting point for Flowchart execution in the scene. Each scene in your game should have exactly one Save Point with this enabled. </td></tr>
+<tr>
+<td>Key Mode </td><td>Fungus.SavePoint+KeyMode </td><td>How the Save Point Key for this Save Point is defined. </td></tr>
+<tr>
+<td>Custom Key </td><td>System.String </td><td>A string key which uniquely identifies this save point. </td></tr>
+<tr>
+<td>Description Mode </td><td>Fungus.SavePoint+DescriptionMode </td><td>How the description for this Save Point is defined. </td></tr>
+<tr>
+<td>Custom Description </td><td>System.String </td><td>A short description of this save point. </td></tr>
+<tr>
+<td>Fire Event </td><td>System.Boolean </td><td>Fire a Save Point Loaded event when this command executes. </td></tr>
+<tr>
+<td>Resume On Load </td><td>System.Boolean </td><td>Resume execution from this location after loading this Save Point. </td></tr>
+</table>
 <h1><a class="anchor" id="SendMessage"></a>
 Send Message</h1>
 <p>Sends a message to either the owner Flowchart or all Flowcharts in the scene. Blocks can listen for this message using a Message Received event handler.</p>
@@ -335,7 +360,7 @@ While</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="command_reference.html">Command Reference</a></li>
-    <li class="footer">Generated on Mon Nov 28 2016 16:09:45 for Fungus by
+    <li class="footer">Generated on Fri Jan 27 2017 12:53:08 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -42,9 +42,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.4.0--></span>
+   &#160;<span id="projectnumber"><!--v3.5.0--></span>
    </div>
-   <div id="projectbrief">v3.4.0 Documentation</div>
+   <div id="projectbrief">v3.5.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -131,9 +131,9 @@ $(document).ready(function(){initNavTree('class_fungus_1_1_draggable2_d.html',''
   <tr class="even"><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a8c8f97a43164e0a2a79b92aaf0c0d22f">DoEndDrag</a>()</td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a5d8ae45580e4a44e4a7100d0091f95e6">DoPointerEnter</a>()</td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a9f4f960797cfe26c5ca7e70e7ab0df7a">DoPointerExit</a>()</td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a10c08f2c1ce6b65e1c59eb32e0c7361e">dragEnabled</a></td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a77cdf0bc10cb55fbc7a228980a2f75a5">DragEnabled</a></td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a8cc8e6a19810c7f04bbf8433a03d03c4">GetHandlers&lt; T &gt;</a>()</td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a55d542335d70393c95b7778535632f1b">dragCompletedHandlers</a></td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a10c08f2c1ce6b65e1c59eb32e0c7361e">dragEnabled</a></td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a77cdf0bc10cb55fbc7a228980a2f75a5">DragEnabled</a></td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a68e7897de649cbffdfb06060cb36f0cc">hoverCursor</a></td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a62505bd882483bba9293146daff25feb">LateUpdate</a>()</td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a53c73478e20f1bfdb93616baae3f141f">newPosition</a></td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
@@ -149,10 +149,12 @@ $(document).ready(function(){initNavTree('class_fungus_1_1_draggable2_d.html',''
   <tr class="even"><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a4f09fae855dd1746e582ac8602f76b6f">OnPointerExit</a>(PointerEventData eventData)</td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#aeb8fb705c713c843a81d8584c6d330f5">OnTriggerEnter2D</a>(Collider2D other)</td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a08e8bf47a1d72a0b23cae8ff463fa2b3">OnTriggerExit2D</a>(Collider2D other)</td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a3a7af9b51b691e4e2ea7e56ebd13d868">returnDuration</a></td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a0e100abbf69ea58ac8f096c3e2031e07">returnOnCancelled</a></td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a8ba392627a7a32af5fc22160e45944db">returnOnCompleted</a></td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a1a0a37fc12d1a297a8e8b4f20003b6b6">startingPosition</a></td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a01112cd066561a5a456e177a133559fc">RegisterHandler</a>(DragCompleted handler)</td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a3a7af9b51b691e4e2ea7e56ebd13d868">returnDuration</a></td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a0e100abbf69ea58ac8f096c3e2031e07">returnOnCancelled</a></td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a8ba392627a7a32af5fc22160e45944db">returnOnCompleted</a></td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a1a0a37fc12d1a297a8e8b4f20003b6b6">startingPosition</a></td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#adc3143338fa0d02e1949174fc94d870c">UnregisterHandler</a>(DragCompleted handler)</td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#abb4e6d62846700b8c621e8719e3ba378">updatePosition</a></td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html#a158f984fc8e58866130c32298d026bc2">useEventSystem</a></td><td class="entry"><a class="el" href="class_fungus_1_1_draggable2_d.html">Fungus.Draggable2D</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
 </table></div><!-- contents -->
@@ -160,7 +162,7 @@ $(document).ready(function(){initNavTree('class_fungus_1_1_draggable2_d.html',''
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Nov 28 2016 16:09:45 for Fungus by
+    <li class="footer">Generated on Fri Jan 27 2017 12:53:09 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

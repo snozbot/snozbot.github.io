@@ -5,6 +5,7 @@ var class_fungus_1_1_menu_dialog =
     [ "Awake", "class_fungus_1_1_menu_dialog.html#a7c69e898ca79dadf81d98f3beac9aaaa", null ],
     [ "CallBlock", "class_fungus_1_1_menu_dialog.html#a9fcb6ed3b134227a687cdf11fb3e9e86", null ],
     [ "CallLuaClosure", "class_fungus_1_1_menu_dialog.html#a1dd10669488996e830212e552abac7ff", null ],
+    [ "CheckEventSystem", "class_fungus_1_1_menu_dialog.html#ac8694bb48493240fb4a1ffd00c38ba98", null ],
     [ "Clear", "class_fungus_1_1_menu_dialog.html#a9df220c93231d27f2f54880443aefe2c", null ],
     [ "HideSayDialog", "class_fungus_1_1_menu_dialog.html#a8ccbf4162aa8ebaff31eb21e59c3b0c3", null ],
     [ "IsActive", "class_fungus_1_1_menu_dialog.html#afc0db4ea77787e6644484f557fdd4d59", null ],

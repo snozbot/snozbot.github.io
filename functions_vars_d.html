@@ -42,9 +42,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.4.0--></span>
+   &#160;<span id="projectnumber"><!--v3.5.0--></span>
    </div>
-   <div id="projectbrief">v3.4.0 Documentation</div>
+   <div id="projectbrief">v3.5.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -93,6 +93,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_func.html"><span>Functions</span></a></li>
       <li class="current"><a href="functions_vars.html"><span>Variables</span></a></li>
       <li><a href="functions_prop.html"><span>Properties</span></a></li>
+      <li><a href="functions_evnt.html"><span>Events</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -156,6 +157,12 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 &#160;
 
 <h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
+<li>data
+: <a class="el" href="class_fungus_1_1_save_data_item.html#a7b7bcf92dda8b7b4787898b2145e9b23">Fungus.SaveDataItem</a>
+</li>
+<li>dataType
+: <a class="el" href="class_fungus_1_1_save_data_item.html#a4be2b2d379fa4ee295127201b84bf8c0">Fungus.SaveDataItem</a>
+</li>
 <li>defaultPosition
 : <a class="el" href="class_fungus_1_1_stage.html#a5d8ed806ce38433dc9260268d7f13239">Fungus.Stage</a>
 </li>
@@ -168,6 +175,9 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 </li>
 <li>delayProp
 : <a class="el" href="class_fungus_1_1_editor_utils_1_1_invoke_event_editor.html#a89ea18563c74343dc504219c1601799b">Fungus.EditorUtils.InvokeEventEditor</a>
+</li>
+<li>delegates
+: <a class="el" href="class_fungus_1_1_event_dispatcher.html#ac83fe152b04bc86d88fb94ba6344c1b6">Fungus.EventDispatcher</a>
 </li>
 <li>deleteIcon
 : <a class="el" href="class_fungus_1_1_editor_utils_1_1_block_editor.html#aa6f84259d44705764715692b0584a124">Fungus.EditorUtils.BlockEditor</a>
@@ -182,6 +192,8 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 : <a class="el" href="class_fungus_1_1_block.html#a29411f23824bee30bc0b541e99dd3ca4">Fungus.Block</a>
 , <a class="el" href="class_fungus_1_1_character.html#a35b81035c79bac23597de271fed55538">Fungus.Character</a>
 , <a class="el" href="class_fungus_1_1_flowchart.html#a7d36d451d952c43850623fe05f318e60">Fungus.Flowchart</a>
+, <a class="el" href="class_fungus_1_1_invoke_event.html#ac626933103c6bc961c4c19464fda956f">Fungus.InvokeEvent</a>
+, <a class="el" href="class_fungus_1_1_invoke_method.html#ac5751f0214f39ad899b4d104843a5099">Fungus.InvokeMethod</a>
 , <a class="el" href="class_fungus_1_1_localization_1_1_text_item.html#a945ebfb3ad91afbd47e9ba213793fbe3">Fungus.Localization.TextItem</a>
 , <a class="el" href="class_fungus_1_1_menu.html#a593c1755fb48f2887d5accd11f1c710e">Fungus.Menu</a>
 , <a class="el" href="class_fungus_1_1_say.html#ad661dd1ba7bc7da80474ef4ad591b12d">Fungus.Say</a>
@@ -191,6 +203,7 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 <li>descriptionProp
 : <a class="el" href="class_fungus_1_1_editor_utils_1_1_character_editor.html#a269c76b342615b91687f0e199418cfb4">Fungus.EditorUtils.CharacterEditor</a>
 , <a class="el" href="class_fungus_1_1_editor_utils_1_1_flowchart_editor.html#ac673b812e8f12ff6de2154566b0ffcbf">Fungus.EditorUtils.FlowchartEditor</a>
+, <a class="el" href="class_fungus_1_1_editor_utils_1_1_invoke_event_editor.html#a3b954a69915b9eb827c8be33958f7e71">Fungus.EditorUtils.InvokeEventEditor</a>
 , <a class="el" href="class_fungus_1_1_editor_utils_1_1_menu_editor.html#a55f072750eca56b9376deee04ddee83e">Fungus.EditorUtils.MenuEditor</a>
 , <a class="el" href="class_fungus_1_1_editor_utils_1_1_say_editor.html#a4e1985d916372c834b93c65ec82cdb3b">Fungus.EditorUtils.SayEditor</a>
 , <a class="el" href="class_fungus_1_1_editor_utils_1_1_write_editor.html#aab09e34ed37cfe367726038a25d1c422">Fungus.EditorUtils.WriteEditor</a>
@@ -222,18 +235,42 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 <li>downIcon
 : <a class="el" href="class_fungus_1_1_editor_utils_1_1_block_editor.html#a2dc2725f5b5ca38f75e524e2ed894add">Fungus.EditorUtils.BlockEditor</a>
 </li>
+<li>dragBlock
+: <a class="el" href="class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a34e1f49b1a5f42cab87b3a745541344e">Fungus.EditorUtils.FlowchartWindow</a>
+</li>
+<li>dragCompletedHandlers
+: <a class="el" href="class_fungus_1_1_draggable2_d.html#a55d542335d70393c95b7778535632f1b">Fungus.Draggable2D</a>
+</li>
 <li>dragEnabled
 : <a class="el" href="class_fungus_1_1_draggable2_d.html#a10c08f2c1ce6b65e1c59eb32e0c7361e">Fungus.Draggable2D</a>
 </li>
+<li>DraggableObject
+: <a class="el" href="class_fungus_1_1_drag_cancelled_1_1_drag_cancelled_event.html#a2e87593efd935d2fd890c4b6ef515b8e">Fungus.DragCancelled.DragCancelledEvent</a>
+</li>
 <li>draggableObject
 : <a class="el" href="class_fungus_1_1_drag_cancelled.html#a86b38482ff9b130e2e5e70113d746fb3">Fungus.DragCancelled</a>
-, <a class="el" href="class_fungus_1_1_drag_completed.html#a85229cf259aa043c0a5530207be62470">Fungus.DragCompleted</a>
-, <a class="el" href="class_fungus_1_1_drag_entered.html#a6cb7705216e26900e7cfb1c4122466bc">Fungus.DragEntered</a>
-, <a class="el" href="class_fungus_1_1_drag_exited.html#a13d1813ec65c3d501270a636ba4a5f88">Fungus.DragExited</a>
+</li>
+<li>DraggableObject
+: <a class="el" href="class_fungus_1_1_drag_completed_1_1_drag_completed_event.html#ac5f16a54d75f3eb40bc93b8ae30678f3">Fungus.DragCompleted.DragCompletedEvent</a>
+</li>
+<li>draggableObject
+: <a class="el" href="class_fungus_1_1_drag_completed.html#a85229cf259aa043c0a5530207be62470">Fungus.DragCompleted</a>
+</li>
+<li>DraggableObject
+: <a class="el" href="class_fungus_1_1_drag_entered_1_1_drag_entered_event.html#a91ff0043fd7367e050e4f201a1260b96">Fungus.DragEntered.DragEnteredEvent</a>
+</li>
+<li>draggableObject
+: <a class="el" href="class_fungus_1_1_drag_entered.html#a6cb7705216e26900e7cfb1c4122466bc">Fungus.DragEntered</a>
+</li>
+<li>DraggableObject
+: <a class="el" href="class_fungus_1_1_drag_exited_1_1_drag_exited_event.html#acc7d02d29bfa3623137899f1b67583b0">Fungus.DragExited.DragExitedEvent</a>
+</li>
+<li>draggableObject
+: <a class="el" href="class_fungus_1_1_drag_exited.html#a13d1813ec65c3d501270a636ba4a5f88">Fungus.DragExited</a>
 , <a class="el" href="class_fungus_1_1_drag_started.html#a808596e901e077bae0e739b531c06109">Fungus.DragStarted</a>
 </li>
-<li>dragWindowId
-: <a class="el" href="class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a3088fec5e119460ef19fcfc96ed00027">Fungus.EditorUtils.FlowchartWindow</a>
+<li>DraggableObject
+: <a class="el" href="class_fungus_1_1_drag_started_1_1_drag_started_event.html#a1cd90388bbc1aa60ecc62ae5c20b5e18">Fungus.DragStarted.DragStartedEvent</a>
 </li>
 <li>duplicateIcon
 : <a class="el" href="class_fungus_1_1_editor_utils_1_1_block_editor.html#a9083753964aab5eff56c59b1f915bee8">Fungus.EditorUtils.BlockEditor</a>
@@ -261,7 +298,7 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Nov 28 2016 16:09:47 for Fungus by
+    <li class="footer">Generated on Fri Jan 27 2017 12:53:10 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

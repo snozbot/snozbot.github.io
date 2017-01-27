@@ -42,9 +42,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.4.0--></span>
+   &#160;<span id="projectnumber"><!--v3.5.0--></span>
    </div>
-   <div id="projectbrief">v3.4.0 Documentation</div>
+   <div id="projectbrief">v3.5.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -115,7 +115,8 @@ $(document).ready(function(){initNavTree('changelog.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#v3_4_0">v3.4.0 </a></li>
+<ul><li class="level1"><a href="#v3_5_0">v3.5.0 </a></li>
+<li class="level1"><a href="#v3_4_0">v3.4.0 </a></li>
 <li class="level1"><a href="#v3_3_0">v3.3.0 </a></li>
 <li class="level1"><a href="#v3_2_0">v3.2.0 </a></li>
 <li class="level1"><a href="#v3_1_0">v3.1.0 </a></li>
@@ -129,7 +130,66 @@ $(document).ready(function(){initNavTree('changelog.html','');});
 <li class="level1"><a href="#v2_1_0">v2.1.0 </a></li>
 </ul>
 </div>
-<div class="textblock"><h1><a class="anchor" id="v3_4_0"></a>
+<div class="textblock"><h1><a class="anchor" id="v3_5_0"></a>
+v3.5.0 </h1>
+<h2>Added</h2>
+<ul>
+<li>Save game system. Use Save Point command and Save Menu prefab to easily add saving support with rewind / fast forward support.</li>
+<li>Added new menu options for spawning SaveMenu and SavedObjects prefabs</li>
+<li>New Save Game example scene</li>
+<li>Added documentation for Save System.</li>
+<li>Option to Close Other Say Dialogs when one Say Dialog becomes active.</li>
+<li>Select a start Label in Call command properties</li>
+</ul>
+<p>Thanks to contributor <a href="https://github.com/zvinless">zvinless</a>:</p><ul>
+<li>Custom block tints can now be toggled per block in the block inspector.</li>
+<li>Added multi-select feature for blocks via action key/shift+click and click+drag</li>
+<li>Block movement and context menu options now affect all selected blocks</li>
+<li>Added Flowchart window toolbar in place of floating UI</li>
+<li>Flowchart window search filter to quickly find Blocks</li>
+<li>Added keyboard shortcuts and more context menu options for Blocks (copy, cut, duplicate, delete, select all)</li>
+</ul>
+<p>Thanks to contributor <a href="https://github.com/sp-francisco-ruiz">sp-francisco-ruiz</a>:</p><ul>
+<li>Add a new Event Dispatcher to the FungusManager singleton</li>
+<li>Change Draggable2D and Clickable2D to use the new EventDispatcher for efficient calls for events.</li>
+</ul>
+<h2>Changed</h2>
+<ul>
+<li>Moved Center button from Flowchart properties to new Flowchart window toolbar</li>
+<li>Flowchart’s SelectedBlock property now refers to the active selected block rather than the sole selected block.</li>
+<li>Updated coding standard with backwards compatibility &amp; contributing notes</li>
+<li>Flowchart window now zoom in/out by mouse cursor or center rather than upper left corner</li>
+<li>All editor textures are now be accessible as properties in FungusEditorResources.</li>
+<li>Use Tools -&gt; <a class="el" href="namespace_fungus.html">Fungus</a> -&gt; Utilities -&gt; UpdateEditorResourcesScript to automatically update these editor textures</li>
+<li>Increased height of multi-line text box for StringDataMulti</li>
+<li>Updated curves, connection points, and grid background rendering with better approach</li>
+<li>Refactored Flowchart window to simplify event handling</li>
+<li>Bumped flowchart version to 2 to upgrade previously serialized selected blocks</li>
+<li>Flowchart context menu now appears on mouse up to better support panning</li>
+</ul>
+<h2>Fixed</h2>
+<ul>
+<li>Fixed nested while loops don't loop correctly #562</li>
+<li>Fixed Sprite Object click skips writing Say Text #576</li>
+<li>Fixed setmenudialog() lua function does not set main active menu dialog #578</li>
+<li>Fixed Unity Test Tools compatibility issue with Unity 5.5.0f</li>
+<li>Fixed spine integration to work with latest version of Spine runtime</li>
+<li>Fixed Block connections not highlighting when command selected</li>
+<li>Fixed centered text shifts position when written by Say command #569</li>
+<li>Fixed Say text appears for single frame when using Say command #575</li>
+<li>Fixed MenuDialog Lua Bug #565</li>
+<li>Fixed using say in lua doesn't automatically spawn an EventSystem #571</li>
+<li>Fixed cannot divide an integer by an integer using Set Variable #579</li>
+<li>Fixed tabs in conversation text from Lua #574</li>
+<li>Fixed Flowchart prefab's block show as empty on the Inspector #583</li>
+<li>Fixed typo in Game Started Wait Frames property name</li>
+<li>Fixed <a class="el" href="namespace_fungus.html">Fungus</a> ignores existing “SayDialog” and creates another one #555</li>
+<li>Change CSVParser to use Regex.Split (way faster for large CSV files)</li>
+<li>Fixed missing sprite assets in Asset Store version.</li>
+<li>Fixed onComplete callback in MusicManager.SetAudioVolume when duration is 0</li>
+<li>Removed TestRunner game objects from DragAndDrop examples.</li>
+</ul>
+<h1><a class="anchor" id="v3_4_0"></a>
 v3.4.0 </h1>
 <h2>Known Issues</h2>
 <ul>
@@ -656,7 +716,7 @@ v2.1.0 </h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">%Fungus Documentation</a></li>
-    <li class="footer">Generated on Mon Nov 28 2016 16:09:45 for Fungus by
+    <li class="footer">Generated on Fri Jan 27 2017 12:53:08 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -8,6 +8,7 @@ var searchData=
   ['blockinspector',['blockInspector',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#aec3093e5d7302ae43a49a55ee1134394',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['blockname',['blockName',['../class_fungus_1_1_stop_block.html#a6571ccebd7a6ab166766cfb26f576548',1,'Fungus.StopBlock.blockName()'],['../class_fungus_1_1_block.html#a6163440b0cc473d3d350ad35ce10e37a',1,'Fungus.Block.blockName()']]],
   ['blockpopupselection',['blockPopupSelection',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#adb9732e0c1b734e18059b44a0376fa09',1,'Fungus::EditorUtils::FlowchartWindow']]],
+  ['blocks',['blocks',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ab9245ce1b7bf3528204af3297ea4b6fe',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['blockscrollpos',['blockScrollPos',['../class_fungus_1_1_editor_utils_1_1_block_inspector_editor.html#a44e16b2977de9f0fa2e1ff49dd41e175',1,'Fungus::EditorUtils::BlockInspectorEditor']]],
   ['blockviewheight',['blockViewHeight',['../class_fungus_1_1_flowchart.html#ac32c06757999822692a78125a91eb7e8',1,'Fungus::Flowchart']]],
   ['boldactive',['boldActive',['../class_fungus_1_1_writer.html#a3d69179cd92fe07a50ac84bca8559399',1,'Fungus::Writer']]],
@@ -19,5 +20,6 @@ var searchData=
   ['booleanparameterprop',['booleanParameterProp',['../class_fungus_1_1_editor_utils_1_1_invoke_event_editor.html#a112b87b644f2d75e5265c46eb2d08c4b',1,'Fungus::EditorUtils::InvokeEventEditor']]],
   ['booleanref',['booleanRef',['../struct_fungus_1_1_boolean_data.html#a1d909db7b74c6d0ee47f5143b4d3a67e',1,'Fungus::BooleanData']]],
   ['booleanval',['booleanVal',['../struct_fungus_1_1_boolean_data.html#a844f22a279e66c4a3c7e4d292ba07640',1,'Fungus::BooleanData']]],
-  ['boolvalue',['boolValue',['../class_fungus_1_1_object_value.html#a142255b87310ffe20dc932d2c10f9254',1,'Fungus::ObjectValue']]]
+  ['boolvalue',['boolValue',['../class_fungus_1_1_object_value.html#a142255b87310ffe20dc932d2c10f9254',1,'Fungus::ObjectValue']]],
+  ['boolvars',['boolVars',['../class_fungus_1_1_flowchart_data.html#aa8f51c08f92c0d3edd17641016fa8d91',1,'Fungus::FlowchartData']]]
 ];

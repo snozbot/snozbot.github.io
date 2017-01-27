@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['saveprofile',['saveProfile',['../class_fungus_1_1_set_save_profile.html#a5355112e8ce8d1c84aa49babb4662db4',1,'Fungus::SetSaveProfile']]],
+  ['savepointkeys',['savePointKeys',['../class_fungus_1_1_save_point_loaded.html#a18dc499dd5bef0e053f4cf478b2cfb46',1,'Fungus::SavePointLoaded']]],
   ['saveprofilename',['saveProfileName',['../class_fungus_1_1_set_save_profile.html#a8ef845269a5ef3b9c1476db50b17a601',1,'Fungus::SetSaveProfile']]],
   ['savereturnvalue',['saveReturnValue',['../class_fungus_1_1_invoke_method.html#a7c263b680c4ee741a3b57478afa9342e',1,'Fungus::InvokeMethod']]],
   ['saveselection',['saveSelection',['../class_fungus_1_1_flowchart.html#ad14d7f17f8ef0d1fe6bcb1481fa36a55',1,'Fungus::Flowchart']]],
@@ -71,6 +71,8 @@ var searchData=
   ['startindex',['startIndex',['../class_fungus_1_1_call.html#a13ed675c21a21acc1959a6f24dd990a5',1,'Fungus::Call']]],
   ['startindexprop',['startIndexProp',['../class_fungus_1_1_editor_utils_1_1_call_editor.html#a02685a1e9b3adcdbcb82187f0b66fb7e',1,'Fungus::EditorUtils::CallEditor']]],
   ['startingposition',['startingPosition',['../class_fungus_1_1_draggable2_d.html#a1a0a37fc12d1a297a8e8b4f20003b6b6',1,'Fungus::Draggable2D']]],
+  ['startlabel',['startLabel',['../class_fungus_1_1_call.html#a12435344b228ea004bbe6960aeac6efa',1,'Fungus::Call']]],
+  ['startlabelprop',['startLabelProp',['../class_fungus_1_1_editor_utils_1_1_call_editor.html#a9e7b9ca4f9d684316cf4e148cd481fb8',1,'Fungus::EditorUtils::CallEditor']]],
   ['startposition',['startPosition',['../class_fungus_1_1_parallax.html#a96770cb61151a92364dd99199727e883',1,'Fungus::Parallax']]],
   ['startselectionboxposition',['startSelectionBoxPosition',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a7b4b7efd5b85cf0c1e75b7f1f32b26fb',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['startstorytextinset',['startStoryTextInset',['../class_fungus_1_1_say_dialog.html#a4561eae26d4b9f0502305b38256ac989',1,'Fungus::SayDialog']]],
@@ -102,6 +104,7 @@ var searchData=
   ['stringval',['stringVal',['../struct_fungus_1_1_string_data.html#a3a0c223491bdb24ff144a8e8738f8aa9',1,'Fungus.StringData.stringVal()'],['../struct_fungus_1_1_string_data_multi.html#af6ce408fcfcc0390f211401aec58ef7c',1,'Fungus.StringDataMulti.stringVal()']]],
   ['stringvalue',['stringValue',['../class_fungus_1_1_object_value.html#afa6dc979732d2891c495015be0155c84',1,'Fungus::ObjectValue']]],
   ['stringvariable',['stringVariable',['../class_fungus_1_1_get_text.html#abe6b14ca6b966d08e752b5279ed541c4',1,'Fungus.GetText.stringVariable()'],['../class_fungus_1_1_read_text_file.html#a29a479757f807f551921fa06e9c499e5',1,'Fungus.ReadTextFile.stringVariable()']]],
+  ['stringvars',['stringVars',['../class_fungus_1_1_flowchart_data.html#a5e79a7cd6169e3313249f9b686d11782',1,'Fungus::FlowchartData']]],
   ['swipecamera',['swipeCamera',['../class_fungus_1_1_camera_manager.html#ade5bcf63c97d2f67a7569b862f6b1efe',1,'Fungus::CameraManager']]],
   ['swipeiconposition',['swipeIconPosition',['../class_fungus_1_1_camera_manager.html#a0482b6d0b06d1231e6b7796db70b3737',1,'Fungus::CameraManager']]],
   ['swipepanactive',['swipePanActive',['../class_fungus_1_1_camera_manager.html#a06b0955ec6a9faa2cde35b2610a08d72',1,'Fungus::CameraManager']]],

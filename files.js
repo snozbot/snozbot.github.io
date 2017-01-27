@@ -125,12 +125,18 @@ var files =
       [ "End", "class_fungus_1_1_end.html", "class_fungus_1_1_end" ]
     ] ],
     [ "EndEdit.cs", "_end_edit_8cs.html", "_end_edit_8cs" ],
+    [ "EventDispatcher.cs", "_event_dispatcher_8cs.html", [
+      [ "EventDispatcher", "class_fungus_1_1_event_dispatcher.html", "class_fungus_1_1_event_dispatcher" ]
+    ] ],
     [ "EventHandler.cs", "_event_handler_8cs.html", [
       [ "EventHandlerInfoAttribute", "class_fungus_1_1_event_handler_info_attribute.html", "class_fungus_1_1_event_handler_info_attribute" ],
       [ "EventHandler", "class_fungus_1_1_event_handler.html", "class_fungus_1_1_event_handler" ]
     ] ],
     [ "EventHandlerEditor.cs", "_event_handler_editor_8cs.html", [
       [ "EventHandlerEditor", "class_fungus_1_1_editor_utils_1_1_event_handler_editor.html", "class_fungus_1_1_editor_utils_1_1_event_handler_editor" ]
+    ] ],
+    [ "EventWindow.cs", "_event_window_8cs.html", [
+      [ "EventWindow", "class_fungus_1_1_editor_utils_1_1_event_window.html", "class_fungus_1_1_editor_utils_1_1_event_window" ]
     ] ],
     [ "ExecuteLua.cs", "_execute_lua_8cs.html", "_execute_lua_8cs" ],
     [ "FadeScreen.cs", "_fade_screen_8cs.html", "_fade_screen_8cs" ],
@@ -147,6 +153,13 @@ var files =
     ] ],
     [ "Flowchart.cs", "_flowchart_8cs.html", [
       [ "Flowchart", "class_fungus_1_1_flowchart.html", "class_fungus_1_1_flowchart" ]
+    ] ],
+    [ "FlowchartData.cs", "_flowchart_data_8cs.html", [
+      [ "StringVar", "class_fungus_1_1_string_var.html", "class_fungus_1_1_string_var" ],
+      [ "IntVar", "class_fungus_1_1_int_var.html", "class_fungus_1_1_int_var" ],
+      [ "FloatVar", "class_fungus_1_1_float_var.html", "class_fungus_1_1_float_var" ],
+      [ "BoolVar", "class_fungus_1_1_bool_var.html", "class_fungus_1_1_bool_var" ],
+      [ "FlowchartData", "class_fungus_1_1_flowchart_data.html", "class_fungus_1_1_flowchart_data" ]
     ] ],
     [ "FlowchartEditor.cs", "_flowchart_editor_8cs.html", [
       [ "FlowchartEditor", "class_fungus_1_1_editor_utils_1_1_flowchart_editor.html", "class_fungus_1_1_editor_utils_1_1_flowchart_editor" ],
@@ -326,6 +339,24 @@ var files =
     [ "RotateTo.cs", "_rotate_to_8cs.html", [
       [ "RotateTo", "class_fungus_1_1_rotate_to.html", "class_fungus_1_1_rotate_to" ]
     ] ],
+    [ "SaveData.cs", "_save_data_8cs.html", null ],
+    [ "SaveDataEditor.cs", "_save_data_editor_8cs.html", null ],
+    [ "SaveDataItem.cs", "_save_data_item_8cs.html", [
+      [ "SaveDataItem", "class_fungus_1_1_save_data_item.html", "class_fungus_1_1_save_data_item" ]
+    ] ],
+    [ "SaveHistory.cs", "_save_history_8cs.html", null ],
+    [ "SaveManager.cs", "_save_manager_8cs.html", null ],
+    [ "SaveManagerSignals.cs", "_save_manager_signals_8cs.html", null ],
+    [ "SaveMenu.cs", "_save_menu_8cs.html", null ],
+    [ "SaveMenuItems.cs", "_save_menu_items_8cs.html", [
+      [ "SaveMenuItems", "class_fungus_1_1_editor_utils_1_1_save_menu_items.html", null ]
+    ] ],
+    [ "SavePoint.cs", "_save_point_8cs.html", null ],
+    [ "SavePointData.cs", "_save_point_data_8cs.html", null ],
+    [ "SavePointLoaded.cs", "_save_point_loaded_8cs.html", [
+      [ "SavePointLoaded", "class_fungus_1_1_save_point_loaded.html", "class_fungus_1_1_save_point_loaded" ]
+    ] ],
+    [ "SavePointLoadedEditor.cs", "_save_point_loaded_editor_8cs.html", null ],
     [ "SaveVariable.cs", "_save_variable_8cs.html", [
       [ "SaveVariable", "class_fungus_1_1_save_variable.html", "class_fungus_1_1_save_variable" ]
     ] ],

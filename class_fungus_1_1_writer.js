@@ -1,6 +1,7 @@
 var class_fungus_1_1_writer =
 [
     [ "Awake", "class_fungus_1_1_writer.html#a19e2fc0710ce72292199457b3cff26fb", null ],
+    [ "CacheHiddenColorStrings", "class_fungus_1_1_writer.html#a03527d10c0c28d3fc809ba7b02345592", null ],
     [ "CheckParamCount", "class_fungus_1_1_writer.html#a8fd836919dbbb673a240266ce8f8c164", null ],
     [ "ConcatenateString", "class_fungus_1_1_writer.html#ac3decf500b78d031fc72c13145e66b3f", null ],
     [ "DoWait", "class_fungus_1_1_writer.html#a46a558de39584f3f0c451c8693416ce2", null ],
@@ -52,6 +53,7 @@ var class_fungus_1_1_writer =
     [ "outputString", "class_fungus_1_1_writer.html#a8dc19b15afce3e995b2d23a03e625df6", null ],
     [ "punchObject", "class_fungus_1_1_writer.html#a6b5450ec053f4ad93794e683e6666fc2", null ],
     [ "punctuationPause", "class_fungus_1_1_writer.html#a5fec83c2df863b31ec932ac436745966", null ],
+    [ "readAheadString", "class_fungus_1_1_writer.html#abe3343d8537ac3b3e3cd27f63e5eaf97", null ],
     [ "rightString", "class_fungus_1_1_writer.html#af70bd44e6b0fd6a834646df03a67709d", null ],
     [ "sizeActive", "class_fungus_1_1_writer.html#aba7783ff85512c8a064cebb44f7a3989", null ],
     [ "sizeValue", "class_fungus_1_1_writer.html#a232cc960e56cc48f93da8bc1a6170346", null ],
@@ -60,6 +62,7 @@ var class_fungus_1_1_writer =
     [ "textMesh", "class_fungus_1_1_writer.html#a4af64f2268346d95f18956a60db6cb2e", null ],
     [ "textProperty", "class_fungus_1_1_writer.html#a82a2f5b033c4603f5e980d72942a3276", null ],
     [ "textUI", "class_fungus_1_1_writer.html#ac508c2932ec2d6ecb611444009f9b025", null ],
+    [ "visibleCharacterCount", "class_fungus_1_1_writer.html#a2f83fd5d21dadbfa8eb44f534edb80cc", null ],
     [ "writerListeners", "class_fungus_1_1_writer.html#abe96097f469edb89229b6936aea88252", null ],
     [ "writeWholeWords", "class_fungus_1_1_writer.html#a1fef34dd58d6afdee14daacaf5211e01", null ],
     [ "writingSpeed", "class_fungus_1_1_writer.html#a40fc628210265c53dd28fa680b9a8b0d", null ],

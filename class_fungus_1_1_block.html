@@ -42,9 +42,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.4.0--></span>
+   &#160;<span id="projectnumber"><!--v3.5.0--></span>
    </div>
-   <div id="projectbrief">v3.4.0 Documentation</div>
+   <div id="projectbrief">v3.5.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -170,6 +170,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a474dc72934b9fa57e061d297c40785d5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_block.html#a474dc72934b9fa57e061d297c40785d5">UpdateIndentLevels</a> ()</td></tr>
 <tr class="memdesc:a474dc72934b9fa57e061d297c40785d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculate the indent levels for all commands in the list.  <a href="#a474dc72934b9fa57e061d297c40785d5">More...</a><br /></td></tr>
 <tr class="separator:a474dc72934b9fa57e061d297c40785d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bee2ad5d6f4cc47962bc7e8d2f80465"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_block.html#a8bee2ad5d6f4cc47962bc7e8d2f80465">GetLabelIndex</a> (string labelKey)</td></tr>
+<tr class="memdesc:a8bee2ad5d6f4cc47962bc7e8d2f80465"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the <a class="el" href="class_fungus_1_1_label.html" title="Marks a position in the command list for execution to jump to. ">Label</a> command with matching key, or -1 if not found.  <a href="#a8bee2ad5d6f4cc47962bc7e8d2f80465">More...</a><br /></td></tr>
+<tr class="separator:a8bee2ad5d6f4cc47962bc7e8d2f80465"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -402,6 +405,34 @@ Properties</h2></td></tr>
 <p>Returns the parent <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> for this <a class="el" href="class_fungus_1_1_block.html" title="A container for a sequence of Fungus comands. ">Block</a>. </p>
 
 <p>Definition at line <a class="el" href="_block_8cs_source.html#l00165">165</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8bee2ad5d6f4cc47962bc7e8d2f80465"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int Fungus.Block.GetLabelIndex </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>labelKey</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the index of the <a class="el" href="class_fungus_1_1_label.html" title="Marks a position in the command list for execution to jump to. ">Label</a> command with matching key, or -1 if not found. </p>
+
+<p>Definition at line <a class="el" href="_block_8cs_source.html#l00388">388</a> of file <a class="el" href="_block_8cs_source.html">Block.cs</a>.</p>
 
 </div>
 </div>
@@ -1041,7 +1072,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_block.html">Block</a></li>
-    <li class="footer">Generated on Mon Nov 28 2016 16:09:45 for Fungus by
+    <li class="footer">Generated on Fri Jan 27 2017 12:53:09 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
