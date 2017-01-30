@@ -22,7 +22,7 @@ var searchData=
   ['endvolumeprop',['endVolumeProp',['../class_fungus_1_1_editor_utils_1_1_control_audio_editor.html#a4bfd3da551b2ea0c7c4625d337be98f9',1,'Fungus::EditorUtils::ControlAudioEditor']]],
   ['equals',['Equals',['../namespace_fungus.html#a9d109f78bebc5b1a315bc37eadc54251a0ccb67e7eaae09d9e4078d161eeca100',1,'Fungus']]],
   ['error',['Error',['../namespace_fungus.html#aa2e4177ce6a91129b0964757d7eb355fa902b0d55fddef6f8d651fe1035b7d4bd',1,'Fungus']]],
-  ['errormessage',['errorMessage',['../class_fungus_1_1_command.html#a3581cec0f4994998d0144fb4538fbdee',1,'Fungus.Command.errorMessage()'],['../class_fungus_1_1_command.html#ab55baf633aabae59551401c2d6ec7342',1,'Fungus.Command.ErrorMessage()']]],
+  ['errormessage',['ErrorMessage',['../class_fungus_1_1_command.html#ab55baf633aabae59551401c2d6ec7342',1,'Fungus.Command.ErrorMessage()'],['../class_fungus_1_1_command.html#a3581cec0f4994998d0144fb4538fbdee',1,'Fungus.Command.errorMessage()']]],
   ['evaluate',['Evaluate',['../class_fungus_1_1_boolean_variable.html#a48118b92c454b250d3a7407609429199',1,'Fungus.BooleanVariable.Evaluate()'],['../class_fungus_1_1_float_variable.html#ae2f413a0d33ad087e1e24e35e7c75778',1,'Fungus.FloatVariable.Evaluate()'],['../class_fungus_1_1_integer_variable.html#a5d82d3af434f39445915b0f218778bee',1,'Fungus.IntegerVariable.Evaluate()'],['../class_fungus_1_1_string_variable.html#af7fd7b2fad25628826a00c54b9fe0fbf',1,'Fungus.StringVariable.Evaluate()']]],
   ['evaluateandcontinue',['EvaluateAndContinue',['../class_fungus_1_1_if.html#af178edd6f039b931d76fb6d2f8d0f08e',1,'Fungus::If']]],
   ['evaluatecondition',['EvaluateCondition',['../class_fungus_1_1_if.html#ad14040753a572042edecc7c5f722996c',1,'Fungus::If']]],

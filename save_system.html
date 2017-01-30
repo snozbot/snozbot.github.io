@@ -185,8 +185,9 @@ The Save Menu UI</h1>
 <p>The Save Menu is a simple UI which allows players to interact with the Fungus save system. This section explains what each button does and how to configure the Save Menu properties.</p>
 <h2><a class="anchor" id="save_menu_properties"></a>
 Save Menu properties</h2>
-<p>There are 3 main properties that you might want to configure in the Save Menu.</p>
+<p>There are 4 main properties that you might want to configure in the Save Menu.</p>
 <ul>
+<li>Save Data Key: The string key used to store save game data in Player Prefs. If you have multiple games defined in the same Unity project, use a unique key for each one.</li>
 <li>Load On Start: Automatically load the previously saved game on startup.</li>
 <li>Auto Save: Automatically save the game to disk at every Save Point. When this option is enabled the Save and Load buttons are disabled.</li>
 <li>Restart Deletes Save: Delete the save data from disk when the player restarts the game. This is useful when testing your game to ensure you’re starting from a blank save state.</li>
@@ -238,7 +239,7 @@ Save History</h2>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">%Fungus Documentation</a></li>
-    <li class="footer">Generated on Fri Jan 27 2017 12:53:08 for Fungus by
+    <li class="footer">Generated on Mon Jan 30 2017 16:34:25 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
