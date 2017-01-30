@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"class_fungus_1_1_writer.html#a5fec83c2df863b31ec932ac436745966":[5,0,0,198,52],
 "class_fungus_1_1_writer.html#a64b4258d684b3aef497ffd5de2244be7":[5,0,0,198,38],
 "class_fungus_1_1_writer.html#a65ce4b573a2256b97d50503ed90a6869":[5,0,0,198,12],
 "class_fungus_1_1_writer.html#a697d33b30df8e445f9e5dcd50ea4ab44":[5,0,0,198,11],
@@ -158,8 +159,8 @@ var NAVTREEINDEX11 =
 "flowcharts.html#flowcharts_flowchart_window":[0,5,1],
 "flowcharts.html#panning":[0,5,3],
 "flowcharts.html#zooming":[0,5,4],
-"functions.html":[5,2,0],
 "functions.html":[5,2,0,0],
+"functions.html":[5,2,0],
 "functions_a.html":[5,2,0,1],
 "functions_b.html":[5,2,0,2],
 "functions_c.html":[5,2,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "globals.html":[6,1,0],
 "globals_type.html":[6,1,2],
 "globals_vars.html":[6,1,1],
-"glossary.html":[0,15],
-"hierarchy.html":[5,1]
+"glossary.html":[0,15]
 };

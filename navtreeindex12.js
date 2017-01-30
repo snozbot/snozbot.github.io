@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"hierarchy.html":[5,1],
 "i_tween_command_8cs.html":[6,0,86],
 "i_tween_command_8cs.html#a3ecca65f2403ee4d2e41741bddd82056":[6,0,86,1],
 "i_tween_command_8cs.html#a3ecca65f2403ee4d2e41741bddd82056a02129bb861061d1a052c592e2dc6b383":[6,0,86,1,1],
@@ -120,8 +121,8 @@ var NAVTREEINDEX12 =
 "lua_utils.html#registering_types":[1,5,2],
 "namespace_fungus.html":[4,0,0],
 "namespace_fungus.html":[5,0,0],
-"namespace_fungus_1_1_editor_utils.html":[4,0,0,0],
 "namespace_fungus_1_1_editor_utils.html":[5,0,0,0],
+"namespace_fungus_1_1_editor_utils.html":[4,0,0,0],
 "namespacemembers.html":[4,1,0],
 "namespacemembers_enum.html":[4,1,1],
 "namespaces.html":[4,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "struct_fungus_1_1_material_data.html#a0480348c97d882885381c17355c78678":[5,0,0,87,2],
 "struct_fungus_1_1_material_data.html#a364c4d4349fcd2479b9f3c4f696957bf":[5,0,0,87,4],
 "struct_fungus_1_1_material_data.html#a873f5bfd316944ac5f1db20b708fda19":[5,0,0,87,0],
-"struct_fungus_1_1_material_data.html#a9b622b371649aa928dba6fce908b2b4d":[5,0,0,87,1],
-"struct_fungus_1_1_material_data.html#ad645003d78fbf6e44f448a8854adabf0":[5,0,0,87,3]
+"struct_fungus_1_1_material_data.html#a9b622b371649aa928dba6fce908b2b4d":[5,0,0,87,1]
 };

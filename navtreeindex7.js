@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"class_fungus_1_1_if.html#a71d4af8ced0f4c0af08c1756d7f18431":[5,0,0,67,5],
 "class_fungus_1_1_if.html#a8e15d5190c4e743972e543209dab5042":[5,0,0,67,4],
 "class_fungus_1_1_if.html#aa31692da519428c8c5127b6011de145e":[5,0,0,67,10],
 "class_fungus_1_1_if.html#ad14040753a572042edecc7c5f722996c":[5,0,0,67,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "class_fungus_1_1_object_clicked.html#a48d8604a36e32c900d1eecdf544ecb92":[5,0,0,99,7],
 "class_fungus_1_1_object_clicked.html#a542a9c24e42f407e136f4e2af11ba2f6":[5,0,0,99,4],
 "class_fungus_1_1_object_clicked.html#a72aed0c3428bc65ed575cf975efc082b":[5,0,0,99,5],
-"class_fungus_1_1_object_clicked.html#aa87ed5b44b8025c814b023e5f797d5e1":[5,0,0,99,3],
-"class_fungus_1_1_object_clicked.html#ac3bc1c1ec5c3539cea746de898dc36ad":[5,0,0,99,2]
+"class_fungus_1_1_object_clicked.html#aa87ed5b44b8025c814b023e5f797d5e1":[5,0,0,99,3]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"class_fungus_1_1_call_method.html#a204b57f0bb34ec99c47f1925a596aa15":[5,0,0,12,3],
 "class_fungus_1_1_call_method.html#a3de6a96fd4fd6ddbd45dec6fd9c13d0d":[5,0,0,12,2],
 "class_fungus_1_1_call_method.html#a413d946bd8a72e91f22b1717886c9dee":[5,0,0,12,4],
 "class_fungus_1_1_call_method.html#ad76f5ef92b0099d462f1e0c49f4e650c":[5,0,0,12,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "class_fungus_1_1_drag_cancelled.html#acc1c278e4e9e77b8d052964f7fe75595":[5,0,0,34,2],
 "class_fungus_1_1_drag_cancelled_1_1_drag_cancelled_event.html":[5,0,0,34,0],
 "class_fungus_1_1_drag_cancelled_1_1_drag_cancelled_event.html#a2e87593efd935d2fd890c4b6ef515b8e":[5,0,0,34,0,1],
-"class_fungus_1_1_drag_cancelled_1_1_drag_cancelled_event.html#a901ca3a360a82efcad2707c3a7f7f6c3":[5,0,0,34,0,0],
-"class_fungus_1_1_drag_completed.html":[5,0,0,35]
+"class_fungus_1_1_drag_cancelled_1_1_drag_cancelled_event.html#a901ca3a360a82efcad2707c3a7f7f6c3":[5,0,0,34,0,0]
 };
