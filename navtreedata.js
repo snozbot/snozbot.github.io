@@ -52,8 +52,8 @@ var NAVTREEINDEX =
 "class_fungus_1_1_say.html#acbda184ff10924ba475b9de341e88467",
 "class_fungus_1_1_shake_camera.html",
 "class_fungus_1_1_writer.html#a5fec83c2df863b31ec932ac436745966",
-"hierarchy.html",
-"struct_fungus_1_1_material_data.html#ad645003d78fbf6e44f448a8854adabf0"
+"glossary.html",
+"struct_fungus_1_1_material_data.html#a9b622b371649aa928dba6fce908b2b4d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"glossary.html":[0,15],
 "hierarchy.html":[5,1],
 "i_tween_command_8cs.html":[6,0,86],
 "i_tween_command_8cs.html#a3ecca65f2403ee4d2e41741bddd82056":[6,0,86,1],
@@ -9,8 +10,8 @@ var NAVTREEINDEX12 =
 "i_tween_command_8cs.html#a3ecca65f2403ee4d2e41741bddd82056a6adf97f83acf6453d4a6a4b1070f3754":[6,0,86,1,0],
 "i_tween_command_8cs.html#a7d67e097df9376eb709b6a23aa3c7d23":[6,0,86,2],
 "i_tween_command_8cs_source.html":[6,0,86],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "input_events.html":[2,12],
 "input_events.html#KeyPressed":[2,12,0],
 "installation.html":[0,3],
@@ -119,10 +120,10 @@ var NAVTREEINDEX12 =
 "lua_utils.html#pod_factory":[1,5,6],
 "lua_utils.html#register_types_directly":[1,5,4],
 "lua_utils.html#registering_types":[1,5,2],
-"namespace_fungus.html":[4,0,0],
 "namespace_fungus.html":[5,0,0],
-"namespace_fungus_1_1_editor_utils.html":[5,0,0,0],
+"namespace_fungus.html":[4,0,0],
 "namespace_fungus_1_1_editor_utils.html":[4,0,0,0],
+"namespace_fungus_1_1_editor_utils.html":[5,0,0,0],
 "namespacemembers.html":[4,1,0],
 "namespacemembers_enum.html":[4,1,1],
 "namespaces.html":[4,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "struct_fungus_1_1_material_data.html":[5,0,0,87],
 "struct_fungus_1_1_material_data.html#a0480348c97d882885381c17355c78678":[5,0,0,87,2],
 "struct_fungus_1_1_material_data.html#a364c4d4349fcd2479b9f3c4f696957bf":[5,0,0,87,4],
-"struct_fungus_1_1_material_data.html#a873f5bfd316944ac5f1db20b708fda19":[5,0,0,87,0],
-"struct_fungus_1_1_material_data.html#a9b622b371649aa928dba6fce908b2b4d":[5,0,0,87,1]
+"struct_fungus_1_1_material_data.html#a873f5bfd316944ac5f1db20b708fda19":[5,0,0,87,0]
 };

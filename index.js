@@ -85,6 +85,7 @@ var index =
       [ "Lua", "conversation_system.html#lua", null ]
     ] ],
     [ "Community tutorials", "community_tutorials.html", [
+      [ "Game Dev Resources", "community_tutorials.html#game_dev_resources", null ],
       [ "Marco Secchi", "community_tutorials.html#marco_secchi", null ],
       [ "Morning Fun Games", "community_tutorials.html#morning_fun", null ],
       [ "Sercan Altun", "community_tutorials.html#sercun_altun", null ],
