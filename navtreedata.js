@@ -42,18 +42,18 @@ var NAVTREEINDEX =
 [
 "_animator_variable_8cs.html",
 "_label_8cs_source.html",
-"_stage_editor_8cs.html",
-"class_fungus_1_1_call_method.html#a204b57f0bb34ec99c47f1925a596aa15",
-"class_fungus_1_1_drag_completed.html",
-"class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a30039e086732b3436b37584d66707559",
-"class_fungus_1_1_else_if.html#a1fd1edd681de9e09abb4c6529e015c76",
-"class_fungus_1_1_if.html#a71d4af8ced0f4c0af08c1756d7f18431",
-"class_fungus_1_1_object_clicked.html#ac3bc1c1ec5c3539cea746de898dc36ad",
-"class_fungus_1_1_say.html#acbda184ff10924ba475b9de341e88467",
-"class_fungus_1_1_shake_camera.html",
-"class_fungus_1_1_writer.html#a5fec83c2df863b31ec932ac436745966",
-"glossary.html",
-"struct_fungus_1_1_material_data.html#a9b622b371649aa928dba6fce908b2b4d"
+"_stage_8cs.html",
+"class_fungus_1_1_call_method.html#a1904828a658d10e67f441397ba73d151",
+"class_fungus_1_1_drag_cancelled_1_1_drag_cancelled_event.html#a2e87593efd935d2fd890c4b6ef515b8e",
+"class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a2340678e65f43bf2ba9a5c37f22e0434",
+"class_fungus_1_1_else_if.html",
+"class_fungus_1_1_if.html#a546a5a9e8ca2a6250a8a36864f6974f4",
+"class_fungus_1_1_object_clicked.html#a72aed0c3428bc65ed575cf975efc082b",
+"class_fungus_1_1_say.html#aaeeaac3cef34d07975e287ddf297251d",
+"class_fungus_1_1_set_variable.html#adf76d4f17bb82c225f3096cb43df52aa",
+"class_fungus_1_1_writer.html#a52fbf99acb45edf28054024a40818df6",
+"globals_type.html",
+"struct_fungus_1_1_material_data.html#a364c4d4349fcd2479b9f3c4f696957bf"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

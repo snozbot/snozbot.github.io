@@ -348,6 +348,7 @@ var files =
     [ "SaveManager.cs", "_save_manager_8cs.html", null ],
     [ "SaveManagerSignals.cs", "_save_manager_signals_8cs.html", null ],
     [ "SaveMenu.cs", "_save_menu_8cs.html", null ],
+    [ "SaveMenuEditor.cs", "_save_menu_editor_8cs.html", null ],
     [ "SaveMenuItems.cs", "_save_menu_items_8cs.html", [
       [ "SaveMenuItems", "class_fungus_1_1_editor_utils_1_1_save_menu_items.html", null ]
     ] ],

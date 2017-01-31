@@ -8,6 +8,7 @@ var searchData=
   ['savemanager_2ecs',['SaveManager.cs',['../_save_manager_8cs.html',1,'']]],
   ['savemanagersignals_2ecs',['SaveManagerSignals.cs',['../_save_manager_signals_8cs.html',1,'']]],
   ['savemenu_2ecs',['SaveMenu.cs',['../_save_menu_8cs.html',1,'']]],
+  ['savemenueditor_2ecs',['SaveMenuEditor.cs',['../_save_menu_editor_8cs.html',1,'']]],
   ['savemenuitems_2ecs',['SaveMenuItems.cs',['../_save_menu_items_8cs.html',1,'']]],
   ['savepoint_2ecs',['SavePoint.cs',['../_save_point_8cs.html',1,'']]],
   ['savepointdata_2ecs',['SavePointData.cs',['../_save_point_data_8cs.html',1,'']]],

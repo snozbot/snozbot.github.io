@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"class_fungus_1_1_writer.html#a52fbf99acb45edf28054024a40818df6":[5,0,0,198,42],
+"class_fungus_1_1_writer.html#a530bacc742748ac994c6a03154106dc2":[5,0,0,198,41],
 "class_fungus_1_1_writer.html#a5fec83c2df863b31ec932ac436745966":[5,0,0,198,52],
 "class_fungus_1_1_writer.html#a64b4258d684b3aef497ffd5de2244be7":[5,0,0,198,38],
 "class_fungus_1_1_writer.html#a65ce4b573a2256b97d50503ed90a6869":[5,0,0,198,12],
@@ -169,8 +171,8 @@ var NAVTREEINDEX11 =
 "functions_e.html":[5,2,0,5],
 "functions_evnt.html":[5,2,4],
 "functions_f.html":[5,2,0,6],
-"functions_func.html":[5,2,1],
 "functions_func.html":[5,2,1,0],
+"functions_func.html":[5,2,1],
 "functions_func_b.html":[5,2,1,1],
 "functions_func_c.html":[5,2,1,2],
 "functions_func_d.html":[5,2,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "getting_started.html#playmode_tint":[0,4,4],
 "getting_started.html#running_examples":[0,4,2],
 "getting_started.html#utilities_menu":[0,4,8],
-"globals.html":[6,1,0],
-"globals_type.html":[6,1,2],
-"globals_vars.html":[6,1,1]
+"globals.html":[6,1,0]
 };
