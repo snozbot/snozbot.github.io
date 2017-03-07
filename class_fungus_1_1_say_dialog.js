@@ -9,6 +9,7 @@ var class_fungus_1_1_say_dialog =
     [ "GetWriterAudio", "class_fungus_1_1_say_dialog.html#adb32afff0a54e687ab33a824073393c3", null ],
     [ "LateUpdate", "class_fungus_1_1_say_dialog.html#ad39477a50a71fe11c73ee091352400cc", null ],
     [ "OnDestroy", "class_fungus_1_1_say_dialog.html#a751fb51bab826c2da4825c466ae93605", null ],
+    [ "OnEnable", "class_fungus_1_1_say_dialog.html#ac4f774c07fac65a6ae5b85746bcd2e25", null ],
     [ "Say", "class_fungus_1_1_say_dialog.html#a0f55d787c35fd527c824e38e03163135", null ],
     [ "SetActive", "class_fungus_1_1_say_dialog.html#a28cf85d76739395ae3f3ae58150f1458", null ],
     [ "SetCharacter", "class_fungus_1_1_say_dialog.html#afb1ca8f57d829893fb2349ebba0be010", null ],

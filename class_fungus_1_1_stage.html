@@ -232,6 +232,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:acd70b78e716d3ac5990fe77812d307e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7bc89edfa8b3e8c13087fdc87f370b0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_stage.html#aa7bc89edfa8b3e8c13087fdc87f370b0">dimPortraits</a></td></tr>
 <tr class="separator:aa7bc89edfa8b3e8c13087fdc87f370b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeda99a48882a39748b63cc71b47577c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_fungus.html#a3a818435c4503f622767149bc7ac47deacb5feb1b7314637725a2e73bdc9f7295">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_stage.html#aeda99a48882a39748b63cc71b47577c5">dimColor</a> =new <a class="el" href="namespace_fungus.html#a3a818435c4503f622767149bc7ac47deacb5feb1b7314637725a2e73bdc9f7295">Color</a>(0.5f, 0.5f, 0.5f, 1f)</td></tr>
+<tr class="separator:aeda99a48882a39748b63cc71b47577c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bf50847b43139db8de5d0fc528001db"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_stage.html#a2bf50847b43139db8de5d0fc528001db">fadeDuration</a> = 0.5f</td></tr>
 <tr class="separator:a2bf50847b43139db8de5d0fc528001db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae7e87e799c99eea0074a40bca875c0a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_stage.html#aae7e87e799c99eea0074a40bca875c0a">moveDuration</a> = 1f</td></tr>
@@ -268,6 +270,9 @@ Properties</h2></td></tr>
 <tr class="memitem:ac121ab051b565052dad8be621af37546"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_stage.html#ac121ab051b565052dad8be621af37546">DimPortraits</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ac121ab051b565052dad8be621af37546"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dim portraits when a character is not speaking.  <a href="#ac121ab051b565052dad8be621af37546">More...</a><br /></td></tr>
 <tr class="separator:ac121ab051b565052dad8be621af37546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d58c1afad4000961cfa2c3e069abb88"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_fungus.html#a3a818435c4503f622767149bc7ac47deacb5feb1b7314637725a2e73bdc9f7295">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_stage.html#a4d58c1afad4000961cfa2c3e069abb88">DimColor</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a4d58c1afad4000961cfa2c3e069abb88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Choose a dimColor.  <a href="#a4d58c1afad4000961cfa2c3e069abb88">More...</a><br /></td></tr>
+<tr class="separator:a4d58c1afad4000961cfa2c3e069abb88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a061cf4c9dbcb08fb5d1856bbc982fbcf"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_stage.html#a061cf4c9dbcb08fb5d1856bbc982fbcf">FadeDuration</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a061cf4c9dbcb08fb5d1856bbc982fbcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duration for fading character portraits in / out.  <a href="#a061cf4c9dbcb08fb5d1856bbc982fbcf">More...</a><br /></td></tr>
 <tr class="separator:a061cf4c9dbcb08fb5d1856bbc982fbcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -318,7 +323,7 @@ Properties</h2></td></tr>
 
 <p>Returns the currently active stage. </p>
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00078">78</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00081">81</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -338,7 +343,7 @@ Properties</h2></td></tr>
 
 <p>Searches the stage's named positions <a class="el" href="class_fungus_1_1_if.html" title="If the test expression is true, execute the following command block. ">If</a> none matches the string provided, give a warning and return a new RectTransform </p>
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00138">138</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00146">146</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -363,7 +368,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00053">53</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00056">56</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -388,7 +393,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00045">45</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00048">48</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -413,7 +418,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00058">58</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00061">61</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -436,7 +441,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00043">43</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00046">46</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -458,7 +463,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00041">41</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00044">44</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -480,7 +485,29 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00036">36</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00039">39</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeda99a48882a39748b63cc71b47577c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_fungus.html#a3a818435c4503f622767149bc7ac47deacb5feb1b7314637725a2e73bdc9f7295">Color</a> Fungus.Stage.dimColor =new <a class="el" href="namespace_fungus.html#a3a818435c4503f622767149bc7ac47deacb5feb1b7314637725a2e73bdc9f7295">Color</a>(0.5f, 0.5f, 0.5f, 1f)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00024">24</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -524,7 +551,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00024">24</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00027">27</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -546,7 +573,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00030">30</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00033">33</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -568,7 +595,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00027">27</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00030">30</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -612,7 +639,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00039">39</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00042">42</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -634,7 +661,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00033">33</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00036">36</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -659,7 +686,7 @@ Properties</h2></td></tr>
 
 <p>Gets the list of active stages. </p>
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00073">73</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00076">76</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -683,7 +710,7 @@ Properties</h2></td></tr>
 
 <p>List of currently active characters on the stage. </p>
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00132">132</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00140">140</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -707,7 +734,31 @@ Properties</h2></td></tr>
 
 <p>The position object where characters appear by default. </p>
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00122">122</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00130">130</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4d58c1afad4000961cfa2c3e069abb88"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="namespace_fungus.html#a3a818435c4503f622767149bc7ac47deacb5feb1b7314637725a2e73bdc9f7295">Color</a> Fungus.Stage.DimColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Choose a dimColor. </p>
+
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00105">105</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -731,7 +782,7 @@ Properties</h2></td></tr>
 
 <p>Dim portraits when a character is not speaking. </p>
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00097">97</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00100">100</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -755,7 +806,7 @@ Properties</h2></td></tr>
 
 <p>Duration for fading character portraits in / out. </p>
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00102">102</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00110">110</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -779,7 +830,7 @@ Properties</h2></td></tr>
 
 <p>Ease type for the fade tween. </p>
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00112">112</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00120">120</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -803,7 +854,7 @@ Properties</h2></td></tr>
 
 <p>Duration for moving characters to a new position. </p>
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00107">107</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00115">115</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -827,7 +878,7 @@ Properties</h2></td></tr>
 
 <p>Canvas object containing the stage positions. </p>
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00092">92</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00095">95</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -851,7 +902,7 @@ Properties</h2></td></tr>
 
 <p>List of stage position rect transforms in the stage. </p>
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00127">127</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00135">135</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -875,7 +926,7 @@ Properties</h2></td></tr>
 
 <p>Constant offset to apply to portrait position. </p>
 
-<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00117">117</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
+<p>Definition at line <a class="el" href="_stage_8cs_source.html#l00125">125</a> of file <a class="el" href="_stage_8cs_source.html">Stage.cs</a>.</p>
 
 </div>
 </div>
@@ -888,7 +939,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_stage.html">Stage</a></li>
-    <li class="footer">Generated on Tue Jan 31 2017 14:19:01 for Fungus by
+    <li class="footer">Generated on Tue Mar 7 2017 22:16:55 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

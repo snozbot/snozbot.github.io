@@ -1,5 +1,8 @@
 var NAVTREEINDEX12 =
 {
+"getting_started.html#running_examples":[0,4,2],
+"getting_started.html#utilities_menu":[0,4,8],
+"globals.html":[6,1,0],
 "globals_type.html":[6,1,2],
 "globals_vars.html":[6,1,1],
 "glossary.html":[0,15],
@@ -12,8 +15,8 @@ var NAVTREEINDEX12 =
 "i_tween_command_8cs.html#a3ecca65f2403ee4d2e41741bddd82056a6adf97f83acf6453d4a6a4b1070f3754":[6,0,86,1,0],
 "i_tween_command_8cs.html#a7d67e097df9376eb709b6a23aa3c7d23":[6,0,86,2],
 "i_tween_command_8cs_source.html":[6,0,86],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "input_events.html":[2,12],
 "input_events.html#KeyPressed":[2,12,0],
 "installation.html":[0,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX12 =
 "struct_fungus_1_1_integer_data.html#a38a9ca934a9ee8513e128f0ead034645":[5,0,0,69,4],
 "struct_fungus_1_1_integer_data.html#a5625ed8e967f48d3fa8693e609c4201c":[5,0,0,69,1],
 "struct_fungus_1_1_integer_data.html#a5aad61babf3e4ad809081555d560e9be":[5,0,0,69,2],
-"struct_fungus_1_1_integer_data.html#a910ddfa5681111dcab6e5eccb7daa011":[5,0,0,69,3],
-"struct_fungus_1_1_integer_data.html#aa1d6b0cd14c62d3dd20e18ba984c6b65":[5,0,0,69,0],
-"struct_fungus_1_1_material_data.html":[5,0,0,87],
-"struct_fungus_1_1_material_data.html#a0480348c97d882885381c17355c78678":[5,0,0,87,2]
+"struct_fungus_1_1_integer_data.html#a910ddfa5681111dcab6e5eccb7daa011":[5,0,0,69,3]
 };

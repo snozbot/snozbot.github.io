@@ -4,6 +4,7 @@ var searchData=
   ['datatype',['DataType',['../class_fungus_1_1_save_data_item.html#a1eb13b34dac235a60029842783bca9aa',1,'Fungus::SaveDataItem']]],
   ['defaultposition',['DefaultPosition',['../class_fungus_1_1_stage.html#a2cd366787f9082ae2ef5c6fd330be89e',1,'Fungus::Stage']]],
   ['description',['Description',['../class_fungus_1_1_block.html#a2dd1175e4ddc052fe5060775303e1b22',1,'Fungus.Block.Description()'],['../class_fungus_1_1_flowchart.html#a8bf8788fc4ced57fd1a803a687e425a6',1,'Fungus.Flowchart.Description()']]],
+  ['dimcolor',['DimColor',['../class_fungus_1_1_stage.html#a4d58c1afad4000961cfa2c3e069abb88',1,'Fungus::Stage']]],
   ['dimportraits',['DimPortraits',['../class_fungus_1_1_stage.html#ac121ab051b565052dad8be621af37546',1,'Fungus::Stage']]],
   ['display',['Display',['../class_fungus_1_1_control_with_display.html#a65a64f3960eddda43953cafed6d060f3',1,'Fungus::ControlWithDisplay']]],
   ['displayedoptionscount',['DisplayedOptionsCount',['../class_fungus_1_1_menu_dialog.html#acaa55b417a409151d3da7c45eee9036a',1,'Fungus::MenuDialog']]],
