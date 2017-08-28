@@ -18,6 +18,8 @@ var class_fungus_1_1_camera_manager =
     [ "Update", "class_fungus_1_1_camera_manager.html#af04d2521d8287b82a82be7cefc2aa7e3", null ],
     [ "cameraZ", "class_fungus_1_1_camera_manager.html#aad964a0c80c5d275062a107cb096784e", null ],
     [ "fadeAlpha", "class_fungus_1_1_camera_manager.html#aa960c41d978d803b79fc9a8098740589", null ],
+    [ "fadeCoroutine", "class_fungus_1_1_camera_manager.html#a3e5601b7779eaaa3ba3272f22498cea8", null ],
+    [ "panCoroutine", "class_fungus_1_1_camera_manager.html#a734470ccde8894e995d6a33d8791c4e0", null ],
     [ "previousMousePos", "class_fungus_1_1_camera_manager.html#a5c483458a4f3c1149848e012c001f000", null ],
     [ "screenFadeTexture", "class_fungus_1_1_camera_manager.html#a779a190f73cb7d3508e8baa793c2b7a0", null ],
     [ "setCameraZ", "class_fungus_1_1_camera_manager.html#afc6fa2fd87f8bb78b9af2e5046d0b583", null ],

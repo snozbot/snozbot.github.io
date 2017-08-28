@@ -15,12 +15,14 @@ var searchData=
   ['logtype',['logType',['../class_fungus_1_1_debug_log.html#afbdd2ba969d4bc5a25f6cfa4d8069377',1,'Fungus::DebugLog']]],
   ['loop',['loop',['../class_fungus_1_1_play_music.html#a6803a7135e009079ada7ee069d64dbb8',1,'Fungus.PlayMusic.loop()'],['../class_fungus_1_1_writer_audio.html#a1489899731c58ab271a4b80ce7012d98',1,'Fungus.WriterAudio.loop()']]],
   ['loopprop',['loopProp',['../class_fungus_1_1_editor_utils_1_1_writer_audio_editor.html#abff667ab5aa89695f99fe0e63360cc81',1,'Fungus::EditorUtils::WriterAudioEditor']]],
-  ['looptype',['loopType',['../class_fungus_1_1i_tween_command.html#af3f811ba03469cdcf1b0e816a02a2760',1,'Fungus::iTweenCommand']]],
+  ['looptype',['loopType',['../class_fungus_1_1i_tween_command.html#af3f811ba03469cdcf1b0e816a02a2760',1,'Fungus.iTweenCommand.loopType()'],['../class_fungus_1_1_base_lean_tween_command.html#a9dc0d9f5cddc6c99a9948c244dfe7bb6',1,'Fungus.BaseLeanTweenCommand.loopType()']]],
+  ['lower',['lower',['../class_fungus_1_1_clamp.html#a4f44578ef0f929cea0ba492106ffc518',1,'Fungus::Clamp']]],
   ['luabindingname',['luaBindingName',['../class_fungus_1_1_flowchart.html#a7823a0f15c1507b26e98ce0a23e02a79',1,'Fungus::Flowchart']]],
   ['luabindingnameprop',['luaBindingNameProp',['../class_fungus_1_1_editor_utils_1_1_flowchart_editor.html#ac2d36a892097cb86649d5b323bf0a2ca',1,'Fungus::EditorUtils::FlowchartEditor']]],
-  ['luaenvironment',['luaEnvironment',['../class_fungus_1_1_execute_lua.html#a3cfe40ce1c6fbd7f7465a7efdeb7602b',1,'Fungus.ExecuteLua.luaEnvironment()'],['../class_fungus_1_1_flowchart.html#a65486bcacb97d1cb4566dfa704011c53',1,'Fungus.Flowchart.luaEnvironment()']]],
+  ['luacomparestring',['luaCompareString',['../class_fungus_1_1_lua_condition.html#a437488224c4526d991754870fe0ec6b2',1,'Fungus::LuaCondition']]],
+  ['luaenvironment',['luaEnvironment',['../class_fungus_1_1_execute_lua.html#a3cfe40ce1c6fbd7f7465a7efdeb7602b',1,'Fungus.ExecuteLua.luaEnvironment()'],['../class_fungus_1_1_lua_condition.html#a3ba202d0793425462f017000059c9830',1,'Fungus.LuaCondition.luaEnvironment()'],['../class_fungus_1_1_flowchart.html#a65486bcacb97d1cb4566dfa704011c53',1,'Fungus.Flowchart.luaEnvironment()']]],
   ['luaenvironmentprop',['luaEnvironmentProp',['../class_fungus_1_1_editor_utils_1_1_flowchart_editor.html#aaf79df36f395f6c2879cee09285183a4',1,'Fungus::EditorUtils::FlowchartEditor']]],
   ['luafile',['luaFile',['../class_fungus_1_1_execute_lua.html#a972b660c9941b96b72b0f7a7422dceca',1,'Fungus::ExecuteLua']]],
-  ['luafunction',['luaFunction',['../class_fungus_1_1_execute_lua.html#af23402bd71fb5ae3696350073a072e72',1,'Fungus::ExecuteLua']]],
+  ['luafunction',['luaFunction',['../class_fungus_1_1_execute_lua.html#af23402bd71fb5ae3696350073a072e72',1,'Fungus.ExecuteLua.luaFunction()'],['../class_fungus_1_1_lua_condition.html#a5fc26c3bff261745425eb06ed29a261f',1,'Fungus.LuaCondition.luaFunction()']]],
   ['luascript',['luaScript',['../class_fungus_1_1_execute_lua.html#ab64328af29edb485e45c9e705f9adb0a',1,'Fungus::ExecuteLua']]]
 ];

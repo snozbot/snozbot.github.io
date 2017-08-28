@@ -36,6 +36,8 @@ var command_reference =
       [ "Jump", "flow_commands.html#Jump", null ],
       [ "Label", "flow_commands.html#Label", null ],
       [ "Load Scene", "flow_commands.html#LoadScene", null ],
+      [ "Lua Else If", "flow_commands.html#LuaElseIf", null ],
+      [ "Lua If", "flow_commands.html#LuaIf", null ],
       [ "Quit", "flow_commands.html#Quit", null ],
       [ "Save Point", "flow_commands.html#SavePoint", null ],
       [ "Send Message", "flow_commands.html#SendMessage", null ],
@@ -67,6 +69,30 @@ var command_reference =
       [ "Shake Scale", "itween_commands.html#ShakeScale", null ],
       [ "Stop Tween", "itween_commands.html#StopTween", null ],
       [ "Stop Tweens", "itween_commands.html#StopTweens", null ]
+    ] ],
+    [ "LeanTween commands", "lean_tween_commands.html", [
+      [ "Move", "lean_tween_commands.html#Move", null ],
+      [ "Scale", "lean_tween_commands.html#Scale", null ],
+      [ "Rotate", "lean_tween_commands.html#Rotate", null ]
+    ] ],
+    [ "Math commands", "math_commands.html", [
+      [ "Abs", "math_commands.html#Abs", null ],
+      [ "Clamp", "math_commands.html#Clamp", null ],
+      [ "Curve", "math_commands.html#Curve", null ],
+      [ "Exp", "math_commands.html#Exp", null ],
+      [ "Inv", "math_commands.html#Inv", null ],
+      [ "InvLerp", "math_commands.html#InvLerp", null ],
+      [ "Lerp", "math_commands.html#Lerp", null ],
+      [ "Log", "math_commands.html#Log", null ],
+      [ "Map", "math_commands.html#Map", null ],
+      [ "MinMax", "math_commands.html#MinMax", null ],
+      [ "Neg", "math_commands.html#Neg", null ],
+      [ "Pow", "math_commands.html#Pow", null ],
+      [ "Round", "math_commands.html#Round", null ],
+      [ "Sign", "math_commands.html#Sign", null ],
+      [ "Sqrt", "math_commands.html#Sqrt", null ],
+      [ "ToInt", "math_commands.html#ToInt", null ],
+      [ "Trig", "math_commands.html#Trig", null ]
     ] ],
     [ "Narrative commands", "narrative_commands.html", [
       [ "Clear Menu", "narrative_commands.html#ClearMenu", null ],
@@ -127,24 +153,5 @@ var command_reference =
       [ "Fail", "tests_commands.html#Fail", null ],
       [ "Pass", "tests_commands.html#Pass", null ],
       [ "TestNarrative", "tests_commands.html#TestNarrative", null ]
-    ] ],
-    [ "Core event handlers", "core_events.html", [
-      [ "Game Started", "core_events.html#GameStarted", null ]
-    ] ],
-    [ "Input event handlers", "input_events.html", [
-      [ "Key Pressed", "input_events.html#KeyPressed", null ]
-    ] ],
-    [ "Sprite event handlers", "sprite_events.html", [
-      [ "Drag Cancelled", "sprite_events.html#DragCancelled", null ],
-      [ "Drag Completed", "sprite_events.html#DragCompleted", null ],
-      [ "Drag Entered", "sprite_events.html#DragEntered", null ],
-      [ "Drag Exited", "sprite_events.html#DragExited", null ],
-      [ "Drag Started", "sprite_events.html#DragStarted", null ],
-      [ "Object Clicked", "sprite_events.html#ObjectClicked", null ]
-    ] ],
-    [ "UI event handlers", "ui_events.html", [
-      [ "Button Clicked", "ui_events.html#ButtonClicked", null ],
-      [ "End Edit", "ui_events.html#EndEdit", null ],
-      [ "Toggle Changed", "ui_events.html#ToggleChanged", null ]
     ] ]
 ];

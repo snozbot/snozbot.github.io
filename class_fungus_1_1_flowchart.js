@@ -47,6 +47,7 @@ var class_fungus_1_1_flowchart =
     [ "SetVariable< T >", "class_fungus_1_1_flowchart.html#a40070c8d5c5da725a166fc69b710134a", null ],
     [ "Start", "class_fungus_1_1_flowchart.html#a6667ab5f2e3ff5dd064d0eab38bf4457", null ],
     [ "StopAllBlocks", "class_fungus_1_1_flowchart.html#aaa54223908862ad3c051f5cfee1c8bf1", null ],
+    [ "StopBlock", "class_fungus_1_1_flowchart.html#a29ee0ad6894c717f102c73dec31331af", null ],
     [ "SubstituteStrings", "class_fungus_1_1_flowchart.html#ad3092c931dd58f8f30bac67c81313724", null ],
     [ "SubstituteVariables", "class_fungus_1_1_flowchart.html#ae5751c4efb21547ad10e7fd9576cfd56", null ],
     [ "UpdateHideFlags", "class_fungus_1_1_flowchart.html#a6ba4ee8669ebdbd3c8690e7cc9ef1527", null ],

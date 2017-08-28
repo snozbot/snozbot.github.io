@@ -9,6 +9,8 @@ var class_fungus_1_1_localization =
     [ "GetStandardText", "class_fungus_1_1_localization.html#a70deceacb673d25e032cf8edba30e342", null ],
     [ "Init", "class_fungus_1_1_localization.html#a630b9bbd7607ad23b541c75d36aae50a", null ],
     [ "LevelWasLoaded", "class_fungus_1_1_localization.html#ad9daa7c9d7884b465b02b222d826f725", null ],
+    [ "OnDisable", "class_fungus_1_1_localization.html#a56bfd9a4846373cab81ec5625c5e05c3", null ],
+    [ "OnEnable", "class_fungus_1_1_localization.html#a06190ecedcb4069e39c1b641347df38c", null ],
     [ "OnLevelWasLoaded", "class_fungus_1_1_localization.html#a2a9b587253b977178c6d18c3a31142fd", null ],
     [ "PopulateTextProperty", "class_fungus_1_1_localization.html#ad33a7b408fe19df2632b1d939c495bfe", null ],
     [ "SetActiveLanguage", "class_fungus_1_1_localization.html#a9e1119b368e780f5bfccb4446769fa43", null ],

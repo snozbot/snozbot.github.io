@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['quit_2ecs',['Quit.cs',['../_quit_8cs.html',1,'']]]
+  ['objectclicked_2ecs',['ObjectClicked.cs',['../_object_clicked_8cs.html',1,'']]],
+  ['objectvariable_2ecs',['ObjectVariable.cs',['../_object_variable_8cs.html',1,'']]],
+  ['openurl_2ecs',['OpenURL.cs',['../_open_u_r_l_8cs.html',1,'']]]
 ];

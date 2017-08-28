@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['setoperator',['SetOperator',['../namespace_fungus.html#acdee858130b7cf1e1e977af0614315f7',1,'Fungus']]],
-  ['stagedisplaytype',['StageDisplayType',['../namespace_fungus.html#af5995bd61d4f4d57807f2d12cb1dd82e',1,'Fungus']]]
+  ['rendermessageflags',['RenderMessageFlags',['../class_fungus_1_1_render.html#a3b75fe59508c0fa972cae4b46020234d',1,'Fungus::Render']]],
+  ['rotatemode',['RotateMode',['../class_fungus_1_1_rotate_lean.html#a2da64127bf190e9540c5697feb0e3654',1,'Fungus::RotateLean']]]
 ];

@@ -18,6 +18,7 @@ var searchData=
   ['characters',['characters',['../class_fungus_1_1_conversation_manager.html#ad99aba7cb60f142d2922a1e55c65fdae',1,'Fungus::ConversationManager']]],
   ['charactersonstage',['charactersOnStage',['../class_fungus_1_1_stage.html#a88f367f0b66d029af46bf7884caf326f',1,'Fungus::Stage']]],
   ['clamp',['clamp',['../class_fungus_1_1_editor_utils_1_1_block_inspector_editor.html#afe0dc89c2902bda9cdff00f86bb50f08',1,'Fungus::EditorUtils::BlockInspectorEditor']]],
+  ['clampresult',['clampResult',['../class_fungus_1_1_inv_lerp.html#a459120f6c00fab7ab8e3eaf583ce35ac',1,'Fungus::InvLerp']]],
   ['cleartext',['clearText',['../class_fungus_1_1_write.html#aad5c2a0199d80da6327e9e9187bb8134',1,'Fungus::Write']]],
   ['cleartextprop',['clearTextProp',['../class_fungus_1_1_editor_utils_1_1_write_editor.html#a77fea29e8d4c6824e06b5b676ef926e6',1,'Fungus::EditorUtils::WriteEditor']]],
   ['clickableobject',['ClickableObject',['../class_fungus_1_1_object_clicked_1_1_object_clicked_event.html#a5a41b71588927152453200af68cbbde3',1,'Fungus.ObjectClicked.ObjectClickedEvent.ClickableObject()'],['../class_fungus_1_1_object_clicked.html#a0ce7eab07ed26d52a6aadbf4826870cc',1,'Fungus.ObjectClicked.clickableObject()']]],
@@ -34,11 +35,13 @@ var searchData=
   ['colorvalue',['colorValue',['../class_fungus_1_1_object_value.html#a9901254d5954395f5e2e51ce1e2015d9',1,'Fungus::ObjectValue']]],
   ['commandlist',['commandList',['../class_fungus_1_1_block.html#a9bf8d521cdaf362b53e9f0b04bca6329',1,'Fungus::Block']]],
   ['commandscrollpos',['commandScrollPos',['../class_fungus_1_1_editor_utils_1_1_block_inspector_editor.html#a8123bcd0aa5adcb16cd6b05583b4c0fa',1,'Fungus::EditorUtils::BlockInspectorEditor']]],
+  ['commandselectedbytextinput',['commandSelectedByTextInput',['../class_fungus_1_1_editor_utils_1_1_block_editor.html#a2d4cd7950cec2096bbf3bd035b5bf5ee',1,'Fungus::EditorUtils::BlockEditor']]],
+  ['commandtextfieldcontents',['commandTextFieldContents',['../class_fungus_1_1_editor_utils_1_1_block_editor.html#ad4c269a2d2ca78f2078ade9081eae874',1,'Fungus::EditorUtils::BlockEditor']]],
   ['commandtype',['commandType',['../class_fungus_1_1_editor_utils_1_1_block_editor_1_1_add_command_operation.html#a9304b16e0051f876405282d693c16026',1,'Fungus::EditorUtils::BlockEditor::AddCommandOperation']]],
   ['commentername',['commenterName',['../class_fungus_1_1_comment.html#a5154661927d943869808c86d740214a9',1,'Fungus::Comment']]],
   ['commenttext',['commentText',['../class_fungus_1_1_comment.html#a5e27515e3a343bb4e96f0268ed1bf5a4',1,'Fungus::Comment']]],
-  ['compareoperator',['compareOperator',['../class_fungus_1_1_condition.html#aa10db5e70282ccac981013042d11d47d',1,'Fungus::Condition']]],
-  ['compareoperatorprop',['compareOperatorProp',['../class_fungus_1_1_editor_utils_1_1_if_editor.html#a69dd8241d0f65d44d44f9f3d465ae4b3',1,'Fungus::EditorUtils::IfEditor']]],
+  ['compareoperator',['compareOperator',['../class_fungus_1_1_variable_condition.html#a781b5c8b1965acdcd8fe6d0a5b3e6ef1',1,'Fungus::VariableCondition']]],
+  ['compareoperatorprop',['compareOperatorProp',['../class_fungus_1_1_editor_utils_1_1_variable_condition_editor.html#aed33d42cb69272bac768f201cb791bae',1,'Fungus::EditorUtils::VariableConditionEditor']]],
   ['componenttype',['componentType',['../class_fungus_1_1_invoke_method.html#ab330530094ab036181291a1c001d57ae',1,'Fungus::InvokeMethod']]],
   ['connectioncolor',['connectionColor',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a03bf3fc6aa92bfeee832ae2b3786fb6a',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['connectionpointtexture',['connectionPointTexture',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a30039e086732b3436b37584d66707559',1,'Fungus::EditorUtils::FlowchartWindow']]],
@@ -52,5 +55,6 @@ var searchData=
   ['currentpunctuationpause',['currentPunctuationPause',['../class_fungus_1_1_writer.html#ad5f17f4f72f2cc3c962968d21842415a',1,'Fungus::Writer']]],
   ['currentstandaloneinputmodule',['currentStandaloneInputModule',['../class_fungus_1_1_dialog_input.html#a1d7f4eddb1511cdf1a2db02aa30883a3',1,'Fungus::DialogInput']]],
   ['currentwritingspeed',['currentWritingSpeed',['../class_fungus_1_1_writer.html#a1ddfe4a624d9c653b12f75ab58012141',1,'Fungus::Writer']]],
-  ['cursortexture',['cursorTexture',['../class_fungus_1_1_set_mouse_cursor.html#a35d53ab72d62cf3c8cbc54ef1efd4e82',1,'Fungus::SetMouseCursor']]]
+  ['cursortexture',['cursorTexture',['../class_fungus_1_1_set_mouse_cursor.html#a35d53ab72d62cf3c8cbc54ef1efd4e82',1,'Fungus::SetMouseCursor']]],
+  ['curve',['curve',['../class_fungus_1_1_curve.html#ab0f2b0ad7ebaa5883ab38fc7ebd74623',1,'Fungus::Curve']]]
 ];

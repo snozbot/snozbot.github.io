@@ -1,6 +1,7 @@
 var searchData=
 [
   ['tagendsymbol',['tagEndSymbol',['../class_fungus_1_1_custom_tag.html#acf23c3fe4776387c30cb0d7366e55cbd',1,'Fungus::CustomTag']]],
+  ['tagfilter',['tagFilter',['../class_fungus_1_1_tag_filtered_event_handler.html#aada2b32ddcadd5658f224b80fcbd8347',1,'Fungus::TagFilteredEventHandler']]],
   ['tagstartsymbol',['tagStartSymbol',['../class_fungus_1_1_custom_tag.html#a4ad1433bbec504a388ba7e6e4df02d8a',1,'Fungus::CustomTag']]],
   ['targetalpha',['targetAlpha',['../class_fungus_1_1_fade_screen.html#ac614d912a2c58386b7a7d2bfc5f28bbd',1,'Fungus.FadeScreen.targetAlpha()'],['../class_fungus_1_1_fade_u_i.html#a0c4b02f26878af00f72019d64a828663',1,'Fungus.FadeUI.targetAlpha()'],['../class_fungus_1_1_say_dialog.html#aae6618545476e23c395fee3526cbae0e',1,'Fungus.SayDialog.targetAlpha()']]],
   ['targetaudiosource',['targetAudioSource',['../class_fungus_1_1_writer_audio.html#a8dbe741c3660704d1b56ab1a8d6d6aac',1,'Fungus::WriterAudio']]],

@@ -8,6 +8,6 @@ var searchData=
   ['command_20reference',['Command Reference',['../command_reference.html',1,'']]],
   ['community_20tutorials',['Community tutorials',['../community_tutorials.html',1,'index']]],
   ['conversation_20system',['Conversation system',['../conversation_system.html',1,'index']]],
-  ['core_20event_20handlers',['Core event handlers',['../core_events.html',1,'command_reference']]],
+  ['core_20event_20handlers',['Core event handlers',['../core_events.html',1,'eventhandler_reference']]],
   ['controlling_20_25fungus',['Controlling %Fungus',['../lua_controlling_fungus.html',1,'fungus_lua']]]
 ];

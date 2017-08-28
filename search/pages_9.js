@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['playerprefs',['PlayerPrefs',['../lua_preferences.html',1,'fungus_lua']]],
-  ['playing_20audio',['Playing Audio',['../playing_audio.html',1,'index']]]
+  ['narrative_20commands',['Narrative commands',['../narrative_commands.html',1,'command_reference']]],
+  ['narrative_20text_20tags',['Narrative Text Tags',['../narrative_text_tags.html',1,'index']]]
 ];

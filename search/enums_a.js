@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['textcolor',['TextColor',['../namespace_fungus.html#a659e0b5cad34216d45aea5ce447130a4',1,'Fungus']]],
-  ['tokentype',['TokenType',['../namespace_fungus.html#a1db437b9e85356df8aa76c326413cc2b',1,'Fungus']]]
+  ['setoperator',['SetOperator',['../namespace_fungus.html#acdee858130b7cf1e1e977af0614315f7',1,'Fungus']]],
+  ['stagedisplaytype',['StageDisplayType',['../namespace_fungus.html#af5995bd61d4f4d57807f2d12cb1dd82e',1,'Fungus']]]
 ];

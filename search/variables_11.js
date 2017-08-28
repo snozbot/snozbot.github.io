@@ -2,6 +2,7 @@ var searchData=
 [
   ['raweventtable',['rawEventTable',['../class_fungus_1_1_editor_utils_1_1_event_window.html#aedbca6f563858bbe8894e4bed457b03e',1,'Fungus::EditorUtils::EventWindow']]],
   ['readaheadstring',['readAheadString',['../class_fungus_1_1_writer.html#abe3343d8537ac3b3e3cd27f63e5eaf97',1,'Fungus::Writer']]],
+  ['repeats',['repeats',['../class_fungus_1_1_base_lean_tween_command.html#ae5af10369e7e1e51529dae19805c58e9',1,'Fungus::BaseLeanTweenCommand']]],
   ['replacedcharacter',['replacedCharacter',['../class_fungus_1_1_portrait.html#a9bd6af2cd23e6c3a78989b4cca8922de',1,'Fungus.Portrait.replacedCharacter()'],['../class_fungus_1_1_portrait_options.html#ad5dff82f7118ace5240d16430b424322',1,'Fungus.PortraitOptions.replacedCharacter()']]],
   ['replacedcharacterprop',['replacedCharacterProp',['../class_fungus_1_1_editor_utils_1_1_portrait_editor.html#a75ff035aab7295c50f1b7f9c85027209',1,'Fungus::EditorUtils::PortraitEditor']]],
   ['replacedstage',['replacedStage',['../class_fungus_1_1_control_stage.html#a05d00e74e22f3cd72e6c8dff19a0029b',1,'Fungus::ControlStage']]],
@@ -20,5 +21,6 @@ var searchData=
   ['rightclickdown',['rightClickDown',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a61a768b29233eede65456736b05f9db4',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['rightclicktolerance',['rightClickTolerance',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a68494682877f8936128a40052f313397',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['rightstring',['rightString',['../class_fungus_1_1_writer.html#af70bd44e6b0fd6a834646df03a67709d',1,'Fungus::Writer']]],
+  ['rotatemode',['rotateMode',['../class_fungus_1_1_rotate_lean.html#a16ef4187d0a183849c79f22b04aefb25',1,'Fungus::RotateLean']]],
   ['runascoroutine',['runAsCoroutine',['../class_fungus_1_1_execute_lua.html#aa066eb92e70d0232fa81f672b06602f2',1,'Fungus::ExecuteLua']]]
 ];
