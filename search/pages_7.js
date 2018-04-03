@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['leantween_20commands',['LeanTween commands',['../lean_tween_commands.html',1,'command_reference']]],
+  ['leantween_20commands',['LeanTween commands',['../leantween_commands.html',1,'']]],
   ['luabindings',['LuaBindings',['../lua_bindings.html',1,'fungus_lua']]],
   ['luaenvironment',['LuaEnvironment',['../lua_environment.html',1,'fungus_lua']]],
   ['luascript',['LuaScript',['../lua_script.html',1,'fungus_lua']]],

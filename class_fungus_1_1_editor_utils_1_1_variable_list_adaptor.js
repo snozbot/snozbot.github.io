@@ -1,6 +1,6 @@
 var class_fungus_1_1_editor_utils_1_1_variable_list_adaptor =
 [
-    [ "VariableListAdaptor", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#a6009b2d7cfd76c723e7a7af9e424a2e4", null ],
+    [ "VariableListAdaptor", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#a713c139c45c21c2efcea04a1a46cd60b", null ],
     [ "VariableListAdaptor", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#a4360b775be356478f8939853b80a04a2", null ],
     [ "Add", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#a4c13402de77689730c2c09f3bcaa7ade", null ],
     [ "BeginGUI", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#a570152aedd5a2b74018ed503a62192bf", null ],
@@ -17,6 +17,7 @@ var class_fungus_1_1_editor_utils_1_1_variable_list_adaptor =
     [ "Remove", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#a903bb973d4f60a1e542e92eafed90d9d", null ],
     [ "_arrayProperty", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#a53cd2081a0e2fef3f8ac011ec1942167", null ],
     [ "fixedItemHeight", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#afbd9c7a0beae988303cbb270c6e2875f", null ],
+    [ "widthOfList", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#a59870ff411ecfc34ba60616c8175f209", null ],
     [ "arrayProperty", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#a84cc15874781ba3ba22d4e52780df088", null ],
     [ "Count", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#adc964449b8d0bf059045b6c576811ab2", null ],
     [ "this[int index]", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#a71a358df4335d9c2163ca6b6d1cd1383", null ]

@@ -118,9 +118,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7e95227ebd241a11fa06a30ce13671c0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_writer.html#a7e95227ebd241a11fa06a30ce13671c0">Stop</a> ()</td></tr>
 <tr class="memdesc:a7e95227ebd241a11fa06a30ce13671c0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_fungus_1_1_stop.html" title="Stop executing the Block that contains this command. ">Stop</a> writing text.  <a href="#a7e95227ebd241a11fa06a30ce13671c0">More...</a><br /></td></tr>
 <tr class="separator:a7e95227ebd241a11fa06a30ce13671c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accd143062d761b9043857da7d3a11b67"><td class="memItemLeft" align="right" valign="top">virtual IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_writer.html#accd143062d761b9043857da7d3a11b67">Write</a> (string content, bool clear, bool waitForInput, bool stopAudio, AudioClip audioClip, Action onComplete)</td></tr>
-<tr class="memdesc:accd143062d761b9043857da7d3a11b67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes text using a typewriter effect to a UI text object.  <a href="#accd143062d761b9043857da7d3a11b67">More...</a><br /></td></tr>
-<tr class="separator:accd143062d761b9043857da7d3a11b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a886997164fccbdfc8c4dbefd1d624"><td class="memItemLeft" align="right" valign="top">virtual IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_writer.html#a32a886997164fccbdfc8c4dbefd1d624">Write</a> (string content, bool clear, bool waitForInput, bool stopAudio, bool waitForVO, AudioClip audioClip, Action onComplete)</td></tr>
+<tr class="memdesc:a32a886997164fccbdfc8c4dbefd1d624"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes text using a typewriter effect to a UI text object.  <a href="#a32a886997164fccbdfc8c4dbefd1d624">More...</a><br /></td></tr>
+<tr class="separator:a32a886997164fccbdfc8c4dbefd1d624"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add5d12e8b60db13a0b82c36d890b07d1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_writer.html#add5d12e8b60db13a0b82c36d890b07d1">SetTextColor</a> (<a class="el" href="namespace_fungus.html#a3a818435c4503f622767149bc7ac47deacb5feb1b7314637725a2e73bdc9f7295">Color</a> textColor)</td></tr>
 <tr class="memdesc:add5d12e8b60db13a0b82c36d890b07d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the color property of the text UI object.  <a href="#add5d12e8b60db13a0b82c36d890b07d1">More...</a><br /></td></tr>
 <tr class="separator:add5d12e8b60db13a0b82c36d890b07d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,6 +162,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ac3decf500b78d031fc72c13145e66b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46a558de39584f3f0c451c8693416ce2"><td class="memItemLeft" align="right" valign="top">virtual IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_writer.html#a46a558de39584f3f0c451c8693416ce2">DoWait</a> (List&lt; string &gt; paramList)</td></tr>
 <tr class="separator:a46a558de39584f3f0c451c8693416ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a3eec9f416b734c1573aafe9f3bdcf7"><td class="memItemLeft" align="right" valign="top">virtual IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_writer.html#a4a3eec9f416b734c1573aafe9f3bdcf7">DoWaitVO</a> ()</td></tr>
+<tr class="separator:a4a3eec9f416b734c1573aafe9f3bdcf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a772937f47c973690dc2afa2f15cf49e7"><td class="memItemLeft" align="right" valign="top">virtual IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_writer.html#a772937f47c973690dc2afa2f15cf49e7">DoWait</a> (float duration)</td></tr>
 <tr class="separator:a772937f47c973690dc2afa2f15cf49e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00795fc5b0b8040c49715edab2ed9bac"><td class="memItemLeft" align="right" valign="top">virtual IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_writer.html#a00795fc5b0b8040c49715edab2ed9bac">DoWaitForInput</a> (bool clear)</td></tr>
@@ -262,6 +264,8 @@ Protected Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:a6fe383a9debca4fd905b1ed3fd6775ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fungus_1_1_writer_audio.html">WriterAudio</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_writer.html#a6fe383a9debca4fd905b1ed3fd6775ab">AttachedWriterAudio</a><code> [get, set]</code></td></tr>
+<tr class="separator:a6fe383a9debca4fd905b1ed3fd6775ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4e2a3d6cd82186286cdf0302b48b964"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_writer.html#ac4e2a3d6cd82186286cdf0302b48b964">Text</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ac4e2a3d6cd82186286cdf0302b48b964"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the text property of the attached text object.  <a href="#ac4e2a3d6cd82186286cdf0302b48b964">More...</a><br /></td></tr>
 <tr class="separator:ac4e2a3d6cd82186286cdf0302b48b964"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -303,7 +307,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00097">97</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00098">98</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -330,7 +334,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00140">140</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00141">141</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -368,7 +372,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00220">220</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00221">221</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -396,7 +400,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00609">609</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00614">614</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -424,7 +428,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00640">640</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00645">645</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -452,7 +456,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00657">657</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00674">674</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -480,7 +484,34 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00676">676</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00693">693</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+
+</div>
+</div>
+<a id="a4a3eec9f416b734c1573aafe9f3bdcf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a3eec9f416b734c1573aafe9f3bdcf7">&#9670;&nbsp;</a></span>DoWaitVO()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual IEnumerator Fungus.Writer.DoWaitVO </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00662">662</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -518,7 +549,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00497">497</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00502">502</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -546,7 +577,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00735">735</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00752">752</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -574,7 +605,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00724">724</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00741">741</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -603,7 +634,7 @@ Properties</h2></td></tr>
 
 <p>Returns true if there is a supported text object attached to this writer. </p>
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00979">979</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l01003">1003</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -631,7 +662,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00699">699</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00716">716</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -659,7 +690,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00790">790</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00807">807</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -686,7 +717,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00801">801</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00818">818</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -713,7 +744,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00746">746</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00763">763</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -740,7 +771,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00768">768</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00785">785</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -767,7 +798,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00779">779</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00796">796</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -795,7 +826,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00757">757</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00774">774</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -824,7 +855,7 @@ Properties</h2></td></tr>
 
 <p>Implements <a class="el" href="interface_fungus_1_1_i_dialog_input_listener.html#ac4b6fdcd1aa7aa38fb32c870e62888f6">Fungus.IDialogInputListener</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l01008">1008</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l01032">1032</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -868,7 +899,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00575">575</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00580">580</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -912,7 +943,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00246">246</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00247">247</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -950,7 +981,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00710">710</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00727">727</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -980,7 +1011,7 @@ Properties</h2></td></tr>
 
 <p>Sets the alpha component of the color property of the text UI object. </p>
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00951">951</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00975">975</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -1010,7 +1041,7 @@ Properties</h2></td></tr>
 
 <p>Sets the color property of the text UI object. </p>
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00929">929</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00953">953</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -1037,7 +1068,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00148">148</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00149">149</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -1066,7 +1097,7 @@ Properties</h2></td></tr>
 
 <p><a class="el" href="class_fungus_1_1_stop.html" title="Stop executing the Block that contains this command. ">Stop</a> writing text. </p>
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00880">880</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00897">897</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -1095,7 +1126,7 @@ Properties</h2></td></tr>
 
 <p>Returns true if the text object has rich text support. </p>
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00987">987</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l01011">1011</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -1145,7 +1176,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00235">235</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00236">236</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -1172,7 +1203,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00195">195</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00196">196</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -1199,12 +1230,12 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00166">166</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00167">167</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
-<a id="accd143062d761b9043857da7d3a11b67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accd143062d761b9043857da7d3a11b67">&#9670;&nbsp;</a></span>Write()</h2>
+<a id="a32a886997164fccbdfc8c4dbefd1d624"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32a886997164fccbdfc8c4dbefd1d624">&#9670;&nbsp;</a></span>Write()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1239,6 +1270,12 @@ Properties</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>waitForVO</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">AudioClip&#160;</td>
           <td class="paramname"><em>audioClip</em>, </td>
         </tr>
@@ -1268,13 +1305,14 @@ Properties</h2></td></tr>
     <tr><td class="paramname">clear</td><td><a class="el" href="class_fungus_1_1_if.html" title="If the test expression is true, execute the following command block. ">If</a> true clears the previous text.</td></tr>
     <tr><td class="paramname">waitForInput</td><td>Writes the text and then waits for player input before calling onComplete.</td></tr>
     <tr><td class="paramname">stopAudio</td><td>Stops any currently playing audioclip.</td></tr>
+    <tr><td class="paramname">waitForVO</td><td><a class="el" href="class_fungus_1_1_wait.html" title="Waits for period of time before executing the next command in the block. ">Wait</a> for the Voice over to complete before proceeding</td></tr>
     <tr><td class="paramname">audioClip</td><td>Audio clip to play when text starts writing.</td></tr>
     <tr><td class="paramname">onComplete</td><td>Callback to call when writing is finished.</td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00897">897</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00915">915</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -2120,6 +2158,30 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="a6fe383a9debca4fd905b1ed3fd6775ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fe383a9debca4fd905b1ed3fd6775ab">&#9670;&nbsp;</a></span>AttachedWriterAudio</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_fungus_1_1_writer_audio.html">WriterAudio</a> Fungus.Writer.AttachedWriterAudio</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00096">96</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+
+</div>
+</div>
 <a id="aaed5c7fd667469f37879f3beaafc7436"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaed5c7fd667469f37879f3beaafc7436">&#9670;&nbsp;</a></span>IsWaitingForInput</h2>
 
@@ -2142,7 +2204,7 @@ Properties</h2></td></tr>
 
 <p>This property is true when the writer is waiting for user input to continue. </p>
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00870">870</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00887">887</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -2169,7 +2231,7 @@ Properties</h2></td></tr>
 <p>This property is true when the writer is writing text or waiting (i.e. </p>
 <p>still processing tokens). </p>
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00865">865</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00882">882</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -2195,7 +2257,7 @@ Properties</h2></td></tr>
 
 <p>Pauses the writer. </p>
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00875">875</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00892">892</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -2221,7 +2283,7 @@ Properties</h2></td></tr>
 
 <p>Gets or sets the text property of the attached text object. </p>
 
-<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00818">818</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_writer_8cs_source.html#l00835">835</a> of file <a class="el" href="_writer_8cs_source.html">Writer.cs</a>.</p>
 
 </div>
 </div>
@@ -2234,7 +2296,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_writer.html">Writer</a></li>
-    <li class="footer">Generated on Mon Aug 28 2017 22:00:13 for Fungus by
+    <li class="footer">Generated on Tue Apr 3 2018 23:20:23 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

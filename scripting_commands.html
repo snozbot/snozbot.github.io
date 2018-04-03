@@ -154,6 +154,8 @@ Destroy</h1>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
 <tr>
 <td>_target Game Object </td><td><a class="el" href="struct_fungus_1_1_game_object_data.html" title="Container for a GameObject variable reference or constant value. ">Fungus.GameObjectData</a> </td><td>Reference to game object to destroy </td></tr>
+<tr>
+<td>Destroy In X Seconds </td><td><a class="el" href="struct_fungus_1_1_float_data.html" title="Container for an float variable reference or constant value. ">Fungus.FloatData</a> </td><td>Optional delay given to destroy </td></tr>
 </table>
 <h1><a class="anchor" id="ExecuteLua"></a>
 Execute Lua</h1>
@@ -244,7 +246,7 @@ Invoke Method</h1>
 <h1><a class="anchor" id="OpenURL"></a>
 Open URL</h1>
 <p>Opens the specified URL in the browser.</p>
-<p>Defined in <a class="el" href="class_fungus_1_1_link_to_website.html" title="Opens the specified URL in the browser. ">Fungus.LinkToWebsite</a></p>
+<p>Defined in <a class="el" href="class_fungus_1_1_open_u_r_l.html" title="Opens the specified URL in the browser. ">Fungus.OpenURL</a></p>
 <table class="doxtable">
 <tr>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
@@ -273,11 +275,15 @@ Spawn Object</h1>
 <tr>
 <td>_source Object </td><td><a class="el" href="struct_fungus_1_1_game_object_data.html" title="Container for a GameObject variable reference or constant value. ">Fungus.GameObjectData</a> </td><td>Game object to copy when spawning. Can be a scene object or a prefab. </td></tr>
 <tr>
-<td>_parent Transform </td><td><a class="el" href="struct_fungus_1_1_transform_data.html" title="Container for a Transform variable reference or constant value. ">Fungus.TransformData</a> </td><td>Transform to use for position of newly spawned object. </td></tr>
+<td>_parent Transform </td><td><a class="el" href="struct_fungus_1_1_transform_data.html" title="Container for a Transform variable reference or constant value. ">Fungus.TransformData</a> </td><td>Transform to use as parent during instantiate. </td></tr>
+<tr>
+<td>_spawn At Self </td><td><a class="el" href="struct_fungus_1_1_boolean_data.html" title="Container for a Boolean variable reference or constant value. ">Fungus.BooleanData</a> </td><td>If true, will use the Transfrom of this Flowchart for the position and rotation. </td></tr>
 <tr>
 <td>_spawn Position </td><td><a class="el" href="struct_fungus_1_1_vector3_data.html" title="Container for a Vector3 variable reference or constant value. ">Fungus.Vector3Data</a> </td><td>Local position of newly spawned object. </td></tr>
 <tr>
 <td>_spawn Rotation </td><td><a class="el" href="struct_fungus_1_1_vector3_data.html" title="Container for a Vector3 variable reference or constant value. ">Fungus.Vector3Data</a> </td><td>Local rotation of newly spawned object. </td></tr>
+<tr>
+<td>_newly Spawned Object </td><td><a class="el" href="struct_fungus_1_1_game_object_data.html" title="Container for a GameObject variable reference or constant value. ">Fungus.GameObjectData</a> </td><td>Optional variable to store the GameObject that was just created. </td></tr>
 </table>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
@@ -285,7 +291,7 @@ Spawn Object</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="command_reference.html">Command Reference</a></li>
-    <li class="footer">Generated on Mon Aug 28 2017 22:00:11 for Fungus by
+    <li class="footer">Generated on Tue Apr 3 2018 23:20:20 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

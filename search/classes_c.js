@@ -7,6 +7,7 @@ var searchData=
   ['menu',['Menu',['../class_fungus_1_1_menu.html',1,'Fungus']]],
   ['menudialog',['MenuDialog',['../class_fungus_1_1_menu_dialog.html',1,'Fungus']]],
   ['menueditor',['MenuEditor',['../class_fungus_1_1_editor_utils_1_1_menu_editor.html',1,'Fungus::EditorUtils']]],
+  ['menushuffle',['MenuShuffle',['../class_fungus_1_1_menu_shuffle.html',1,'Fungus']]],
   ['menutimer',['MenuTimer',['../class_fungus_1_1_menu_timer.html',1,'Fungus']]],
   ['menutimereditor',['MenuTimerEditor',['../class_fungus_1_1_editor_utils_1_1_menu_timer_editor.html',1,'Fungus::EditorUtils']]],
   ['messagereceived',['MessageReceived',['../class_fungus_1_1_message_received.html',1,'Fungus']]],

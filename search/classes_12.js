@@ -58,6 +58,7 @@ var searchData=
   ['stop',['Stop',['../class_fungus_1_1_stop.html',1,'Fungus']]],
   ['stopblock',['StopBlock',['../class_fungus_1_1_stop_block.html',1,'Fungus']]],
   ['stopflowchart',['StopFlowchart',['../class_fungus_1_1_stop_flowchart.html',1,'Fungus']]],
+  ['stopmotionrigidbody2d',['StopMotionRigidBody2D',['../class_fungus_1_1_stop_motion_rigid_body2_d.html',1,'Fungus']]],
   ['stopmusic',['StopMusic',['../class_fungus_1_1_stop_music.html',1,'Fungus']]],
   ['stopswipe',['StopSwipe',['../class_fungus_1_1_stop_swipe.html',1,'Fungus']]],
   ['stoptween',['StopTween',['../class_fungus_1_1_stop_tween.html',1,'Fungus']]],

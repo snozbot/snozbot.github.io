@@ -14,7 +14,6 @@ var searchData=
   ['blockviewheight',['blockViewHeight',['../class_fungus_1_1_flowchart.html#ac32c06757999822692a78125a91eb7e8',1,'Fungus::Flowchart']]],
   ['boldactive',['boldActive',['../class_fungus_1_1_writer.html#a3d69179cd92fe07a50ac84bca8559399',1,'Fungus::Writer']]],
   ['booleandata',['booleanData',['../class_fungus_1_1_set_variable.html#a77d7f95d19068cc5e614ae8fc47f7f67',1,'Fungus.SetVariable.booleanData()'],['../class_fungus_1_1_variable_condition.html#a68e281267dac1566b44eeb513b3f9536',1,'Fungus.VariableCondition.booleanData()']]],
-  ['booleandataprop',['booleanDataProp',['../class_fungus_1_1_editor_utils_1_1_set_variable_editor.html#ae745f1c84b0c9243a92a36f33459101f',1,'Fungus.EditorUtils.SetVariableEditor.booleanDataProp()'],['../class_fungus_1_1_editor_utils_1_1_variable_condition_editor.html#a3c14c9cd2697d1163c800c296ac5fce0',1,'Fungus.EditorUtils.VariableConditionEditor.booleanDataProp()']]],
   ['booleanevent',['booleanEvent',['../class_fungus_1_1_invoke_event.html#ad7cd9853990a897fe1514cd645fcbba1',1,'Fungus::InvokeEvent']]],
   ['booleaneventprop',['booleanEventProp',['../class_fungus_1_1_editor_utils_1_1_invoke_event_editor.html#a9c19454dc638dca443aa23eefb8321a7',1,'Fungus::EditorUtils::InvokeEventEditor']]],
   ['booleanparameter',['booleanParameter',['../class_fungus_1_1_invoke_event.html#a654a7655ebe588382c7713ff6a89c04a',1,'Fungus::InvokeEvent']]],

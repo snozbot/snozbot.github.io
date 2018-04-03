@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['setoperator',['SetOperator',['../namespace_fungus.html#acdee858130b7cf1e1e977af0614315f7',1,'Fungus']]],
-  ['stagedisplaytype',['StageDisplayType',['../namespace_fungus.html#af5995bd61d4f4d57807f2d12cb1dd82e',1,'Fungus']]]
+  ['particlemessageflags',['ParticleMessageFlags',['../class_fungus_1_1_particle.html#a4529c291524b2025300b4ac6b9cd269a',1,'Fungus::Particle']]],
+  ['physicsmessagetype',['PhysicsMessageType',['../class_fungus_1_1_base_physics_event_handler.html#a71f054ad30292b28c9c92a2e6b3d2090',1,'Fungus::BasePhysicsEventHandler']]],
+  ['positionoffset',['PositionOffset',['../namespace_fungus.html#aa9a26d61121190454cc48e47b5d92ad0',1,'Fungus']]],
+  ['property',['Property',['../class_fungus_1_1_transform_property.html#ae5cdbe28ac8a745778660a75b830389d',1,'Fungus::TransformProperty']]]
 ];

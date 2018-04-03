@@ -114,7 +114,6 @@ $(document).ready(function(){initNavTree('flow_commands.html','');});
 <li class="level1"><a href="#StopFlowchart">Stop Flowchart</a></li>
 <li class="level1"><a href="#Wait">Wait</a></li>
 <li class="level1"><a href="#WaitFrames">Wait Frames</a></li>
-<li class="level1"><a href="#WaitInput">WaitInput</a></li>
 <li class="level1"><a href="#While">While</a></li>
 </ul>
 </div>
@@ -163,6 +162,8 @@ Else If</h1>
 <td>Float Data </td><td><a class="el" href="struct_fungus_1_1_float_data.html" title="Container for an float variable reference or constant value. ">Fungus.FloatData</a> </td><td>Float value to compare against </td></tr>
 <tr>
 <td>String Data </td><td><a class="el" href="struct_fungus_1_1_string_data_multi.html" title="Container for a string variable reference or constant value. ">Fungus.StringDataMulti</a> </td><td>String value to compare against </td></tr>
+<tr>
+<td>Game Object Data </td><td><a class="el" href="struct_fungus_1_1_game_object_data.html" title="Container for a GameObject variable reference or constant value. ">Fungus.GameObjectData</a> </td><td>GameObject value to compare against </td></tr>
 </table>
 <h1><a class="anchor" id="End"></a>
 End</h1>
@@ -187,6 +188,8 @@ If</h1>
 <td>Float Data </td><td><a class="el" href="struct_fungus_1_1_float_data.html" title="Container for an float variable reference or constant value. ">Fungus.FloatData</a> </td><td>Float value to compare against </td></tr>
 <tr>
 <td>String Data </td><td><a class="el" href="struct_fungus_1_1_string_data_multi.html" title="Container for a string variable reference or constant value. ">Fungus.StringDataMulti</a> </td><td>String value to compare against </td></tr>
+<tr>
+<td>Game Object Data </td><td><a class="el" href="struct_fungus_1_1_game_object_data.html" title="Container for a GameObject variable reference or constant value. ">Fungus.GameObjectData</a> </td><td>GameObject value to compare against </td></tr>
 </table>
 <h1><a class="anchor" id="Jump"></a>
 Jump</h1>
@@ -332,16 +335,6 @@ Wait Frames</h1>
 <tr>
 <td>Frame Count </td><td><a class="el" href="struct_fungus_1_1_integer_data.html" title="Container for an integer variable reference or constant value. ">Fungus.IntegerData</a> </td><td>Number of frames to wait for </td></tr>
 </table>
-<h1><a class="anchor" id="WaitInput"></a>
-WaitInput</h1>
-<p>Waits for a period of time or for player input before executing the next command in the block.</p>
-<p>Defined in WaitInput</p>
-<table class="doxtable">
-<tr>
-<th>Property </th><th>Type </th><th>Description  </th></tr>
-<tr>
-<td>Duration </td><td>System.Single </td><td>Duration to wait for. If negative will wait until player input occurs. </td></tr>
-</table>
 <h1><a class="anchor" id="While"></a>
 While</h1>
 <p>Continuously loop through a block of commands while the condition is true. Use the Break command to force the loop to terminate immediately.</p>
@@ -361,6 +354,8 @@ While</h1>
 <td>Float Data </td><td><a class="el" href="struct_fungus_1_1_float_data.html" title="Container for an float variable reference or constant value. ">Fungus.FloatData</a> </td><td>Float value to compare against </td></tr>
 <tr>
 <td>String Data </td><td><a class="el" href="struct_fungus_1_1_string_data_multi.html" title="Container for a string variable reference or constant value. ">Fungus.StringDataMulti</a> </td><td>String value to compare against </td></tr>
+<tr>
+<td>Game Object Data </td><td><a class="el" href="struct_fungus_1_1_game_object_data.html" title="Container for a GameObject variable reference or constant value. ">Fungus.GameObjectData</a> </td><td>GameObject value to compare against </td></tr>
 </table>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
@@ -368,7 +363,7 @@ While</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="command_reference.html">Command Reference</a></li>
-    <li class="footer">Generated on Mon Aug 28 2017 22:00:11 for Fungus by
+    <li class="footer">Generated on Tue Apr 3 2018 23:20:20 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

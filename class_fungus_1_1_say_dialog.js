@@ -3,13 +3,13 @@ var class_fungus_1_1_say_dialog =
     [ "Awake", "class_fungus_1_1_say_dialog.html#aa7ae1c9b4b314952f0f099fc6e9d9aa0", null ],
     [ "Clear", "class_fungus_1_1_say_dialog.html#ad80d1c6f9fba0a89a39cc86dcec11126", null ],
     [ "ClearStoryText", "class_fungus_1_1_say_dialog.html#a130177428c65510ee3e3079dc4f20aa9", null ],
-    [ "DoSay", "class_fungus_1_1_say_dialog.html#a7dacd34988dd134905fd960efdc6d70c", null ],
+    [ "DoSay", "class_fungus_1_1_say_dialog.html#a675b718f58422e3a405b14721d7007fc", null ],
     [ "GetCanvasGroup", "class_fungus_1_1_say_dialog.html#aec655daefa9e66c342e6f7e0c7956dfb", null ],
     [ "GetWriter", "class_fungus_1_1_say_dialog.html#a17322d0d3c75398018f71412453e1906", null ],
     [ "GetWriterAudio", "class_fungus_1_1_say_dialog.html#a29a659a72e3af6d1dd803657fb466d2c", null ],
     [ "LateUpdate", "class_fungus_1_1_say_dialog.html#ad39477a50a71fe11c73ee091352400cc", null ],
     [ "OnDestroy", "class_fungus_1_1_say_dialog.html#a4f7d5c6cb81919f1a22f33a3043391b5", null ],
-    [ "Say", "class_fungus_1_1_say_dialog.html#a0f55d787c35fd527c824e38e03163135", null ],
+    [ "Say", "class_fungus_1_1_say_dialog.html#a8e37f60cb41530b45a6741b5cdcc1f7a", null ],
     [ "SetActive", "class_fungus_1_1_say_dialog.html#a28cf85d76739395ae3f3ae58150f1458", null ],
     [ "SetCharacter", "class_fungus_1_1_say_dialog.html#afb1ca8f57d829893fb2349ebba0be010", null ],
     [ "SetCharacterImage", "class_fungus_1_1_say_dialog.html#a5b9ccc605a95d23d75f28b6d765d3ba6", null ],
@@ -37,5 +37,6 @@ var class_fungus_1_1_say_dialog =
     [ "writerAudio", "class_fungus_1_1_say_dialog.html#a9cf766f0d2fcf106f15de49dc7f31c39", null ],
     [ "CharacterImage", "class_fungus_1_1_say_dialog.html#a38a9c0adbe25b453adbbeb990df436e0", null ],
     [ "FadeWhenDone", "class_fungus_1_1_say_dialog.html#aa6967c7394abb38e19a3a67007b34046", null ],
+    [ "SpeakingCharacter", "class_fungus_1_1_say_dialog.html#ae66c77b52fef06340e9e6542d648cd1d", null ],
     [ "StoryText", "class_fungus_1_1_say_dialog.html#ac15e32226f07000bd1a5b4f632701138", null ]
 ];

@@ -1,7 +1,9 @@
 var searchData=
 [
   ['raweventtable',['rawEventTable',['../class_fungus_1_1_editor_utils_1_1_event_window.html#aedbca6f563858bbe8894e4bed457b03e',1,'Fungus::EditorUtils::EventWindow']]],
+  ['rb',['rb',['../class_fungus_1_1_add_force2_d.html#afca4dc0f116d6264964f4db318b5de3b',1,'Fungus.AddForce2D.rb()'],['../class_fungus_1_1_add_torque2_d.html#acfc176cae3f5760afcebe938cb7ac271',1,'Fungus.AddTorque2D.rb()'],['../class_fungus_1_1_stop_motion_rigid_body2_d.html#ac00643981de7f7debf091704c33d789b',1,'Fungus.StopMotionRigidBody2D.rb()']]],
   ['readaheadstring',['readAheadString',['../class_fungus_1_1_writer.html#abe3343d8537ac3b3e3cd27f63e5eaf97',1,'Fungus::Writer']]],
+  ['reorderlistskirts',['ReorderListSkirts',['../class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#a9b12379305aa75ff741e629e31b1860b',1,'Fungus::EditorUtils::VariableListAdaptor']]],
   ['repeats',['repeats',['../class_fungus_1_1_base_lean_tween_command.html#ae5af10369e7e1e51529dae19805c58e9',1,'Fungus::BaseLeanTweenCommand']]],
   ['replacedcharacter',['replacedCharacter',['../class_fungus_1_1_portrait.html#a9bd6af2cd23e6c3a78989b4cca8922de',1,'Fungus.Portrait.replacedCharacter()'],['../class_fungus_1_1_portrait_options.html#ad5dff82f7118ace5240d16430b424322',1,'Fungus.PortraitOptions.replacedCharacter()']]],
   ['replacedcharacterprop',['replacedCharacterProp',['../class_fungus_1_1_editor_utils_1_1_portrait_editor.html#a75ff035aab7295c50f1b7f9c85027209',1,'Fungus::EditorUtils::PortraitEditor']]],
@@ -21,6 +23,8 @@ var searchData=
   ['rightclickdown',['rightClickDown',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a61a768b29233eede65456736b05f9db4',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['rightclicktolerance',['rightClickTolerance',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a68494682877f8936128a40052f313397',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['rightstring',['rightString',['../class_fungus_1_1_writer.html#af70bd44e6b0fd6a834646df03a67709d',1,'Fungus::Writer']]],
+  ['rigidbody2dref',['rigidbody2DRef',['../struct_fungus_1_1_rigidbody2_d_data.html#ab96729b2a8da908ab374134cc6c72013',1,'Fungus::Rigidbody2DData']]],
+  ['rigidbody2dval',['rigidbody2DVal',['../struct_fungus_1_1_rigidbody2_d_data.html#a5da352bf32798570c8b14a327f5d4f54',1,'Fungus::Rigidbody2DData']]],
   ['rotatemode',['rotateMode',['../class_fungus_1_1_rotate_lean.html#a16ef4187d0a183849c79f22b04aefb25',1,'Fungus::RotateLean']]],
   ['runascoroutine',['runAsCoroutine',['../class_fungus_1_1_execute_lua.html#aa066eb92e70d0232fa81f672b06602f2',1,'Fungus::ExecuteLua']]]
 ];

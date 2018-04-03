@@ -120,6 +120,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1b59353d82a131ba9b5fabba856fc064"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f8bbf2a40e31f85b5a62b2815f5f604"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_variable_base.html#a6f8bbf2a40e31f85b5a62b2815f5f604">ToString</a> ()</td></tr>
 <tr class="separator:a6f8bbf2a40e31f85b5a62b2815f5f604"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d88209f50e5843bc62f2256bd4afb6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_variable_base.html#a80d88209f50e5843bc62f2256bd4afb6">Apply</a> (<a class="el" href="namespace_fungus.html#acdee858130b7cf1e1e977af0614315f7">SetOperator</a> setOperator, T <a class="el" href="class_fungus_1_1_variable_base.html#aee270a23ff04bf6cd6e965176604db57">value</a>)</td></tr>
+<tr class="separator:a80d88209f50e5843bc62f2256bd4afb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -143,7 +145,7 @@ Properties</h2></td></tr>
 <tr class="memitem:a5d0f793ced47655750681a0f6cc03b3d"><td class="memItemLeft" align="right" valign="top">virtual T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_variable_base.html#a5d0f793ced47655750681a0f6cc03b3d">Value</a><code> [get, set]</code></td></tr>
 <tr class="separator:a5d0f793ced47655750681a0f6cc03b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_fungus_1_1_variable"><td colspan="2" onclick="javascript:toggleInherit('properties_class_fungus_1_1_variable')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_fungus_1_1_variable.html">Fungus.Variable</a></td></tr>
-<tr class="memitem:a9218c5099aebb8271685bf39938aeeec inherit properties_class_fungus_1_1_variable"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_fungus.html#a701150babc710c8c207fc45e4ba04eec">VariableScope</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_variable.html#a9218c5099aebb8271685bf39938aeeec">Scope</a><code> [get]</code></td></tr>
+<tr class="memitem:a9218c5099aebb8271685bf39938aeeec inherit properties_class_fungus_1_1_variable"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_fungus.html#a701150babc710c8c207fc45e4ba04eec">VariableScope</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_variable.html#a9218c5099aebb8271685bf39938aeeec">Scope</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a9218c5099aebb8271685bf39938aeeec inherit properties_class_fungus_1_1_variable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Visibility scope for the variable.  <a href="class_fungus_1_1_variable.html#a9218c5099aebb8271685bf39938aeeec">More...</a><br /></td></tr>
 <tr class="separator:a9218c5099aebb8271685bf39938aeeec inherit properties_class_fungus_1_1_variable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1471a0b00684f2dbf242e1b2a5f0f7a inherit properties_class_fungus_1_1_variable"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_variable.html#aa1471a0b00684f2dbf242e1b2a5f0f7a">Key</a><code> [get, set]</code></td></tr>
@@ -153,8 +155,46 @@ Properties</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Generic concrete base class for variables. </p>
 
-<p class="definition">Definition at line <a class="el" href="_variable_8cs_source.html#l00110">110</a> of file <a class="el" href="_variable_8cs_source.html">Variable.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_variable_8cs_source.html#l00131">131</a> of file <a class="el" href="_variable_8cs_source.html">Variable.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a80d88209f50e5843bc62f2256bd4afb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80d88209f50e5843bc62f2256bd4afb6">&#9670;&nbsp;</a></span>Apply()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="class_fungus_1_1_variable_base.html">Fungus.VariableBase</a>&lt; T &gt;.Apply </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_fungus.html#acdee858130b7cf1e1e977af0614315f7">SetOperator</a>&#160;</td>
+          <td class="paramname"><em>setOperator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_variable_8cs_source.html#l00199">199</a> of file <a class="el" href="_variable_8cs_source.html">Variable.cs</a>.</p>
+
+</div>
+</div>
 <a id="a1b59353d82a131ba9b5fabba856fc064"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b59353d82a131ba9b5fabba856fc064">&#9670;&nbsp;</a></span>OnReset()</h2>
 
@@ -182,7 +222,7 @@ Properties</h2></td></tr>
 
 <p>Implements <a class="el" href="class_fungus_1_1_variable.html#ab2a6db108f4be2d1545b184ed6a37acb">Fungus.Variable</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_variable_8cs_source.html#l00117">117</a> of file <a class="el" href="_variable_8cs_source.html">Variable.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_variable_8cs_source.html#l00183">183</a> of file <a class="el" href="_variable_8cs_source.html">Variable.cs</a>.</p>
 
 </div>
 </div>
@@ -209,7 +249,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_variable_8cs_source.html#l00127">127</a> of file <a class="el" href="_variable_8cs_source.html">Variable.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_variable_8cs_source.html#l00193">193</a> of file <a class="el" href="_variable_8cs_source.html">Variable.cs</a>.</p>
 
 </div>
 </div>
@@ -228,7 +268,7 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_variable_8cs_source.html#l00122">122</a> of file <a class="el" href="_variable_8cs_source.html">Variable.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_variable_8cs_source.html#l00188">188</a> of file <a class="el" href="_variable_8cs_source.html">Variable.cs</a>.</p>
 
 </div>
 </div>
@@ -253,7 +293,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_variable_8cs_source.html#l00115">115</a> of file <a class="el" href="_variable_8cs_source.html">Variable.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_variable_8cs_source.html#l00181">181</a> of file <a class="el" href="_variable_8cs_source.html">Variable.cs</a>.</p>
 
 </div>
 </div>
@@ -277,7 +317,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_variable_8cs_source.html#l00112">112</a> of file <a class="el" href="_variable_8cs_source.html">Variable.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_variable_8cs_source.html#l00154">154</a> of file <a class="el" href="_variable_8cs_source.html">Variable.cs</a>.</p>
 
 </div>
 </div>
@@ -302,7 +342,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_variable_8cs_source.html#l00113">113</a> of file <a class="el" href="_variable_8cs_source.html">Variable.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_variable_8cs_source.html#l00156">156</a> of file <a class="el" href="_variable_8cs_source.html">Variable.cs</a>.</p>
 
 </div>
 </div>
@@ -315,7 +355,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_variable_base.html">VariableBase</a></li>
-    <li class="footer">Generated on Mon Aug 28 2017 22:00:13 for Fungus by
+    <li class="footer">Generated on Tue Apr 3 2018 23:20:23 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

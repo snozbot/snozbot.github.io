@@ -22,6 +22,7 @@ var class_fungus_1_1_say =
     [ "storyText", "class_fungus_1_1_say.html#a74e64491c7889377bb14888cc6b2cfcc", null ],
     [ "voiceOverClip", "class_fungus_1_1_say.html#aaeeaac3cef34d07975e287ddf297251d", null ],
     [ "waitForClick", "class_fungus_1_1_say.html#a7d886f3edd6b095c59513cd9a73f8ff9", null ],
+    [ "waitForVO", "class_fungus_1_1_say.html#a66f9819e20c28a0298dd1402b167ef71", null ],
     [ "_Character", "class_fungus_1_1_say.html#a9b97db606db6d813e0f2ad889c394ac4", null ],
     [ "ExtendPrevious", "class_fungus_1_1_say.html#a37d62375dfaef565f0d48ca1ba1c6110", null ],
     [ "Portrait", "class_fungus_1_1_say.html#a1384b0a06ebe318e2e8bb88b31f31092", null ]

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['sameflowchart',['SameFlowchart',['../namespace_fungus.html#a0a28bb7548650021a79b8e12c3b18bbcae0fbf2152a792f6d8d7440aa37178633',1,'Fungus']]],
+  ['set',['Set',['../class_fungus_1_1_transform_property.html#a06474e92eedecf1e6e2da90ba2e28cd0a5d5b78699e57104f2fa03bbdf7b9197b',1,'Fungus.TransformProperty.Set()'],['../class_fungus_1_1_vector3_fields.html#a603246129394125621c5582be0ee2d71a5d5b78699e57104f2fa03bbdf7b9197b',1,'Fungus.Vector3Fields.Set()']]],
   ['setalpha',['SetAlpha',['../namespace_fungus.html#a659e0b5cad34216d45aea5ce447130a4aa021e9579d4a7fef6a0f70f7db297464',1,'Fungus']]],
   ['setcolor',['SetColor',['../namespace_fungus.html#a659e0b5cad34216d45aea5ce447130a4a18f124952feb67a5efdbe8851e406559',1,'Fungus']]],
   ['setvisible',['SetVisible',['../namespace_fungus.html#a659e0b5cad34216d45aea5ce447130a4a0507d87d55de84133951afd6b33ebc62',1,'Fungus']]],
@@ -16,6 +17,7 @@ var searchData=
   ['stay',['Stay',['../class_fungus_1_1_base_physics_event_handler.html#a71f054ad30292b28c9c92a2e6b3d2090a89302eb620f755ea605acbdcd41d2547',1,'Fungus::BasePhysicsEventHandler']]],
   ['stop',['Stop',['../namespace_fungus.html#a57f7b6af52868ef433a033ad7ee34ab6a11a755d598c0c417f9a36758c3da7481',1,'Fungus']]],
   ['stoploop',['StopLoop',['../namespace_fungus.html#ad792cb6a9c5a78248c251baca9a63135a27f65bfa9826e6296dac07b29bfe6727',1,'Fungus']]],
+  ['sub',['Sub',['../class_fungus_1_1_vector3_arithmetic.html#a46afba3f6e5033ab762420359bc464edae80155eceb940c89e2de63ad05868db2',1,'Fungus::Vector3Arithmetic']]],
   ['subtract',['Subtract',['../namespace_fungus.html#acdee858130b7cf1e1e977af0614315f7a1d9baf077ee87921f57a8fe42d510b65',1,'Fungus']]],
   ['swap',['Swap',['../namespace_fungus.html#af5995bd61d4f4d57807f2d12cb1dd82ea8778f5cc5ee1685fb97ad92e33e63225',1,'Fungus']]]
 ];

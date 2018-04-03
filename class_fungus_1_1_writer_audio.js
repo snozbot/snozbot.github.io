@@ -1,6 +1,7 @@
 var class_fungus_1_1_writer_audio =
 [
     [ "Awake", "class_fungus_1_1_writer_audio.html#a5e2d873b0cc177fa8b0500ffee7070ff", null ],
+    [ "GetSecondsRemaining", "class_fungus_1_1_writer_audio.html#abdc5aefd9c18720c9e191e04e3dce542", null ],
     [ "OnEnd", "class_fungus_1_1_writer_audio.html#a3fc352ec7c4a79a444b0344da84488e9", null ],
     [ "OnGlyph", "class_fungus_1_1_writer_audio.html#a76922c9feb6a78d6a348a5e15fa95218", null ],
     [ "OnInput", "class_fungus_1_1_writer_audio.html#a92c8a4f7a8bb729d383b81c0d83abcc0", null ],
@@ -24,5 +25,6 @@ var class_fungus_1_1_writer_audio =
     [ "soundEffect", "class_fungus_1_1_writer_audio.html#a55849375ce7e49d7a921baa243c29ee2", null ],
     [ "targetAudioSource", "class_fungus_1_1_writer_audio.html#a8dbe741c3660704d1b56ab1a8d6d6aac", null ],
     [ "targetVolume", "class_fungus_1_1_writer_audio.html#ab16d830ac1440bddef78425f6d48c2dc", null ],
-    [ "volume", "class_fungus_1_1_writer_audio.html#acd9577f18c86e39e3379dc5faab7e484", null ]
+    [ "volume", "class_fungus_1_1_writer_audio.html#acd9577f18c86e39e3379dc5faab7e484", null ],
+    [ "IsPlayingVoiceOver", "class_fungus_1_1_writer_audio.html#aa46b16b09e6d34a4095d4c9fdd886ffc", null ]
 ];

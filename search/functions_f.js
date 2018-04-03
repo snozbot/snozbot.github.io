@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['say',['Say',['../class_fungus_1_1_say_dialog.html#a0f55d787c35fd527c824e38e03163135',1,'Fungus::SayDialog']]],
+  ['say',['Say',['../class_fungus_1_1_say_dialog.html#a8e37f60cb41530b45a6741b5cdcc1f7a',1,'Fungus::SayDialog']]],
   ['selectall',['SelectAll',['../class_fungus_1_1_editor_utils_1_1_block_editor.html#a3fbb220d579780eb22644f5b79d4f5d5',1,'Fungus::EditorUtils::BlockEditor']]],
   ['selectblock',['SelectBlock',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a40c677034fc21be7632ad74e90dc8b7e',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['selectnext',['SelectNext',['../class_fungus_1_1_editor_utils_1_1_block_editor.html#a34033da38e33fbf5c4ca283ed27fcc82',1,'Fungus::EditorUtils::BlockEditor']]],
@@ -44,6 +44,7 @@ var searchData=
   ['shownotification',['ShowNotification',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a9eeddb9c5e608b7c3722ee75a88e84c6',1,'Fungus.EditorUtils.FlowchartWindow.ShowNotification()'],['../class_fungus_1_1_editor_utils_1_1_localization_editor.html#a1f12aaeafda52ef167fb51ce8b100d44',1,'Fungus.EditorUtils.LocalizationEditor.ShowNotification()']]],
   ['showportrait',['ShowPortrait',['../class_fungus_1_1_portrait_controller.html#a69d22fa745ee054d2e8c9f6cd57e3027',1,'Fungus::PortraitController']]],
   ['showtimer',['ShowTimer',['../class_fungus_1_1_menu_dialog.html#a4195c0872458573c801fd0070b288acb',1,'Fungus.MenuDialog.ShowTimer(float duration, Block targetBlock)'],['../class_fungus_1_1_menu_dialog.html#ae2178d233877cb077378c27087485eb6',1,'Fungus.MenuDialog.ShowTimer(float duration, LuaEnvironment luaEnv, Closure callBack)']]],
+  ['shuffle',['Shuffle',['../class_fungus_1_1_menu_dialog.html#ad87534a88b6762f47bb26269893b79ca',1,'Fungus::MenuDialog']]],
   ['spawnprefab',['SpawnPrefab',['../class_fungus_1_1_editor_utils_1_1_flowchart_menu_items.html#a7eceb3ae65b24f40b750db3f6c90463e',1,'Fungus::EditorUtils::FlowchartMenuItems']]],
   ['split',['Split',['../class_fungus_1_1_conversation_manager.html#a10268d44a5fe2804ff2d7011e7a1af62',1,'Fungus::ConversationManager']]],
   ['spritedata',['SpriteData',['../struct_fungus_1_1_sprite_data.html#a5f6b0dcabac7412fa5250636f3b19276',1,'Fungus::SpriteData']]],

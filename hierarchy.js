@@ -71,7 +71,6 @@ var hierarchy =
     [ "Fungus.FloatVar", "class_fungus_1_1_float_var.html", null ],
     [ "Fungus.FlowchartData", "class_fungus_1_1_flowchart_data.html", null ],
     [ "Fungus.EditorUtils.FlowchartMenuItems", "class_fungus_1_1_editor_utils_1_1_flowchart_menu_items.html", null ],
-    [ "Fungus.EditorUtils.FungusEditorPreferences", "class_fungus_1_1_editor_utils_1_1_fungus_editor_preferences.html", null ],
     [ "Fungus.GameObjectData", "struct_fungus_1_1_game_object_data.html", null ],
     [ "Fungus.HierarchyIcons", "class_fungus_1_1_hierarchy_icons.html", null ],
     [ "IBeginDragHandler", null, [
@@ -125,6 +124,8 @@ var hierarchy =
       [ "Fungus.Character", "class_fungus_1_1_character.html", null ],
       [ "Fungus.Clickable2D", "class_fungus_1_1_clickable2_d.html", null ],
       [ "Fungus.Command", "class_fungus_1_1_command.html", [
+        [ "Fungus.AddForce2D", "class_fungus_1_1_add_force2_d.html", null ],
+        [ "Fungus.AddTorque2D", "class_fungus_1_1_add_torque2_d.html", null ],
         [ "Fungus.BaseLeanTweenCommand", "class_fungus_1_1_base_lean_tween_command.html", [
           [ "Fungus.MoveLean", "class_fungus_1_1_move_lean.html", null ],
           [ "Fungus.RotateLean", "class_fungus_1_1_rotate_lean.html", null ],
@@ -173,6 +174,7 @@ var hierarchy =
         [ "Fungus.FadeSprite", "class_fungus_1_1_fade_sprite.html", null ],
         [ "Fungus.FadeToView", "class_fungus_1_1_fade_to_view.html", null ],
         [ "Fungus.Fullscreen", "class_fungus_1_1_fullscreen.html", null ],
+        [ "Fungus.GetAxis", "class_fungus_1_1_get_axis.html", null ],
         [ "Fungus.GetText", "class_fungus_1_1_get_text.html", null ],
         [ "Fungus.GetToggleState", "class_fungus_1_1_get_toggle_state.html", null ],
         [ "Fungus.InvLerp", "class_fungus_1_1_inv_lerp.html", null ],
@@ -200,14 +202,15 @@ var hierarchy =
         [ "Fungus.Jump", "class_fungus_1_1_jump.html", null ],
         [ "Fungus.Label", "class_fungus_1_1_label.html", null ],
         [ "Fungus.Lerp", "class_fungus_1_1_lerp.html", null ],
-        [ "Fungus.LinkToWebsite", "class_fungus_1_1_link_to_website.html", null ],
         [ "Fungus.LoadScene", "class_fungus_1_1_load_scene.html", null ],
         [ "Fungus.LoadVariable", "class_fungus_1_1_load_variable.html", null ],
         [ "Fungus.Map", "class_fungus_1_1_map.html", null ],
         [ "Fungus.Menu", "class_fungus_1_1_menu.html", null ],
+        [ "Fungus.MenuShuffle", "class_fungus_1_1_menu_shuffle.html", null ],
         [ "Fungus.MenuTimer", "class_fungus_1_1_menu_timer.html", null ],
         [ "Fungus.MinMax", "class_fungus_1_1_min_max.html", null ],
         [ "Fungus.MoveToView", "class_fungus_1_1_move_to_view.html", null ],
+        [ "Fungus.OpenURL", "class_fungus_1_1_open_u_r_l.html", null ],
         [ "Fungus.PlayAnimState", "class_fungus_1_1_play_anim_state.html", null ],
         [ "Fungus.PlayMusic", "class_fungus_1_1_play_music.html", null ],
         [ "Fungus.PlaySound", "class_fungus_1_1_play_sound.html", null ],
@@ -216,6 +219,7 @@ var hierarchy =
         [ "Fungus.RandomFloat", "class_fungus_1_1_random_float.html", null ],
         [ "Fungus.RandomInteger", "class_fungus_1_1_random_integer.html", null ],
         [ "Fungus.ReadTextFile", "class_fungus_1_1_read_text_file.html", null ],
+        [ "Fungus.ReloadScene", "class_fungus_1_1_reload_scene.html", null ],
         [ "Fungus.Reset", "class_fungus_1_1_reset.html", null ],
         [ "Fungus.ResetAnimTrigger", "class_fungus_1_1_reset_anim_trigger.html", null ],
         [ "Fungus.SaveVariable", "class_fungus_1_1_save_variable.html", null ],
@@ -250,15 +254,21 @@ var hierarchy =
         [ "Fungus.Stop", "class_fungus_1_1_stop.html", null ],
         [ "Fungus.StopBlock", "class_fungus_1_1_stop_block.html", null ],
         [ "Fungus.StopFlowchart", "class_fungus_1_1_stop_flowchart.html", null ],
+        [ "Fungus.StopMotionRigidBody2D", "class_fungus_1_1_stop_motion_rigid_body2_d.html", null ],
         [ "Fungus.StopMusic", "class_fungus_1_1_stop_music.html", null ],
         [ "Fungus.StopSwipe", "class_fungus_1_1_stop_swipe.html", null ],
         [ "Fungus.StopTween", "class_fungus_1_1_stop_tween.html", null ],
         [ "Fungus.StopTweens", "class_fungus_1_1_stop_tweens.html", null ],
         [ "Fungus.StopTweensLean", "class_fungus_1_1_stop_tweens_lean.html", null ],
         [ "Fungus.ToInt", "class_fungus_1_1_to_int.html", null ],
+        [ "Fungus.TransformProperty", "class_fungus_1_1_transform_property.html", null ],
         [ "Fungus.TweenUI", "class_fungus_1_1_tween_u_i.html", [
           [ "Fungus.FadeUI", "class_fungus_1_1_fade_u_i.html", null ]
         ] ],
+        [ "Fungus.Vector3Arithmetic", "class_fungus_1_1_vector3_arithmetic.html", null ],
+        [ "Fungus.Vector3Fields", "class_fungus_1_1_vector3_fields.html", null ],
+        [ "Fungus.Vector3Normalise", "class_fungus_1_1_vector3_normalise.html", null ],
+        [ "Fungus.Vector3ToVector2", "class_fungus_1_1_vector3_to_vector2.html", null ],
         [ "Fungus.Wait", "class_fungus_1_1_wait.html", null ],
         [ "Fungus.WaitFrames", "class_fungus_1_1_wait_frames.html", null ],
         [ "Fungus.Write", "class_fungus_1_1_write.html", null ]
@@ -302,6 +312,7 @@ var hierarchy =
       [ "Fungus.Flowchart", "class_fungus_1_1_flowchart.html", null ],
       [ "Fungus.FungusManager", "class_fungus_1_1_fungus_manager.html", null ],
       [ "Fungus.FungusState", "class_fungus_1_1_fungus_state.html", null ],
+      [ "Fungus.GlobalVariables", "class_fungus_1_1_global_variables.html", null ],
       [ "Fungus.Localization", "class_fungus_1_1_localization.html", null ],
       [ "Fungus.MenuDialog", "class_fungus_1_1_menu_dialog.html", null ],
       [ "Fungus.MusicManager", "class_fungus_1_1_music_manager.html", null ],
@@ -340,6 +351,7 @@ var hierarchy =
       [ "Fungus.EditorUtils.VariableDrawer", "class_fungus_1_1_editor_utils_1_1_variable_drawer.html", null ],
       [ "Fungus.EnumFlagDrawer", "class_fungus_1_1_enum_flag_drawer.html", null ]
     ] ],
+    [ "Fungus.Rigidbody2DData", "struct_fungus_1_1_rigidbody2_d_data.html", null ],
     [ "Fungus.SaveDataItem", "class_fungus_1_1_save_data_item.html", null ],
     [ "Fungus.EditorUtils.SaveMenuItems", "class_fungus_1_1_editor_utils_1_1_save_menu_items.html", null ],
     [ "ScriptableObject", null, [
@@ -388,6 +400,9 @@ var hierarchy =
     [ "Fungus.VariableBase< Object >", "class_fungus_1_1_variable_base.html", [
       [ "Fungus.ObjectVariable", "class_fungus_1_1_object_variable.html", null ]
     ] ],
+    [ "Fungus.VariableBase< Rigidbody2D >", "class_fungus_1_1_variable_base.html", [
+      [ "Fungus.Rigidbody2DVariable", "class_fungus_1_1_rigidbody2_d_variable.html", null ]
+    ] ],
     [ "Fungus.VariableBase< Sprite >", "class_fungus_1_1_variable_base.html", [
       [ "Fungus.SpriteVariable", "class_fungus_1_1_sprite_variable.html", null ]
     ] ],
@@ -433,6 +448,9 @@ var hierarchy =
     [ "Fungus.EditorUtils.VariableDataDrawer< ObjectVariable >", "class_fungus_1_1_editor_utils_1_1_variable_data_drawer.html", [
       [ "Fungus.EditorUtils.ObjectDataDrawer", "class_fungus_1_1_editor_utils_1_1_object_data_drawer.html", null ]
     ] ],
+    [ "Fungus.EditorUtils.VariableDataDrawer< Rigidbody2DVariable >", "class_fungus_1_1_editor_utils_1_1_variable_data_drawer.html", [
+      [ "Fungus.EditorUtils.Rigidbody2DDataDrawer", "class_fungus_1_1_editor_utils_1_1_rigidbody2_d_data_drawer.html", null ]
+    ] ],
     [ "Fungus.EditorUtils.VariableDataDrawer< SpriteVariable >", "class_fungus_1_1_editor_utils_1_1_variable_data_drawer.html", [
       [ "Fungus.EditorUtils.SpriteDataDrawer", "class_fungus_1_1_editor_utils_1_1_sprite_data_drawer.html", null ]
     ] ],
@@ -452,6 +470,7 @@ var hierarchy =
     [ "Fungus.EditorUtils.VariableDataDrawer< Vector3Variable >", "class_fungus_1_1_editor_utils_1_1_variable_data_drawer.html", [
       [ "Fungus.EditorUtils.Vector3DataDrawer", "class_fungus_1_1_editor_utils_1_1_vector3_data_drawer.html", null ]
     ] ],
+    [ "Fungus.EditorUtils.SetVariableEditor.VariablePropertyInfo", "struct_fungus_1_1_editor_utils_1_1_set_variable_editor_1_1_variable_property_info.html", null ],
     [ "Fungus.Vector2Data", "struct_fungus_1_1_vector2_data.html", null ],
     [ "Fungus.Vector3Data", "struct_fungus_1_1_vector3_data.html", null ]
 ];

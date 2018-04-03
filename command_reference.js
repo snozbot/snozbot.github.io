@@ -46,7 +46,6 @@ var command_reference =
       [ "Stop Flowchart", "flow_commands.html#StopFlowchart", null ],
       [ "Wait", "flow_commands.html#Wait", null ],
       [ "Wait Frames", "flow_commands.html#WaitFrames", null ],
-      [ "WaitInput", "flow_commands.html#WaitInput", null ],
       [ "While", "flow_commands.html#While", null ]
     ] ],
     [ "iTween commands", "itween_commands.html", [
@@ -70,23 +69,21 @@ var command_reference =
       [ "Stop Tween", "itween_commands.html#StopTween", null ],
       [ "Stop Tweens", "itween_commands.html#StopTweens", null ]
     ] ],
-    [ "LeanTween commands", "lean_tween_commands.html", [
-      [ "Move", "lean_tween_commands.html#Move", null ],
-      [ "Scale", "lean_tween_commands.html#Scale", null ],
-      [ "Rotate", "lean_tween_commands.html#Rotate", null ]
+    [ "Input commands", "input_commands.html", [
+      [ "GetAxis", "input_commands.html#GetAxis", null ]
     ] ],
     [ "Math commands", "math_commands.html", [
       [ "Abs", "math_commands.html#Abs", null ],
       [ "Clamp", "math_commands.html#Clamp", null ],
       [ "Curve", "math_commands.html#Curve", null ],
       [ "Exp", "math_commands.html#Exp", null ],
-      [ "Inv", "math_commands.html#Inv", null ],
+      [ "Inverse", "math_commands.html#Inverse", null ],
       [ "InvLerp", "math_commands.html#InvLerp", null ],
       [ "Lerp", "math_commands.html#Lerp", null ],
       [ "Log", "math_commands.html#Log", null ],
       [ "Map", "math_commands.html#Map", null ],
       [ "MinMax", "math_commands.html#MinMax", null ],
-      [ "Neg", "math_commands.html#Neg", null ],
+      [ "Negate", "math_commands.html#Negate", null ],
       [ "Pow", "math_commands.html#Pow", null ],
       [ "Round", "math_commands.html#Round", null ],
       [ "Sign", "math_commands.html#Sign", null ],
@@ -99,12 +96,21 @@ var command_reference =
       [ "Control Stage", "narrative_commands.html#ControlStage", null ],
       [ "Conversation", "narrative_commands.html#Conversation", null ],
       [ "Menu", "narrative_commands.html#Menu", null ],
+      [ "Menu Shuffle", "narrative_commands.html#MenuShuffle", null ],
       [ "Menu Timer", "narrative_commands.html#MenuTimer", null ],
       [ "Portrait", "narrative_commands.html#Portrait", null ],
       [ "Say", "narrative_commands.html#Say", null ],
       [ "Set Language", "narrative_commands.html#SetLanguage", null ],
       [ "Set Menu Dialog", "narrative_commands.html#SetMenuDialog", null ],
       [ "Set Say Dialog", "narrative_commands.html#SetSayDialog", null ]
+    ] ],
+    [ "Rigidbody2D commands", "rigidbody2d_commands.html", [
+      [ "AddForce2D", "rigidbody2d_commands.html#AddForce2D", null ],
+      [ "AddTorque2D", "rigidbody2d_commands.html#AddTorque2D", null ],
+      [ "StopMotion2D", "rigidbody2d_commands.html#StopMotion2D", null ]
+    ] ],
+    [ "Scene commands", "scene_commands.html", [
+      [ "Reload", "scene_commands.html#Reload", null ]
     ] ],
     [ "Scripting commands", "scripting_commands.html", [
       [ "Comment", "scripting_commands.html#Comment", null ],
@@ -128,6 +134,9 @@ var command_reference =
       [ "Set Sprite Order", "sprite_commands.html#SetSpriteOrder", null ],
       [ "Show Sprite", "sprite_commands.html#ShowSprite", null ]
     ] ],
+    [ "Transform commands", "transform_commands.html", [
+      [ "Property", "transform_commands.html#Property", null ]
+    ] ],
     [ "Variable commands", "variable_commands.html", [
       [ "Delete Save Key", "variable_commands.html#DeleteSaveKey", null ],
       [ "Load Variable", "variable_commands.html#LoadVariable", null ],
@@ -138,6 +147,12 @@ var command_reference =
       [ "Save Variable", "variable_commands.html#SaveVariable", null ],
       [ "Set Save Profile", "variable_commands.html#SetSaveProfile", null ],
       [ "Set Variable", "variable_commands.html#SetVariable", null ]
+    ] ],
+    [ "Vector3 commands", "vector3_commands.html", [
+      [ "Arithmetic", "vector3_commands.html#Arithmetic", null ],
+      [ "Fields", "vector3_commands.html#Fields", null ],
+      [ "Normalise", "vector3_commands.html#Normalise", null ],
+      [ "ToVector2", "vector3_commands.html#ToVector2", null ]
     ] ],
     [ "UI commands", "ui_commands.html", [
       [ "Fade UI", "ui_commands.html#FadeUI", null ],

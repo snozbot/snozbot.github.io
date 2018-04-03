@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['offset',['Offset',['../class_fungus_1_1_portrait.html#aac26ed30cfc9507c70fde65f46fcc85b',1,'Fungus.Portrait.Offset()'],['../class_fungus_1_1_editor_utils_1_1_editor_zoom_area.html#a4ace7ca5606fa4b2e49fd93a4cec5bd3',1,'Fungus.EditorUtils.EditorZoomArea.Offset()']]],
-  ['order',['Order',['../class_fungus_1_1_variable_info_attribute.html#a28395dc60f4a3dadb1438a8d11247090',1,'Fungus::VariableInfoAttribute']]]
+  ['namecolor',['NameColor',['../class_fungus_1_1_character.html#a980e8d3fa909fc1127df2fa1aa849159',1,'Fungus::Character']]],
+  ['nametext',['NameText',['../class_fungus_1_1_character.html#a4880f28f983dca5527cf73e46252ee1e',1,'Fungus::Character']]],
+  ['notificationtext',['NotificationText',['../class_fungus_1_1_localization.html#a34b74c1d254558eed7745a7c6448612e',1,'Fungus::Localization']]]
 ];

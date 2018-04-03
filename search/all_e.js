@@ -1,13 +1,14 @@
 var searchData=
 [
-  ['namecolor',['nameColor',['../class_fungus_1_1_character.html#a83c3c6afd0d421c15aced3ffb1bd7815',1,'Fungus.Character.nameColor()'],['../class_fungus_1_1_character.html#a980e8d3fa909fc1127df2fa1aa849159',1,'Fungus.Character.NameColor()']]],
+  ['name',['name',['../struct_fungus_1_1_editor_utils_1_1_set_variable_editor_1_1_variable_property_info.html#a06239316d4aa914145fd90b13d37f41b',1,'Fungus::EditorUtils::SetVariableEditor::VariablePropertyInfo']]],
+  ['namecolor',['NameColor',['../class_fungus_1_1_character.html#a980e8d3fa909fc1127df2fa1aa849159',1,'Fungus.Character.NameColor()'],['../class_fungus_1_1_character.html#a83c3c6afd0d421c15aced3ffb1bd7815',1,'Fungus.Character.nameColor()']]],
   ['namecolorprop',['nameColorProp',['../class_fungus_1_1_editor_utils_1_1_character_editor.html#a59c422b50801d4150cee28bdb3b88805',1,'Fungus::EditorUtils::CharacterEditor']]],
   ['namespace_5ffungus_2ejs',['namespace_fungus.js',['../namespace__fungus_8js.html',1,'']]],
   ['namespace_5ffungus_5f1_5f1_5feditor_5futils_2ejs',['namespace_fungus_1_1_editor_utils.js',['../namespace__fungus__1__1__editor__utils_8js.html',1,'']]],
   ['namespaces_2ejs',['namespaces.js',['../namespaces_8js.html',1,'']]],
   ['namespaces_5f0_2ejs',['namespaces_0.js',['../namespaces__0_8js.html',1,'']]],
   ['namestartswith',['NameStartsWith',['../class_fungus_1_1_character.html#a28eb16eb73daf5c37391204c225b86c1',1,'Fungus::Character']]],
-  ['nametext',['nameText',['../class_fungus_1_1_character.html#a7107f3ca706e484c96264053d54e5c42',1,'Fungus.Character.nameText()'],['../class_fungus_1_1_say_dialog.html#a4cc7eb0f359e653ef84d197a75a4ccfc',1,'Fungus.SayDialog.nameText()'],['../class_fungus_1_1_character.html#a4880f28f983dca5527cf73e46252ee1e',1,'Fungus.Character.NameText()']]],
+  ['nametext',['NameText',['../class_fungus_1_1_character.html#a4880f28f983dca5527cf73e46252ee1e',1,'Fungus.Character.NameText()'],['../class_fungus_1_1_character.html#a7107f3ca706e484c96264053d54e5c42',1,'Fungus.Character.nameText()'],['../class_fungus_1_1_say_dialog.html#a4cc7eb0f359e653ef84d197a75a4ccfc',1,'Fungus.SayDialog.nameText()']]],
   ['nametextprop',['nameTextProp',['../class_fungus_1_1_editor_utils_1_1_character_editor.html#a6ee151abcfb5ba0c02d1bd977605c5f2',1,'Fungus::EditorUtils::CharacterEditor']]],
   ['narrative_20commands',['Narrative commands',['../narrative_commands.html',1,'command_reference']]],
   ['narrative_5fcommands_2emd',['narrative_commands.md',['../narrative__commands_8md.html',1,'']]],

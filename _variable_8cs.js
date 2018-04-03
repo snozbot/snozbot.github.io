@@ -12,8 +12,17 @@ var _variable_8cs =
       [ "LessThanOrEquals", "_variable_8cs.html#a9d109f78bebc5b1a315bc37eadc54251a32643384e2970a6ca75e35112415251f", null ],
       [ "GreaterThanOrEquals", "_variable_8cs.html#a9d109f78bebc5b1a315bc37eadc54251af64389ec17f3793363f97bb6d97c9adb", null ]
     ] ],
+    [ "SetOperator", "_variable_8cs.html#acdee858130b7cf1e1e977af0614315f7", [
+      [ "Assign", "_variable_8cs.html#acdee858130b7cf1e1e977af0614315f7a185b7133db22230701a857c059360cc2", null ],
+      [ "Negate", "_variable_8cs.html#acdee858130b7cf1e1e977af0614315f7a67d9ebb87ad2c62fe6b9de06c8da7fa5", null ],
+      [ "Add", "_variable_8cs.html#acdee858130b7cf1e1e977af0614315f7aec211f7c20af43e742bf2570c3cb84f9", null ],
+      [ "Subtract", "_variable_8cs.html#acdee858130b7cf1e1e977af0614315f7a1d9baf077ee87921f57a8fe42d510b65", null ],
+      [ "Multiply", "_variable_8cs.html#acdee858130b7cf1e1e977af0614315f7ae257376d913f3b53cbb4a9b19d770648", null ],
+      [ "Divide", "_variable_8cs.html#acdee858130b7cf1e1e977af0614315f7a0b914e196182d02615487e9793ecff3d", null ]
+    ] ],
     [ "VariableScope", "_variable_8cs.html#a701150babc710c8c207fc45e4ba04eec", [
       [ "Private", "_variable_8cs.html#a701150babc710c8c207fc45e4ba04eeca47f9082fc380ca62d531096aa1d110f1", null ],
-      [ "Public", "_variable_8cs.html#a701150babc710c8c207fc45e4ba04eeca3d067bedfe2f4677470dd6ccf64d05ed", null ]
+      [ "Public", "_variable_8cs.html#a701150babc710c8c207fc45e4ba04eeca3d067bedfe2f4677470dd6ccf64d05ed", null ],
+      [ "Global", "_variable_8cs.html#a701150babc710c8c207fc45e4ba04eeca4cc6684df7b4a92b1dec6fce3264fac8", null ]
     ] ]
 ];

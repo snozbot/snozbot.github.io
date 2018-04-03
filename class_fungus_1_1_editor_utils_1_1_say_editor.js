@@ -15,5 +15,6 @@ var class_fungus_1_1_editor_utils_1_1_say_editor =
     [ "stopVoiceoverProp", "class_fungus_1_1_editor_utils_1_1_say_editor.html#a676cc1206a7356bd392b5234d9ba172b", null ],
     [ "storyTextProp", "class_fungus_1_1_editor_utils_1_1_say_editor.html#a77858b5f3682d9e60a727acc7e28e247", null ],
     [ "voiceOverClipProp", "class_fungus_1_1_editor_utils_1_1_say_editor.html#a75a04b9c474ed8be8b956994a5f5ee90", null ],
-    [ "waitForClickProp", "class_fungus_1_1_editor_utils_1_1_say_editor.html#adb3b648c40b37acc9cecf4c27d917b88", null ]
+    [ "waitForClickProp", "class_fungus_1_1_editor_utils_1_1_say_editor.html#adb3b648c40b37acc9cecf4c27d917b88", null ],
+    [ "waitForVOProp", "class_fungus_1_1_editor_utils_1_1_say_editor.html#ae72dd0b97ee34e80d90e0612b361cbd4", null ]
 ];

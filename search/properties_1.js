@@ -6,5 +6,6 @@ var searchData=
   ['activemenudialog',['ActiveMenuDialog',['../class_fungus_1_1_menu_dialog.html#a7c146da8cbc34600dfd8e56bea58dea3',1,'Fungus::MenuDialog']]],
   ['activesaydialog',['ActiveSayDialog',['../class_fungus_1_1_say_dialog.html#a7585d79b2d633997cca4b89dfc0f2178',1,'Fungus::SayDialog']]],
   ['activestages',['ActiveStages',['../class_fungus_1_1_stage.html#a8e83db412560f38271bf7ab403f53dc5',1,'Fungus::Stage']]],
-  ['arrayproperty',['arrayProperty',['../class_fungus_1_1_editor_utils_1_1_command_list_adaptor.html#abd7399095f726354427453a8634ead26',1,'Fungus.EditorUtils.CommandListAdaptor.arrayProperty()'],['../class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#a84cc15874781ba3ba22d4e52780df088',1,'Fungus.EditorUtils.VariableListAdaptor.arrayProperty()']]]
+  ['arrayproperty',['arrayProperty',['../class_fungus_1_1_editor_utils_1_1_command_list_adaptor.html#abd7399095f726354427453a8634ead26',1,'Fungus.EditorUtils.CommandListAdaptor.arrayProperty()'],['../class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#a84cc15874781ba3ba22d4e52780df088',1,'Fungus.EditorUtils.VariableListAdaptor.arrayProperty()']]],
+  ['attachedwriteraudio',['AttachedWriterAudio',['../class_fungus_1_1_writer.html#a6fe383a9debca4fd905b1ed3fd6775ab',1,'Fungus::Writer']]]
 ];

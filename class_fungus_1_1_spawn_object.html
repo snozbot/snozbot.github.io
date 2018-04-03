@@ -124,6 +124,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae0bbbd3026229d4eda28b8b4c273ed45"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="namespace_fungus.html#a3a818435c4503f622767149bc7ac47deacb5feb1b7314637725a2e73bdc9f7295">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_spawn_object.html#ae0bbbd3026229d4eda28b8b4c273ed45">GetButtonColor</a> ()</td></tr>
 <tr class="memdesc:ae0bbbd3026229d4eda28b8b4c273ed45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the color for the command background in inspector.  <a href="#ae0bbbd3026229d4eda28b8b4c273ed45">More...</a><br /></td></tr>
 <tr class="separator:ae0bbbd3026229d4eda28b8b4c273ed45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a000a3204c019880eaa173d56e4060ae9"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_spawn_object.html#a000a3204c019880eaa173d56e4060ae9">HasReference</a> (<a class="el" href="class_fungus_1_1_variable.html">Variable</a> variable)</td></tr>
+<tr class="memdesc:a000a3204c019880eaa173d56e4060ae9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this command references the variable.  <a href="#a000a3204c019880eaa173d56e4060ae9">More...</a><br /></td></tr>
+<tr class="separator:a000a3204c019880eaa173d56e4060ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_fungus_1_1_command"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_fungus_1_1_command')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_fungus_1_1_command.html">Fungus.Command</a></td></tr>
 <tr class="memitem:ac1bb91bd62abc32d4e728f993770d224 inherit pub_methods_class_fungus_1_1_command"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_fungus_1_1_flowchart.html">Flowchart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_command.html#ac1bb91bd62abc32d4e728f993770d224">GetFlowchart</a> ()</td></tr>
 <tr class="memdesc:ac1bb91bd62abc32d4e728f993770d224 inherit pub_methods_class_fungus_1_1_command"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="class_fungus_1_1_flowchart.html" title="Visual scripting controller for the Flowchart programming language. ">Flowchart</a> that this command belongs to.  <a href="class_fungus_1_1_command.html#ac1bb91bd62abc32d4e728f993770d224">More...</a><br /></td></tr>
@@ -158,9 +161,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a92063996f9081ee8f77be51d212c0c7f inherit pub_methods_class_fungus_1_1_command"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_command.html#a92063996f9081ee8f77be51d212c0c7f">GetConnectedBlocks</a> (ref List&lt; <a class="el" href="class_fungus_1_1_block.html">Block</a> &gt; connectedBlocks)</td></tr>
 <tr class="memdesc:a92063996f9081ee8f77be51d212c0c7f inherit pub_methods_class_fungus_1_1_command"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populates a list with the Blocks that this command references.  <a href="class_fungus_1_1_command.html#a92063996f9081ee8f77be51d212c0c7f">More...</a><br /></td></tr>
 <tr class="separator:a92063996f9081ee8f77be51d212c0c7f inherit pub_methods_class_fungus_1_1_command"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab229bb399c0e0ac5ddbd93fc30f39795 inherit pub_methods_class_fungus_1_1_command"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_command.html#ab229bb399c0e0ac5ddbd93fc30f39795">HasReference</a> (<a class="el" href="class_fungus_1_1_variable.html">Variable</a> variable)</td></tr>
-<tr class="memdesc:ab229bb399c0e0ac5ddbd93fc30f39795 inherit pub_methods_class_fungus_1_1_command"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this command references the variable.  <a href="class_fungus_1_1_command.html#ab229bb399c0e0ac5ddbd93fc30f39795">More...</a><br /></td></tr>
-<tr class="separator:ab229bb399c0e0ac5ddbd93fc30f39795 inherit pub_methods_class_fungus_1_1_command"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56517b048ffd4503e3a74346b2b27f97 inherit pub_methods_class_fungus_1_1_command"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_command.html#a56517b048ffd4503e3a74346b2b27f97">GetHelpText</a> ()</td></tr>
 <tr class="memdesc:a56517b048ffd4503e3a74346b2b27f97 inherit pub_methods_class_fungus_1_1_command"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the help text to display for this command.  <a href="class_fungus_1_1_command.html#a56517b048ffd4503e3a74346b2b27f97">More...</a><br /></td></tr>
 <tr class="separator:a56517b048ffd4503e3a74346b2b27f97 inherit pub_methods_class_fungus_1_1_command"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,10 +202,14 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a8ffcf5706dd079fef0d673c7b88d3064"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abec6a671cb0352f18423594a7e281671"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fungus_1_1_transform_data.html">TransformData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_spawn_object.html#abec6a671cb0352f18423594a7e281671">_parentTransform</a></td></tr>
 <tr class="separator:abec6a671cb0352f18423594a7e281671"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c1b1d621648eddff61d50898c9db223"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fungus_1_1_boolean_data.html">BooleanData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_spawn_object.html#a3c1b1d621648eddff61d50898c9db223">_spawnAtSelf</a> = new <a class="el" href="struct_fungus_1_1_boolean_data.html">BooleanData</a>(false)</td></tr>
+<tr class="separator:a3c1b1d621648eddff61d50898c9db223"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5239fd27b69e5be79f7ae45ff19a594a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fungus_1_1_vector3_data.html">Vector3Data</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_spawn_object.html#a5239fd27b69e5be79f7ae45ff19a594a">_spawnPosition</a></td></tr>
 <tr class="separator:a5239fd27b69e5be79f7ae45ff19a594a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb1f620e437184560fc8e5cbd0fb2c94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fungus_1_1_vector3_data.html">Vector3Data</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_spawn_object.html#afb1f620e437184560fc8e5cbd0fb2c94">_spawnRotation</a></td></tr>
 <tr class="separator:afb1f620e437184560fc8e5cbd0fb2c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd82fe93186ca57d7a70b970276e7014"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fungus_1_1_game_object_data.html">GameObjectData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_spawn_object.html#abd82fe93186ca57d7a70b970276e7014">_newlySpawnedObject</a></td></tr>
+<tr class="separator:abd82fe93186ca57d7a70b970276e7014"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_fungus_1_1_command"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_fungus_1_1_command')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_fungus_1_1_command.html">Fungus.Command</a></td></tr>
 <tr class="memitem:a1b7b2b7e92ca02f2d11cfa08b83412a5 inherit pro_attribs_class_fungus_1_1_command"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_command.html#a1b7b2b7e92ca02f2d11cfa08b83412a5">itemId</a> = -1</td></tr>
 <tr class="separator:a1b7b2b7e92ca02f2d11cfa08b83412a5 inherit pro_attribs_class_fungus_1_1_command"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -242,7 +246,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Spawns a new object based on a reference to a scene or prefab game object. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00017">17</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00021">21</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae0bbbd3026229d4eda28b8b4c273ed45"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae0bbbd3026229d4eda28b8b4c273ed45">&#9670;&nbsp;</a></span>GetButtonColor()</h2>
@@ -272,7 +276,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_fungus_1_1_command.html#a81b8985331b32f0c6d601beb093235ed">Fungus.Command</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00063">63</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00090">90</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
 
 </div>
 </div>
@@ -303,7 +307,40 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_fungus_1_1_command.html#a5682c19ec9194fdc4a78e54729381816">Fungus.Command</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00053">53</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00080">80</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
+
+</div>
+</div>
+<a id="a000a3204c019880eaa173d56e4060ae9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a000a3204c019880eaa173d56e4060ae9">&#9670;&nbsp;</a></span>HasReference()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool Fungus.SpawnObject.HasReference </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_fungus_1_1_variable.html">Variable</a>&#160;</td>
+          <td class="paramname"><em>variable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if this command references the variable. </p>
+<p>Used to highlight variables in the variable list when a command is selected. </p>
+
+<p>Reimplemented from <a class="el" href="class_fungus_1_1_command.html#ab229bb399c0e0ac5ddbd93fc30f39795">Fungus.Command</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00095">95</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
 
 </div>
 </div>
@@ -330,7 +367,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00077">77</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00114">114</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
 
 </div>
 </div>
@@ -361,11 +398,35 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_fungus_1_1_command.html#a61e2536a57143b72610f1abd50d57427">Fungus.Command</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00033">33</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00046">46</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="abd82fe93186ca57d7a70b970276e7014"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd82fe93186ca57d7a70b970276e7014">&#9670;&nbsp;</a></span>_newlySpawnedObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_fungus_1_1_game_object_data.html">GameObjectData</a> Fungus.SpawnObject._newlySpawnedObject</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00042">42</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
+
+</div>
+</div>
 <a id="abec6a671cb0352f18423594a7e281671"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abec6a671cb0352f18423594a7e281671">&#9670;&nbsp;</a></span>_parentTransform</h2>
 
@@ -386,7 +447,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00023">23</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00027">27</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
 
 </div>
 </div>
@@ -410,7 +471,31 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00020">20</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00024">24</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
+
+</div>
+</div>
+<a id="a3c1b1d621648eddff61d50898c9db223"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c1b1d621648eddff61d50898c9db223">&#9670;&nbsp;</a></span>_spawnAtSelf</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_fungus_1_1_boolean_data.html">BooleanData</a> Fungus.SpawnObject._spawnAtSelf = new <a class="el" href="struct_fungus_1_1_boolean_data.html">BooleanData</a>(false)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00030">30</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
 
 </div>
 </div>
@@ -434,7 +519,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00026">26</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00033">33</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
 
 </div>
 </div>
@@ -458,7 +543,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00029">29</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00036">36</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
 
 </div>
 </div>
@@ -474,7 +559,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00073">73</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00110">110</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
 
 </div>
 </div>
@@ -490,7 +575,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00072">72</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00109">109</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
 
 </div>
 </div>
@@ -506,7 +591,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00074">74</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00111">111</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
 
 </div>
 </div>
@@ -522,7 +607,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00075">75</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spawn_object_8cs_source.html#l00112">112</a> of file <a class="el" href="_spawn_object_8cs_source.html">SpawnObject.cs</a>.</p>
 
 </div>
 </div>
@@ -535,7 +620,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_spawn_object.html">SpawnObject</a></li>
-    <li class="footer">Generated on Mon Aug 28 2017 22:00:13 for Fungus by
+    <li class="footer">Generated on Tue Apr 3 2018 23:20:23 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

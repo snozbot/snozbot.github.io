@@ -1,6 +1,6 @@
 var class_fungus_1_1_menu_dialog =
 [
-    [ "AddOption", "class_fungus_1_1_menu_dialog.html#a3f3f5931bc00844c4ee112864b9642c8", null ],
+    [ "AddOption", "class_fungus_1_1_menu_dialog.html#a080fd5bdcde0ff6efe736932185da178", null ],
     [ "AddOption", "class_fungus_1_1_menu_dialog.html#ab9910eb4b92be8436b9562d2d24d8305", null ],
     [ "Awake", "class_fungus_1_1_menu_dialog.html#a7c69e898ca79dadf81d98f3beac9aaaa", null ],
     [ "CallBlock", "class_fungus_1_1_menu_dialog.html#a9fcb6ed3b134227a687cdf11fb3e9e86", null ],
@@ -13,6 +13,7 @@ var class_fungus_1_1_menu_dialog =
     [ "SetActive", "class_fungus_1_1_menu_dialog.html#a07040fc57d328b0715306151ce335ba2", null ],
     [ "ShowTimer", "class_fungus_1_1_menu_dialog.html#a4195c0872458573c801fd0070b288acb", null ],
     [ "ShowTimer", "class_fungus_1_1_menu_dialog.html#ae2178d233877cb077378c27087485eb6", null ],
+    [ "Shuffle", "class_fungus_1_1_menu_dialog.html#ad87534a88b6762f47bb26269893b79ca", null ],
     [ "WaitForTimeout", "class_fungus_1_1_menu_dialog.html#a48220a3f4729530c403353d9e68dcf17", null ],
     [ "autoSelectFirstButton", "class_fungus_1_1_menu_dialog.html#a7a797681677ffe7a93a778311014ce99", null ],
     [ "cachedButtons", "class_fungus_1_1_menu_dialog.html#a670e1f534f87508fb2923c6e730f39f4", null ],

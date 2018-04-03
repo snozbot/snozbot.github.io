@@ -99,6 +99,7 @@ $(document).ready(function(){initNavTree('narrative_commands.html','');});
 <li class="level1"><a href="#ControlStage">Control Stage</a></li>
 <li class="level1"><a href="#Conversation">Conversation</a></li>
 <li class="level1"><a href="#Menu">Menu</a></li>
+<li class="level1"><a href="#MenuShuffle">Menu Shuffle</a></li>
 <li class="level1"><a href="#MenuTimer">Menu Timer</a></li>
 <li class="level1"><a href="#Portrait">Portrait</a></li>
 <li class="level1"><a href="#Say">Say</a></li>
@@ -160,6 +161,18 @@ Menu</h1>
 <td>Interactable </td><td><a class="el" href="struct_fungus_1_1_boolean_data.html" title="Container for a Boolean variable reference or constant value. ">Fungus.BooleanData</a> </td><td>If false, the menu option will be displayed but will not be selectable </td></tr>
 <tr>
 <td>Set Menu Dialog </td><td><a class="el" href="class_fungus_1_1_menu_dialog.html" title="Presents multiple choice buttons to the players. ">Fungus.MenuDialog</a> </td><td>A custom Menu Dialog to use to display this menu. All subsequent Menu commands will use this dialog. </td></tr>
+<tr>
+<td>Hide This Option </td><td><a class="el" href="struct_fungus_1_1_boolean_data.html" title="Container for a Boolean variable reference or constant value. ">Fungus.BooleanData</a> </td><td>If true, this option will be passed to the Menu Dialogue but marked as hidden, this can be used to hide options while maintaining a Menu Shuffle. </td></tr>
+</table>
+<h1><a class="anchor" id="MenuShuffle"></a>
+Menu Shuffle</h1>
+<p>Shuffle the order of the items in a <a class="el" href="namespace_fungus.html">Fungus</a> Menu</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_menu_shuffle.html" title="Shuffle the order of the items in a Fungus Menu ">Fungus.MenuShuffle</a></p>
+<table class="doxtable">
+<tr>
+<th>Property </th><th>Type </th><th>Description  </th></tr>
+<tr>
+<td>Shuffle Mode </td><td><a class="el" href="class_fungus_1_1_menu_shuffle.html" title="Shuffle the order of the items in a Fungus Menu ">Fungus.MenuShuffle</a>+Mode </td><td>Determines if the order is shuffled everytime this command is it (Every) or if it is consistent when returned to but random (Once) </td></tr>
 </table>
 <h1><a class="anchor" id="MenuTimer"></a>
 Menu Timer</h1>
@@ -241,6 +254,8 @@ Say</h1>
 <tr>
 <td>Stop Voiceover </td><td>System.Boolean </td><td>Stop playing voiceover when text finishes writing. </td></tr>
 <tr>
+<td>Wait For V O </td><td>System.Boolean </td><td>Wait for the Voice Over to complete before continuing </td></tr>
+<tr>
 <td>Set Say Dialog </td><td><a class="el" href="class_fungus_1_1_say_dialog.html" title="Display story text in a visual novel style dialog box. ">Fungus.SayDialog</a> </td><td>Sets the active Say dialog with a reference to a Say Dialog object in the scene. All story text will now display using this Say Dialog. </td></tr>
 </table>
 <h1><a class="anchor" id="SetLanguage"></a>
@@ -279,7 +294,7 @@ Set Say Dialog</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="command_reference.html">Command Reference</a></li>
-    <li class="footer">Generated on Mon Aug 28 2017 22:00:11 for Fungus by
+    <li class="footer">Generated on Tue Apr 3 2018 23:20:20 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

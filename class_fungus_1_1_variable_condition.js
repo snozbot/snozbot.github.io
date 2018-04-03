@@ -8,7 +8,9 @@ var class_fungus_1_1_variable_condition =
     [ "booleanData", "class_fungus_1_1_variable_condition.html#a68e281267dac1566b44eeb513b3f9536", null ],
     [ "compareOperator", "class_fungus_1_1_variable_condition.html#a781b5c8b1965acdcd8fe6d0a5b3e6ef1", null ],
     [ "floatData", "class_fungus_1_1_variable_condition.html#a91e4de6233f090ba8fa3067e50f89140", null ],
+    [ "gameObjectData", "class_fungus_1_1_variable_condition.html#a42ee7903e311fb20b7567b5dd4267831", null ],
     [ "integerData", "class_fungus_1_1_variable_condition.html#a50b60e95705d11a8d447ab53e39a1700", null ],
     [ "stringData", "class_fungus_1_1_variable_condition.html#a918bf3dc8b4990ff2aad8727dd62d6f0", null ],
-    [ "variable", "class_fungus_1_1_variable_condition.html#a59f647859e4737ea57ad0f574d51a7f6", null ]
+    [ "variable", "class_fungus_1_1_variable_condition.html#a59f647859e4737ea57ad0f574d51a7f6", null ],
+    [ "_CompareOperator", "class_fungus_1_1_variable_condition.html#a246f1c62f751a5640e18d92dc37cc877", null ]
 ];

@@ -65,6 +65,12 @@ var files =
     [ "Abs.cs", "_abs_8cs.html", [
       [ "Abs", "class_fungus_1_1_abs.html", "class_fungus_1_1_abs" ]
     ] ],
+    [ "AddForce2D.cs", "_add_force2_d_8cs.html", [
+      [ "AddForce2D", "class_fungus_1_1_add_force2_d.html", "class_fungus_1_1_add_force2_d" ]
+    ] ],
+    [ "AddTorque2D.cs", "_add_torque2_d_8cs.html", [
+      [ "AddTorque2D", "class_fungus_1_1_add_torque2_d.html", "class_fungus_1_1_add_torque2_d" ]
+    ] ],
     [ "all_0.js", "all__0_8js.html", null ],
     [ "all_1.js", "all__1_8js.html", null ],
     [ "all_10.js", "all__10_8js.html", null ],
@@ -665,9 +671,7 @@ var files =
     [ "functions_vars.js", "functions__vars_8js.html", null ],
     [ "fungus_lua.js", "fungus__lua_8js.html", null ],
     [ "FungusConstants.cs", "_fungus_constants_8cs.html", null ],
-    [ "FungusEditorPreferences.cs", "_fungus_editor_preferences_8cs.html", [
-      [ "FungusEditorPreferences", "class_fungus_1_1_editor_utils_1_1_fungus_editor_preferences.html", null ]
-    ] ],
+    [ "FungusEditorPreferences.cs", "_fungus_editor_preferences_8cs.html", null ],
     [ "FungusEditorResources.cs", "_fungus_editor_resources_8cs.html", null ],
     [ "FungusEditorResourcesGenerated.cs", "_fungus_editor_resources_generated_8cs.html", null ],
     [ "FungusManager.cs", "_fungus_manager_8cs.html", [
@@ -677,14 +681,20 @@ var files =
       [ "FungusState", "class_fungus_1_1_fungus_state.html", "class_fungus_1_1_fungus_state" ]
     ] ],
     [ "GameObjectVariable.cs", "_game_object_variable_8cs.html", [
-      [ "GameObjectVariable", "class_fungus_1_1_game_object_variable.html", null ],
+      [ "GameObjectVariable", "class_fungus_1_1_game_object_variable.html", "class_fungus_1_1_game_object_variable" ],
       [ "GameObjectData", "struct_fungus_1_1_game_object_data.html", "struct_fungus_1_1_game_object_data" ]
     ] ],
     [ "GameStarted.cs", "_game_started_8cs.html", "_game_started_8cs" ],
+    [ "GetAxis.cs", "_get_axis_8cs.html", [
+      [ "GetAxis", "class_fungus_1_1_get_axis.html", "class_fungus_1_1_get_axis" ]
+    ] ],
     [ "GetText.cs", "_get_text_8cs.html", [
       [ "GetText", "class_fungus_1_1_get_text.html", "class_fungus_1_1_get_text" ]
     ] ],
     [ "GetToggleState.cs", "_get_toggle_state_8cs.html", "_get_toggle_state_8cs" ],
+    [ "GlobalVariables.cs", "_global_variables_8cs.html", [
+      [ "GlobalVariables", "class_fungus_1_1_global_variables.html", "class_fungus_1_1_global_variables" ]
+    ] ],
     [ "hierarchy.js", "hierarchy_8js.html", null ],
     [ "HierarchyIcons.cs", "_hierarchy_icons_8cs.html", [
       [ "HierarchyIcons", "class_fungus_1_1_hierarchy_icons.html", null ]
@@ -786,6 +796,9 @@ var files =
     ] ],
     [ "MenuEditor.cs", "_menu_editor_8cs.html", [
       [ "MenuEditor", "class_fungus_1_1_editor_utils_1_1_menu_editor.html", "class_fungus_1_1_editor_utils_1_1_menu_editor" ]
+    ] ],
+    [ "MenuShuffle.cs", "_menu_shuffle_8cs.html", [
+      [ "MenuShuffle", "class_fungus_1_1_menu_shuffle.html", "class_fungus_1_1_menu_shuffle" ]
     ] ],
     [ "MenuTimer.cs", "_menu_timer_8cs.html", [
       [ "MenuTimer", "class_fungus_1_1_menu_timer.html", "class_fungus_1_1_menu_timer" ]
@@ -937,6 +950,9 @@ var files =
       [ "RandomInteger", "class_fungus_1_1_random_integer.html", "class_fungus_1_1_random_integer" ]
     ] ],
     [ "ReadTextFile.cs", "_read_text_file_8cs.html", "_read_text_file_8cs" ],
+    [ "ReloadScene.cs", "_reload_scene_8cs.html", [
+      [ "ReloadScene", "class_fungus_1_1_reload_scene.html", "class_fungus_1_1_reload_scene" ]
+    ] ],
     [ "Render.cs", "_render_8cs.html", [
       [ "Render", "class_fungus_1_1_render.html", "class_fungus_1_1_render" ]
     ] ],
@@ -947,6 +963,10 @@ var files =
       [ "ResetAnimTrigger", "class_fungus_1_1_reset_anim_trigger.html", "class_fungus_1_1_reset_anim_trigger" ]
     ] ],
     [ "resize.js", "resize_8js.html", null ],
+    [ "Rigidbody2DVariable.cs", "_rigidbody2_d_variable_8cs.html", [
+      [ "Rigidbody2DVariable", "class_fungus_1_1_rigidbody2_d_variable.html", null ],
+      [ "Rigidbody2DData", "struct_fungus_1_1_rigidbody2_d_data.html", "struct_fungus_1_1_rigidbody2_d_data" ]
+    ] ],
     [ "RotateAdd.cs", "_rotate_add_8cs.html", [
       [ "RotateAdd", "class_fungus_1_1_rotate_add.html", "class_fungus_1_1_rotate_add" ]
     ] ],
@@ -1063,9 +1083,12 @@ var files =
       [ "SetText", "class_fungus_1_1_set_text.html", "class_fungus_1_1_set_text" ]
     ] ],
     [ "SetToggleState.cs", "_set_toggle_state_8cs.html", "_set_toggle_state_8cs" ],
-    [ "SetVariable.cs", "_set_variable_8cs.html", "_set_variable_8cs" ],
+    [ "SetVariable.cs", "_set_variable_8cs.html", [
+      [ "SetVariable", "class_fungus_1_1_set_variable.html", "class_fungus_1_1_set_variable" ]
+    ] ],
     [ "SetVariableEditor.cs", "_set_variable_editor_8cs.html", [
-      [ "SetVariableEditor", "class_fungus_1_1_editor_utils_1_1_set_variable_editor.html", "class_fungus_1_1_editor_utils_1_1_set_variable_editor" ]
+      [ "SetVariableEditor", "class_fungus_1_1_editor_utils_1_1_set_variable_editor.html", "class_fungus_1_1_editor_utils_1_1_set_variable_editor" ],
+      [ "VariablePropertyInfo", "struct_fungus_1_1_editor_utils_1_1_set_variable_editor_1_1_variable_property_info.html", "struct_fungus_1_1_editor_utils_1_1_set_variable_editor_1_1_variable_property_info" ]
     ] ],
     [ "ShakeCamera.cs", "_shake_camera_8cs.html", [
       [ "ShakeCamera", "class_fungus_1_1_shake_camera.html", "class_fungus_1_1_shake_camera" ]
@@ -1114,6 +1137,9 @@ var files =
     [ "StopBlock.cs", "_stop_block_8cs.html", "_stop_block_8cs" ],
     [ "StopFlowchart.cs", "_stop_flowchart_8cs.html", [
       [ "StopFlowchart", "class_fungus_1_1_stop_flowchart.html", "class_fungus_1_1_stop_flowchart" ]
+    ] ],
+    [ "StopMotionRigidBody2D.cs", "_stop_motion_rigid_body2_d_8cs.html", [
+      [ "StopMotionRigidBody2D", "class_fungus_1_1_stop_motion_rigid_body2_d.html", "class_fungus_1_1_stop_motion_rigid_body2_d" ]
     ] ],
     [ "StopMusic.cs", "_stop_music_8cs.html", [
       [ "StopMusic", "class_fungus_1_1_stop_music.html", "class_fungus_1_1_stop_music" ]
@@ -1165,6 +1191,9 @@ var files =
     [ "TransformChanged.cs", "_transform_changed_8cs.html", [
       [ "TransformChanged", "class_fungus_1_1_transform_changed.html", "class_fungus_1_1_transform_changed" ]
     ] ],
+    [ "TransformProperty.cs", "_transform_property_8cs.html", [
+      [ "TransformProperty", "class_fungus_1_1_transform_property.html", "class_fungus_1_1_transform_property" ]
+    ] ],
     [ "TransformVariable.cs", "_transform_variable_8cs.html", [
       [ "TransformVariable", "class_fungus_1_1_transform_variable.html", null ],
       [ "TransformData", "struct_fungus_1_1_transform_data.html", "struct_fungus_1_1_transform_data" ]
@@ -1209,7 +1238,8 @@ var files =
       [ "ObjectDataDrawer", "class_fungus_1_1_editor_utils_1_1_object_data_drawer.html", null ],
       [ "AnimatorDataDrawer", "class_fungus_1_1_editor_utils_1_1_animator_data_drawer.html", null ],
       [ "TransformDataDrawer", "class_fungus_1_1_editor_utils_1_1_transform_data_drawer.html", null ],
-      [ "AudioSourceDrawer", "class_fungus_1_1_editor_utils_1_1_audio_source_drawer.html", null ]
+      [ "AudioSourceDrawer", "class_fungus_1_1_editor_utils_1_1_audio_source_drawer.html", null ],
+      [ "Rigidbody2DDataDrawer", "class_fungus_1_1_editor_utils_1_1_rigidbody2_d_data_drawer.html", null ]
     ] ],
     [ "VariableListAdaptor.cs", "_variable_list_adaptor_8cs.html", [
       [ "VariableListAdaptor", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor" ]
@@ -1241,6 +1271,18 @@ var files =
     [ "Vector2Variable.cs", "_vector2_variable_8cs.html", [
       [ "Vector2Variable", "class_fungus_1_1_vector2_variable.html", null ],
       [ "Vector2Data", "struct_fungus_1_1_vector2_data.html", "struct_fungus_1_1_vector2_data" ]
+    ] ],
+    [ "Vector3Arithmetic.cs", "_vector3_arithmetic_8cs.html", [
+      [ "Vector3Arithmetic", "class_fungus_1_1_vector3_arithmetic.html", "class_fungus_1_1_vector3_arithmetic" ]
+    ] ],
+    [ "Vector3Fields.cs", "_vector3_fields_8cs.html", [
+      [ "Vector3Fields", "class_fungus_1_1_vector3_fields.html", "class_fungus_1_1_vector3_fields" ]
+    ] ],
+    [ "Vector3Normalise.cs", "_vector3_normalise_8cs.html", [
+      [ "Vector3Normalise", "class_fungus_1_1_vector3_normalise.html", "class_fungus_1_1_vector3_normalise" ]
+    ] ],
+    [ "Vector3ToVector2.cs", "_vector3_to_vector2_8cs.html", [
+      [ "Vector3ToVector2", "class_fungus_1_1_vector3_to_vector2.html", "class_fungus_1_1_vector3_to_vector2" ]
     ] ],
     [ "Vector3Variable.cs", "_vector3_variable_8cs.html", [
       [ "Vector3Variable", "class_fungus_1_1_vector3_variable.html", null ],

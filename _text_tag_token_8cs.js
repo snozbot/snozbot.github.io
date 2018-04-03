@@ -29,6 +29,7 @@ var _text_tag_token_8cs =
       [ "Audio", "_text_tag_token_8cs.html#a1db437b9e85356df8aa76c326413cc2bab22f0418e8ac915eb66f829d262d14a2", null ],
       [ "AudioLoop", "_text_tag_token_8cs.html#a1db437b9e85356df8aa76c326413cc2ba4568cd0211ed313ed52e677281c7f55e", null ],
       [ "AudioPause", "_text_tag_token_8cs.html#a1db437b9e85356df8aa76c326413cc2bae207a9f7cccbf4079a69d67b2c459f42", null ],
-      [ "AudioStop", "_text_tag_token_8cs.html#a1db437b9e85356df8aa76c326413cc2bad2e234339b0c19d00441dd721a226a1a", null ]
+      [ "AudioStop", "_text_tag_token_8cs.html#a1db437b9e85356df8aa76c326413cc2bad2e234339b0c19d00441dd721a226a1a", null ],
+      [ "WaitForVoiceOver", "_text_tag_token_8cs.html#a1db437b9e85356df8aa76c326413cc2bac7e7e0e105ff0162892707986d29b89e", null ]
     ] ]
 ];
