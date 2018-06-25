@@ -46,6 +46,7 @@ var command_reference =
       [ "Stop Flowchart", "flow_commands.html#StopFlowchart", null ],
       [ "Wait", "flow_commands.html#Wait", null ],
       [ "Wait Frames", "flow_commands.html#WaitFrames", null ],
+      [ "WaitInput", "flow_commands.html#WaitInput", null ],
       [ "While", "flow_commands.html#While", null ]
     ] ],
     [ "iTween commands", "itween_commands.html", [
@@ -70,7 +71,8 @@ var command_reference =
       [ "Stop Tweens", "itween_commands.html#StopTweens", null ]
     ] ],
     [ "Input commands", "input_commands.html", [
-      [ "GetAxis", "input_commands.html#GetAxis", null ]
+      [ "GetAxis", "input_commands.html#GetAxis", null ],
+      [ "GetKey", "input_commands.html#GetKey", null ]
     ] ],
     [ "Math commands", "math_commands.html", [
       [ "Abs", "math_commands.html#Abs", null ],

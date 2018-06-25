@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['materialdata',['materialData',['../class_fungus_1_1_set_variable.html#ab51af01e54352bc42e590aafb73e5c08',1,'Fungus.SetVariable.materialData()'],['../class_fungus_1_1_variable_condition.html#aa0e9c2ae4f6e9b23b5dab3e0c5364474',1,'Fungus.VariableCondition.materialData()']]],
   ['materialref',['materialRef',['../struct_fungus_1_1_material_data.html#a0480348c97d882885381c17355c78678',1,'Fungus::MaterialData']]],
   ['materialval',['materialVal',['../struct_fungus_1_1_material_data.html#ad645003d78fbf6e44f448a8854adabf0',1,'Fungus::MaterialData']]],
   ['materialvalue',['materialValue',['../class_fungus_1_1_object_value.html#afd9a92fe64df13e093dd23f5436cbfb3',1,'Fungus::ObjectValue']]],

@@ -28,6 +28,7 @@ var searchData=
   ['input_5fevents_2emd',['input_events.md',['../input__events_8md.html',1,'']]],
   ['inputfield',['inputField',['../class_fungus_1_1_writer.html#a52fbf99acb45edf28054024a40818df6',1,'Fungus::Writer']]],
   ['inputflag',['inputFlag',['../class_fungus_1_1_writer.html#a69d6c0e1ae6f5163a626234404bdf0c6',1,'Fungus::Writer']]],
+  ['inputkeyquerytype',['InputKeyQueryType',['../class_fungus_1_1_get_key.html#a6ed4a33f0b06fd4cb982ea39f407c7cb',1,'Fungus::GetKey']]],
   ['inputsound',['inputSound',['../class_fungus_1_1_writer_audio.html#ae881d0e5b23249e6cebd9b9341d24f00',1,'Fungus::WriterAudio']]],
   ['inputsoundprop',['inputSoundProp',['../class_fungus_1_1_editor_utils_1_1_writer_audio_editor.html#a1a6a39ac74df3d67655b5a933bdb4a02',1,'Fungus::EditorUtils::WriterAudioEditor']]],
   ['insert',['Insert',['../class_fungus_1_1_editor_utils_1_1_command_list_adaptor.html#ad8f8b613347612854d72814383c64bfb',1,'Fungus.EditorUtils.CommandListAdaptor.Insert()'],['../class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#a03d971610ca15cea55cc9100aabb800a',1,'Fungus.EditorUtils.VariableListAdaptor.Insert()']]],

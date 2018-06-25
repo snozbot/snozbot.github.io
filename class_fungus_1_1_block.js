@@ -6,6 +6,7 @@ var class_fungus_1_1_block =
     [ "GetExecutionCount", "class_fungus_1_1_block.html#a4c6a00503a5d0c0143348570accc65af", null ],
     [ "GetFlowchart", "class_fungus_1_1_block.html#a791728f55c223a7f2875737e4882ccd5", null ],
     [ "GetLabelIndex", "class_fungus_1_1_block.html#a8bee2ad5d6f4cc47962bc7e8d2f80465", null ],
+    [ "GetPreviousActiveCommandIndent", "class_fungus_1_1_block.html#a4f0039c735e50c1c3f98f6bde1f6bcaa", null ],
     [ "GetPreviousActiveCommandType", "class_fungus_1_1_block.html#ac3939aa0ebae58b5bd7f9ef5029a98e3", null ],
     [ "IsExecuting", "class_fungus_1_1_block.html#ae0b01590d752a1bd133a758376fcaae7", null ],
     [ "SetExecutionInfo", "class_fungus_1_1_block.html#ab77483f4bd5f45d8007adcbb590d2c02", null ],

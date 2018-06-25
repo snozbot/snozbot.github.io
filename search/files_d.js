@@ -10,6 +10,7 @@ var searchData=
   ['menudialog_2ecs',['MenuDialog.cs',['../_menu_dialog_8cs.html',1,'']]],
   ['menueditor_2ecs',['MenuEditor.cs',['../_menu_editor_8cs.html',1,'']]],
   ['menushuffle_2ecs',['MenuShuffle.cs',['../_menu_shuffle_8cs.html',1,'']]],
+  ['menusignals_2ecs',['MenuSignals.cs',['../_menu_signals_8cs.html',1,'']]],
   ['menutimer_2ecs',['MenuTimer.cs',['../_menu_timer_8cs.html',1,'']]],
   ['menutimereditor_2ecs',['MenuTimerEditor.cs',['../_menu_timer_editor_8cs.html',1,'']]],
   ['messagereceived_2ecs',['MessageReceived.cs',['../_message_received_8cs.html',1,'']]],

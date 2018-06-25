@@ -14,6 +14,7 @@ var searchData=
   ['doinvoke',['DoInvoke',['../class_fungus_1_1_invoke_event.html#af98f55d98eb2a3f4d65072fb6c3be3e6',1,'Fungus::InvokeEvent']]],
   ['doloadblock',['DoLoadBlock',['../class_fungus_1_1_scene_loader.html#ac6bdadc90f3d3dea97724aefc3eb0a50',1,'Fungus::SceneLoader']]],
   ['domovetween',['DoMoveTween',['../class_fungus_1_1_portrait_controller.html#ae292026be162beb8b45250dea943e17c',1,'Fungus.PortraitController.DoMoveTween(Character character, RectTransform fromPosition, RectTransform toPosition, float moveDuration, Boolean waitUntilFinished)'],['../class_fungus_1_1_portrait_controller.html#a406be76d15a95c4f31edef24f483684c',1,'Fungus.PortraitController.DoMoveTween(PortraitOptions options)']]],
+  ['donarrativeadded',['DoNarrativeAdded',['../class_fungus_1_1_narrative_log.html#aff5a1f04ab9c11d69fa093c1dcf50d1b',1,'Fungus::NarrativeLog']]],
   ['dopointerclick',['DoPointerClick',['../class_fungus_1_1_clickable2_d.html#a87d837108bf68700f4156d6e204559de',1,'Fungus::Clickable2D']]],
   ['dopointerenter',['DoPointerEnter',['../class_fungus_1_1_clickable2_d.html#acc341b540b8e21da839ca255ba651392',1,'Fungus.Clickable2D.DoPointerEnter()'],['../class_fungus_1_1_draggable2_d.html#a5d8ae45580e4a44e4a7100d0091f95e6',1,'Fungus.Draggable2D.DoPointerEnter()']]],
   ['dopointerexit',['DoPointerExit',['../class_fungus_1_1_clickable2_d.html#a3277a569d71b38c069fedeae0b86f7fb',1,'Fungus.Clickable2D.DoPointerExit()'],['../class_fungus_1_1_draggable2_d.html#a9f4f960797cfe26c5ca7e70e7ab0df7a',1,'Fungus.Draggable2D.DoPointerExit()']]],

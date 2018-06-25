@@ -38,9 +38,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.6.1--></span>
+   &#160;<span id="projectnumber"><!--v3.9.0--></span>
    </div>
-   <div id="projectbrief">v3.6.1 Documentation</div>
+   <div id="projectbrief">v3.9.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -95,7 +95,8 @@ $(document).ready(function(){initNavTree('changelog.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#v3_8_0">v3.8.0 </a></li>
+<ul><li class="level1"><a href="#v3_9_0">v3.9.0 </a></li>
+<li class="level1"><a href="#v3_8_0">v3.8.0 </a></li>
 <li class="level1"><a href="#v3_7_0">v3.7.0 </a></li>
 <li class="level1"><a href="#v3_6_0">v3.6.0 </a></li>
 <li class="level1"><a href="#v3_5_1">v3.5.1 </a></li>
@@ -114,7 +115,49 @@ $(document).ready(function(){initNavTree('changelog.html','');});
 <li class="level1"><a href="#v2_1_0">v2.1.0 </a></li>
 </ul>
 </div>
-<div class="textblock"><h1><a class="anchor" id="v3_8_0"></a>
+<div class="textblock"><h1><a class="anchor" id="v3_9_0"></a>
+v3.9.0 </h1>
+<h2>Added</h2>
+<ul>
+<li>Conversation command supports setting default clear, wait for input and fade options #673</li>
+<li>Added <a class="el" href="namespace_fungus.html">Fungus</a> Priority Signals #671 #670<ul>
+<li>allows fungus to notify the outside world that it is doing something of priority so the outside world can pause</li>
+</ul>
+</li>
+<li>Added GetKey fungus command. #683<ul>
+<li>Supports positive and negative keybindings output to a bool, float or int variable</li>
+<li>Supports checking for pressed, release and current state</li>
+<li>Uses keycode with optional fallback to key name</li>
+</ul>
+</li>
+<li>Disabled Flowcharts and EventHandlers. #682</li>
+<li>Added Dialog history on Save Menu UI #675</li>
+<li>Added BlockReference, a simple data type with a property drawer that makes it easier to select a target fungus block from external c# scripts. #669</li>
+<li>Added comparison (equals and not equals) as well as assign functionality to most variable types. #668</li>
+</ul>
+<h2>Changed</h2>
+<ul>
+<li>Updated to Unity 2018.1 #681</li>
+<li>Conversation Manager Regex now allows - and _ within say params group. #692</li>
+<li>Conversation example scene makes some basic use of new Conversation features</li>
+<li>Update LeanTween to 2.46 #689</li>
+<li>PortraitController forces alpha and color tweens to be non recursive.</li>
+<li>Updated playground demos<ul>
+<li>Football uses GetKey instead of GetAxis (get axis was failing in some packages as inputmanager axis were not imported)</li>
+<li>Defender had a bug due to a change in how unity syncs 'up' between transform and rb2d</li>
+</ul>
+</li>
+</ul>
+<h2>Fixed</h2>
+<ul>
+<li>ElseIfs now confirm that the previous condition was at the same indent as themselves. #693</li>
+<li>NarrativeLog is tolerant of null Name or Story fields #690</li>
+<li>Force the hierarchy icon list to refresh when a script a is loaded/changed #672</li>
+<li>Eventhandlers no longer fire when the flowchart is disabled #682</li>
+<li>StopFlowchart can continue now #685</li>
+<li>Fixed stray \ that were not being stripped on Mac OS, when importing editor resources. #686</li>
+</ul>
+<h1><a class="anchor" id="v3_8_0"></a>
 v3.8.0 </h1>
 <p>Many thanks to contributors stevehalliwell, FrederickKDP, MeMark2, KVinS, charblar, FatPuzo for their work on this release!</p>
 <h2>Added</h2>
@@ -809,7 +852,7 @@ v2.1.0 </h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">%Fungus Documentation</a></li>
-    <li class="footer">Generated on Tue Apr 3 2018 23:20:20 for Fungus by
+    <li class="footer">Generated on Mon Jun 25 2018 22:56:31 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

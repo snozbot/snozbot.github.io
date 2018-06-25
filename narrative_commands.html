@@ -38,9 +38,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.6.1--></span>
+   &#160;<span id="projectnumber"><!--v3.9.0--></span>
    </div>
-   <div id="projectbrief">v3.6.1 Documentation</div>
+   <div id="projectbrief">v3.9.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -140,8 +140,14 @@ Control Stage</h1>
 </table>
 <h1><a class="anchor" id="Conversation"></a>
 Conversation</h1>
-<p>Do multiple say and portrait commands in a single block of text. Format is: [character] [portrait] [stage position] [: Story text]</p>
-<p>Defined in <a class="el" href="class_fungus_1_1_conversation.html" title="Do multiple say and portrait commands in a single block of text. ">Fungus.Conversation</a> </p>
+<p>Do multiple say and portrait commands in a single block of text. Format is: [character] [portrait] [stage position] [hide] [&lt;&lt;&lt; | &gt;&gt;&gt;] [clear | noclear] [wait | nowait] [fade | nofade] [: Story text]</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_conversation.html" title="Do multiple say and portrait commands in a single block of text. ">Fungus.Conversation</a></p>
+<table class="doxtable">
+<tr>
+<th>Property </th><th>Type </th><th>Description  </th></tr>
+<tr>
+<td>Wait For Seconds </td><td><a class="el" href="struct_fungus_1_1_float_data.html" title="Container for an float variable reference or constant value. ">Fungus.FloatData</a> </td><td>a wait for seconds added to each item of the conversation. </td></tr>
+</table>
 <h1><a class="anchor" id="Menu"></a>
 Menu</h1>
 <p>Displays a button in a multiple choice menu</p>
@@ -294,7 +300,7 @@ Set Say Dialog</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="command_reference.html">Command Reference</a></li>
-    <li class="footer">Generated on Tue Apr 3 2018 23:20:20 for Fungus by
+    <li class="footer">Generated on Mon Jun 25 2018 22:56:31 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

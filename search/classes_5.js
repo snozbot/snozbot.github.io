@@ -17,5 +17,9 @@ var searchData=
   ['flowchartwindow',['FlowchartWindow',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html',1,'Fungus::EditorUtils']]],
   ['fullscreen',['Fullscreen',['../class_fungus_1_1_fullscreen.html',1,'Fungus']]],
   ['fungusmanager',['FungusManager',['../class_fungus_1_1_fungus_manager.html',1,'Fungus']]],
+  ['fungusprioritycount',['FungusPriorityCount',['../class_fungus_1_1_fungus_priority_count.html',1,'Fungus']]],
+  ['fungusprioritydecrease',['FungusPriorityDecrease',['../class_fungus_1_1_fungus_priority_decrease.html',1,'Fungus']]],
+  ['funguspriorityincrease',['FungusPriorityIncrease',['../class_fungus_1_1_fungus_priority_increase.html',1,'Fungus']]],
+  ['funguspriorityreset',['FungusPriorityReset',['../class_fungus_1_1_fungus_priority_reset.html',1,'Fungus']]],
   ['fungusstate',['FungusState',['../class_fungus_1_1_fungus_state.html',1,'Fungus']]]
 ];

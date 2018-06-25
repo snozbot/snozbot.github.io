@@ -37,6 +37,7 @@ var class_fungus_1_1_say_dialog =
     [ "writerAudio", "class_fungus_1_1_say_dialog.html#a9cf766f0d2fcf106f15de49dc7f31c39", null ],
     [ "CharacterImage", "class_fungus_1_1_say_dialog.html#a38a9c0adbe25b453adbbeb990df436e0", null ],
     [ "FadeWhenDone", "class_fungus_1_1_say_dialog.html#aa6967c7394abb38e19a3a67007b34046", null ],
+    [ "NameText", "class_fungus_1_1_say_dialog.html#a0a241f8872d7a7c4295aabf35d7aa983", null ],
     [ "SpeakingCharacter", "class_fungus_1_1_say_dialog.html#ae66c77b52fef06340e9e6542d648cd1d", null ],
     [ "StoryText", "class_fungus_1_1_say_dialog.html#ac15e32226f07000bd1a5b4f632701138", null ]
 ];

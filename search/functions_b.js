@@ -1,6 +1,8 @@
 var searchData=
 [
   ['namestartswith',['NameStartsWith',['../class_fungus_1_1_character.html#a28eb16eb73daf5c37391204c225b86c1',1,'Fungus::Character']]],
+  ['narrativeaddedhandler',['NarrativeAddedHandler',['../class_fungus_1_1_narrative_log.html#a5ffee9e0fcdb010dc534971a3848accf',1,'Fungus::NarrativeLog']]],
+  ['narrativedata',['NarrativeData',['../class_fungus_1_1_narrative_data.html#abe5d4df702475b28503f89bd3216046e',1,'Fungus::NarrativeData']]],
   ['nextitemid',['NextItemId',['../class_fungus_1_1_flowchart.html#ae1a86f4d35cbd1de865776f000a7a068',1,'Fungus::Flowchart']]],
   ['notifyend',['NotifyEnd',['../class_fungus_1_1_writer.html#a65ce4b573a2256b97d50503ed90a6869',1,'Fungus::Writer']]],
   ['notifyeventhandlers',['NotifyEventHandlers',['../class_fungus_1_1_save_point_loaded.html#ad8cf587121145dc38798955be6b5e1ff',1,'Fungus::SavePointLoaded']]],

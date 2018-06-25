@@ -13,7 +13,7 @@ var searchData=
   ['fadeout',['fadeOut',['../class_fungus_1_1_fade_to_view.html#a66e2fec7f224da65a45f734bed3d85cc',1,'Fungus::FadeToView']]],
   ['fadetexture',['fadeTexture',['../class_fungus_1_1_fade_screen.html#a4031a0cff51e6bbc1a1dfac7c12e0e6c',1,'Fungus.FadeScreen.fadeTexture()'],['../class_fungus_1_1_fade_to_view.html#a728b7c8b18fb32cb7156ec01b9b79f08',1,'Fungus.FadeToView.fadeTexture()']]],
   ['fadetimer',['fadeTimer',['../class_fungus_1_1_sprite_fader.html#a17eed6608ecdc6a1e6e1e00bb9e1526a',1,'Fungus::SpriteFader']]],
-  ['fadewhendone',['fadeWhenDone',['../class_fungus_1_1_say.html#a6a07b313838efa9a59afc1ccb9c3684c',1,'Fungus.Say.fadeWhenDone()'],['../class_fungus_1_1_say_dialog.html#a1b9e403612a1b4780b1bbb84e95a1954',1,'Fungus.SayDialog.fadeWhenDone()']]],
+  ['fadewhendone',['fadeWhenDone',['../class_fungus_1_1_conversation.html#a87a5a633bad077da98c6e27c1e6229ee',1,'Fungus.Conversation.fadeWhenDone()'],['../class_fungus_1_1_say.html#a6a07b313838efa9a59afc1ccb9c3684c',1,'Fungus.Say.fadeWhenDone()'],['../class_fungus_1_1_say_dialog.html#a1b9e403612a1b4780b1bbb84e95a1954',1,'Fungus.SayDialog.fadeWhenDone()']]],
   ['fadewhendoneprop',['fadeWhenDoneProp',['../class_fungus_1_1_editor_utils_1_1_say_editor.html#a5f994f99410fbdab0c6bc45de301bfd1',1,'Fungus::EditorUtils::SayEditor']]],
   ['filteredblocks',['filteredBlocks',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a798249d3e12bc426ca8a85e16060256c',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['filteredcommandpreviewselecteditem',['filteredCommandPreviewSelectedItem',['../class_fungus_1_1_editor_utils_1_1_block_editor.html#a18b5873a777f7ed35174fa020297880a',1,'Fungus::EditorUtils::BlockEditor']]],

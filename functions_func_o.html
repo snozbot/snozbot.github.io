@@ -38,9 +38,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.6.1--></span>
+   &#160;<span id="projectnumber"><!--v3.9.0--></span>
    </div>
-   <div id="projectbrief">v3.6.1 Documentation</div>
+   <div id="projectbrief">v3.9.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -145,6 +145,7 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 , <a class="el" href="class_fungus_1_1_editor_utils_1_1_say_editor.html#ade033f42a4085c93ccad27bd357bcf2a">Fungus.EditorUtils.SayEditor</a>
 , <a class="el" href="class_fungus_1_1_flowchart.html#a7140222dfc2ff79eaa6efa2f9c68030f">Fungus.Flowchart</a>
 , <a class="el" href="class_fungus_1_1_localization.html#a56bfd9a4846373cab81ec5625c5e05c3">Fungus.Localization</a>
+, <a class="el" href="class_fungus_1_1_narrative_log.html#abcc08997f1c5ae37226ce21348e37422">Fungus.NarrativeLog</a>
 , <a class="el" href="class_fungus_1_1_object_clicked.html#aa87ed5b44b8025c814b023e5f797d5e1">Fungus.ObjectClicked</a>
 , <a class="el" href="class_fungus_1_1_stage.html#a98373c782855ed865ca12a6fff37b0de">Fungus.Stage</a>
 </li>
@@ -218,6 +219,7 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 , <a class="el" href="class_fungus_1_1_move_add.html#afbc78fc372419c6303945a6c24b55fa3">Fungus.MoveAdd</a>
 , <a class="el" href="class_fungus_1_1_move_from.html#a8b0602b4422ff51cf2754b65f048283f">Fungus.MoveFrom</a>
 , <a class="el" href="class_fungus_1_1_move_to.html#af6188cc1127bd26f475221c97202e72d">Fungus.MoveTo</a>
+, <a class="el" href="class_fungus_1_1_narrative_log.html#a108ee82e244ace262c4aa1b225052f2d">Fungus.NarrativeLog</a>
 , <a class="el" href="class_fungus_1_1_object_clicked.html#a542a9c24e42f407e136f4e2af11ba2f6">Fungus.ObjectClicked</a>
 , <a class="el" href="class_fungus_1_1_punch_position.html#a94b3510059ed5c5266beb25a09d3330e">Fungus.PunchPosition</a>
 , <a class="el" href="class_fungus_1_1_punch_rotation.html#a75c28bdb71c1de1e9e2efd42699bec4b">Fungus.PunchRotation</a>
@@ -285,7 +287,12 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 , <a class="el" href="class_fungus_1_1_fade_sprite.html#a2ee819c389033505e6f7c4dedc7b4b78">Fungus.FadeSprite</a>
 , <a class="el" href="class_fungus_1_1_fade_to_view.html#a65c7659ecf05475f33ab86f8dda533c4">Fungus.FadeToView</a>
 , <a class="el" href="class_fungus_1_1_fullscreen.html#a77457369faa8d75edbeec6b1165cb4e5">Fungus.Fullscreen</a>
+, <a class="el" href="class_fungus_1_1_fungus_priority_count.html#a13fb143770d228168f23e3aff91bf8d0">Fungus.FungusPriorityCount</a>
+, <a class="el" href="class_fungus_1_1_fungus_priority_decrease.html#a50f060abb287f2bb61917b2081a7d0c2">Fungus.FungusPriorityDecrease</a>
+, <a class="el" href="class_fungus_1_1_fungus_priority_increase.html#a7431c1782ed894411417af3d0723e13c">Fungus.FungusPriorityIncrease</a>
+, <a class="el" href="class_fungus_1_1_fungus_priority_reset.html#a1d793ce3efb8b22fda572fb556a6dcbd">Fungus.FungusPriorityReset</a>
 , <a class="el" href="class_fungus_1_1_get_axis.html#ab2cac645e85c93a49877693e735d3826">Fungus.GetAxis</a>
+, <a class="el" href="class_fungus_1_1_get_key.html#ae0851f0be4b910ecbdae52229ce04295">Fungus.GetKey</a>
 , <a class="el" href="class_fungus_1_1_get_text.html#ad8aea6a101e49ad57e767525631d762b">Fungus.GetText</a>
 , <a class="el" href="class_fungus_1_1_get_toggle_state.html#a5fe780d3914fc030a82aa98d0b258cd0">Fungus.GetToggleState</a>
 , <a class="el" href="class_fungus_1_1_inv.html#af463b6f8c8cbbd49e1bec9eb5be1362d">Fungus.Inv</a>
@@ -389,6 +396,7 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 </li>
 <li>OnGUI()
 : <a class="el" href="class_fungus_1_1_camera_manager.html#a620c2f21bf0042ef456c3def2cde1c39">Fungus.CameraManager</a>
+, <a class="el" href="class_fungus_1_1_editor_utils_1_1_block_reference_drawer.html#aa988e0df9db83b467afb01623c654f99">Fungus.EditorUtils.BlockReferenceDrawer</a>
 , <a class="el" href="class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a2f553f18990df86d13d3845fc6178496">Fungus.EditorUtils.FlowchartWindow</a>
 , <a class="el" href="class_fungus_1_1_editor_utils_1_1_variable_data_drawer.html#a2f35a552edfce595c06f838f93715ff0">Fungus.EditorUtils.VariableDataDrawer&lt; T &gt;</a>
 , <a class="el" href="class_fungus_1_1_editor_utils_1_1_variable_drawer.html#ae4b96a1be00036d8d1e41b33a174409f">Fungus.EditorUtils.VariableDrawer</a>
@@ -551,6 +559,9 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 <li>OnWillSaveAssets()
 : <a class="el" href="class_fungus_1_1_editor_utils_1_1_asset_mod_processor.html#a70b7a34b1c2882de8c69a231b3cfdb45">Fungus.EditorUtils.AssetModProcessor</a>
 </li>
+<li>OnWriterState()
+: <a class="el" href="class_fungus_1_1_narrative_log.html#a76f9b5f428ce7cd0f1acf08d9b60493f">Fungus.NarrativeLog</a>
+</li>
 <li>OpenBlock()
 : <a class="el" href="class_fungus_1_1_command.html#a27b41ef9d789b603b4a7fc092266b3ff">Fungus.Command</a>
 , <a class="el" href="class_fungus_1_1_condition.html#a934f50c0e1ebd4b8a8cf69d07f6d85b2">Fungus.Condition</a>
@@ -615,7 +626,7 @@ $(document).ready(function(){initNavTree('functions_func_o.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Apr 3 2018 23:20:24 for Fungus by
+    <li class="footer">Generated on Mon Jun 25 2018 22:56:34 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

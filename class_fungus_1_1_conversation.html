@@ -38,9 +38,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.6.1--></span>
+   &#160;<span id="projectnumber"><!--v3.9.0--></span>
    </div>
-   <div id="projectbrief">v3.6.1 Documentation</div>
+   <div id="projectbrief">v3.9.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -192,6 +192,14 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a2e8f0578a42bff17dd14e2e4af11f9cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91bfde85c46a1d7e9fdd10ed74d04a97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_fungus_1_1_conversation_manager.html">ConversationManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_conversation.html#a91bfde85c46a1d7e9fdd10ed74d04a97">conversationManager</a> = new <a class="el" href="class_fungus_1_1_conversation_manager.html">ConversationManager</a>()</td></tr>
 <tr class="separator:a91bfde85c46a1d7e9fdd10ed74d04a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ce3ba9bef78c2bc21782a114a91f981"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fungus_1_1_boolean_data.html">BooleanData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_conversation.html#a8ce3ba9bef78c2bc21782a114a91f981">clearPrevious</a> = new <a class="el" href="struct_fungus_1_1_boolean_data.html">BooleanData</a>(true)</td></tr>
+<tr class="separator:a8ce3ba9bef78c2bc21782a114a91f981"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cc98bcf68e074fcc72ab43efa0347a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fungus_1_1_boolean_data.html">BooleanData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_conversation.html#a6cc98bcf68e074fcc72ab43efa0347a7">waitForInput</a> = new <a class="el" href="struct_fungus_1_1_boolean_data.html">BooleanData</a>(true)</td></tr>
+<tr class="separator:a6cc98bcf68e074fcc72ab43efa0347a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a625e176ecff1f6e22b1628cef6b6278f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fungus_1_1_float_data.html">FloatData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_conversation.html#a625e176ecff1f6e22b1628cef6b6278f">waitForSeconds</a> = new <a class="el" href="struct_fungus_1_1_float_data.html">FloatData</a>(0)</td></tr>
+<tr class="separator:a625e176ecff1f6e22b1628cef6b6278f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87a5a633bad077da98c6e27c1e6229ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fungus_1_1_boolean_data.html">BooleanData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_conversation.html#a87a5a633bad077da98c6e27c1e6229ee">fadeWhenDone</a> = new <a class="el" href="struct_fungus_1_1_boolean_data.html">BooleanData</a>(true)</td></tr>
+<tr class="separator:a87a5a633bad077da98c6e27c1e6229ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_fungus_1_1_command"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_fungus_1_1_command')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_fungus_1_1_command.html">Fungus.Command</a></td></tr>
 <tr class="memitem:a1b7b2b7e92ca02f2d11cfa08b83412a5 inherit pro_attribs_class_fungus_1_1_command"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_command.html#a1b7b2b7e92ca02f2d11cfa08b83412a5">itemId</a> = -1</td></tr>
 <tr class="separator:a1b7b2b7e92ca02f2d11cfa08b83412a5 inherit pro_attribs_class_fungus_1_1_command"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,7 +235,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Do multiple say and portrait commands in a single block of text. </p>
-<p>Format is: [character] [portrait] [stage position] [: Story text]. </p>
+<p>Format is: [character] [portrait] [stage position] [hide] [&lt;&lt;&lt; | &gt;&gt;&gt;] [clear | noclear] [wait | nowait] [fade | nofade] [: Story text]. </p>
 
 <p class="definition">Definition at line <a class="el" href="_conversation_8cs_source.html#l00017">17</a> of file <a class="el" href="_conversation_8cs_source.html">Conversation.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -254,7 +262,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_conversation_8cs_source.html#l00028">28</a> of file <a class="el" href="_conversation_8cs_source.html">Conversation.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_conversation_8cs_source.html#l00034">34</a> of file <a class="el" href="_conversation_8cs_source.html">Conversation.cs</a>.</p>
 
 </div>
 </div>
@@ -286,7 +294,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_fungus_1_1_command.html#a81b8985331b32f0c6d601beb093235ed">Fungus.Command</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_conversation_8cs_source.html#l00050">50</a> of file <a class="el" href="_conversation_8cs_source.html">Conversation.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_conversation_8cs_source.html#l00061">61</a> of file <a class="el" href="_conversation_8cs_source.html">Conversation.cs</a>.</p>
 
 </div>
 </div>
@@ -317,7 +325,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_fungus_1_1_command.html#a5682c19ec9194fdc4a78e54729381816">Fungus.Command</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_conversation_8cs_source.html#l00045">45</a> of file <a class="el" href="_conversation_8cs_source.html">Conversation.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_conversation_8cs_source.html#l00056">56</a> of file <a class="el" href="_conversation_8cs_source.html">Conversation.cs</a>.</p>
 
 </div>
 </div>
@@ -348,7 +356,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_fungus_1_1_command.html#a61e2536a57143b72610f1abd50d57427">Fungus.Command</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_conversation_8cs_source.html#l00040">40</a> of file <a class="el" href="_conversation_8cs_source.html">Conversation.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_conversation_8cs_source.html#l00051">51</a> of file <a class="el" href="_conversation_8cs_source.html">Conversation.cs</a>.</p>
 
 </div>
 </div>
@@ -375,11 +383,35 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_conversation_8cs_source.html#l00023">23</a> of file <a class="el" href="_conversation_8cs_source.html">Conversation.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_conversation_8cs_source.html#l00029">29</a> of file <a class="el" href="_conversation_8cs_source.html">Conversation.cs</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8ce3ba9bef78c2bc21782a114a91f981"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ce3ba9bef78c2bc21782a114a91f981">&#9670;&nbsp;</a></span>clearPrevious</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_fungus_1_1_boolean_data.html">BooleanData</a> Fungus.Conversation.clearPrevious = new <a class="el" href="struct_fungus_1_1_boolean_data.html">BooleanData</a>(true)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_conversation_8cs_source.html#l00023">23</a> of file <a class="el" href="_conversation_8cs_source.html">Conversation.cs</a>.</p>
+
+</div>
+</div>
 <a id="a91bfde85c46a1d7e9fdd10ed74d04a97"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a91bfde85c46a1d7e9fdd10ed74d04a97">&#9670;&nbsp;</a></span>conversationManager</h2>
 
@@ -428,6 +460,78 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a87a5a633bad077da98c6e27c1e6229ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87a5a633bad077da98c6e27c1e6229ee">&#9670;&nbsp;</a></span>fadeWhenDone</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_fungus_1_1_boolean_data.html">BooleanData</a> Fungus.Conversation.fadeWhenDone = new <a class="el" href="struct_fungus_1_1_boolean_data.html">BooleanData</a>(true)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_conversation_8cs_source.html#l00027">27</a> of file <a class="el" href="_conversation_8cs_source.html">Conversation.cs</a>.</p>
+
+</div>
+</div>
+<a id="a6cc98bcf68e074fcc72ab43efa0347a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cc98bcf68e074fcc72ab43efa0347a7">&#9670;&nbsp;</a></span>waitForInput</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_fungus_1_1_boolean_data.html">BooleanData</a> Fungus.Conversation.waitForInput = new <a class="el" href="struct_fungus_1_1_boolean_data.html">BooleanData</a>(true)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_conversation_8cs_source.html#l00024">24</a> of file <a class="el" href="_conversation_8cs_source.html">Conversation.cs</a>.</p>
+
+</div>
+</div>
+<a id="a625e176ecff1f6e22b1628cef6b6278f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a625e176ecff1f6e22b1628cef6b6278f">&#9670;&nbsp;</a></span>waitForSeconds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_fungus_1_1_float_data.html">FloatData</a> Fungus.Conversation.waitForSeconds = new <a class="el" href="struct_fungus_1_1_float_data.html">FloatData</a>(0)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_conversation_8cs_source.html#l00026">26</a> of file <a class="el" href="_conversation_8cs_source.html">Conversation.cs</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="_conversation_8cs_source.html">Conversation.cs</a></li>
 </ul>
@@ -437,7 +541,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_conversation.html">Conversation</a></li>
-    <li class="footer">Generated on Tue Apr 3 2018 23:20:21 for Fungus by
+    <li class="footer">Generated on Mon Jun 25 2018 22:56:32 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

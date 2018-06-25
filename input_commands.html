@@ -38,9 +38,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.6.1--></span>
+   &#160;<span id="projectnumber"><!--v3.9.0--></span>
    </div>
-   <div id="projectbrief">v3.6.1 Documentation</div>
+   <div id="projectbrief">v3.9.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('input_commands.html','');});
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#GetAxis">GetAxis</a></li>
+<li class="level1"><a href="#GetKey">GetKey</a></li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="GetAxis"></a>
@@ -110,13 +111,31 @@ GetAxis</h1>
 <tr>
 <td>Out Value </td><td><a class="el" href="struct_fungus_1_1_float_data.html" title="Container for an float variable reference or constant value. ">Fungus.FloatData</a> </td><td>Float to store the value of the GetAxis </td></tr>
 </table>
+<h1><a class="anchor" id="GetKey"></a>
+GetKey</h1>
+<p>Store Input.GetKey in a variable. Supports an optional Negative key input. A negative value will be overridden by a positive one, they do not add.</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_get_key.html" title="Store Input.GetKey in a variable. ">Fungus.GetKey</a></p>
+<table class="doxtable">
+<tr>
+<th>Property </th><th>Type </th><th>Description  </th></tr>
+<tr>
+<td>Key Code Negative </td><td>UnityEngine.KeyCode </td><td>Optional, secondary or negative keycode. For booleans will also set to true, for int and float will set to -1. </td></tr>
+<tr>
+<td>Key Code Name </td><td><a class="el" href="struct_fungus_1_1_string_data.html" title="Container for a string variable reference or constant value. ">Fungus.StringData</a> </td><td>Only used if KeyCode is KeyCode.None, expects a name of the key to use. </td></tr>
+<tr>
+<td>Key Code Name Negative </td><td><a class="el" href="struct_fungus_1_1_string_data.html" title="Container for a string variable reference or constant value. ">Fungus.StringData</a> </td><td>Optional, secondary or negative keycode. For booleans will also set to true, for int and float will set to -1.Only used if KeyCode is KeyCode.None, expects a name of the key to use. </td></tr>
+<tr>
+<td>Key Query Type </td><td><a class="el" href="class_fungus_1_1_get_key.html" title="Store Input.GetKey in a variable. ">Fungus.GetKey</a>+InputKeyQueryType </td><td>Do we want an Input.GetKeyDown, GetKeyUp or GetKey </td></tr>
+<tr>
+<td>Out Value </td><td><a class="el" href="class_fungus_1_1_variable.html" title="Abstract base class for variables. ">Fungus.Variable</a> </td><td>Will store true or false or 0 or 1 depending on type. Sets true or -1 for negative key values. </td></tr>
+</table>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="command_reference.html">Command Reference</a></li>
-    <li class="footer">Generated on Tue Apr 3 2018 23:20:20 for Fungus by
+    <li class="footer">Generated on Mon Jun 25 2018 22:56:31 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

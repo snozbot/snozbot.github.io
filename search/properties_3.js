@@ -9,6 +9,7 @@ var searchData=
   ['character',['Character',['../struct_fungus_1_1_conversation_manager_1_1_conversation_item.html#afe0827bdbbabcd848e57d84982d4256d',1,'Fungus::ConversationManager::ConversationItem']]],
   ['characterimage',['CharacterImage',['../class_fungus_1_1_say_dialog.html#a38a9c0adbe25b453adbbeb990df436e0',1,'Fungus::SayDialog']]],
   ['charactersonstage',['CharactersOnStage',['../class_fungus_1_1_stage.html#a0efd59d5619ca7d81e91e4430df30830',1,'Fungus::Stage']]],
+  ['clearprev',['ClearPrev',['../struct_fungus_1_1_conversation_manager_1_1_conversation_item.html#aaa20ac3925b719847dd8f7403ab3e843',1,'Fungus.ConversationManager.ConversationItem.ClearPrev()'],['../class_fungus_1_1_conversation_manager.html#a5400b91d625eed90595c52bab0aca88c',1,'Fungus.ConversationManager.ClearPrev()']]],
   ['clickenabled',['ClickEnabled',['../class_fungus_1_1_clickable2_d.html#a5581b1ebd10b9466228b333a9f2aa41b',1,'Fungus::Clickable2D']]],
   ['colorcommands',['ColorCommands',['../class_fungus_1_1_flowchart.html#a038a835751e59343d6588449779edb6e',1,'Fungus::Flowchart']]],
   ['commandindex',['CommandIndex',['../class_fungus_1_1_command.html#a9af2ca2a1445da0de097903451f3d558',1,'Fungus::Command']]],

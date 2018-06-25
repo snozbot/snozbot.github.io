@@ -3,6 +3,8 @@ var searchData=
   ['waitforclick',['waitForClick',['../class_fungus_1_1_say.html#a7d886f3edd6b095c59513cd9a73f8ff9',1,'Fungus::Say']]],
   ['waitforclickprop',['waitForClickProp',['../class_fungus_1_1_editor_utils_1_1_say_editor.html#adb3b648c40b37acc9cecf4c27d917b88',1,'Fungus::EditorUtils::SayEditor']]],
   ['waitforframes',['waitForFrames',['../class_fungus_1_1_game_started.html#a6521be4b3e0b920f033faaf7ae4b84e7',1,'Fungus::GameStarted']]],
+  ['waitforinput',['waitForInput',['../class_fungus_1_1_conversation.html#a6cc98bcf68e074fcc72ab43efa0347a7',1,'Fungus::Conversation']]],
+  ['waitforseconds',['waitForSeconds',['../class_fungus_1_1_conversation.html#a625e176ecff1f6e22b1628cef6b6278f',1,'Fungus::Conversation']]],
   ['waitforvo',['waitForVO',['../class_fungus_1_1_say.html#a66f9819e20c28a0298dd1402b167ef71',1,'Fungus::Say']]],
   ['waitforvoprop',['waitForVOProp',['../class_fungus_1_1_editor_utils_1_1_say_editor.html#ae72dd0b97ee34e80d90e0612b361cbd4',1,'Fungus::EditorUtils::SayEditor']]],
   ['waitframes',['waitFrames',['../class_fungus_1_1_object_clicked.html#a1b15dfb06a299c5cfb360c109709fdcf',1,'Fungus::ObjectClicked']]],

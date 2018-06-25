@@ -38,9 +38,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.6.1--></span>
+   &#160;<span id="projectnumber"><!--v3.9.0--></span>
    </div>
-   <div id="projectbrief">v3.6.1 Documentation</div>
+   <div id="projectbrief">v3.9.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('class_fungus_1_1_conversation_manager.
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="class_fungus_1_1_conversation_manager-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Fungus.ConversationManager Class Reference</div>  </div>
@@ -112,6 +113,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a9f8c02c6fc0eef7935b0c72d0b5ce33a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_conversation_manager.html#a9f8c02c6fc0eef7935b0c72d0b5ce33a">ConversationManager</a> ()</td></tr>
+<tr class="separator:a9f8c02c6fc0eef7935b0c72d0b5ce33a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7532c70dc1469065600ea56bc2baa91"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_conversation_manager.html#ad7532c70dc1469065600ea56bc2baa91">PopulateCharacterCache</a> ()</td></tr>
 <tr class="memdesc:ad7532c70dc1469065600ea56bc2baa91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Caches the character objects in the scene for fast lookup during conversations.  <a href="#ad7532c70dc1469065600ea56bc2baa91">More...</a><br /></td></tr>
 <tr class="separator:ad7532c70dc1469065600ea56bc2baa91"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,12 +144,43 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ad99aba7cb60f142d2922a1e55c65fdae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b94021ed897b5986f7ec4c8b2552514"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_conversation_manager.html#a3b94021ed897b5986f7ec4c8b2552514">exitSayWait</a></td></tr>
 <tr class="separator:a3b94021ed897b5986f7ec4c8b2552514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a5400b91d625eed90595c52bab0aca88c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_conversation_manager.html#a5400b91d625eed90595c52bab0aca88c">ClearPrev</a><code> [get, set]</code></td></tr>
+<tr class="separator:a5400b91d625eed90595c52bab0aca88c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac018554d88da673a06f9493ba361e5a2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_conversation_manager.html#ac018554d88da673a06f9493ba361e5a2">WaitForInput</a><code> [get, set]</code></td></tr>
+<tr class="separator:ac018554d88da673a06f9493ba361e5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30358eaaa04e240f66640e0022e4ebdf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_conversation_manager.html#a30358eaaa04e240f66640e0022e4ebdf">FadeDone</a><code> [get, set]</code></td></tr>
+<tr class="separator:a30358eaaa04e240f66640e0022e4ebdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbc0b4bf08ada918cf47594a068ed017"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fungus_1_1_float_data.html">FloatData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_conversation_manager.html#acbc0b4bf08ada918cf47594a068ed017">WaitForSeconds</a><code> [get, set]</code></td></tr>
+<tr class="separator:acbc0b4bf08ada918cf47594a068ed017"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Helper class to manage parsing and executing the conversation format. </p>
 
 <p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00015">15</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a9f8c02c6fc0eef7935b0c72d0b5ce33a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f8c02c6fc0eef7935b0c72d0b5ce33a">&#9670;&nbsp;</a></span>ConversationManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Fungus.ConversationManager.ConversationManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00039">39</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae34fdd7cf80ea2d9f6e9b378fd649c62"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae34fdd7cf80ea2d9f6e9b378fd649c62">&#9670;&nbsp;</a></span>CreateConversationItem()</h2>
 
@@ -198,7 +232,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00147">147</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00164">164</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
 
 </div>
 </div>
@@ -228,7 +262,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Parse and execute a conversation string. </p>
 
-<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00281">281</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00335">335</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
 
 </div>
 </div>
@@ -256,7 +290,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00079">79</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00093">93</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
 
 </div>
 </div>
@@ -284,7 +318,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00098">98</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00115">115</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
 
 </div>
 </div>
@@ -313,7 +347,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Caches the character objects in the scene for fast lookup during conversations. </p>
 
-<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00272">272</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00326">326</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
 
 </div>
 </div>
@@ -344,7 +378,7 @@ Protected Attributes</h2></td></tr>
 <p>Splits the string passed in by the delimiters passed in. </p>
 <p>Quoted sections are not split, and all tokens have whitespace trimmed from the start and end. </p>
 
-<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00036">36</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00050">50</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
 
 </div>
 </div>
@@ -369,7 +403,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00028">28</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00031">31</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
 
 </div>
 </div>
@@ -393,7 +427,104 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00030">30</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00033">33</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a5400b91d625eed90595c52bab0aca88c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5400b91d625eed90595c52bab0aca88c">&#9670;&nbsp;</a></span>ClearPrev</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Fungus.ConversationManager.ClearPrev</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00034">34</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="a30358eaaa04e240f66640e0022e4ebdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30358eaaa04e240f66640e0022e4ebdf">&#9670;&nbsp;</a></span>FadeDone</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Fungus.ConversationManager.FadeDone</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00036">36</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="ac018554d88da673a06f9493ba361e5a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac018554d88da673a06f9493ba361e5a2">&#9670;&nbsp;</a></span>WaitForInput</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Fungus.ConversationManager.WaitForInput</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00035">35</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="acbc0b4bf08ada918cf47594a068ed017"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbc0b4bf08ada918cf47594a068ed017">&#9670;&nbsp;</a></span>WaitForSeconds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_fungus_1_1_float_data.html">FloatData</a> Fungus.ConversationManager.WaitForSeconds</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_conversation_manager_8cs_source.html#l00037">37</a> of file <a class="el" href="_conversation_manager_8cs_source.html">ConversationManager.cs</a>.</p>
 
 </div>
 </div>
@@ -406,7 +537,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_conversation_manager.html">ConversationManager</a></li>
-    <li class="footer">Generated on Tue Apr 3 2018 23:20:21 for Fungus by
+    <li class="footer">Generated on Mon Jun 25 2018 22:56:32 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

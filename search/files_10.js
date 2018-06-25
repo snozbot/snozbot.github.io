@@ -27,6 +27,7 @@ var searchData=
   ['portraiteditor_2ecs',['PortraitEditor.cs',['../_portrait_editor_8cs.html',1,'']]],
   ['portraitutils_2ecs',['PortraitUtils.cs',['../_portrait_utils_8cs.html',1,'']]],
   ['pow_2ecs',['Pow.cs',['../_pow_8cs.html',1,'']]],
+  ['priority_20signals_5fcommands_2emd',['priority signals_commands.md',['../priority_01signals__commands_8md.html',1,'']]],
   ['properties_5f0_2ejs',['properties_0.js',['../properties__0_8js.html',1,'']]],
   ['properties_5f1_2ejs',['properties_1.js',['../properties__1_8js.html',1,'']]],
   ['properties_5f10_2ejs',['properties_10.js',['../properties__10_8js.html',1,'']]],

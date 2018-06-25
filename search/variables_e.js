@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['name',['name',['../struct_fungus_1_1_editor_utils_1_1_set_variable_editor_1_1_variable_property_info.html#a06239316d4aa914145fd90b13d37f41b',1,'Fungus::EditorUtils::SetVariableEditor::VariablePropertyInfo']]],
+  ['name',['name',['../class_fungus_1_1_line.html#a081f3fcec8b97f0e8d5462acfcb4878c',1,'Fungus.Line.name()'],['../struct_fungus_1_1_editor_utils_1_1_set_variable_editor_1_1_variable_property_info.html#a06239316d4aa914145fd90b13d37f41b',1,'Fungus.EditorUtils.SetVariableEditor.VariablePropertyInfo.name()']]],
   ['namecolor',['nameColor',['../class_fungus_1_1_character.html#a83c3c6afd0d421c15aced3ffb1bd7815',1,'Fungus::Character']]],
   ['namecolorprop',['nameColorProp',['../class_fungus_1_1_editor_utils_1_1_character_editor.html#a59c422b50801d4150cee28bdb3b88805',1,'Fungus::EditorUtils::CharacterEditor']]],
   ['nametext',['nameText',['../class_fungus_1_1_character.html#a7107f3ca706e484c96264053d54e5c42',1,'Fungus.Character.nameText()'],['../class_fungus_1_1_say_dialog.html#a4cc7eb0f359e653ef84d197a75a4ccfc',1,'Fungus.SayDialog.nameText()']]],

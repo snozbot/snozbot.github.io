@@ -9,6 +9,8 @@ var searchData=
   ['blockgraphics',['BlockGraphics',['../struct_fungus_1_1_editor_utils_1_1_flowchart_window_1_1_block_graphics.html',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['blockinspector',['BlockInspector',['../class_fungus_1_1_editor_utils_1_1_block_inspector.html',1,'Fungus::EditorUtils']]],
   ['blockinspectoreditor',['BlockInspectorEditor',['../class_fungus_1_1_editor_utils_1_1_block_inspector_editor.html',1,'Fungus::EditorUtils']]],
+  ['blockreference',['BlockReference',['../struct_fungus_1_1_block_reference.html',1,'Fungus']]],
+  ['blockreferencedrawer',['BlockReferenceDrawer',['../class_fungus_1_1_editor_utils_1_1_block_reference_drawer.html',1,'Fungus::EditorUtils']]],
   ['booleandata',['BooleanData',['../struct_fungus_1_1_boolean_data.html',1,'Fungus']]],
   ['booleandatadrawer',['BooleanDataDrawer',['../class_fungus_1_1_editor_utils_1_1_boolean_data_drawer.html',1,'Fungus::EditorUtils']]],
   ['booleanevent',['BooleanEvent',['../class_fungus_1_1_invoke_event_1_1_boolean_event.html',1,'Fungus::InvokeEvent']]],

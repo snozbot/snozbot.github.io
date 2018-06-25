@@ -6,6 +6,7 @@ var searchData=
   ['disabled',['Disabled',['../namespace_fungus.html#ac592f699fd98d59292b5fa61434ce168ab9f5c797ebbf55adccdd8539a65a0241',1,'Fungus']]],
   ['div',['Div',['../class_fungus_1_1_vector3_arithmetic.html#a46afba3f6e5033ab762420359bc464eda43d11850893d2fe84a1e618121c1cc0a',1,'Fungus::Vector3Arithmetic']]],
   ['divide',['Divide',['../namespace_fungus.html#acdee858130b7cf1e1e977af0614315f7a0b914e196182d02615487e9793ecff3d',1,'Fungus']]],
+  ['down',['Down',['../class_fungus_1_1_get_key.html#a6ed4a33f0b06fd4cb982ea39f407c7cba08a38277b0309070706f6652eeae9a53',1,'Fungus::GetKey']]],
   ['dynamicboolean',['DynamicBoolean',['../namespace_fungus.html#a768d377d9dfb2f3213f5cea3494cdc90af2013257ebbebb917c1fe57fc1429e8f',1,'Fungus']]],
   ['dynamicfloat',['DynamicFloat',['../namespace_fungus.html#a768d377d9dfb2f3213f5cea3494cdc90a29164e9b5ba1c9891aa79bd62eeb898e',1,'Fungus']]],
   ['dynamicinteger',['DynamicInteger',['../namespace_fungus.html#a768d377d9dfb2f3213f5cea3494cdc90a0edc57edc54b95c46f9285cb12e3a968',1,'Fungus']]],

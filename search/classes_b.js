@@ -3,6 +3,7 @@ var searchData=
   ['label',['Label',['../class_fungus_1_1_label.html',1,'Fungus']]],
   ['labeleditor',['LabelEditor',['../class_fungus_1_1_editor_utils_1_1_label_editor.html',1,'Fungus::EditorUtils']]],
   ['lerp',['Lerp',['../class_fungus_1_1_lerp.html',1,'Fungus']]],
+  ['line',['Line',['../class_fungus_1_1_line.html',1,'Fungus']]],
   ['loadscene',['LoadScene',['../class_fungus_1_1_load_scene.html',1,'Fungus']]],
   ['loadvariable',['LoadVariable',['../class_fungus_1_1_load_variable.html',1,'Fungus']]],
   ['localization',['Localization',['../class_fungus_1_1_localization.html',1,'Fungus']]],

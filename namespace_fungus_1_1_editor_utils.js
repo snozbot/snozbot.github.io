@@ -6,6 +6,7 @@ var namespace_fungus_1_1_editor_utils =
     [ "BlockEditor", "class_fungus_1_1_editor_utils_1_1_block_editor.html", "class_fungus_1_1_editor_utils_1_1_block_editor" ],
     [ "BlockInspector", "class_fungus_1_1_editor_utils_1_1_block_inspector.html", "class_fungus_1_1_editor_utils_1_1_block_inspector" ],
     [ "BlockInspectorEditor", "class_fungus_1_1_editor_utils_1_1_block_inspector_editor.html", "class_fungus_1_1_editor_utils_1_1_block_inspector_editor" ],
+    [ "BlockReferenceDrawer", "class_fungus_1_1_editor_utils_1_1_block_reference_drawer.html", "class_fungus_1_1_editor_utils_1_1_block_reference_drawer" ],
     [ "BooleanDataDrawer", "class_fungus_1_1_editor_utils_1_1_boolean_data_drawer.html", null ],
     [ "CallEditor", "class_fungus_1_1_editor_utils_1_1_call_editor.html", "class_fungus_1_1_editor_utils_1_1_call_editor" ],
     [ "CameraMenuItems", "class_fungus_1_1_editor_utils_1_1_camera_menu_items.html", null ],

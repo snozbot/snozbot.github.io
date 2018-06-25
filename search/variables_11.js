@@ -23,6 +23,7 @@ var searchData=
   ['rightclickdown',['rightClickDown',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a61a768b29233eede65456736b05f9db4',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['rightclicktolerance',['rightClickTolerance',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a68494682877f8936128a40052f313397',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['rightstring',['rightString',['../class_fungus_1_1_writer.html#af70bd44e6b0fd6a834646df03a67709d',1,'Fungus::Writer']]],
+  ['rigidbody2ddata',['rigidbody2DData',['../class_fungus_1_1_set_variable.html#a259ef9526ec6b0311de9c2f396691291',1,'Fungus.SetVariable.rigidbody2DData()'],['../class_fungus_1_1_variable_condition.html#a70e065274ca04ff79c6739882b3d1e36',1,'Fungus.VariableCondition.rigidbody2DData()']]],
   ['rigidbody2dref',['rigidbody2DRef',['../struct_fungus_1_1_rigidbody2_d_data.html#ab96729b2a8da908ab374134cc6c72013',1,'Fungus::Rigidbody2DData']]],
   ['rigidbody2dval',['rigidbody2DVal',['../struct_fungus_1_1_rigidbody2_d_data.html#a5da352bf32798570c8b14a327f5d4f54',1,'Fungus::Rigidbody2DData']]],
   ['rotatemode',['rotateMode',['../class_fungus_1_1_rotate_lean.html#a16ef4187d0a183849c79f22b04aefb25',1,'Fungus::RotateLean']]],

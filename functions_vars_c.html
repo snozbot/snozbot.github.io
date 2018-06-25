@@ -38,9 +38,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.6.1--></span>
+   &#160;<span id="projectnumber"><!--v3.9.0--></span>
    </div>
-   <div id="projectbrief">v3.6.1 Documentation</div>
+   <div id="projectbrief">v3.9.0 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -154,6 +154,9 @@ $(document).ready(function(){initNavTree('functions_vars_c.html','');});
 <li>clampResult
 : <a class="el" href="class_fungus_1_1_inv_lerp.html#a459120f6c00fab7ab8e3eaf583ce35ac">Fungus.InvLerp</a>
 </li>
+<li>clearPrevious
+: <a class="el" href="class_fungus_1_1_conversation.html#a8ce3ba9bef78c2bc21782a114a91f981">Fungus.Conversation</a>
+</li>
 <li>clearText
 : <a class="el" href="class_fungus_1_1_write.html#aad5c2a0199d80da6327e9e9187bb8134">Fungus.Write</a>
 </li>
@@ -186,6 +189,10 @@ $(document).ready(function(){initNavTree('functions_vars_c.html','');});
 </li>
 <li>colorCommandsProp
 : <a class="el" href="class_fungus_1_1_editor_utils_1_1_flowchart_editor.html#ac7d5f58ad6172351c9781e1c2f6a7736">Fungus.EditorUtils.FlowchartEditor</a>
+</li>
+<li>colorData
+: <a class="el" href="class_fungus_1_1_set_variable.html#ae603f0343ce850e045c8d7eacae3efb2">Fungus.SetVariable</a>
+, <a class="el" href="class_fungus_1_1_variable_condition.html#af472427f6eb78f3b542adf522a34b311">Fungus.VariableCondition</a>
 </li>
 <li>colorRef
 : <a class="el" href="struct_fungus_1_1_color_data.html#a98b920ca3914823cdc970a3f53dda68f">Fungus.ColorData</a>
@@ -227,11 +234,22 @@ $(document).ready(function(){initNavTree('functions_vars_c.html','');});
 : <a class="el" href="class_fungus_1_1_editor_utils_1_1_variable_condition_editor.html#aed33d42cb69272bac768f201cb791bae">Fungus.EditorUtils.VariableConditionEditor</a>
 </li>
 <li>compareOperators
-: <a class="el" href="class_fungus_1_1_boolean_variable.html#a26206087711b265e5520e034636cd5d9">Fungus.BooleanVariable</a>
+: <a class="el" href="class_fungus_1_1_animator_variable.html#acdec23dfe0d06b0807609a6cd244944e">Fungus.AnimatorVariable</a>
+, <a class="el" href="class_fungus_1_1_audio_source_variable.html#a21c62a020af2bed96434ddb0ff041371">Fungus.AudioSourceVariable</a>
+, <a class="el" href="class_fungus_1_1_boolean_variable.html#a26206087711b265e5520e034636cd5d9">Fungus.BooleanVariable</a>
+, <a class="el" href="class_fungus_1_1_color_variable.html#a0a59fe713f0dc6dfc92ad56ff7e0cfdc">Fungus.ColorVariable</a>
 , <a class="el" href="class_fungus_1_1_float_variable.html#a1222a6e5298274007abe320fe724f0a4">Fungus.FloatVariable</a>
 , <a class="el" href="class_fungus_1_1_game_object_variable.html#a4dd2f4f0caced3a07253e68176bc1ad7">Fungus.GameObjectVariable</a>
 , <a class="el" href="class_fungus_1_1_integer_variable.html#aedbfb74a752e6e0dcccae2a670b661c2">Fungus.IntegerVariable</a>
+, <a class="el" href="class_fungus_1_1_material_variable.html#a707e1ca8e41c3bd7631650fcdc62e099">Fungus.MaterialVariable</a>
+, <a class="el" href="class_fungus_1_1_object_variable.html#ab7ec642a2efe1316bffdd7c2e6875f52">Fungus.ObjectVariable</a>
+, <a class="el" href="class_fungus_1_1_rigidbody2_d_variable.html#a783d259ed7497e2e5156291613fd9e16">Fungus.Rigidbody2DVariable</a>
+, <a class="el" href="class_fungus_1_1_sprite_variable.html#a59c99b7c7901e1e12492f8f470267f0f">Fungus.SpriteVariable</a>
 , <a class="el" href="class_fungus_1_1_string_variable.html#a5904c864b0a89cf704b13ccf51a43207">Fungus.StringVariable</a>
+, <a class="el" href="class_fungus_1_1_texture_variable.html#a345bf42e92ff7e6369c6da59768805e5">Fungus.TextureVariable</a>
+, <a class="el" href="class_fungus_1_1_transform_variable.html#a57ed21849eabb13fcb6c635f6e2fd939">Fungus.TransformVariable</a>
+, <a class="el" href="class_fungus_1_1_vector2_variable.html#aebd5052b9239bc2dcb92db3efcb9c867">Fungus.Vector2Variable</a>
+, <a class="el" href="class_fungus_1_1_vector3_variable.html#aea9a740c98662604608258580340bb4e">Fungus.Vector3Variable</a>
 </li>
 <li>componentType
 : <a class="el" href="class_fungus_1_1_invoke_method.html#ab330530094ab036181291a1c001d57ae">Fungus.InvokeMethod</a>
@@ -284,7 +302,7 @@ $(document).ready(function(){initNavTree('functions_vars_c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Apr 3 2018 23:20:24 for Fungus by
+    <li class="footer">Generated on Mon Jun 25 2018 22:56:34 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
