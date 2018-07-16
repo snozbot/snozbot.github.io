@@ -68,7 +68,7 @@ var searchData=
   ['transformval',['transformVal',['../struct_fungus_1_1_transform_data.html#afd843f560b24dc8d60ae96717e0d1314',1,'Fungus::TransformData']]],
   ['tweennameold',['tweenNameOLD',['../class_fungus_1_1i_tween_command.html#a671e004e514f77604c8962676239653b',1,'Fungus.iTweenCommand.tweenNameOLD()'],['../class_fungus_1_1_stop_tween.html#a91b97f4bdf3b083fad643c1d9e134792',1,'Fungus.StopTween.tweenNameOLD()']]],
   ['tweentype',['tweenType',['../class_fungus_1_1_tween_u_i.html#ae7a672f080d7eb05f6662c5558142293',1,'Fungus::TweenUI']]],
-  ['type',['type',['../class_fungus_1_1_text_tag_token.html#a961efd9cdfde7884d524a0817d2d16d2',1,'Fungus::TextTagToken']]],
+  ['type',['type',['../class_fungus_1_1_text_tag_token.html#a961efd9cdfde7884d524a0817d2d16d2',1,'Fungus.TextTagToken.type()'],['../class_fungus_1_1_text_variation_handler_1_1_section.html#a00b9d91d2c8032b8de5831138c353a58',1,'Fungus.TextVariationHandler.Section.type()']]],
   ['typeassemblyname',['typeAssemblyname',['../class_fungus_1_1_object_value.html#ae4faa0e4f2e0b85ffb895e7523be759a',1,'Fungus::ObjectValue']]],
   ['typefullname',['typeFullname',['../class_fungus_1_1_object_value.html#a85cd97159ad4922be075ab215d5ed42d',1,'Fungus::ObjectValue']]]
 ];

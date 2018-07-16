@@ -367,6 +367,7 @@ var hierarchy =
     [ "ScriptableObject", null, [
       [ "Fungus.EditorUtils.BlockInspector", "class_fungus_1_1_editor_utils_1_1_block_inspector.html", null ]
     ] ],
+    [ "Fungus.TextVariationHandler.Section", "class_fungus_1_1_text_variation_handler_1_1_section.html", null ],
     [ "Fungus.EditorUtils.BlockEditor.SetEventHandlerOperation", "class_fungus_1_1_editor_utils_1_1_block_editor_1_1_set_event_handler_operation.html", null ],
     [ "Fungus.SpriteData", "struct_fungus_1_1_sprite_data.html", null ],
     [ "Fungus.EditorUtils.SpriteMenuItems", "class_fungus_1_1_editor_utils_1_1_sprite_menu_items.html", null ],

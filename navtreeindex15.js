@@ -1,5 +1,8 @@
 var NAVTREEINDEX15 =
 {
+"class_fungus_1_1_stage.html":[9,0,0,217],
+"class_fungus_1_1_stage.html#a061cf4c9dbcb08fb5d1856bbc982fbcf":[9,0,0,217,18],
+"class_fungus_1_1_stage.html#a0efd59d5619ca7d81e91e4430df30830":[9,0,0,217,14],
 "class_fungus_1_1_stage.html#a2bf50847b43139db8de5d0fc528001db":[9,0,0,217,8],
 "class_fungus_1_1_stage.html#a2cd366787f9082ae2ef5c6fd330be89e":[9,0,0,217,15],
 "class_fungus_1_1_stage.html#a2ea0c0c9661f5833ee02351b24b4d293":[9,0,0,217,13],
@@ -246,8 +249,5 @@ var NAVTREEINDEX15 =
 "class_fungus_1_1_vector3_arithmetic.html#a596e2ac2b986c6dd6d0577aebf830aad":[9,0,0,254,5],
 "class_fungus_1_1_vector3_arithmetic.html#a63a2509855d9abbe2cbae65e51696fbd":[9,0,0,254,1],
 "class_fungus_1_1_vector3_arithmetic.html#a77e1764f8bdf3f601ce798789c9263d4":[9,0,0,254,2],
-"class_fungus_1_1_vector3_arithmetic.html#afa6a63e9aa7d4f40655395409c316a99":[9,0,0,254,6],
-"class_fungus_1_1_vector3_fields.html":[9,0,0,256],
-"class_fungus_1_1_vector3_fields.html#a076b94eb646988cfcdf68e11fe817928":[9,0,0,256,1],
-"class_fungus_1_1_vector3_fields.html#a0934f7a4d8f254af4dd0eade7265df42":[9,0,0,256,6]
+"class_fungus_1_1_vector3_arithmetic.html#afa6a63e9aa7d4f40655395409c316a99":[9,0,0,254,6]
 };

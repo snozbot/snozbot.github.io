@@ -1,5 +1,8 @@
 var NAVTREEINDEX5 =
 {
+"class__fungus__1__1__lerp_8js_source.html":[10,0,236],
+"class__fungus__1__1__link__to__website_8js.html":[10,0,237],
+"class__fungus__1__1__link__to__website_8js_source.html":[10,0,237],
 "class__fungus__1__1__load__scene_8js.html":[10,0,238],
 "class__fungus__1__1__load__scene_8js_source.html":[10,0,238],
 "class__fungus__1__1__load__variable_8js.html":[10,0,239],
@@ -246,8 +249,5 @@ var NAVTREEINDEX5 =
 "class__fungus__1__1__view_8js_source.html":[10,0,359],
 "class__fungus__1__1__wait_8js.html":[10,0,360],
 "class__fungus__1__1__wait_8js_source.html":[10,0,360],
-"class__fungus__1__1__wait__frames_8js.html":[10,0,361],
-"class__fungus__1__1__wait__frames_8js_source.html":[10,0,361],
-"class__fungus__1__1__while_8js.html":[10,0,362],
-"class__fungus__1__1__while_8js_source.html":[10,0,362]
+"class__fungus__1__1__wait__frames_8js.html":[10,0,361]
 };

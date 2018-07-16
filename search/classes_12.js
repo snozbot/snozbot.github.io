@@ -12,6 +12,7 @@ var searchData=
   ['scalelean',['ScaleLean',['../class_fungus_1_1_scale_lean.html',1,'Fungus']]],
   ['scaleto',['ScaleTo',['../class_fungus_1_1_scale_to.html',1,'Fungus']]],
   ['sceneloader',['SceneLoader',['../class_fungus_1_1_scene_loader.html',1,'Fungus']]],
+  ['section',['Section',['../class_fungus_1_1_text_variation_handler_1_1_section.html',1,'Fungus::TextVariationHandler']]],
   ['selectonenable',['SelectOnEnable',['../class_fungus_1_1_select_on_enable.html',1,'Fungus']]],
   ['sendmessage',['SendMessage',['../class_fungus_1_1_send_message.html',1,'Fungus']]],
   ['setactive',['SetActive',['../class_fungus_1_1_set_active.html',1,'Fungus']]],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX6 =
 {
+"class__fungus__1__1__wait__frames_8js_source.html":[10,0,361],
+"class__fungus__1__1__while_8js.html":[10,0,362],
+"class__fungus__1__1__while_8js_source.html":[10,0,362],
 "class__fungus__1__1__write_8js.html":[10,0,363],
 "class__fungus__1__1__write_8js_source.html":[10,0,363],
 "class__fungus__1__1__writer_8js.html":[10,0,364],
@@ -246,8 +249,5 @@ var NAVTREEINDEX6 =
 "class_fungus_1_1_clickable2_d.html#a6530d9e9e2b6e6488e1f5bfad32a920b":[9,0,0,27,7],
 "class_fungus_1_1_clickable2_d.html#a82c4741ec9f519e6be4cce7172b4125f":[9,0,0,27,0],
 "class_fungus_1_1_clickable2_d.html#a87d837108bf68700f4156d6e204559de":[9,0,0,27,1],
-"class_fungus_1_1_clickable2_d.html#aa015ce1724df1267815da39570e908fa":[9,0,0,27,6],
-"class_fungus_1_1_clickable2_d.html#acc341b540b8e21da839ca255ba651392":[9,0,0,27,2],
-"class_fungus_1_1_clickable2_d.html#acc37c84c12b74b832575160ca7cf1c5c":[9,0,0,27,4],
-"class_fungus_1_1_clickable2_d.html#ae16c7d300e4cf65cf01739e0baaa74c4":[9,0,0,27,5]
+"class_fungus_1_1_clickable2_d.html#aa015ce1724df1267815da39570e908fa":[9,0,0,27,6]
 };

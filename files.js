@@ -1213,6 +1213,9 @@ var files =
       [ "TextureVariable", "class_fungus_1_1_texture_variable.html", "class_fungus_1_1_texture_variable" ],
       [ "TextureData", "struct_fungus_1_1_texture_data.html", "struct_fungus_1_1_texture_data" ]
     ] ],
+    [ "TextVariationHandler.cs", "_text_variation_handler_8cs.html", [
+      [ "Section", "class_fungus_1_1_text_variation_handler_1_1_section.html", "class_fungus_1_1_text_variation_handler_1_1_section" ]
+    ] ],
     [ "ToggleChanged.cs", "_toggle_changed_8cs.html", "_toggle_changed_8cs" ],
     [ "ToInt.cs", "_to_int_8cs.html", [
       [ "ToInt", "class_fungus_1_1_to_int.html", "class_fungus_1_1_to_int" ]

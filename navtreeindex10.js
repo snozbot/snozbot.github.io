@@ -1,5 +1,8 @@
 var NAVTREEINDEX10 =
 {
+"class_fungus_1_1_execute_lua.html#a2f786bf72da6bd5325948b189d91a44e":[9,0,0,63,4],
+"class_fungus_1_1_execute_lua.html#a3cfe40ce1c6fbd7f7465a7efdeb7602b":[9,0,0,63,9],
+"class_fungus_1_1_execute_lua.html#a5ed8fd679ffe272a9836ac7dd312917a":[9,0,0,63,6],
 "class_fungus_1_1_execute_lua.html#a695fbd09b4e16097ccef3f86b284eb73":[9,0,0,63,13],
 "class_fungus_1_1_execute_lua.html#a972b660c9941b96b72b0f7a7422dceca":[9,0,0,63,10],
 "class_fungus_1_1_execute_lua.html#a9aed59bae453ffc88045b5b24291981d":[9,0,0,63,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX10 =
 "class_fungus_1_1_if.html#a546a5a9e8ca2a6250a8a36864f6974f4":[9,0,0,92,0],
 "class_fungus_1_1_int_var.html":[9,0,0,96],
 "class_fungus_1_1_int_var.html#a1061f4ab9dbb3d00402aad4203000d91":[9,0,0,96,3],
-"class_fungus_1_1_int_var.html#a1a7037c39c17a7705f01b25d623843d3":[9,0,0,96,0],
-"class_fungus_1_1_int_var.html#a25a44714c6f5e46076e2746e8a5c6a71":[9,0,0,96,2],
-"class_fungus_1_1_int_var.html#aeab2d2b11ea6235118a8763df952027f":[9,0,0,96,1],
-"class_fungus_1_1_integer_variable.html":[9,0,0,95]
+"class_fungus_1_1_int_var.html#a1a7037c39c17a7705f01b25d623843d3":[9,0,0,96,0]
 };

@@ -2,7 +2,7 @@ var searchData=
 [
   ['cachedbuttons',['cachedButtons',['../class_fungus_1_1_menu_dialog.html#a670e1f534f87508fb2923c6e730f39f4',1,'Fungus.MenuDialog.cachedButtons()'],['../class_fungus_1_1_menu_dialog.html#a514a229b0ea31de59116c9955b71d365',1,'Fungus.MenuDialog.CachedButtons()']]],
   ['cachedcommandeditors',['cachedCommandEditors',['../class_fungus_1_1_editor_utils_1_1_block_inspector_editor.html#ae8c2fae24a18e80283ae30f01ad61388',1,'Fungus::EditorUtils::BlockInspectorEditor']]],
-  ['cachedflowcharts',['CachedFlowcharts',['../class_fungus_1_1_flowchart.html#a3229ed0a1fac118129a866698f42c9da',1,'Fungus.Flowchart.CachedFlowcharts()'],['../class_fungus_1_1_flowchart.html#a152e9f2095890a0a54e95853a14b2cee',1,'Fungus.Flowchart.cachedFlowcharts()']]],
+  ['cachedflowcharts',['cachedFlowcharts',['../class_fungus_1_1_flowchart.html#a152e9f2095890a0a54e95853a14b2cee',1,'Fungus.Flowchart.cachedFlowcharts()'],['../class_fungus_1_1_flowchart.html#a3229ed0a1fac118129a866698f42c9da',1,'Fungus.Flowchart.CachedFlowcharts()']]],
   ['cachedslider',['cachedSlider',['../class_fungus_1_1_menu_dialog.html#a80122e7085bc075c072a4508074ac6f2',1,'Fungus.MenuDialog.cachedSlider()'],['../class_fungus_1_1_menu_dialog.html#af2db3709633ed6c5d7e5e178a762a103',1,'Fungus.MenuDialog.CachedSlider()']]],
   ['cachehiddencolorstrings',['CacheHiddenColorStrings',['../class_fungus_1_1_writer.html#a03527d10c0c28d3fc809ba7b02345592',1,'Fungus::Writer']]],
   ['cachelocalizeableobjects',['CacheLocalizeableObjects',['../class_fungus_1_1_localization.html#a90c6359107805fa5e3f241311f35af2f',1,'Fungus::Localization']]],
@@ -50,7 +50,7 @@ var searchData=
   ['charactercontrollercollide_2ecs',['CharacterControllerCollide.cs',['../_character_controller_collide_8cs.html',1,'']]],
   ['charactereditor',['CharacterEditor',['../class_fungus_1_1_editor_utils_1_1_character_editor.html',1,'Fungus::EditorUtils']]],
   ['charactereditor_2ecs',['CharacterEditor.cs',['../_character_editor_8cs.html',1,'']]],
-  ['characterimage',['CharacterImage',['../class_fungus_1_1_say_dialog.html#a38a9c0adbe25b453adbbeb990df436e0',1,'Fungus.SayDialog.CharacterImage()'],['../class_fungus_1_1_say_dialog.html#a965d67a88a12d8513fcf312beef7789c',1,'Fungus.SayDialog.characterImage()']]],
+  ['characterimage',['characterImage',['../class_fungus_1_1_say_dialog.html#a965d67a88a12d8513fcf312beef7789c',1,'Fungus.SayDialog.characterImage()'],['../class_fungus_1_1_say_dialog.html#a38a9c0adbe25b453adbbeb990df436e0',1,'Fungus.SayDialog.CharacterImage()']]],
   ['characterprop',['characterProp',['../class_fungus_1_1_editor_utils_1_1_portrait_editor.html#a81ac158ab25ae51921bae86820b719a5',1,'Fungus.EditorUtils.PortraitEditor.characterProp()'],['../class_fungus_1_1_editor_utils_1_1_say_editor.html#a69fedbcfa4f2eb40223c3e0f1a7ea03e',1,'Fungus.EditorUtils.SayEditor.characterProp()']]],
   ['characters',['characters',['../class_fungus_1_1_conversation_manager.html#ad99aba7cb60f142d2922a1e55c65fdae',1,'Fungus::ConversationManager']]],
   ['charactersonstage',['charactersOnStage',['../class_fungus_1_1_stage.html#a88f367f0b66d029af46bf7884caf326f',1,'Fungus.Stage.charactersOnStage()'],['../class_fungus_1_1_stage.html#a0efd59d5619ca7d81e91e4430df30830',1,'Fungus.Stage.CharactersOnStage()']]],
@@ -466,5 +466,6 @@ var searchData=
   ['customtag',['CustomTag',['../class_fungus_1_1_custom_tag.html',1,'Fungus']]],
   ['customtag_2ecs',['CustomTag.cs',['../_custom_tag_8cs.html',1,'']]],
   ['cut',['Cut',['../class_fungus_1_1_editor_utils_1_1_block_editor.html#a9348b4546e25ea7b0a6b650ad6649e48',1,'Fungus.EditorUtils.BlockEditor.Cut()'],['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#acce8eb8cebb046e8d73b497f650650bf',1,'Fungus.EditorUtils.FlowchartWindow.Cut()']]],
+  ['cycle',['Cycle',['../class_fungus_1_1_text_variation_handler_1_1_section.html#a6fd802180b954076b7900b21883a82ffa46e4c9ef8686e58a89edb553aba6d938',1,'Fungus::TextVariationHandler::Section']]],
   ['controlling_20_25fungus',['Controlling %Fungus',['../lua_controlling_fungus.html',1,'fungus_lua']]]
 ];

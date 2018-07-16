@@ -1,6 +1,7 @@
 var searchData=
 [
   ['sameflowchart',['SameFlowchart',['../namespace_fungus.html#a0a28bb7548650021a79b8e12c3b18bbcae0fbf2152a792f6d8d7440aa37178633',1,'Fungus']]],
+  ['sequence',['Sequence',['../class_fungus_1_1_text_variation_handler_1_1_section.html#a6fd802180b954076b7900b21883a82ffa3ff39d3acb327553070a64ef0cb321d5',1,'Fungus::TextVariationHandler::Section']]],
   ['set',['Set',['../class_fungus_1_1_transform_property.html#a06474e92eedecf1e6e2da90ba2e28cd0a5d5b78699e57104f2fa03bbdf7b9197b',1,'Fungus.TransformProperty.Set()'],['../class_fungus_1_1_vector3_fields.html#a603246129394125621c5582be0ee2d71a5d5b78699e57104f2fa03bbdf7b9197b',1,'Fungus.Vector3Fields.Set()']]],
   ['setalpha',['SetAlpha',['../namespace_fungus.html#a659e0b5cad34216d45aea5ce447130a4aa021e9579d4a7fef6a0f70f7db297464',1,'Fungus']]],
   ['setcolor',['SetColor',['../namespace_fungus.html#a659e0b5cad34216d45aea5ce447130a4a18f124952feb67a5efdbe8851e406559',1,'Fungus']]],

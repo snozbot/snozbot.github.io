@@ -1,5 +1,8 @@
 var NAVTREEINDEX11 =
 {
+"class_fungus_1_1_int_var.html#a25a44714c6f5e46076e2746e8a5c6a71":[9,0,0,96,2],
+"class_fungus_1_1_int_var.html#aeab2d2b11ea6235118a8763df952027f":[9,0,0,96,1],
+"class_fungus_1_1_integer_variable.html":[9,0,0,95],
 "class_fungus_1_1_integer_variable.html#a5ae901575aa9b95c2713e95a4383b383":[9,0,0,95,0],
 "class_fungus_1_1_integer_variable.html#a5d82d3af434f39445915b0f218778bee":[9,0,0,95,1],
 "class_fungus_1_1_inv.html":[9,0,0,97],
@@ -246,8 +249,5 @@ var NAVTREEINDEX11 =
 "class_fungus_1_1_menu_timer.html#a5861dc01a152e4122183f75cfdb6de4e":[9,0,0,125,0],
 "class_fungus_1_1_menu_timer.html#a70cae6d2e1cdd1c436c38c964ec6253b":[9,0,0,125,2],
 "class_fungus_1_1_menu_timer.html#a846f967906a74a43438472dfd84a0dd7":[9,0,0,125,6],
-"class_fungus_1_1_menu_timer.html#aa1760ba81c1929784102a69600e20a23":[9,0,0,125,4],
-"class_fungus_1_1_menu_timer.html#ad14864bf9a7e9b95f5025ac91c72059f":[9,0,0,125,5],
-"class_fungus_1_1_message_received.html":[9,0,0,126],
-"class_fungus_1_1_message_received.html#a408add4301a061851793a8f5de63fe77":[9,0,0,126,2]
+"class_fungus_1_1_menu_timer.html#aa1760ba81c1929784102a69600e20a23":[9,0,0,125,4]
 };

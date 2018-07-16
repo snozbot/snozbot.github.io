@@ -1,5 +1,8 @@
 var NAVTREEINDEX16 =
 {
+"class_fungus_1_1_vector3_fields.html":[9,0,0,256],
+"class_fungus_1_1_vector3_fields.html#a076b94eb646988cfcdf68e11fe817928":[9,0,0,256,1],
+"class_fungus_1_1_vector3_fields.html#a0934f7a4d8f254af4dd0eade7265df42":[9,0,0,256,6],
 "class_fungus_1_1_vector3_fields.html#a0cf0b84523ad20341f99a886dd777551":[9,0,0,256,4],
 "class_fungus_1_1_vector3_fields.html#a47bb8282fb0f39a0410abb8c461456dd":[9,0,0,256,5],
 "class_fungus_1_1_vector3_fields.html#a51fa9130d75d42a0eebe77a9b432c65b":[9,0,0,256,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX16 =
 "command__reference_8js_source.html":[10,0,396],
 "command_reference.html":[2],
 "community_tutorials.html":[0,10],
-"community_tutorials.html#chen":[0,10,8],
-"community_tutorials.html#david_arcila":[0,10,4],
-"community_tutorials.html#david_sherlock":[0,10,5],
-"community_tutorials.html#game_dev_resources":[0,10,0]
+"community_tutorials.html#chen":[0,10,8]
 };

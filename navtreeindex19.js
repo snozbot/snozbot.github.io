@@ -1,5 +1,8 @@
 var NAVTREEINDEX19 =
 {
+"math_commands.html#Trig":[2,6,16],
+"md_command_ref_priority_signals_commands.html":[6],
+"md_command_ref_priority_signals_commands.html#GetPriorityCount":[6,0],
 "md_command_ref_priority_signals_commands.html#PriorityDown":[6,1],
 "md_command_ref_priority_signals_commands.html#PriorityReset":[6,2],
 "md_command_ref_priority_signals_commands.html#PriorityUp":[6,3],
@@ -27,8 +30,8 @@ var NAVTREEINDEX19 =
 "namespace__fungus__1__1__editor__utils_8js_source.html":[10,0,615],
 "namespace_fungus.html":[8,0,0],
 "namespace_fungus.html":[9,0,0],
-"namespace_fungus_1_1_editor_utils.html":[8,0,0,0],
 "namespace_fungus_1_1_editor_utils.html":[9,0,0,0],
+"namespace_fungus_1_1_editor_utils.html":[8,0,0,0],
 "namespacemembers.html":[8,1,0],
 "namespacemembers_enum.html":[8,1,1],
 "namespaces.html":[8,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX19 =
 "struct__fungus__1__1__conversation__manager__1__1__conversation__item_8js.html":[10,0,794],
 "struct__fungus__1__1__conversation__manager__1__1__conversation__item_8js_source.html":[10,0,794],
 "struct__fungus__1__1__float__data_8js.html":[10,0,795],
-"struct__fungus__1__1__float__data_8js_source.html":[10,0,795],
-"struct__fungus__1__1__game__object__data_8js.html":[10,0,796],
-"struct__fungus__1__1__game__object__data_8js_source.html":[10,0,796],
-"struct__fungus__1__1__integer__data_8js.html":[10,0,797]
+"struct__fungus__1__1__float__data_8js_source.html":[10,0,795]
 };

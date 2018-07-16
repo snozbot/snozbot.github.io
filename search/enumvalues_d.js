@@ -11,7 +11,7 @@ var searchData=
   ['onapplicationresume',['OnApplicationResume',['../class_fungus_1_1_application_state.html#a5bb72628c0b001d4240e1f79c7aa2903a08a585ac56c04415fa02824f333cac84',1,'Fungus::ApplicationState']]],
   ['onbecameinvisible',['OnBecameInvisible',['../class_fungus_1_1_render.html#a3b75fe59508c0fa972cae4b46020234daf07514af0fcedc4f76996a167f7a6f61',1,'Fungus::Render']]],
   ['onbecamevisible',['OnBecameVisible',['../class_fungus_1_1_render.html#a3b75fe59508c0fa972cae4b46020234daa47da849ad15ca7f0af33836939140bd',1,'Fungus::Render']]],
-  ['once',['Once',['../class_fungus_1_1_menu_shuffle.html#a2edb1eed9da004ec1fafabd32d47fb1cae1a9dc9f23534e63de9df0d540ac1611',1,'Fungus::MenuShuffle']]],
+  ['once',['Once',['../class_fungus_1_1_menu_shuffle.html#a2edb1eed9da004ec1fafabd32d47fb1cae1a9dc9f23534e63de9df0d540ac1611',1,'Fungus.MenuShuffle.Once()'],['../class_fungus_1_1_text_variation_handler_1_1_section.html#a6fd802180b954076b7900b21883a82ffae1a9dc9f23534e63de9df0d540ac1611',1,'Fungus.TextVariationHandler.Section.Once()']]],
   ['onmousedown',['OnMouseDown',['../class_fungus_1_1_mouse.html#a518fbe3d6fb50f6fc3fdaeaa99d5219ea2f1464750e2b5092c71013e2c653e810',1,'Fungus::Mouse']]],
   ['onmousedrag',['OnMouseDrag',['../class_fungus_1_1_mouse.html#a518fbe3d6fb50f6fc3fdaeaa99d5219eae76f88e84d1a7d9922a63951c7251600',1,'Fungus::Mouse']]],
   ['onmouseenter',['OnMouseEnter',['../class_fungus_1_1_mouse.html#a518fbe3d6fb50f6fc3fdaeaa99d5219ea3fa73ce84ece797a76eafbd5ca0f8381',1,'Fungus::Mouse']]],

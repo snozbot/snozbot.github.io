@@ -1,5 +1,8 @@
 var NAVTREEINDEX17 =
 {
+"community_tutorials.html#david_arcila":[0,10,4],
+"community_tutorials.html#david_sherlock":[0,10,5],
+"community_tutorials.html#game_dev_resources":[0,10,0],
 "community_tutorials.html#konrad_gadzina":[0,10,7],
 "community_tutorials.html#leah_lee":[0,10,6],
 "community_tutorials.html#marco_secchi":[0,10,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX17 =
 "functions_b.html":[9,2,0,2],
 "functions_c.html":[9,2,0,3],
 "functions_d.html":[9,2,0,4],
-"functions_e.html":[9,2,0,5],
-"functions_enum.html":[9,2,3],
-"functions_evnt.html":[9,2,5],
-"functions_f.html":[9,2,0,6]
+"functions_e.html":[9,2,0,5]
 };

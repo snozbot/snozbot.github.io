@@ -6,6 +6,7 @@ var searchData=
   ['texttagparser_2ecs',['TextTagParser.cs',['../_text_tag_parser_8cs.html',1,'']]],
   ['texttagtoken_2ecs',['TextTagToken.cs',['../_text_tag_token_8cs.html',1,'']]],
   ['texturevariable_2ecs',['TextureVariable.cs',['../_texture_variable_8cs.html',1,'']]],
+  ['textvariationhandler_2ecs',['TextVariationHandler.cs',['../_text_variation_handler_8cs.html',1,'']]],
   ['togglechanged_2ecs',['ToggleChanged.cs',['../_toggle_changed_8cs.html',1,'']]],
   ['toint_2ecs',['ToInt.cs',['../_to_int_8cs.html',1,'']]],
   ['training_5fcourse_2emd',['training_course.md',['../training__course_8md.html',1,'']]],

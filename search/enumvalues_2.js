@@ -13,5 +13,6 @@ var searchData=
   ['colorend',['ColorEnd',['../namespace_fungus.html#a1db437b9e85356df8aa76c326413cc2bae458d23e1bcc2d4ff02dd1a85753d2cf',1,'Fungus']]],
   ['colorstart',['ColorStart',['../namespace_fungus.html#a1db437b9e85356df8aa76c326413cc2ba2864ea63113e83d07e2f28eaa16d2a26',1,'Fungus']]],
   ['continue',['Continue',['../namespace_fungus.html#a57f7b6af52868ef433a033ad7ee34ab6aa0bfb8e59e6c13fc8d990781f77694fe',1,'Fungus']]],
-  ['cos',['Cos',['../class_fungus_1_1_trig.html#a3f68bff08db98d4ca28f57d805e5b223affca562be079b9e4e41ea9d6a86c582b',1,'Fungus::Trig']]]
+  ['cos',['Cos',['../class_fungus_1_1_trig.html#a3f68bff08db98d4ca28f57d805e5b223affca562be079b9e4e41ea9d6a86c582b',1,'Fungus::Trig']]],
+  ['cycle',['Cycle',['../class_fungus_1_1_text_variation_handler_1_1_section.html#a6fd802180b954076b7900b21883a82ffa46e4c9ef8686e58a89edb553aba6d938',1,'Fungus::TextVariationHandler::Section']]]
 ];
