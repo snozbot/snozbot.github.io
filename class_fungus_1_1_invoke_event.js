@@ -7,6 +7,7 @@ var class_fungus_1_1_invoke_event =
     [ "DoInvoke", "class_fungus_1_1_invoke_event.html#af98f55d98eb2a3f4d65072fb6c3be3e6", null ],
     [ "GetButtonColor", "class_fungus_1_1_invoke_event.html#a7a17d63ef42b6567906f6626f3f7da22", null ],
     [ "GetSummary", "class_fungus_1_1_invoke_event.html#ab66181fa999dfd1d4d0343fb1eca1e6c", null ],
+    [ "HasReference", "class_fungus_1_1_invoke_event.html#a46516b329b82eb6ce70d9eaa2121fdca", null ],
     [ "OnEnter", "class_fungus_1_1_invoke_event.html#a25d4fe384165fd82a9859d5b10d8de2f", null ],
     [ "booleanEvent", "class_fungus_1_1_invoke_event.html#ad7cd9853990a897fe1514cd645fcbba1", null ],
     [ "booleanParameter", "class_fungus_1_1_invoke_event.html#a654a7655ebe588382c7713ff6a89c04a", null ],

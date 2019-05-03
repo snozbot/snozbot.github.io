@@ -3,6 +3,7 @@ var class_fungus_1_1i_tween_command =
     [ "DoTween", "class_fungus_1_1i_tween_command.html#a2ba338aba92952160cbbc877453cf23a", null ],
     [ "GetButtonColor", "class_fungus_1_1i_tween_command.html#aeaa4fdb8ba93db83b611c33d7e7b6e88", null ],
     [ "GetSummary", "class_fungus_1_1i_tween_command.html#adb693d204828ebb6c6c3c5b1ecfc6990", null ],
+    [ "HasReference", "class_fungus_1_1i_tween_command.html#ac844b4080ae5e057d19955434328dbbb", null ],
     [ "OnEnable", "class_fungus_1_1i_tween_command.html#ac11845a2b8013df0c7a00e0fe0bd79c6", null ],
     [ "OnEnter", "class_fungus_1_1i_tween_command.html#a4fe801b2ecca98770d0938f5f5e33628", null ],
     [ "OniTweenComplete", "class_fungus_1_1i_tween_command.html#a0e001fca07880745eb2d333980dd6756", null ],

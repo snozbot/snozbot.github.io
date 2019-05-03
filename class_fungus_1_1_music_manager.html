@@ -38,9 +38,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.9.1--></span>
+   &#160;<span id="projectnumber"><!--v3.11.4--></span>
    </div>
-   <div id="projectbrief">v3.9.1 Documentation</div>
+   <div id="projectbrief">v3.11.4 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -119,6 +119,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afa1d362613dbf37a8345b0b2e9934c57"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_music_manager.html#afa1d362613dbf37a8345b0b2e9934c57">PlaySound</a> (AudioClip soundClip, float volume)</td></tr>
 <tr class="memdesc:afa1d362613dbf37a8345b0b2e9934c57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plays a sound effect once, at the specified volume.  <a href="#afa1d362613dbf37a8345b0b2e9934c57">More...</a><br /></td></tr>
 <tr class="separator:afa1d362613dbf37a8345b0b2e9934c57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acac1c300017f0a36c4c01808153decb7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_music_manager.html#acac1c300017f0a36c4c01808153decb7">PlayAmbianceSound</a> (AudioClip soundClip, bool loop, float volume)</td></tr>
+<tr class="memdesc:acac1c300017f0a36c4c01808153decb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plays a sound effect with optional looping values, at the specified volume.  <a href="#acac1c300017f0a36c4c01808153decb7">More...</a><br /></td></tr>
+<tr class="separator:acac1c300017f0a36c4c01808153decb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a905309ceb4f08557b1315515b7f845d9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_music_manager.html#a905309ceb4f08557b1315515b7f845d9">SetAudioPitch</a> (float pitch, float duration, System.Action onComplete)</td></tr>
 <tr class="memdesc:a905309ceb4f08557b1315515b7f845d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shifts the game music pitch to required value over a period of time.  <a href="#a905309ceb4f08557b1315515b7f845d9">More...</a><br /></td></tr>
 <tr class="separator:a905309ceb4f08557b1315515b7f845d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,6 +131,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a08aa81060a8871212c68ccb7639710e2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_music_manager.html#a08aa81060a8871212c68ccb7639710e2">StopMusic</a> ()</td></tr>
 <tr class="memdesc:a08aa81060a8871212c68ccb7639710e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops playing game music.  <a href="#a08aa81060a8871212c68ccb7639710e2">More...</a><br /></td></tr>
 <tr class="separator:a08aa81060a8871212c68ccb7639710e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0a28b987f816b03f35d9ea688b55331"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_music_manager.html#aa0a28b987f816b03f35d9ea688b55331">StopAmbiance</a> ()</td></tr>
+<tr class="memdesc:aa0a28b987f816b03f35d9ea688b55331"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops playing game ambiance.  <a href="#aa0a28b987f816b03f35d9ea688b55331">More...</a><br /></td></tr>
+<tr class="separator:aa0a28b987f816b03f35d9ea688b55331"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -138,8 +144,12 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aeae60ade4393b50b910c59ae161b5fb9"><td class="memItemLeft" align="right" valign="top">AudioSource&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_music_manager.html#aeae60ade4393b50b910c59ae161b5fb9">audioSource</a></td></tr>
-<tr class="separator:aeae60ade4393b50b910c59ae161b5fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea568ae4738afd661581dc043fab94d7"><td class="memItemLeft" align="right" valign="top">AudioSource&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_music_manager.html#aea568ae4738afd661581dc043fab94d7">audioSourceMusic</a></td></tr>
+<tr class="separator:aea568ae4738afd661581dc043fab94d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8f55b210e41714eb4d310c2cab2af1b"><td class="memItemLeft" align="right" valign="top">AudioSource&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_music_manager.html#ad8f55b210e41714eb4d310c2cab2af1b">audioSourceAmbiance</a></td></tr>
+<tr class="separator:ad8f55b210e41714eb4d310c2cab2af1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb1bd132dd1a3bee1b4569ca5b6b705b"><td class="memItemLeft" align="right" valign="top">AudioSource&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_music_manager.html#abb1bd132dd1a3bee1b4569ca5b6b705b">audioSourceSoundEffect</a></td></tr>
+<tr class="separator:abb1bd132dd1a3bee1b4569ca5b6b705b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Music manager which provides basic music and sound effect functionality. </p>
@@ -170,7 +180,61 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00017">17</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00027">27</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="acac1c300017f0a36c4c01808153decb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acac1c300017f0a36c4c01808153decb7">&#9670;&nbsp;</a></span>PlayAmbianceSound()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Fungus.MusicManager.PlayAmbianceSound </td>
+          <td>(</td>
+          <td class="paramtype">AudioClip&#160;</td>
+          <td class="paramname"><em>soundClip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>loop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>volume</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Plays a sound effect with optional looping values, at the specified volume. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">soundClip</td><td>The sound effect clip to play.</td></tr>
+    <tr><td class="paramname">loop</td><td><a class="el" href="class_fungus_1_1_if.html" title="If the test expression is true, execute the following command block. ">If</a> the audioclip should loop or not.</td></tr>
+    <tr><td class="paramname">volume</td><td>The volume level of the sound effect.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00097">97</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
 
 </div>
 </div>
@@ -215,7 +279,7 @@ Protected Attributes</h2></td></tr>
 <p>Plays game music using an audio clip. </p>
 <p>One music clip may be played at a time. </p>
 
-<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00034">34</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00048">48</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
 
 </div>
 </div>
@@ -262,7 +326,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00072">72</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00086">86</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
 
 </div>
 </div>
@@ -316,7 +380,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00083">83</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00111">111</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
 
 </div>
 </div>
@@ -370,7 +434,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00114">114</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00146">146</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
 
 </div>
 </div>
@@ -397,7 +461,36 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00022">22</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00036">36</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="aa0a28b987f816b03f35d9ea688b55331"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0a28b987f816b03f35d9ea688b55331">&#9670;&nbsp;</a></span>StopAmbiance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Fungus.MusicManager.StopAmbiance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stops playing game ambiance. </p>
+
+<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00185">185</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
 
 </div>
 </div>
@@ -426,13 +519,13 @@ Protected Attributes</h2></td></tr>
 
 <p>Stops playing game music. </p>
 
-<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00142">142</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00176">176</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aeae60ade4393b50b910c59ae161b5fb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeae60ade4393b50b910c59ae161b5fb9">&#9670;&nbsp;</a></span>audioSource</h2>
+<a id="ad8f55b210e41714eb4d310c2cab2af1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8f55b210e41714eb4d310c2cab2af1b">&#9670;&nbsp;</a></span>audioSourceAmbiance</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -441,7 +534,31 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">AudioSource Fungus.MusicManager.audioSource</td>
+          <td class="memname">AudioSource Fungus.MusicManager.audioSourceAmbiance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00016">16</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="aea568ae4738afd661581dc043fab94d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea568ae4738afd661581dc043fab94d7">&#9670;&nbsp;</a></span>audioSourceMusic</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AudioSource Fungus.MusicManager.audioSourceMusic</td>
         </tr>
       </table>
   </td>
@@ -455,6 +572,30 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="abb1bd132dd1a3bee1b4569ca5b6b705b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb1bd132dd1a3bee1b4569ca5b6b705b">&#9670;&nbsp;</a></span>audioSourceSoundEffect</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AudioSource Fungus.MusicManager.audioSourceSoundEffect</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_music_manager_8cs_source.html#l00017">17</a> of file <a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="_music_manager_8cs_source.html">MusicManager.cs</a></li>
 </ul>
@@ -464,7 +605,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_music_manager.html">MusicManager</a></li>
-    <li class="footer">Generated on Mon Jul 16 2018 23:53:02 for Fungus by
+    <li class="footer">Generated on Fri May 3 2019 23:38:44 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

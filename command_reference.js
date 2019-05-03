@@ -10,11 +10,14 @@ var command_reference =
     ] ],
     [ "Audio commands", "audio_commands.html", [
       [ "Control Audio", "audio_commands.html#ControlAudio", null ],
+      [ "Play Ambiance Sound", "audio_commands.html#PlayAmbianceSound", null ],
       [ "Play Music", "audio_commands.html#PlayMusic", null ],
+      [ "Play Random Sound", "audio_commands.html#PlayRandomSound", null ],
       [ "Play Sound", "audio_commands.html#PlaySound", null ],
       [ "Play Usfxr Sound", "audio_commands.html#PlayUsfxrSound", null ],
       [ "Set Audio Pitch", "audio_commands.html#SetAudioPitch", null ],
       [ "Set Audio Volume", "audio_commands.html#SetAudioVolume", null ],
+      [ "Stop Ambiance", "audio_commands.html#StopAmbiance", null ],
       [ "Stop Music", "audio_commands.html#StopMusic", null ]
     ] ],
     [ "Camera commands", "camera_commands.html", [
@@ -133,6 +136,7 @@ var command_reference =
       [ "Set Draggable 2D", "sprite_commands.html#SetDraggable2D", null ],
       [ "Set Mouse Cursor", "sprite_commands.html#SetMouseCursor", null ],
       [ "Set Sorting Layer", "sprite_commands.html#SetSortingLayer", null ],
+      [ "Set Sprite", "sprite_commands.html#SetSprite", null ],
       [ "Set Sprite Order", "sprite_commands.html#SetSpriteOrder", null ],
       [ "Show Sprite", "sprite_commands.html#ShowSprite", null ]
     ] ],
@@ -141,6 +145,7 @@ var command_reference =
     ] ],
     [ "Variable commands", "variable_commands.html", [
       [ "Delete Save Key", "variable_commands.html#DeleteSaveKey", null ],
+      [ "From String", "variable_commands.html#FromString", null ],
       [ "Load Variable", "variable_commands.html#LoadVariable", null ],
       [ "Random Float", "variable_commands.html#RandomFloat", null ],
       [ "Random Integer", "variable_commands.html#RandomInteger", null ],
@@ -148,7 +153,8 @@ var command_reference =
       [ "Reset", "variable_commands.html#Reset", null ],
       [ "Save Variable", "variable_commands.html#SaveVariable", null ],
       [ "Set Save Profile", "variable_commands.html#SetSaveProfile", null ],
-      [ "Set Variable", "variable_commands.html#SetVariable", null ]
+      [ "Set Variable", "variable_commands.html#SetVariable", null ],
+      [ "To String", "variable_commands.html#ToString", null ]
     ] ],
     [ "Vector3 commands", "vector3_commands.html", [
       [ "Arithmetic", "vector3_commands.html#Arithmetic", null ],
@@ -164,6 +170,7 @@ var command_reference =
       [ "Set Slider Value", "ui_commands.html#SetSliderValue", null ],
       [ "Set Text", "ui_commands.html#SetText", null ],
       [ "Set Toggle State", "ui_commands.html#SetToggleState", null ],
+      [ "Set UI Image", "ui_commands.html#SetUIImage", null ],
       [ "Write", "ui_commands.html#Write", null ]
     ] ],
     [ "Tests commands", "tests_commands.html", [

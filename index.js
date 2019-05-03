@@ -58,6 +58,13 @@ var index =
       [ "Highlighting connections", "blocks.html#highlighting_connections", null ],
       [ "Setting an Event Handler", "blocks.html#set_event_handler", null ]
     ] ],
+    [ "Variables", "variables.html", [
+      [ "What is a Variable?", "variables.html#variable", null ],
+      [ "The Variable list", "variables.html#variable_list_window", null ],
+      [ "What is a Variable Type?", "variables.html#variable_type", null ],
+      [ "What is Variable Scope?", "variables.html#variable_scope", null ],
+      [ "What is a Fungus Variable Data?", "variables.html#variable_data", null ]
+    ] ],
     [ "Telling a story", "telling_a_story.html", [
       [ "Adding Characters", "telling_a_story.html#characters", null ],
       [ "Character portrait images", "telling_a_story.html#portraits", null ],
@@ -85,6 +92,7 @@ var index =
       [ "Lua", "conversation_system.html#lua", null ]
     ] ],
     [ "Community tutorials", "community_tutorials.html", [
+      [ "Jesse Shepherd", "community_tutorials.html#jesse_shepherd", null ],
       [ "Game Dev Resources", "community_tutorials.html#game_dev_resources", null ],
       [ "Marco Secchi", "community_tutorials.html#marco_secchi", null ],
       [ "Morning Fun Games", "community_tutorials.html#morning_fun", null ],
@@ -96,6 +104,9 @@ var index =
       [ "Chen", "community_tutorials.html#chen", null ]
     ] ],
     [ "Narrative Text Tags", "narrative_text_tags.html", null ],
+    [ "Text Variation System", "text_variation_system.html", [
+      [ "Future Work", "text_variation_system.html#future_work", null ]
+    ] ],
     [ "Saving and Loading", "save_system.html", [
       [ "Introduction", "save_system.html#save_introduction", null ],
       [ "The Save Game example scene", "save_system.html#save_example_scene", null ],
@@ -148,6 +159,8 @@ var index =
       [ "Are you planning to integrate Fungus into other game engines?", "faq.html#faq_other_engines", null ]
     ] ],
     [ "Changelog", "changelog.html", [
+      [ "v3.10.0 ", "changelog.html#v3_10_0", null ],
+      [ "Changelog ", "changelog.html#changelog", null ],
       [ "v3.9.1 ", "changelog.html#v3_9_1", null ],
       [ "v3.9.0 ", "changelog.html#v3_9_0", null ],
       [ "v3.8.0 ", "changelog.html#v3_8_0", null ],

@@ -7,6 +7,7 @@ var class_fungus_1_1_lerp =
     ] ],
     [ "GetButtonColor", "class_fungus_1_1_lerp.html#a3953401f1b34081b812c34e16c08ba43", null ],
     [ "GetSummary", "class_fungus_1_1_lerp.html#aad9ed5cee269492da6517fab085b6248", null ],
+    [ "HasReference", "class_fungus_1_1_lerp.html#ad7c0d3b45afd70bcd79b717c01fbb585", null ],
     [ "OnEnter", "class_fungus_1_1_lerp.html#a4a75064dbad348328b0ac943e8d67372", null ],
     [ "a", "class_fungus_1_1_lerp.html#aef198166af8b2453b2301833b4835bb0", null ],
     [ "mode", "class_fungus_1_1_lerp.html#a74e14a27c60e117d27be17f0346a26bd", null ],

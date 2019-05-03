@@ -5,6 +5,7 @@ var class_fungus_1_1_set_text =
     [ "GetStandardText", "class_fungus_1_1_set_text.html#a28f708926d14cdd9b7cd5b63f9b1e0b8", null ],
     [ "GetStringId", "class_fungus_1_1_set_text.html#ace2f9c7a0f2d9cc22d5c8dd7e2412d4c", null ],
     [ "GetSummary", "class_fungus_1_1_set_text.html#a0b2dc16d2d2155502e91e4fdb0b3dc50", null ],
+    [ "HasReference", "class_fungus_1_1_set_text.html#aa321f20d1fc07f3c8ee2e55c48fe3e13", null ],
     [ "OnEnable", "class_fungus_1_1_set_text.html#a0bdfcc7f2846c87eddaf39eb9d4cf4d8", null ],
     [ "OnEnter", "class_fungus_1_1_set_text.html#a7aa99c87dec7e1658406777d002d0b95", null ],
     [ "SetStandardText", "class_fungus_1_1_set_text.html#a11cd55ccd58449ea06bf17acdc535252", null ],

@@ -4,6 +4,7 @@ var class_fungus_1_1_control_audio =
     [ "ChangeVolume", "class_fungus_1_1_control_audio.html#a25a4b9880f71dd602a0e2e4c76056d3c", null ],
     [ "GetButtonColor", "class_fungus_1_1_control_audio.html#a13ca2d61439426a7eedb27e834738244", null ],
     [ "GetSummary", "class_fungus_1_1_control_audio.html#ac4b5fe32ca685ccdabae8a2b802c0792", null ],
+    [ "HasReference", "class_fungus_1_1_control_audio.html#ac45cee0c1e53d1656c2b78aac81959bb", null ],
     [ "OnEnable", "class_fungus_1_1_control_audio.html#a35b93acd9e0cee86eada04dc28b01c83", null ],
     [ "OnEnter", "class_fungus_1_1_control_audio.html#a3e1e0799a9dba025cfc4e53e842171c6", null ],
     [ "PauseLoop", "class_fungus_1_1_control_audio.html#a5ed2ddbb52df1852b1fbe1c834a61909", null ],

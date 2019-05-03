@@ -1,7 +1,7 @@
 var class_fungus_1_1_editor_utils_1_1_portrait_editor =
 [
     [ "DrawCommandGUI", "class_fungus_1_1_editor_utils_1_1_portrait_editor.html#a539e04c3c9359b9f695db2226bcf8f10", null ],
-    [ "OnEnable", "class_fungus_1_1_editor_utils_1_1_portrait_editor.html#ac4061a57bf1ad62592250d99f302a90b", null ],
+    [ "OnEnable", "class_fungus_1_1_editor_utils_1_1_portrait_editor.html#aae08ee2be82d918e5e78b3e83d58e8dd", null ],
     [ "characterProp", "class_fungus_1_1_editor_utils_1_1_portrait_editor.html#a81ac158ab25ae51921bae86820b719a5", null ],
     [ "displayProp", "class_fungus_1_1_editor_utils_1_1_portrait_editor.html#a444de03f39b235a0b0e6cba5b8fe6a6d", null ],
     [ "facingProp", "class_fungus_1_1_editor_utils_1_1_portrait_editor.html#a9a406f7d2919e582878725097bff9986", null ],

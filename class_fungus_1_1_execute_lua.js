@@ -3,6 +3,7 @@ var class_fungus_1_1_execute_lua =
     [ "GetButtonColor", "class_fungus_1_1_execute_lua.html#a2c06242fc115ba4c971b88d341092904", null ],
     [ "GetLuaString", "class_fungus_1_1_execute_lua.html#a16846daa114fbfcd8740308807b8bd0a", null ],
     [ "GetSummary", "class_fungus_1_1_execute_lua.html#a186c6e62bcd467faba1f01c6778c1773", null ],
+    [ "HasReference", "class_fungus_1_1_execute_lua.html#ab6bbc1d21984080ab5d99e7ee326292d", null ],
     [ "InitExecuteLua", "class_fungus_1_1_execute_lua.html#a298d6437c59c7daecf3b023de25bfedf", null ],
     [ "OnEnter", "class_fungus_1_1_execute_lua.html#a2f786bf72da6bd5325948b189d91a44e", null ],
     [ "Start", "class_fungus_1_1_execute_lua.html#a1eb7796d266eb671f19951cc2cd8f5c3", null ],

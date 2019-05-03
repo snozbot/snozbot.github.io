@@ -38,9 +38,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.9.1--></span>
+   &#160;<span id="projectnumber"><!--v3.11.4--></span>
    </div>
-   <div id="projectbrief">v3.9.1 Documentation</div>
+   <div id="projectbrief">v3.11.4 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -116,25 +116,101 @@ $(document).ready(function(){initNavTree('functions_func_h.html','');});
 <li>HasReference()
 : <a class="el" href="class_fungus_1_1_add_force2_d.html#aa65fc1cf3d779756ffd350d4bb0b958b">Fungus.AddForce2D</a>
 , <a class="el" href="class_fungus_1_1_add_torque2_d.html#ad223f45dc5daf898337c4d7f827414cb">Fungus.AddTorque2D</a>
+, <a class="el" href="class_fungus_1_1_base_lean_tween_command.html#adebc5f9e4bc5dd32641ee1356ee25379">Fungus.BaseLeanTweenCommand</a>
+, <a class="el" href="class_fungus_1_1_base_unary_math_command.html#afea9ce3dea0e970f3e73729bc087c535">Fungus.BaseUnaryMathCommand</a>
+, <a class="el" href="class_fungus_1_1_call.html#afc104221f9473e437ffd9e2555194bf3">Fungus.Call</a>
+, <a class="el" href="class_fungus_1_1_clamp.html#aa0bdaafc18de856dcd4abc2707725dee">Fungus.Clamp</a>
 , <a class="el" href="class_fungus_1_1_command.html#ab229bb399c0e0ac5ddbd93fc30f39795">Fungus.Command</a>
+, <a class="el" href="class_fungus_1_1_control_audio.html#ac45cee0c1e53d1656c2b78aac81959bb">Fungus.ControlAudio</a>
+, <a class="el" href="class_fungus_1_1_conversation.html#ac126ee461ff2c8a364a976b1d43b0178">Fungus.Conversation</a>
+, <a class="el" href="class_fungus_1_1_debug_log.html#a91c86d8c874804c1e4fd7c31d4335baa">Fungus.DebugLog</a>
 , <a class="el" href="class_fungus_1_1_destroy.html#a404ebb905e58c52c89e06452037c8f29">Fungus.Destroy</a>
+, <a class="el" href="class_fungus_1_1_execute_lua.html#ab6bbc1d21984080ab5d99e7ee326292d">Fungus.ExecuteLua</a>
+, <a class="el" href="class_fungus_1_1_fade_sprite.html#a61b4242b887eca6417834df35a440608">Fungus.FadeSprite</a>
+, <a class="el" href="class_fungus_1_1_fade_u_i.html#a12d581a1950901c608a2f3106fbd7f4a">Fungus.FadeUI</a>
+, <a class="el" href="class_fungus_1_1_from_string.html#abcd0d7d91188c8a3fcb2b2fe435bd672">Fungus.FromString</a>
+, <a class="el" href="class_fungus_1_1_fungus_priority_count.html#af9e9a6f721ffd36deabbfbecf214a786">Fungus.FungusPriorityCount</a>
 , <a class="el" href="class_fungus_1_1_get_axis.html#a46f8132cfc14f18211e60cfbc04426d9">Fungus.GetAxis</a>
 , <a class="el" href="class_fungus_1_1_get_key.html#a3798047cbaa75bea9454df17cf21f9ad">Fungus.GetKey</a>
+, <a class="el" href="class_fungus_1_1_get_text.html#ab6a487e0683f5c6f1f5df6fa074ae4c8">Fungus.GetText</a>
+, <a class="el" href="class_fungus_1_1_get_toggle_state.html#a2e3a11d1c285862af28d78ca49b37a8e">Fungus.GetToggleState</a>
+, <a class="el" href="class_fungus_1_1_inv_lerp.html#aa33829d77731aef189f4fbf2c09e5ff3">Fungus.InvLerp</a>
+, <a class="el" href="class_fungus_1_1_invoke_event.html#a46516b329b82eb6ce70d9eaa2121fdca">Fungus.InvokeEvent</a>
+, <a class="el" href="class_fungus_1_1i_tween_command.html#ac844b4080ae5e057d19955434328dbbb">Fungus.iTweenCommand</a>
+, <a class="el" href="class_fungus_1_1_jump.html#aeea14d6777c4e2076e1da9e506cacf5d">Fungus.Jump</a>
+, <a class="el" href="class_fungus_1_1_lerp.html#ad7c0d3b45afd70bcd79b717c01fbb585">Fungus.Lerp</a>
+, <a class="el" href="class_fungus_1_1_load_scene.html#abc1caccbda25f34e63a5f41d448c3f26">Fungus.LoadScene</a>
+, <a class="el" href="class_fungus_1_1_load_variable.html#ad54bf9dfb164b34ae8d1bba3ab756d6a">Fungus.LoadVariable</a>
+, <a class="el" href="class_fungus_1_1_look_from.html#a5bf5c4d28cf69ce68c00ab1564e40990">Fungus.LookFrom</a>
+, <a class="el" href="class_fungus_1_1_look_to.html#ab65a7354c8efb485b5465b7e80745f9c">Fungus.LookTo</a>
+, <a class="el" href="class_fungus_1_1_map.html#ab5ca61a9a84b31015cfc9a25b09cf7a3">Fungus.Map</a>
+, <a class="el" href="class_fungus_1_1_menu.html#aaa8df63e083f648bf5781a0d3347c40d">Fungus.Menu</a>
+, <a class="el" href="class_fungus_1_1_menu_timer.html#a7a1dc85b8b7fab2c48e3c2fb01eeb176">Fungus.MenuTimer</a>
+, <a class="el" href="class_fungus_1_1_min_max.html#a8bd6d609004e5d8506ae094c60f10eb1">Fungus.MinMax</a>
+, <a class="el" href="class_fungus_1_1_move_add.html#a25dbbf73429a8eb5e61097dcd4716df9">Fungus.MoveAdd</a>
+, <a class="el" href="class_fungus_1_1_move_from.html#ae63bde805f740557c23eae041c2ff13c">Fungus.MoveFrom</a>
+, <a class="el" href="class_fungus_1_1_move_lean.html#ac263598943432a3c856dbe0b2de55e13">Fungus.MoveLean</a>
+, <a class="el" href="class_fungus_1_1_move_to.html#a5bcac6115e1f55087c21f8d8ce9f7501">Fungus.MoveTo</a>
+, <a class="el" href="class_fungus_1_1_open_u_r_l.html#a19f999417a5ec57c02f66dce7181192a">Fungus.OpenURL</a>
+, <a class="el" href="class_fungus_1_1_play_anim_state.html#abdd894c37e47eeb4f61e9c6aa42fcc6d">Fungus.PlayAnimState</a>
+, <a class="el" href="class_fungus_1_1_pow.html#abaa210493a2fa0dc7b5ce44c91178d21">Fungus.Pow</a>
+, <a class="el" href="class_fungus_1_1_punch_position.html#a0171492c16c203bc4e8bec1433b28abc">Fungus.PunchPosition</a>
+, <a class="el" href="class_fungus_1_1_punch_rotation.html#ae4bceb95dc1b9517890a093a3168f9ee">Fungus.PunchRotation</a>
+, <a class="el" href="class_fungus_1_1_punch_scale.html#a449f203799a35f230589ad89a09f3752">Fungus.PunchScale</a>
 , <a class="el" href="class_fungus_1_1_random_float.html#a6fcfc63cb5acced7f5b861ce8d7b476e">Fungus.RandomFloat</a>
 , <a class="el" href="class_fungus_1_1_random_integer.html#a391823cba07b76737a9eee7b7b823714">Fungus.RandomInteger</a>
 , <a class="el" href="class_fungus_1_1_read_text_file.html#ac01997eee408e275dba2d1c6caad2a27">Fungus.ReadTextFile</a>
+, <a class="el" href="class_fungus_1_1_reset_anim_trigger.html#a67b0e39b21d6158ad9625035621bf3d4">Fungus.ResetAnimTrigger</a>
+, <a class="el" href="class_fungus_1_1_rotate_add.html#a720cbe6689a8c00ae7cd1e1699592342">Fungus.RotateAdd</a>
+, <a class="el" href="class_fungus_1_1_rotate_from.html#ac905b65b1fab0db45160c310189fa202">Fungus.RotateFrom</a>
+, <a class="el" href="class_fungus_1_1_rotate_lean.html#a5b486c6cbcc164d8d424fb4f0c48685e">Fungus.RotateLean</a>
+, <a class="el" href="class_fungus_1_1_rotate_to.html#a25f005510df008e93cb005c06e167611">Fungus.RotateTo</a>
+, <a class="el" href="class_fungus_1_1_save_variable.html#ad2b1f0ac16e82f7e72391404ca02561a">Fungus.SaveVariable</a>
+, <a class="el" href="class_fungus_1_1_scale_add.html#a22c2e15b5c7d7b2897d0ae1740343b3a">Fungus.ScaleAdd</a>
+, <a class="el" href="class_fungus_1_1_scale_from.html#aca59393d33fd2792605d4b24a75b9951">Fungus.ScaleFrom</a>
+, <a class="el" href="class_fungus_1_1_scale_lean.html#a6df15a4da9560585e0f2e58b356e890d">Fungus.ScaleLean</a>
+, <a class="el" href="class_fungus_1_1_scale_to.html#a99b61e6d56bfd87539349834a2e35b8a">Fungus.ScaleTo</a>
+, <a class="el" href="class_fungus_1_1_send_message.html#ac802d745322c3be8de1b5690a2175acf">Fungus.SendMessage</a>
+, <a class="el" href="class_fungus_1_1_set_active.html#ab71f1f49469194aa46c961685f5d00cb">Fungus.SetActive</a>
+, <a class="el" href="class_fungus_1_1_set_anim_bool.html#a9f2d150042f03239d5eacc93f56c533f">Fungus.SetAnimBool</a>
+, <a class="el" href="class_fungus_1_1_set_anim_float.html#af8733164910d40f4d65ce78a55c3f4fb">Fungus.SetAnimFloat</a>
+, <a class="el" href="class_fungus_1_1_set_anim_integer.html#a3766858c8c9c44d44f021a3e6f72dc6c">Fungus.SetAnimInteger</a>
+, <a class="el" href="class_fungus_1_1_set_anim_trigger.html#a65ed077137e056af59713bddbcaefc21">Fungus.SetAnimTrigger</a>
+, <a class="el" href="class_fungus_1_1_set_clickable2_d.html#a6303ef962d7f3e9d887ed65a73fc6707">Fungus.SetClickable2D</a>
+, <a class="el" href="class_fungus_1_1_set_collider.html#a1e6541cb2ddcf1d3f5dd04a2f4671a50">Fungus.SetCollider</a>
+, <a class="el" href="class_fungus_1_1_set_draggable2_d.html#a9400f40f428a10fe331d53f62f0a21b0">Fungus.SetDraggable2D</a>
+, <a class="el" href="class_fungus_1_1_set_interactable.html#ab44e6dc54d9f14ff360b5c55f7d9088f">Fungus.SetInteractable</a>
+, <a class="el" href="class_fungus_1_1_set_language.html#afd885fb68fb32fe0036986acc95095a2">Fungus.SetLanguage</a>
+, <a class="el" href="class_fungus_1_1_set_slider_value.html#a50dd0f206a14e65b55486d09a593fea6">Fungus.SetSliderValue</a>
+, <a class="el" href="class_fungus_1_1_set_sprite_order.html#a523d450e090537c4047045c4451b7ab2">Fungus.SetSpriteOrder</a>
+, <a class="el" href="class_fungus_1_1_set_text.html#aa321f20d1fc07f3c8ee2e55c48fe3e13">Fungus.SetText</a>
+, <a class="el" href="class_fungus_1_1_set_toggle_state.html#ab5e4e92790f5a14c55879772ff61d67f">Fungus.SetToggleState</a>
 , <a class="el" href="class_fungus_1_1_set_variable.html#adf76d4f17bb82c225f3096cb43df52aa">Fungus.SetVariable</a>
+, <a class="el" href="class_fungus_1_1_shake_position.html#a06e57ce2f2c55ad24011f69f51f9c0ec">Fungus.ShakePosition</a>
+, <a class="el" href="class_fungus_1_1_shake_rotation.html#a17b8f75a256c9bc2547da30c1101cb99">Fungus.ShakeRotation</a>
+, <a class="el" href="class_fungus_1_1_shake_scale.html#a20c57f83f9d6939d70802d9f61992b4a">Fungus.ShakeScale</a>
+, <a class="el" href="class_fungus_1_1_show_sprite.html#ae29aa9613615eb583559e2fdfc54388a">Fungus.ShowSprite</a>
 , <a class="el" href="class_fungus_1_1_spawn_object.html#a000a3204c019880eaa173d56e4060ae9">Fungus.SpawnObject</a>
+, <a class="el" href="class_fungus_1_1_stop_block.html#abe21976acd9c89f431e7d2867384d1b4">Fungus.StopBlock</a>
 , <a class="el" href="class_fungus_1_1_stop_motion_rigid_body2_d.html#a041e0a118e2890c6a943c157307a22a5">Fungus.StopMotionRigidBody2D</a>
+, <a class="el" href="class_fungus_1_1_stop_tween.html#a75fb10f011c6741e45b5a185f44b05c6">Fungus.StopTween</a>
+, <a class="el" href="class_fungus_1_1_stop_tweens_lean.html#ac4a68c59c38b2ed0c304c5dcd7e106f8">Fungus.StopTweensLean</a>
+, <a class="el" href="class_fungus_1_1_to_int.html#a12ba85dacc707469018f989f4942ad8b">Fungus.ToInt</a>
+, <a class="el" href="class_fungus_1_1_to_string.html#a1b49287d303f19ff9dc434cc1ead2db2">Fungus.ToString</a>
 , <a class="el" href="class_fungus_1_1_transform_property.html#aedbfa9b95e6df5d7f4a8ac8b8087bc8f">Fungus.TransformProperty</a>
+, <a class="el" href="class_fungus_1_1_tween_u_i.html#a016cc0f7e2fb7a1d7cd5fbc61ea4ab52">Fungus.TweenUI</a>
 , <a class="el" href="class_fungus_1_1_variable_condition.html#a18628a907fa1592a15b91af40d6baed8">Fungus.VariableCondition</a>
 , <a class="el" href="class_fungus_1_1_vector3_arithmetic.html#a0f78cfc84b9124e1e8e9455ceee54003">Fungus.Vector3Arithmetic</a>
 , <a class="el" href="class_fungus_1_1_vector3_fields.html#ac64fdd878b73a8a5bf35e196a39f3017">Fungus.Vector3Fields</a>
 , <a class="el" href="class_fungus_1_1_vector3_normalise.html#a4ac2bdfbcb2eda801d04dd679639a4b9">Fungus.Vector3Normalise</a>
 , <a class="el" href="class_fungus_1_1_vector3_to_vector2.html#abbd4246f719a63b86f1f3692809cc526">Fungus.Vector3ToVector2</a>
+, <a class="el" href="class_fungus_1_1_wait.html#abf731cc9b05f5fe81a278c237fa83ebd">Fungus.Wait</a>
+, <a class="el" href="class_fungus_1_1_wait_frames.html#a8952e901f367d4f722df879d8168828a">Fungus.WaitFrames</a>
+, <a class="el" href="class_fungus_1_1_write.html#a521190cc41ccd82d6978c8b09c6c82d3">Fungus.Write</a>
 </li>
 <li>HasTextObject()
-: <a class="el" href="class_fungus_1_1_writer.html#a0bbc67d4dd3af50ee95558b673925ac3">Fungus.Writer</a>
+: <a class="el" href="interface_fungus_1_1_i_writer_text_destination.html#a84a431388a9826129b64cc9aa8c76284">Fungus.IWriterTextDestination</a>
+, <a class="el" href="class_fungus_1_1_text_adapter.html#ac71d4bce2147bb728c5909c96e8a6ab6">Fungus.TextAdapter</a>
 </li>
 <li>HasVariable()
 : <a class="el" href="class_fungus_1_1_flowchart.html#a40c4b87864a384a20710f5204280990f">Fungus.Flowchart</a>
@@ -151,7 +227,7 @@ $(document).ready(function(){initNavTree('functions_func_h.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 16 2018 23:53:03 for Fungus by
+    <li class="footer">Generated on Fri May 3 2019 23:38:46 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -28,16 +28,21 @@ var class_fungus_1_1_say_dialog =
     [ "fadeWhenDone", "class_fungus_1_1_say_dialog.html#a1b9e403612a1b4780b1bbb84e95a1954", null ],
     [ "fitTextWithImage", "class_fungus_1_1_say_dialog.html#aae59986e3dad10cc4c81c47bf4f3e9a5", null ],
     [ "nameText", "class_fungus_1_1_say_dialog.html#a4cc7eb0f359e653ef84d197a75a4ccfc", null ],
+    [ "nameTextAdapter", "class_fungus_1_1_say_dialog.html#a6b130c7320cfb63efde46a089dcadbb5", null ],
+    [ "nameTextGO", "class_fungus_1_1_say_dialog.html#a831a84196b0472e1de6ad48012eaca10", null ],
     [ "startStoryTextInset", "class_fungus_1_1_say_dialog.html#a4561eae26d4b9f0502305b38256ac989", null ],
     [ "startStoryTextWidth", "class_fungus_1_1_say_dialog.html#a7332706c5cbf43f73bb35e721397793f", null ],
     [ "storyText", "class_fungus_1_1_say_dialog.html#a400d5e6764345bd4c2777aaccac9cbf0", null ],
+    [ "storyTextAdapter", "class_fungus_1_1_say_dialog.html#abae3596f364a19938d0026b582885afd", null ],
+    [ "storyTextGO", "class_fungus_1_1_say_dialog.html#a0537143843d5bfcb626a82739aec132b", null ],
     [ "stringSubstituter", "class_fungus_1_1_say_dialog.html#aadbd35d8ce79289e1860c017ebf7e1a7", null ],
     [ "targetAlpha", "class_fungus_1_1_say_dialog.html#aae6618545476e23c395fee3526cbae0e", null ],
     [ "writer", "class_fungus_1_1_say_dialog.html#a3c9a015faced5bd459894c40ca372c99", null ],
     [ "writerAudio", "class_fungus_1_1_say_dialog.html#a9cf766f0d2fcf106f15de49dc7f31c39", null ],
     [ "CharacterImage", "class_fungus_1_1_say_dialog.html#a38a9c0adbe25b453adbbeb990df436e0", null ],
     [ "FadeWhenDone", "class_fungus_1_1_say_dialog.html#aa6967c7394abb38e19a3a67007b34046", null ],
-    [ "NameText", "class_fungus_1_1_say_dialog.html#a0a241f8872d7a7c4295aabf35d7aa983", null ],
+    [ "NameText", "class_fungus_1_1_say_dialog.html#a7858f2d92eb39bbf5169781494f497e2", null ],
     [ "SpeakingCharacter", "class_fungus_1_1_say_dialog.html#ae66c77b52fef06340e9e6542d648cd1d", null ],
-    [ "StoryText", "class_fungus_1_1_say_dialog.html#ac15e32226f07000bd1a5b4f632701138", null ]
+    [ "StoryText", "class_fungus_1_1_say_dialog.html#a5ba9c76abab0d7cb48ee6049da3cbb68", null ],
+    [ "StoryTextRectTrans", "class_fungus_1_1_say_dialog.html#ac2ebc55ddce8cb6451479a25f6805a81", null ]
 ];

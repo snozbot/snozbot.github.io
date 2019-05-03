@@ -1,6 +1,7 @@
 var class_fungus_1_1_rotate_from =
 [
     [ "DoTween", "class_fungus_1_1_rotate_from.html#a246c4ca39d467a55a42d4d55e28785e1", null ],
+    [ "HasReference", "class_fungus_1_1_rotate_from.html#ac905b65b1fab0db45160c310189fa202", null ],
     [ "OnEnable", "class_fungus_1_1_rotate_from.html#aeb758f92362f00f69154762c9aabf8b9", null ],
     [ "_fromRotation", "class_fungus_1_1_rotate_from.html#a1588536ddf0d5232ec9071f9d45e5f2e", null ],
     [ "_fromTransform", "class_fungus_1_1_rotate_from.html#a960fcd014ffc2bb9edacda7bb5ac64d1", null ],

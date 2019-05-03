@@ -38,9 +38,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.9.1--></span>
+   &#160;<span id="projectnumber"><!--v3.11.4--></span>
    </div>
-   <div id="projectbrief">v3.9.1 Documentation</div>
+   <div id="projectbrief">v3.11.4 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('variable_commands.html','');});
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#DeleteSaveKey">Delete Save Key</a></li>
+<li class="level1"><a href="#FromString">From String</a></li>
 <li class="level1"><a href="#LoadVariable">Load Variable</a></li>
 <li class="level1"><a href="#RandomFloat">Random Float</a></li>
 <li class="level1"><a href="#RandomInteger">Random Integer</a></li>
@@ -104,6 +105,7 @@ $(document).ready(function(){initNavTree('variable_commands.html','');});
 <li class="level1"><a href="#SaveVariable">Save Variable</a></li>
 <li class="level1"><a href="#SetSaveProfile">Set Save Profile</a></li>
 <li class="level1"><a href="#SetVariable">Set Variable</a></li>
+<li class="level1"><a href="#ToString">To String</a></li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="DeleteSaveKey"></a>
@@ -115,6 +117,18 @@ Delete Save Key</h1>
 <th>Property </th><th>Type </th><th>Description  </th></tr>
 <tr>
 <td>Key </td><td>System.String </td><td>Name of the saved value. Supports variable substition e.g. "player_{$PlayerNumber} </td></tr>
+</table>
+<h1><a class="anchor" id="FromString"></a>
+From String</h1>
+<p>Attempts to parse a string into a given fungus variable type, such as integer or float</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_from_string.html" title="Attempts to parse a string into a given fungus variable type, such as integer or float ...">Fungus.FromString</a></p>
+<table class="doxtable">
+<tr>
+<th>Property </th><th>Type </th><th>Description  </th></tr>
+<tr>
+<td>Source String </td><td><a class="el" href="class_fungus_1_1_string_variable.html" title="String variable type. ">Fungus.StringVariable</a> </td><td>Source of string data to parse into another variables value </td></tr>
+<tr>
+<td>Out Value </td><td><a class="el" href="class_fungus_1_1_variable.html" title="Abstract base class for variables. ">Fungus.Variable</a> </td><td>The variable type to be parsed and value stored within </td></tr>
 </table>
 <h1><a class="anchor" id="LoadVariable"></a>
 Load Variable</h1>
@@ -246,13 +260,25 @@ Set Variable</h1>
 <tr>
 <td>Vector3 Data </td><td><a class="el" href="struct_fungus_1_1_vector3_data.html" title="Container for a Vector3 variable reference or constant value. ">Fungus.Vector3Data</a> </td><td>Vector3 value to set with </td></tr>
 </table>
+<h1><a class="anchor" id="ToString"></a>
+To String</h1>
+<p>Stores the result of a ToString on given variable in a string.</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_to_string.html" title="Stores the result of a ToString on given variable in a string. ">Fungus.ToString</a></p>
+<table class="doxtable">
+<tr>
+<th>Property </th><th>Type </th><th>Description  </th></tr>
+<tr>
+<td>Variable </td><td><a class="el" href="class_fungus_1_1_variable.html" title="Abstract base class for variables. ">Fungus.Variable</a> </td><td>Target variable to get String of. </td></tr>
+<tr>
+<td>Out Value </td><td><a class="el" href="class_fungus_1_1_string_variable.html" title="String variable type. ">Fungus.StringVariable</a> </td><td>Variable to store the result of ToString </td></tr>
+</table>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="command_reference.html">Command Reference</a></li>
-    <li class="footer">Generated on Mon Jul 16 2018 23:53:01 for Fungus by
+    <li class="footer">Generated on Fri May 3 2019 23:38:43 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

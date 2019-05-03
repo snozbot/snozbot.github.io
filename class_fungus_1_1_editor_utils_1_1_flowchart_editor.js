@@ -1,7 +1,5 @@
 var class_fungus_1_1_editor_utils_1_1_flowchart_editor =
 [
-    [ "AddVariableInfo", "class_fungus_1_1_editor_utils_1_1_flowchart_editor_1_1_add_variable_info.html", "class_fungus_1_1_editor_utils_1_1_flowchart_editor_1_1_add_variable_info" ],
-    [ "AddVariable", "class_fungus_1_1_editor_utils_1_1_flowchart_editor.html#a157b01d029040b1b955e4012eaf01cd2", null ],
     [ "DrawVariablesGUI", "class_fungus_1_1_editor_utils_1_1_flowchart_editor.html#a85501225d8ca11ab1d3e08d91204178f", null ],
     [ "NullTargetCheck", "class_fungus_1_1_editor_utils_1_1_flowchart_editor.html#a22df5c3619a4d99d46c77fc8c98f5c85", null ],
     [ "OnEnable", "class_fungus_1_1_editor_utils_1_1_flowchart_editor.html#a5b9994daf862d987dfe64ae254b904f4", null ],
@@ -17,5 +15,6 @@ var class_fungus_1_1_editor_utils_1_1_flowchart_editor =
     [ "saveSelectionProp", "class_fungus_1_1_editor_utils_1_1_flowchart_editor.html#a0ac2d3d2248123d20fbfac6bfb2fa043", null ],
     [ "showLineNumbersProp", "class_fungus_1_1_editor_utils_1_1_flowchart_editor.html#a96b3a91e06ae257fb19c6775c7297a3d", null ],
     [ "stepPauseProp", "class_fungus_1_1_editor_utils_1_1_flowchart_editor.html#a09ba9bbc744ba2d7453822028c3edee2", null ],
+    [ "variableListAdaptor", "class_fungus_1_1_editor_utils_1_1_flowchart_editor.html#ae2fec6cd62aeaebb5d24a7d777fecc3c", null ],
     [ "variablesProp", "class_fungus_1_1_editor_utils_1_1_flowchart_editor.html#ae326585b37a889d9216223c90402ada6", null ]
 ];

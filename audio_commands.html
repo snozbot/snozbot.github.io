@@ -38,9 +38,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.9.1--></span>
+   &#160;<span id="projectnumber"><!--v3.11.4--></span>
    </div>
-   <div id="projectbrief">v3.9.1 Documentation</div>
+   <div id="projectbrief">v3.11.4 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -96,11 +96,14 @@ $(document).ready(function(){initNavTree('audio_commands.html','');});
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
 <ul><li class="level1"><a href="#ControlAudio">Control Audio</a></li>
+<li class="level1"><a href="#PlayAmbianceSound">Play Ambiance Sound</a></li>
 <li class="level1"><a href="#PlayMusic">Play Music</a></li>
+<li class="level1"><a href="#PlayRandomSound">Play Random Sound</a></li>
 <li class="level1"><a href="#PlaySound">Play Sound</a></li>
 <li class="level1"><a href="#PlayUsfxrSound">Play Usfxr Sound</a></li>
 <li class="level1"><a href="#SetAudioPitch">Set Audio Pitch</a></li>
 <li class="level1"><a href="#SetAudioVolume">Set Audio Volume</a></li>
+<li class="level1"><a href="#StopAmbiance">Stop Ambiance</a></li>
 <li class="level1"><a href="#StopMusic">Stop Music</a></li>
 </ul>
 </div>
@@ -124,6 +127,20 @@ Control Audio</h1>
 <tr>
 <td>Wait Until Finished </td><td>System.Boolean </td><td>Wait until this command has finished before executing the next command. </td></tr>
 </table>
+<h1><a class="anchor" id="PlayAmbianceSound"></a>
+Play Ambiance Sound</h1>
+<p>Plays a background sound to be overlayed on top of the music. Only one Ambiance can be played at a time.</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_play_ambiance_sound.html" title="Plays a once-off sound effect. ">Fungus.PlayAmbianceSound</a></p>
+<table class="doxtable">
+<tr>
+<th>Property </th><th>Type </th><th>Description  </th></tr>
+<tr>
+<td>Sound Clip </td><td>UnityEngine.AudioClip </td><td>Sound effect clip to play </td></tr>
+<tr>
+<td>Volume </td><td>System.Single </td><td>Volume level of the sound effect </td></tr>
+<tr>
+<td>Loop </td><td>System.Boolean </td><td>Sound effect clip to play </td></tr>
+</table>
 <h1><a class="anchor" id="PlayMusic"></a>
 Play Music</h1>
 <p>Plays looping game music. If any game music is already playing, it is stopped. Game music will continue playing across scene loads.</p>
@@ -139,6 +156,20 @@ Play Music</h1>
 <td>Loop </td><td>System.Boolean </td><td>The music will start playing again at end. </td></tr>
 <tr>
 <td>Fade Duration </td><td>System.Single </td><td>Length of time to fade out previous playing music. </td></tr>
+</table>
+<h1><a class="anchor" id="PlayRandomSound"></a>
+Play Random Sound</h1>
+<p>Plays a once-off sound effect from a list of available sound effects. Multiple sound effects can be played at the same time.</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_play_random_sound.html" title="Plays a once-off sound effect. ">Fungus.PlayRandomSound</a></p>
+<table class="doxtable">
+<tr>
+<th>Property </th><th>Type </th><th>Description  </th></tr>
+<tr>
+<td>Sound Clip </td><td>UnityEngine.AudioClip[] </td><td>Sound effect clip to play </td></tr>
+<tr>
+<td>Volume </td><td>System.Single </td><td>Volume level of the sound effect </td></tr>
+<tr>
+<td>Wait Until Finished </td><td>System.Boolean </td><td>Wait until the sound has finished playing before continuing execution. </td></tr>
 </table>
 <h1><a class="anchor" id="PlaySound"></a>
 Play Sound</h1>
@@ -196,6 +227,10 @@ Set Audio Volume</h1>
 <tr>
 <td>Wait Until Finished </td><td>System.Boolean </td><td>Wait until the volume fade has completed before continuing. </td></tr>
 </table>
+<h1><a class="anchor" id="StopAmbiance"></a>
+Stop Ambiance</h1>
+<p>Stops the currently playing game ambiance.</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_stop_ambiance.html" title="Stops the currently playing game music. ">Fungus.StopAmbiance</a> </p>
 <h1><a class="anchor" id="StopMusic"></a>
 Stop Music</h1>
 <p>Stops the currently playing game music.</p>
@@ -206,7 +241,7 @@ Stop Music</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="command_reference.html">Command Reference</a></li>
-    <li class="footer">Generated on Mon Jul 16 2018 23:53:01 for Fungus by
+    <li class="footer">Generated on Fri May 3 2019 23:38:43 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

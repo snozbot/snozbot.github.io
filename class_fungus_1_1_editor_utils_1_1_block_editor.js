@@ -1,9 +1,5 @@
 var class_fungus_1_1_editor_utils_1_1_block_editor =
 [
-    [ "AddCommandOperation", "class_fungus_1_1_editor_utils_1_1_block_editor_1_1_add_command_operation.html", "class_fungus_1_1_editor_utils_1_1_block_editor_1_1_add_command_operation" ],
-    [ "SetEventHandlerOperation", "class_fungus_1_1_editor_utils_1_1_block_editor_1_1_set_event_handler_operation.html", "class_fungus_1_1_editor_utils_1_1_block_editor_1_1_set_event_handler_operation" ],
-    [ "AddCommandCallback", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a4413b5075a79fb0fb33a7d168297b201", null ],
-    [ "AddCommandCallback", "class_fungus_1_1_editor_utils_1_1_block_editor.html#aec7d9c1d5c5dc6cddf7469839b57f0bc", null ],
     [ "Copy", "class_fungus_1_1_editor_utils_1_1_block_editor.html#aebb730a165b0ae7cf667f00c78793ce4", null ],
     [ "Cut", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a9348b4546e25ea7b0a6b650ad6649e48", null ],
     [ "Delete", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a4d8ce8a1ecb8c584839624a8d0d07db9", null ],
@@ -12,7 +8,6 @@ var class_fungus_1_1_editor_utils_1_1_block_editor =
     [ "DrawButtonToolbar", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a5f4e1878c4a93a59a810e881f5b903d6", null ],
     [ "DrawEventHandlerGUI", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a02f983e564e195718b73669697439ddc", null ],
     [ "OnEnable", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a99c28ac25bc2247b225db6887347fdd3", null ],
-    [ "OnSelectEventHandler", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a518ce5828679013dfdaeb7cf0a4bf0bc", null ],
     [ "Paste", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a7c8cfbce8574ea866cd5f6dae59d4ad6", null ],
     [ "PlayCommand", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a13614f4f10b5a2174a51f7fa39b9e249", null ],
     [ "RunBlock", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a155fc7f7f4590b15f1840cab0584f78e", null ],
@@ -20,15 +15,11 @@ var class_fungus_1_1_editor_utils_1_1_block_editor =
     [ "SelectNext", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a34033da38e33fbf5c4ca283ed27fcc82", null ],
     [ "SelectNone", "class_fungus_1_1_editor_utils_1_1_block_editor.html#aabfb63acebd2108410972c52bb51c5cc", null ],
     [ "SelectPrevious", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a262f350bdd7e8716f6e29f743f18305a", null ],
-    [ "ShowCommandMenu", "class_fungus_1_1_editor_utils_1_1_block_editor.html#ab38713478443df33c45b86c3572d1d8c", null ],
     [ "ShowContextMenu", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a7adada477af01ffed8a646b8caa93e66", null ],
     [ "StopAllPlayCommand", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a06ed8482df24ad370ad3601c0ad47ff6", null ],
     [ "addIcon", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a3e6eda67cff19b284a643e017d504a7d", null ],
-    [ "commandSelectedByTextInput", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a2d4cd7950cec2096bbf3bd035b5bf5ee", null ],
-    [ "commandTextFieldContents", "class_fungus_1_1_editor_utils_1_1_block_editor.html#ad4c269a2d2ca78f2078ade9081eae874", null ],
     [ "deleteIcon", "class_fungus_1_1_editor_utils_1_1_block_editor.html#aa6f84259d44705764715692b0584a124", null ],
     [ "downIcon", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a2dc2725f5b5ca38f75e524e2ed894add", null ],
     [ "duplicateIcon", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a9083753964aab5eff56c59b1f915bee8", null ],
-    [ "filteredCommandPreviewSelectedItem", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a18b5873a777f7ed35174fa020297880a", null ],
     [ "upIcon", "class_fungus_1_1_editor_utils_1_1_block_editor.html#a41a3fa8cc5f98ecd1a8c74e439226caa", null ]
 ];

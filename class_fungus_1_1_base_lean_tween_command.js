@@ -11,6 +11,7 @@ var class_fungus_1_1_base_lean_tween_command =
     [ "ExecuteTween", "class_fungus_1_1_base_lean_tween_command.html#a684a47799f400ab48b74fc5dfe9f3b06", null ],
     [ "GetButtonColor", "class_fungus_1_1_base_lean_tween_command.html#a5866489d6a1312e16ea5736f80cc0ac3", null ],
     [ "GetSummary", "class_fungus_1_1_base_lean_tween_command.html#acf71fc073df4938fb77669cd486b7064", null ],
+    [ "HasReference", "class_fungus_1_1_base_lean_tween_command.html#adebc5f9e4bc5dd32641ee1356ee25379", null ],
     [ "OnEnter", "class_fungus_1_1_base_lean_tween_command.html#af69e4a61d9c10eb2f7a00532bcdf2e0d", null ],
     [ "OnTweenComplete", "class_fungus_1_1_base_lean_tween_command.html#a259cce2e649bae31e00698aeddcf401d", null ],
     [ "_absAdd", "class_fungus_1_1_base_lean_tween_command.html#a87191584e624f9c595b07b43e49b8675", null ],

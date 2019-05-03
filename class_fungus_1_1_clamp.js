@@ -7,6 +7,7 @@ var class_fungus_1_1_clamp =
     ] ],
     [ "GetButtonColor", "class_fungus_1_1_clamp.html#a6da22d3b5516af1e0b76f67d0d5cf0df", null ],
     [ "GetSummary", "class_fungus_1_1_clamp.html#a01d1f8fdb30bec66eb99477da7d22412", null ],
+    [ "HasReference", "class_fungus_1_1_clamp.html#aa0bdaafc18de856dcd4abc2707725dee", null ],
     [ "OnEnter", "class_fungus_1_1_clamp.html#a60e2335ad294cc63ca76eaa969361917", null ],
     [ "lower", "class_fungus_1_1_clamp.html#a4f44578ef0f929cea0ba492106ffc518", null ],
     [ "mode", "class_fungus_1_1_clamp.html#ab85612500f618548bd5f215f7a195a8c", null ],

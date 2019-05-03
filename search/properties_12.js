@@ -8,7 +8,9 @@ var searchData=
   ['scrollviewrect',['ScrollViewRect',['../class_fungus_1_1_flowchart.html#a536f5ba10ad779e8892a3a85b541972d',1,'Fungus::Flowchart']]],
   ['secondaryaspectratio',['SecondaryAspectRatio',['../class_fungus_1_1_view.html#abeeae687e377c8651d863523503b8945',1,'Fungus::View']]],
   ['selectedblock',['SelectedBlock',['../class_fungus_1_1_flowchart.html#a95a3a193463d1849bdc74366e2d56a0b',1,'Fungus::Flowchart']]],
+  ['selectedblockdatastale',['SelectedBlockDataStale',['../class_fungus_1_1_editor_utils_1_1_block_editor.html#a007e43768a1c45fbd9f8122cd860df82',1,'Fungus::EditorUtils::BlockEditor']]],
   ['selectedblocks',['SelectedBlocks',['../class_fungus_1_1_flowchart.html#a64dd2799d47224758e5857c1da7aaa06',1,'Fungus::Flowchart']]],
+  ['selectedcommanddatastale',['SelectedCommandDataStale',['../class_fungus_1_1_editor_utils_1_1_command_editor.html#a786117ff172ee393db91cf1326fbad2c',1,'Fungus::EditorUtils::CommandEditor']]],
   ['selectedcommands',['SelectedCommands',['../class_fungus_1_1_flowchart.html#a84c8397c5b47373495e327987590bca5',1,'Fungus::Flowchart']]],
   ['selectedflowchart',['SelectedFlowchart',['../class_fungus_1_1_fungus_state.html#a6daac803c5d0ca2f2cff96515dc5fe47',1,'Fungus::FungusState']]],
   ['setmenudialog',['SetMenuDialog',['../class_fungus_1_1_menu.html#a04d948698eb121b74f7bae828487622c',1,'Fungus::Menu']]],
@@ -20,6 +22,7 @@ var searchData=
   ['speakingcharacter',['SpeakingCharacter',['../class_fungus_1_1_say_dialog.html#ae66c77b52fef06340e9e6542d648cd1d',1,'Fungus::SayDialog']]],
   ['state',['State',['../class_fungus_1_1_block.html#a29b12b6ea1b75b934e37c274b65f3c9c',1,'Fungus.Block.State()'],['../class_fungus_1_1_character.html#af40bc3e2226b4f9f1c1a962afce4e6fa',1,'Fungus.Character.State()']]],
   ['steppause',['StepPause',['../class_fungus_1_1_flowchart.html#a1156219cabb5fe9c453228927d68a6ad',1,'Fungus::Flowchart']]],
-  ['storytext',['StoryText',['../class_fungus_1_1_say_dialog.html#ac15e32226f07000bd1a5b4f632701138',1,'Fungus::SayDialog']]],
+  ['storytext',['StoryText',['../class_fungus_1_1_say_dialog.html#a5ba9c76abab0d7cb48ee6049da3cbb68',1,'Fungus::SayDialog']]],
+  ['storytextrecttrans',['StoryTextRectTrans',['../class_fungus_1_1_say_dialog.html#ac2ebc55ddce8cb6451479a25f6805a81',1,'Fungus::SayDialog']]],
   ['stringvars',['StringVars',['../class_fungus_1_1_flowchart_data.html#acdede3705efa23b9b7ae3d32227b8a47',1,'Fungus::FlowchartData']]]
 ];

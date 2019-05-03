@@ -2,6 +2,7 @@ var class_fungus_1_1_show_sprite =
 [
     [ "GetButtonColor", "class_fungus_1_1_show_sprite.html#ad4c38605a1bb4b4ad273b8a74a7f66cc", null ],
     [ "GetSummary", "class_fungus_1_1_show_sprite.html#afeaa15260def051208e2f1f160110a25", null ],
+    [ "HasReference", "class_fungus_1_1_show_sprite.html#ae29aa9613615eb583559e2fdfc54388a", null ],
     [ "OnEnable", "class_fungus_1_1_show_sprite.html#a36d2e671fde92c0378e775d0e9688a3c", null ],
     [ "OnEnter", "class_fungus_1_1_show_sprite.html#ae3afbdeae1cf550e1c05d9d4cfbd9b5c", null ],
     [ "SetSpriteAlpha", "class_fungus_1_1_show_sprite.html#a8de8b262d5c7088017fd53a0eb5cdeaf", null ],

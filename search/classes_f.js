@@ -2,8 +2,10 @@ var searchData=
 [
   ['parallax',['Parallax',['../class_fungus_1_1_parallax.html',1,'Fungus']]],
   ['particle',['Particle',['../class_fungus_1_1_particle.html',1,'Fungus']]],
+  ['playambiancesound',['PlayAmbianceSound',['../class_fungus_1_1_play_ambiance_sound.html',1,'Fungus']]],
   ['playanimstate',['PlayAnimState',['../class_fungus_1_1_play_anim_state.html',1,'Fungus']]],
   ['playmusic',['PlayMusic',['../class_fungus_1_1_play_music.html',1,'Fungus']]],
+  ['playrandomsound',['PlayRandomSound',['../class_fungus_1_1_play_random_sound.html',1,'Fungus']]],
   ['playsound',['PlaySound',['../class_fungus_1_1_play_sound.html',1,'Fungus']]],
   ['portrait',['Portrait',['../class_fungus_1_1_portrait.html',1,'Fungus']]],
   ['portraitcontroller',['PortraitController',['../class_fungus_1_1_portrait_controller.html',1,'Fungus']]],

@@ -6,6 +6,7 @@ var class_fungus_1_1_write =
     [ "GetStringId", "class_fungus_1_1_write.html#ab32f7ccf0c7964f52f8e46ea48309008", null ],
     [ "GetSummary", "class_fungus_1_1_write.html#a0809ede9ee76d6eaaf5622c1150c32a4", null ],
     [ "GetWriter", "class_fungus_1_1_write.html#a9dbe7a5819a8e17a91ce70e435db436a", null ],
+    [ "HasReference", "class_fungus_1_1_write.html#a521190cc41ccd82d6978c8b09c6c82d3", null ],
     [ "OnEnter", "class_fungus_1_1_write.html#a3f77af8f11bbb60b6606207d7139b65d", null ],
     [ "OnStopExecuting", "class_fungus_1_1_write.html#a4d0a0b1c86394d66c6934e0b5c02db46", null ],
     [ "SetStandardText", "class_fungus_1_1_write.html#ab51ed0cf8a912dac64a2a385fafc8128", null ],

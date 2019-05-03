@@ -1,6 +1,7 @@
 var class_fungus_1_1_conversation_manager =
 [
     [ "ConversationItem", "struct_fungus_1_1_conversation_manager_1_1_conversation_item.html", "struct_fungus_1_1_conversation_manager_1_1_conversation_item" ],
+    [ "RawConversationItem", "struct_fungus_1_1_conversation_manager_1_1_raw_conversation_item.html", "struct_fungus_1_1_conversation_manager_1_1_raw_conversation_item" ],
     [ "ConversationManager", "class_fungus_1_1_conversation_manager.html#a9f8c02c6fc0eef7935b0c72d0b5ce33a", null ],
     [ "CreateConversationItem", "class_fungus_1_1_conversation_manager.html#ae34fdd7cf80ea2d9f6e9b378fd649c62", null ],
     [ "DoConversation", "class_fungus_1_1_conversation_manager.html#ad737c386616fa1b8367147c712f78fb6", null ],

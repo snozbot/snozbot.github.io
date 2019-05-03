@@ -7,6 +7,7 @@ var class_fungus_1_1_to_int =
     ] ],
     [ "GetButtonColor", "class_fungus_1_1_to_int.html#aea53f483870a24514359022e35b73d61", null ],
     [ "GetSummary", "class_fungus_1_1_to_int.html#ac143677f6fbec12a484c081cb84015ca", null ],
+    [ "HasReference", "class_fungus_1_1_to_int.html#a12ba85dacc707469018f989f4942ad8b", null ],
     [ "OnEnter", "class_fungus_1_1_to_int.html#a6caf6eebcdf8c0f437c5c01a5be44fea", null ],
     [ "function", "class_fungus_1_1_to_int.html#aadf508bbf1526f9eff569ed5d1db764c", null ],
     [ "inValue", "class_fungus_1_1_to_int.html#af5415779af1ec0aedb8929534c237520", null ],

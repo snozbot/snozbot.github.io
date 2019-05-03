@@ -2,6 +2,7 @@ var searchData=
 [
   ['randomfloat',['RandomFloat',['../class_fungus_1_1_random_float.html',1,'Fungus']]],
   ['randominteger',['RandomInteger',['../class_fungus_1_1_random_integer.html',1,'Fungus']]],
+  ['rawconversationitem',['RawConversationItem',['../struct_fungus_1_1_conversation_manager_1_1_raw_conversation_item.html',1,'Fungus::ConversationManager']]],
   ['readtextfile',['ReadTextFile',['../class_fungus_1_1_read_text_file.html',1,'Fungus']]],
   ['reloadscene',['ReloadScene',['../class_fungus_1_1_reload_scene.html',1,'Fungus']]],
   ['render',['Render',['../class_fungus_1_1_render.html',1,'Fungus']]],

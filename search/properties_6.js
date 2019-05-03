@@ -8,6 +8,7 @@ var searchData=
   ['fadewhendone',['FadeWhenDone',['../class_fungus_1_1_say_dialog.html#aa6967c7394abb38e19a3a67007b34046',1,'Fungus::SayDialog']]],
   ['flip',['Flip',['../struct_fungus_1_1_conversation_manager_1_1_conversation_item.html#af1187e3e0f1a99d3734f5d758d08bf2f',1,'Fungus::ConversationManager::ConversationItem']]],
   ['floatvars',['FloatVars',['../class_fungus_1_1_flowchart_data.html#a0101d676a6a97039a676a56dd0d5b000',1,'Fungus::FlowchartData']]],
+  ['flowchartdatastale',['FlowchartDataStale',['../class_fungus_1_1_editor_utils_1_1_flowchart_editor.html#a7cf5b364bd32fcefcff9b469ad93cee3',1,'Fungus::EditorUtils::FlowchartEditor']]],
   ['flowchartname',['FlowchartName',['../class_fungus_1_1_flowchart_data.html#a3dd15137db8cb86d0aa6b05dc0f67d1e',1,'Fungus::FlowchartData']]],
   ['fromposition',['FromPosition',['../class_fungus_1_1_portrait.html#a763277b0645915bff484731cc8dd11ae',1,'Fungus::Portrait']]]
 ];

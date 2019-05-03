@@ -38,9 +38,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.9.1--></span>
+   &#160;<span id="projectnumber"><!--v3.11.4--></span>
    </div>
-   <div id="projectbrief">v3.9.1 Documentation</div>
+   <div id="projectbrief">v3.11.4 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -111,13 +111,19 @@ $(document).ready(function(){initNavTree('functions_vars_v.html','');});
 , <a class="el" href="class_fungus_1_1_random_integer.html#afee73ef8c4720f7230a28727496d4590">Fungus.RandomInteger</a>
 , <a class="el" href="class_fungus_1_1_save_variable.html#aeaca8c28bb285dda08becbc3e96d9812">Fungus.SaveVariable</a>
 , <a class="el" href="class_fungus_1_1_set_variable.html#ae4d076a665b8a5cd0914dd7bfa13533f">Fungus.SetVariable</a>
+, <a class="el" href="class_fungus_1_1_to_string.html#a5aaac4db60b9d88d064c770c21bb926a">Fungus.ToString</a>
 , <a class="el" href="class_fungus_1_1_variable_condition.html#a59f647859e4737ea57ad0f574d51a7f6">Fungus.VariableCondition</a>
+, <a class="el" href="struct_fungus_1_1_variable_reference.html#a72dc5384e2a9f75cf3a58598d0638c85">Fungus.VariableReference</a>
 </li>
 <li>variableDataProps
 : <a class="el" href="class_fungus_1_1_editor_utils_1_1_set_variable_editor.html#ad08dfdcaf47fcaab5a0a944150b48d37">Fungus.EditorUtils.SetVariableEditor</a>
 </li>
 <li>variableKey
 : <a class="el" href="class_fungus_1_1_invoke_method_parameter.html#a819513c5af128a3276425a653348f86f">Fungus.InvokeMethodParameter</a>
+</li>
+<li>variableListAdaptor
+: <a class="el" href="class_fungus_1_1_editor_utils_1_1_flowchart_editor.html#ae2fec6cd62aeaebb5d24a7d777fecc3c">Fungus.EditorUtils.FlowchartEditor</a>
+, <a class="el" href="class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a248cdfe9d4d38bf3bc589399524cd4c5">Fungus.EditorUtils.FlowchartWindow</a>
 </li>
 <li>variableProp
 : <a class="el" href="class_fungus_1_1_editor_utils_1_1_set_variable_editor.html#a50580a56f919f1588ada7a62ce69b96c">Fungus.EditorUtils.SetVariableEditor</a>
@@ -136,7 +142,7 @@ $(document).ready(function(){initNavTree('functions_vars_v.html','');});
 : <a class="el" href="class_fungus_1_1_flowchart.html#a45c1341bf97a1ff6f34d2fde0f9744ef">Fungus.Flowchart</a>
 </li>
 <li>variableType
-: <a class="el" href="class_fungus_1_1_editor_utils_1_1_flowchart_editor_1_1_add_variable_info.html#aa6dd544d87b5d6c6e83937bad0f04fec">Fungus.EditorUtils.FlowchartEditor.AddVariableInfo</a>
+: <a class="el" href="class_fungus_1_1_editor_utils_1_1_variable_list_adaptor_1_1_add_variable_info.html#a27f831fbe8a493c9c9da5460e043da3a">Fungus.EditorUtils.VariableListAdaptor.AddVariableInfo</a>
 </li>
 <li>vec2
 : <a class="el" href="class_fungus_1_1_vector3_to_vector2.html#ab83085f7afad7ed4ef23232944c4ff7a">Fungus.Vector3ToVector2</a>
@@ -205,7 +211,9 @@ $(document).ready(function(){initNavTree('functions_vars_v.html','');});
 : <a class="el" href="class_fungus_1_1_editor_utils_1_1_say_editor.html#a75a04b9c474ed8be8b956994a5f5ee90">Fungus.EditorUtils.SayEditor</a>
 </li>
 <li>volume
-: <a class="el" href="class_fungus_1_1_play_sound.html#a50a1544ce7e7d06c50e47bbb7736c68a">Fungus.PlaySound</a>
+: <a class="el" href="class_fungus_1_1_play_ambiance_sound.html#a459343444e42a09107b55ddc640213f8">Fungus.PlayAmbianceSound</a>
+, <a class="el" href="class_fungus_1_1_play_random_sound.html#a4117c8ac3edf469358806dee9eb8ebe8">Fungus.PlayRandomSound</a>
+, <a class="el" href="class_fungus_1_1_play_sound.html#a50a1544ce7e7d06c50e47bbb7736c68a">Fungus.PlaySound</a>
 , <a class="el" href="class_fungus_1_1_set_audio_volume.html#afc4ce1c76b7df53a2a76777e736b32df">Fungus.SetAudioVolume</a>
 , <a class="el" href="class_fungus_1_1_writer_audio.html#acd9577f18c86e39e3379dc5faab7e484">Fungus.WriterAudio</a>
 </li>
@@ -218,7 +226,7 @@ $(document).ready(function(){initNavTree('functions_vars_v.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jul 16 2018 23:53:03 for Fungus by
+    <li class="footer">Generated on Fri May 3 2019 23:38:46 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

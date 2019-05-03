@@ -25,6 +25,7 @@ var searchData=
   ['positions',['positions',['../class_fungus_1_1_stage.html#aaa7f9f495e87b7fb88793f605220792f',1,'Fungus::Stage']]],
   ['previousactivecommandindex',['previousActiveCommandIndex',['../class_fungus_1_1_block.html#af615ae0f4070dcd04ed52d90228e1883',1,'Fungus::Block']]],
   ['previousmousepos',['previousMousePos',['../class_fungus_1_1_camera_manager.html#a5c483458a4f3c1149848e012c001f000',1,'Fungus::CameraManager']]],
+  ['prevvarcount',['prevVarCount',['../class_fungus_1_1_editor_utils_1_1_flowchart_window.html#a5229f52721c49d7500d1af16b851e493',1,'Fungus::EditorUtils::FlowchartWindow']]],
   ['primaryaspectratio',['primaryAspectRatio',['../class_fungus_1_1_view.html#aa9581432bdde1798ebae29994e35fd8a',1,'Fungus::View']]],
   ['primaryaspectratioprop',['primaryAspectRatioProp',['../class_fungus_1_1_editor_utils_1_1_view_editor.html#a7fbbf041bc670276a0670161ed46648d',1,'Fungus::EditorUtils::ViewEditor']]],
   ['propbyvariabletype',['propByVariableType',['../class_fungus_1_1_editor_utils_1_1_variable_condition_editor.html#a2d75dc3798145baa6c5a143048ee0a03',1,'Fungus::EditorUtils::VariableConditionEditor']]],

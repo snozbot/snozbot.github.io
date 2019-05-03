@@ -17,5 +17,6 @@ var searchData=
   ['invokemethodparameter',['InvokeMethodParameter',['../class_fungus_1_1_invoke_method_parameter.html',1,'Fungus']]],
   ['itweencommand',['iTweenCommand',['../class_fungus_1_1i_tween_command.html',1,'Fungus']]],
   ['iupdateable',['IUpdateable',['../interface_fungus_1_1_i_updateable.html',1,'Fungus']]],
-  ['iwriterlistener',['IWriterListener',['../interface_fungus_1_1_i_writer_listener.html',1,'Fungus']]]
+  ['iwriterlistener',['IWriterListener',['../interface_fungus_1_1_i_writer_listener.html',1,'Fungus']]],
+  ['iwritertextdestination',['IWriterTextDestination',['../interface_fungus_1_1_i_writer_text_destination.html',1,'Fungus']]]
 ];

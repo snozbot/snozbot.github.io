@@ -15,6 +15,5 @@ var searchData=
   ['commandindex',['CommandIndex',['../class_fungus_1_1_command.html#a9af2ca2a1445da0de097903451f3d558',1,'Fungus::Command']]],
   ['commandlist',['CommandList',['../class_fungus_1_1_block.html#a96054f674e9423355e9e08e70f8e4767',1,'Fungus::Block']]],
   ['commandname',['CommandName',['../class_fungus_1_1_command_info_attribute.html#a6549ba3c73c0b871c28e60cdfe06ba9d',1,'Fungus::CommandInfoAttribute']]],
-  ['control',['Control',['../class_fungus_1_1_control_audio.html#a5890340b0aef5636616d17b12ce43310',1,'Fungus::ControlAudio']]],
-  ['count',['Count',['../class_fungus_1_1_editor_utils_1_1_command_list_adaptor.html#a9319cf4784fcb5397c5f5f366cf1e602',1,'Fungus.EditorUtils.CommandListAdaptor.Count()'],['../class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html#adc964449b8d0bf059045b6c576811ab2',1,'Fungus.EditorUtils.VariableListAdaptor.Count()']]]
+  ['control',['Control',['../class_fungus_1_1_control_audio.html#a5890340b0aef5636616d17b12ce43310',1,'Fungus::ControlAudio']]]
 ];

@@ -38,9 +38,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.9.1--></span>
+   &#160;<span id="projectnumber"><!--v3.11.4--></span>
    </div>
-   <div id="projectbrief">v3.9.1 Documentation</div>
+   <div id="projectbrief">v3.11.4 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -127,6 +127,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4f83a04e0972727e2da32195a54e55b8"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_min_max.html#a4f83a04e0972727e2da32195a54e55b8">GetSummary</a> ()</td></tr>
 <tr class="memdesc:a4f83a04e0972727e2da32195a54e55b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the summary text to display in the command inspector.  <a href="#a4f83a04e0972727e2da32195a54e55b8">More...</a><br /></td></tr>
 <tr class="separator:a4f83a04e0972727e2da32195a54e55b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bd6d609004e5d8506ae094c60f10eb1"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_min_max.html#a8bd6d609004e5d8506ae094c60f10eb1">HasReference</a> (<a class="el" href="class_fungus_1_1_variable.html">Variable</a> variable)</td></tr>
+<tr class="memdesc:a8bd6d609004e5d8506ae094c60f10eb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this command references the variable.  <a href="#a8bd6d609004e5d8506ae094c60f10eb1">More...</a><br /></td></tr>
+<tr class="separator:a8bd6d609004e5d8506ae094c60f10eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6b8c1d0f550e0a569d8e683240c13c5"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="namespace_fungus.html#a3a818435c4503f622767149bc7ac47deacb5feb1b7314637725a2e73bdc9f7295">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_min_max.html#aa6b8c1d0f550e0a569d8e683240c13c5">GetButtonColor</a> ()</td></tr>
 <tr class="memdesc:aa6b8c1d0f550e0a569d8e683240c13c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the color for the command background in inspector.  <a href="#aa6b8c1d0f550e0a569d8e683240c13c5">More...</a><br /></td></tr>
 <tr class="separator:aa6b8c1d0f550e0a569d8e683240c13c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,9 +167,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a92063996f9081ee8f77be51d212c0c7f inherit pub_methods_class_fungus_1_1_command"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_command.html#a92063996f9081ee8f77be51d212c0c7f">GetConnectedBlocks</a> (ref List&lt; <a class="el" href="class_fungus_1_1_block.html">Block</a> &gt; connectedBlocks)</td></tr>
 <tr class="memdesc:a92063996f9081ee8f77be51d212c0c7f inherit pub_methods_class_fungus_1_1_command"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populates a list with the Blocks that this command references.  <a href="class_fungus_1_1_command.html#a92063996f9081ee8f77be51d212c0c7f">More...</a><br /></td></tr>
 <tr class="separator:a92063996f9081ee8f77be51d212c0c7f inherit pub_methods_class_fungus_1_1_command"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab229bb399c0e0ac5ddbd93fc30f39795 inherit pub_methods_class_fungus_1_1_command"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_command.html#ab229bb399c0e0ac5ddbd93fc30f39795">HasReference</a> (<a class="el" href="class_fungus_1_1_variable.html">Variable</a> variable)</td></tr>
-<tr class="memdesc:ab229bb399c0e0ac5ddbd93fc30f39795 inherit pub_methods_class_fungus_1_1_command"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this command references the variable.  <a href="class_fungus_1_1_command.html#ab229bb399c0e0ac5ddbd93fc30f39795">More...</a><br /></td></tr>
-<tr class="separator:ab229bb399c0e0ac5ddbd93fc30f39795 inherit pub_methods_class_fungus_1_1_command"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af609c605637652801cfcc377cfa97595 inherit pub_methods_class_fungus_1_1_command"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_command.html#af609c605637652801cfcc377cfa97595">OnValidate</a> ()</td></tr>
+<tr class="memdesc:af609c605637652801cfcc377cfa97595 inherit pub_methods_class_fungus_1_1_command"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by unity when script is loaded or its data changed by editor  <a href="class_fungus_1_1_command.html#af609c605637652801cfcc377cfa97595">More...</a><br /></td></tr>
+<tr class="separator:af609c605637652801cfcc377cfa97595 inherit pub_methods_class_fungus_1_1_command"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56517b048ffd4503e3a74346b2b27f97 inherit pub_methods_class_fungus_1_1_command"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fungus_1_1_command.html#a56517b048ffd4503e3a74346b2b27f97">GetHelpText</a> ()</td></tr>
 <tr class="memdesc:a56517b048ffd4503e3a74346b2b27f97 inherit pub_methods_class_fungus_1_1_command"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the help text to display for this command.  <a href="class_fungus_1_1_command.html#a56517b048ffd4503e3a74346b2b27f97">More...</a><br /></td></tr>
 <tr class="separator:a56517b048ffd4503e3a74346b2b27f97 inherit pub_methods_class_fungus_1_1_command"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -289,7 +292,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_fungus_1_1_command.html#a81b8985331b32f0c6d601beb093235ed">Fungus.Command</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_min_max_8cs_source.html#l00055">55</a> of file <a class="el" href="_min_max_8cs_source.html">MinMax.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_max_8cs_source.html#l00061">61</a> of file <a class="el" href="_min_max_8cs_source.html">MinMax.cs</a>.</p>
 
 </div>
 </div>
@@ -320,7 +323,40 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_fungus_1_1_command.html#a5682c19ec9194fdc4a78e54729381816">Fungus.Command</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_min_max_8cs_source.html#l00050">50</a> of file <a class="el" href="_min_max_8cs_source.html">MinMax.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_max_8cs_source.html#l00049">49</a> of file <a class="el" href="_min_max_8cs_source.html">MinMax.cs</a>.</p>
+
+</div>
+</div>
+<a id="a8bd6d609004e5d8506ae094c60f10eb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bd6d609004e5d8506ae094c60f10eb1">&#9670;&nbsp;</a></span>HasReference()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool Fungus.MinMax.HasReference </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_fungus_1_1_variable.html">Variable</a>&#160;</td>
+          <td class="paramname"><em>variable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if this command references the variable. </p>
+<p>Used to highlight variables in the variable list when a command is selected. </p>
+
+<p>Reimplemented from <a class="el" href="class_fungus_1_1_command.html#ab229bb399c0e0ac5ddbd93fc30f39795">Fungus.Command</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_min_max_8cs_source.html#l00056">56</a> of file <a class="el" href="_min_max_8cs_source.html">MinMax.cs</a>.</p>
 
 </div>
 </div>
@@ -437,7 +473,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_fungus.html">Fungus</a></li><li class="navelem"><a class="el" href="class_fungus_1_1_min_max.html">MinMax</a></li>
-    <li class="footer">Generated on Mon Jul 16 2018 23:53:02 for Fungus by
+    <li class="footer">Generated on Fri May 3 2019 23:38:44 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

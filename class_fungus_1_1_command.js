@@ -19,6 +19,7 @@ var class_fungus_1_1_command =
     [ "OnExit", "class_fungus_1_1_command.html#acf1117509ee79f8d1210d32661958a02", null ],
     [ "OnReset", "class_fungus_1_1_command.html#ae571c5f6b7891ff894f7b26d90a4c1af", null ],
     [ "OnStopExecuting", "class_fungus_1_1_command.html#a0c1970e462c2290b91a27abd758381ac", null ],
+    [ "OnValidate", "class_fungus_1_1_command.html#af609c605637652801cfcc377cfa97595", null ],
     [ "OpenBlock", "class_fungus_1_1_command.html#a27b41ef9d789b603b4a7fc092266b3ff", null ],
     [ "StopParentBlock", "class_fungus_1_1_command.html#a4671a988bb27278e02193e96743b04c4", null ],
     [ "errorMessage", "class_fungus_1_1_command.html#a3581cec0f4994998d0144fb4538fbdee", null ],

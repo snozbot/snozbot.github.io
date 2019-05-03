@@ -5,6 +5,7 @@ var class_fungus_1_1_tween_u_i =
     [ "GetButtonColor", "class_fungus_1_1_tween_u_i.html#accab70e1cfa7ef612d90f51d07a1603a", null ],
     [ "GetSummary", "class_fungus_1_1_tween_u_i.html#a3cb1e06b77c84568ae1085b277056b4d", null ],
     [ "GetSummaryValue", "class_fungus_1_1_tween_u_i.html#abc29418c4097e6ed26a8fbc8ce948f1f", null ],
+    [ "HasReference", "class_fungus_1_1_tween_u_i.html#a016cc0f7e2fb7a1d7cd5fbc61ea4ab52", null ],
     [ "IsReorderableArray", "class_fungus_1_1_tween_u_i.html#ab69e30009c090bf3226258c2e425ab2e", null ],
     [ "OnCommandAdded", "class_fungus_1_1_tween_u_i.html#a5647b90ec4f8c1510a0558abc28d5450", null ],
     [ "OnComplete", "class_fungus_1_1_tween_u_i.html#a9f3a9c618282ec6f9c43d83a468aa1a5", null ],

@@ -38,9 +38,9 @@
   <td id="projectlogo"><a href="https://fungusgames.com" target="_blank"><img alt="Logo" src="logo_small.png"/></a></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname"><!--Fungus-->
-   &#160;<span id="projectnumber"><!--v3.9.1--></span>
+   &#160;<span id="projectnumber"><!--v3.11.4--></span>
    </div>
-   <div id="projectbrief">v3.9.1 Documentation</div>
+   <div id="projectbrief">v3.11.4 Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -102,6 +102,7 @@ $(document).ready(function(){initNavTree('ui_commands.html','');});
 <li class="level1"><a href="#SetSliderValue">Set Slider Value</a></li>
 <li class="level1"><a href="#SetText">Set Text</a></li>
 <li class="level1"><a href="#SetToggleState">Set Toggle State</a></li>
+<li class="level1"><a href="#SetUIImage">Set UI Image</a></li>
 <li class="level1"><a href="#Write">Write</a></li>
 </ul>
 </div>
@@ -195,6 +196,18 @@ Set Toggle State</h1>
 <tr>
 <td>Value </td><td><a class="el" href="struct_fungus_1_1_boolean_data.html" title="Container for a Boolean variable reference or constant value. ">Fungus.BooleanData</a> </td><td>Boolean value to set the toggle state to. </td></tr>
 </table>
+<h1><a class="anchor" id="SetUIImage"></a>
+Set UI Image</h1>
+<p>Changes the Image property of a list of UI Images.</p>
+<p>Defined in <a class="el" href="class_fungus_1_1_set_u_i_image.html" title="Changes the Image property on a UI element. ">Fungus.SetUIImage</a></p>
+<table class="doxtable">
+<tr>
+<th>Property </th><th>Type </th><th>Description  </th></tr>
+<tr>
+<td>Images </td><td>System.Collections.Generic.List`1[UnityEngine.UI.Image] </td><td>List of UI Images to set the source image property on </td></tr>
+<tr>
+<td>Sprite </td><td>UnityEngine.Sprite </td><td>The sprite set on the source image property </td></tr>
+</table>
 <h1><a class="anchor" id="Write"></a>
 Write</h1>
 <p>Writes content to a UI Text or Text Mesh object.</p>
@@ -225,7 +238,7 @@ Write</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="command_reference.html">Command Reference</a></li>
-    <li class="footer">Generated on Mon Jul 16 2018 23:53:01 for Fungus by
+    <li class="footer">Generated on Fri May 3 2019 23:38:43 for Fungus by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

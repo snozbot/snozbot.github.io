@@ -2,7 +2,7 @@ var class_fungus_1_1_editor_utils_1_1_say_editor =
 [
     [ "DrawCommandGUI", "class_fungus_1_1_editor_utils_1_1_say_editor.html#aa2908becda990ad2bc2267ee5a95c216", null ],
     [ "OnDisable", "class_fungus_1_1_editor_utils_1_1_say_editor.html#ade033f42a4085c93ccad27bd357bcf2a", null ],
-    [ "OnEnable", "class_fungus_1_1_editor_utils_1_1_say_editor.html#a427f56c2251aafeaddca8f942bd98b2e", null ],
+    [ "OnEnable", "class_fungus_1_1_editor_utils_1_1_say_editor.html#a8c98a20213ee03095e0d5e78d9983dba", null ],
     [ "blackTex", "class_fungus_1_1_editor_utils_1_1_say_editor.html#acd069e719041452f9ac7deda9fc72eb5", null ],
     [ "characterProp", "class_fungus_1_1_editor_utils_1_1_say_editor.html#a69fedbcfa4f2eb40223c3e0f1a7ea03e", null ],
     [ "descriptionProp", "class_fungus_1_1_editor_utils_1_1_say_editor.html#a4e1985d916372c834b93c65ec82cdb3b", null ],

@@ -35,7 +35,7 @@ var NAVTREE =
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", "functions_vars" ],
         [ "Enumerations", "functions_enum.html", null ],
-        [ "Properties", "functions_prop.html", null ],
+        [ "Properties", "functions_prop.html", "functions_prop" ],
         [ "Events", "functions_evnt.html", null ]
       ] ]
     ] ],
@@ -52,27 +52,24 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"__block__8cs_8js.html",
-"_debug_log_8cs.html#aa2e4177ce6a91129b0964757d7eb355fa902b0d55fddef6f8d651fe1035b7d4bd",
-"_narrative_menu_items_8cs.html",
-"_string_formatter_8cs.html",
-"changelog.html#v2_3_0",
-"class__fungus__1__1__lerp_8js_source.html",
-"class__fungus__1__1__wait__frames_8js_source.html",
-"class_fungus_1_1_clickable2_d.html#acc341b540b8e21da839ca255ba651392",
-"class_fungus_1_1_draggable2_d.html#a10c08f2c1ce6b65e1c59eb32e0c7361e",
-"class_fungus_1_1_editor_utils_1_1_flowchart_window.html#ae49349a943301a905db84e263faf059d",
-"class_fungus_1_1_execute_lua.html#a2f786bf72da6bd5325948b189d91a44e",
-"class_fungus_1_1_int_var.html#a25a44714c6f5e46076e2746e8a5c6a71",
-"class_fungus_1_1_menu_timer.html#ad14864bf9a7e9b95f5025ac91c72059f",
-"class_fungus_1_1_portrait_state.html#af9aa113abe6b45f359ecde56d2ec6656",
-"class_fungus_1_1_set_active.html#aabd956c3284d2a87913bbb76b01538f3",
-"class_fungus_1_1_stage.html",
-"class_fungus_1_1_vector3_fields.html",
-"community_tutorials.html#david_arcila",
-"functions_enum.html",
-"math_commands.html#Trig",
-"struct__fungus__1__1__game__object__data_8js.html"
+"_abs_8cs.html",
+"_fungus_priority_increase_8cs.html",
+"_save_point_loaded_8cs_source.html",
+"_vector3_normalise_8cs.html",
+"class_fungus_1_1_button_clicked.html#af9ba2a286b34dff5ba540d776ebbdabe",
+"class_fungus_1_1_curve.html#ab0f2b0ad7ebaa5883ab38fc7ebd74623",
+"class_fungus_1_1_editor_utils_1_1_command_list_adaptor.html#afcb28e715b642277bd537a46fab5fbfd",
+"class_fungus_1_1_editor_utils_1_1_string_data_multi_drawer.html",
+"class_fungus_1_1_flowchart.html#a8bf8788fc4ced57fd1a803a687e425a6",
+"class_fungus_1_1_load_scene.html#a7f587fbd4b8ee6452cea15f07a01afc4",
+"class_fungus_1_1_narrative_log.html#af1cb306aa85051c194351d3f5d6b1de1",
+"class_fungus_1_1_reset.html",
+"class_fungus_1_1_set_audio_pitch.html#a1bd75d8d8544fc4e768d24e8a3ac90f4",
+"class_fungus_1_1_stage.html#aaa7f9f495e87b7fb88793f605220792f",
+"class_fungus_1_1_vector3_arithmetic.html",
+"flow_commands.html#Else",
+"lua_fungus_module.html#run_unity_coroutines",
+"struct_fungus_1_1_texture_data.html#a1a40ac2306d7827860f4743f1d19c8b0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

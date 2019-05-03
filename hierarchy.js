@@ -1,7 +1,6 @@
 var hierarchy =
 [
-    [ "Fungus.EditorUtils.BlockEditor.AddCommandOperation", "class_fungus_1_1_editor_utils_1_1_block_editor_1_1_add_command_operation.html", null ],
-    [ "Fungus.EditorUtils.FlowchartEditor.AddVariableInfo", "class_fungus_1_1_editor_utils_1_1_flowchart_editor_1_1_add_variable_info.html", null ],
+    [ "Fungus.EditorUtils.VariableListAdaptor.AddVariableInfo", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor_1_1_add_variable_info.html", null ],
     [ "Fungus.AnimatorData", "struct_fungus_1_1_animator_data.html", null ],
     [ "AssetModificationProcessor", null, [
       [ "Fungus.EditorUtils.AssetModProcessor", "class_fungus_1_1_editor_utils_1_1_asset_mod_processor.html", null ]
@@ -21,6 +20,7 @@ var hierarchy =
     [ "Fungus.CameraManager.CameraView", "class_fungus_1_1_camera_manager_1_1_camera_view.html", null ],
     [ "Fungus.EditorUtils.FlowchartWindow.ClipboardObject", "class_fungus_1_1_editor_utils_1_1_flowchart_window_1_1_clipboard_object.html", null ],
     [ "Fungus.ColorData", "struct_fungus_1_1_color_data.html", null ],
+    [ "Fungus.EditorUtils.CommandListAdaptor", "class_fungus_1_1_editor_utils_1_1_command_list_adaptor.html", null ],
     [ "Fungus.ControlWithDisplay< DisplayType >", "class_fungus_1_1_control_with_display.html", [
       [ "Fungus.Portrait", "class_fungus_1_1_portrait.html", null ]
     ] ],
@@ -49,7 +49,6 @@ var hierarchy =
         [ "Fungus.EditorUtils.MenuTimerEditor", "class_fungus_1_1_editor_utils_1_1_menu_timer_editor.html", null ],
         [ "Fungus.EditorUtils.PortraitEditor", "class_fungus_1_1_editor_utils_1_1_portrait_editor.html", null ],
         [ "Fungus.EditorUtils.SayEditor", "class_fungus_1_1_editor_utils_1_1_say_editor.html", null ],
-        [ "Fungus.EditorUtils.SetColliderEditor", "class_fungus_1_1_editor_utils_1_1_set_collider_editor.html", null ],
         [ "Fungus.EditorUtils.SetVariableEditor", "class_fungus_1_1_editor_utils_1_1_set_variable_editor.html", null ],
         [ "Fungus.EditorUtils.StageEditor", "class_fungus_1_1_editor_utils_1_1_stage_editor.html", null ],
         [ "Fungus.EditorUtils.VariableConditionEditor", "class_fungus_1_1_editor_utils_1_1_variable_condition_editor.html", null ],
@@ -68,6 +67,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "Fungus.EditorUtils.EditorZoomArea", "class_fungus_1_1_editor_utils_1_1_editor_zoom_area.html", null ],
+    [ "Fungus.EditorUtils.FlowchartWindow.ExecutingBlocks", "class_fungus_1_1_editor_utils_1_1_flowchart_window_1_1_executing_blocks.html", null ],
+    [ "Fungus.EditorUtils.BasePopupWindowContent.FilteredListItem", "class_fungus_1_1_editor_utils_1_1_base_popup_window_content_1_1_filtered_list_item.html", null ],
     [ "Fungus.FloatData", "struct_fungus_1_1_float_data.html", null ],
     [ "Fungus.FloatVar", "class_fungus_1_1_float_var.html", null ],
     [ "Fungus.FlowchartData", "class_fungus_1_1_flowchart_data.html", null ],
@@ -107,10 +108,6 @@ var hierarchy =
       [ "Fungus.Clickable2D", "class_fungus_1_1_clickable2_d.html", null ],
       [ "Fungus.Draggable2D", "class_fungus_1_1_draggable2_d.html", null ]
     ] ],
-    [ "IReorderableListAdaptor", null, [
-      [ "Fungus.EditorUtils.CommandListAdaptor", "class_fungus_1_1_editor_utils_1_1_command_list_adaptor.html", null ],
-      [ "Fungus.EditorUtils.VariableListAdaptor", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html", null ]
-    ] ],
     [ "ISubstitutionHandler", null, [
       [ "Fungus.Flowchart", "class_fungus_1_1_flowchart.html", null ],
       [ "Fungus.Localization", "class_fungus_1_1_localization.html", null ]
@@ -118,6 +115,9 @@ var hierarchy =
     [ "Fungus.IUpdateable", "interface_fungus_1_1_i_updateable.html", null ],
     [ "Fungus.IWriterListener", "interface_fungus_1_1_i_writer_listener.html", [
       [ "Fungus.WriterAudio", "class_fungus_1_1_writer_audio.html", null ]
+    ] ],
+    [ "Fungus.IWriterTextDestination", "interface_fungus_1_1_i_writer_text_destination.html", [
+      [ "Fungus.TextAdapter", "class_fungus_1_1_text_adapter.html", null ]
     ] ],
     [ "Fungus.Line", "class_fungus_1_1_line.html", null ],
     [ "Fungus.MaterialData", "struct_fungus_1_1_material_data.html", null ],
@@ -175,6 +175,7 @@ var hierarchy =
         [ "Fungus.FadeScreen", "class_fungus_1_1_fade_screen.html", null ],
         [ "Fungus.FadeSprite", "class_fungus_1_1_fade_sprite.html", null ],
         [ "Fungus.FadeToView", "class_fungus_1_1_fade_to_view.html", null ],
+        [ "Fungus.FromString", "class_fungus_1_1_from_string.html", null ],
         [ "Fungus.Fullscreen", "class_fungus_1_1_fullscreen.html", null ],
         [ "Fungus.FungusPriorityCount", "class_fungus_1_1_fungus_priority_count.html", null ],
         [ "Fungus.FungusPriorityDecrease", "class_fungus_1_1_fungus_priority_decrease.html", null ],
@@ -218,8 +219,10 @@ var hierarchy =
         [ "Fungus.MinMax", "class_fungus_1_1_min_max.html", null ],
         [ "Fungus.MoveToView", "class_fungus_1_1_move_to_view.html", null ],
         [ "Fungus.OpenURL", "class_fungus_1_1_open_u_r_l.html", null ],
+        [ "Fungus.PlayAmbianceSound", "class_fungus_1_1_play_ambiance_sound.html", null ],
         [ "Fungus.PlayAnimState", "class_fungus_1_1_play_anim_state.html", null ],
         [ "Fungus.PlayMusic", "class_fungus_1_1_play_music.html", null ],
+        [ "Fungus.PlayRandomSound", "class_fungus_1_1_play_random_sound.html", null ],
         [ "Fungus.PlaySound", "class_fungus_1_1_play_sound.html", null ],
         [ "Fungus.Pow", "class_fungus_1_1_pow.html", null ],
         [ "Fungus.Quit", "class_fungus_1_1_quit.html", null ],
@@ -250,15 +253,18 @@ var hierarchy =
         [ "Fungus.SetSayDialog", "class_fungus_1_1_set_say_dialog.html", null ],
         [ "Fungus.SetSliderValue", "class_fungus_1_1_set_slider_value.html", null ],
         [ "Fungus.SetSortingLayer", "class_fungus_1_1_set_sorting_layer.html", null ],
+        [ "Fungus.SetSprite", "class_fungus_1_1_set_sprite.html", null ],
         [ "Fungus.SetSpriteOrder", "class_fungus_1_1_set_sprite_order.html", null ],
         [ "Fungus.SetText", "class_fungus_1_1_set_text.html", null ],
         [ "Fungus.SetToggleState", "class_fungus_1_1_set_toggle_state.html", null ],
+        [ "Fungus.SetUIImage", "class_fungus_1_1_set_u_i_image.html", null ],
         [ "Fungus.SetVariable", "class_fungus_1_1_set_variable.html", null ],
         [ "Fungus.ShakeCamera", "class_fungus_1_1_shake_camera.html", null ],
         [ "Fungus.ShowSprite", "class_fungus_1_1_show_sprite.html", null ],
         [ "Fungus.SpawnObject", "class_fungus_1_1_spawn_object.html", null ],
         [ "Fungus.StartSwipe", "class_fungus_1_1_start_swipe.html", null ],
         [ "Fungus.Stop", "class_fungus_1_1_stop.html", null ],
+        [ "Fungus.StopAmbiance", "class_fungus_1_1_stop_ambiance.html", null ],
         [ "Fungus.StopBlock", "class_fungus_1_1_stop_block.html", null ],
         [ "Fungus.StopFlowchart", "class_fungus_1_1_stop_flowchart.html", null ],
         [ "Fungus.StopMotionRigidBody2D", "class_fungus_1_1_stop_motion_rigid_body2_d.html", null ],
@@ -268,6 +274,7 @@ var hierarchy =
         [ "Fungus.StopTweens", "class_fungus_1_1_stop_tweens.html", null ],
         [ "Fungus.StopTweensLean", "class_fungus_1_1_stop_tweens_lean.html", null ],
         [ "Fungus.ToInt", "class_fungus_1_1_to_int.html", null ],
+        [ "Fungus.ToString", "class_fungus_1_1_to_string.html", null ],
         [ "Fungus.TransformProperty", "class_fungus_1_1_transform_property.html", null ],
         [ "Fungus.TweenUI", "class_fungus_1_1_tween_u_i.html", [
           [ "Fungus.FadeUI", "class_fungus_1_1_fade_u_i.html", null ]
@@ -349,6 +356,13 @@ var hierarchy =
     [ "Fungus.ObjectClicked.ObjectClickedEvent", "class_fungus_1_1_object_clicked_1_1_object_clicked_event.html", null ],
     [ "Fungus.ObjectData", "struct_fungus_1_1_object_data.html", null ],
     [ "Fungus.ObjectValue", "class_fungus_1_1_object_value.html", null ],
+    [ "PopupWindowContent", null, [
+      [ "Fungus.EditorUtils.BasePopupWindowContent", "class_fungus_1_1_editor_utils_1_1_base_popup_window_content.html", [
+        [ "Fungus.EditorUtils.CommandSelectorPopupWindowContent", "class_fungus_1_1_editor_utils_1_1_command_selector_popup_window_content.html", null ],
+        [ "Fungus.EditorUtils.EventSelectorPopupWindowContent", "class_fungus_1_1_editor_utils_1_1_event_selector_popup_window_content.html", null ],
+        [ "Fungus.EditorUtils.VariableSelectPopupWindowContent", "class_fungus_1_1_editor_utils_1_1_variable_select_popup_window_content.html", null ]
+      ] ]
+    ] ],
     [ "Fungus.PortraitOptions", "class_fungus_1_1_portrait_options.html", null ],
     [ "Fungus.PortraitState", "class_fungus_1_1_portrait_state.html", null ],
     [ "PropertyAttribute", null, [
@@ -359,8 +373,10 @@ var hierarchy =
       [ "Fungus.EditorUtils.BlockReferenceDrawer", "class_fungus_1_1_editor_utils_1_1_block_reference_drawer.html", null ],
       [ "Fungus.EditorUtils.VariableDataDrawer< T >", "class_fungus_1_1_editor_utils_1_1_variable_data_drawer.html", null ],
       [ "Fungus.EditorUtils.VariableDrawer", "class_fungus_1_1_editor_utils_1_1_variable_drawer.html", null ],
+      [ "Fungus.EditorUtils.VariableReferenceDrawer", "class_fungus_1_1_editor_utils_1_1_variable_reference_drawer.html", null ],
       [ "Fungus.EnumFlagDrawer", "class_fungus_1_1_enum_flag_drawer.html", null ]
     ] ],
+    [ "Fungus.ConversationManager.RawConversationItem", "struct_fungus_1_1_conversation_manager_1_1_raw_conversation_item.html", null ],
     [ "Fungus.Rigidbody2DData", "struct_fungus_1_1_rigidbody2_d_data.html", null ],
     [ "Fungus.SaveDataItem", "class_fungus_1_1_save_data_item.html", null ],
     [ "Fungus.EditorUtils.SaveMenuItems", "class_fungus_1_1_editor_utils_1_1_save_menu_items.html", null ],
@@ -368,7 +384,7 @@ var hierarchy =
       [ "Fungus.EditorUtils.BlockInspector", "class_fungus_1_1_editor_utils_1_1_block_inspector.html", null ]
     ] ],
     [ "Fungus.TextVariationHandler.Section", "class_fungus_1_1_text_variation_handler_1_1_section.html", null ],
-    [ "Fungus.EditorUtils.BlockEditor.SetEventHandlerOperation", "class_fungus_1_1_editor_utils_1_1_block_editor_1_1_set_event_handler_operation.html", null ],
+    [ "Fungus.EditorUtils.EventSelectorPopupWindowContent.SetEventHandlerOperation", "class_fungus_1_1_editor_utils_1_1_event_selector_popup_window_content_1_1_set_event_handler_operation.html", null ],
     [ "Fungus.SpriteData", "struct_fungus_1_1_sprite_data.html", null ],
     [ "Fungus.EditorUtils.SpriteMenuItems", "class_fungus_1_1_editor_utils_1_1_sprite_menu_items.html", null ],
     [ "Fungus.StringData", "struct_fungus_1_1_string_data.html", null ],
@@ -481,7 +497,9 @@ var hierarchy =
     [ "Fungus.EditorUtils.VariableDataDrawer< Vector3Variable >", "class_fungus_1_1_editor_utils_1_1_variable_data_drawer.html", [
       [ "Fungus.EditorUtils.Vector3DataDrawer", "class_fungus_1_1_editor_utils_1_1_vector3_data_drawer.html", null ]
     ] ],
+    [ "Fungus.EditorUtils.VariableListAdaptor", "class_fungus_1_1_editor_utils_1_1_variable_list_adaptor.html", null ],
     [ "Fungus.EditorUtils.SetVariableEditor.VariablePropertyInfo", "struct_fungus_1_1_editor_utils_1_1_set_variable_editor_1_1_variable_property_info.html", null ],
+    [ "Fungus.VariableReference", "struct_fungus_1_1_variable_reference.html", null ],
     [ "Fungus.Vector2Data", "struct_fungus_1_1_vector2_data.html", null ],
     [ "Fungus.Vector3Data", "struct_fungus_1_1_vector3_data.html", null ]
 ];

@@ -2,6 +2,7 @@ var class_fungus_1_1_set_anim_trigger =
 [
     [ "GetButtonColor", "class_fungus_1_1_set_anim_trigger.html#af1cba589eb23ebdd431b9a8f6a3b133f", null ],
     [ "GetSummary", "class_fungus_1_1_set_anim_trigger.html#a81464d431b968c60f63c51b05e668a2e", null ],
+    [ "HasReference", "class_fungus_1_1_set_anim_trigger.html#a65ed077137e056af59713bddbcaefc21", null ],
     [ "OnEnable", "class_fungus_1_1_set_anim_trigger.html#a6959636823cf124c38622af21771d54b", null ],
     [ "OnEnter", "class_fungus_1_1_set_anim_trigger.html#a7a388f2c5f7d1a50bcd1982230f51dce", null ],
     [ "_animator", "class_fungus_1_1_set_anim_trigger.html#a1e40946de85c4eb22e1bfb548ca8cf67", null ],

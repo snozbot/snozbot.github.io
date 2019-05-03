@@ -23,6 +23,7 @@ var class_fungus_1_1_block =
     [ "executionState", "class_fungus_1_1_block.html#afbf30a208d4d3c26e1b109b481c9b9b1", null ],
     [ "itemId", "class_fungus_1_1_block.html#a8b861f35cf4503ad92434f29b2bff30c", null ],
     [ "jumpToCommandIndex", "class_fungus_1_1_block.html#aec2fa4e47af508bf300f81564395ec48", null ],
+    [ "lastOnCompleteAction", "class_fungus_1_1_block.html#acb23c66f568413566549b74ef8f25e3e", null ],
     [ "previousActiveCommandIndex", "class_fungus_1_1_block.html#af615ae0f4070dcd04ed52d90228e1883", null ],
     [ "_EventHandler", "class_fungus_1_1_block.html#a6cf2266ff910e59512fdb7bf1e52753a", null ],
     [ "ActiveCommand", "class_fungus_1_1_block.html#ae5b8bf0aaf96ead623be554d554c2194", null ],
@@ -30,6 +31,9 @@ var class_fungus_1_1_block =
     [ "CommandList", "class_fungus_1_1_block.html#a96054f674e9423355e9e08e70f8e4767", null ],
     [ "Description", "class_fungus_1_1_block.html#a2dd1175e4ddc052fe5060775303e1b22", null ],
     [ "ExecutingIconTimer", "class_fungus_1_1_block.html#a8828f2058ae82157ed2ac58de4b1d8b4", null ],
+    [ "IsControlSelected", "class_fungus_1_1_block.html#a8febd5cf2b2fa215f158a41f7ac4f683", null ],
+    [ "IsFiltered", "class_fungus_1_1_block.html#aa306ae31f761ac18ecd11a3cf74d2c04", null ],
+    [ "IsSelected", "class_fungus_1_1_block.html#addb42626579aa493d12679c1ee5d0c1a", null ],
     [ "ItemId", "class_fungus_1_1_block.html#afe5be4166c11252eae19413e2b38dc38", null ],
     [ "JumpToCommandIndex", "class_fungus_1_1_block.html#aaeb903ea4b5d45bcc8d2cd7331dccecf", null ],
     [ "State", "class_fungus_1_1_block.html#a29b12b6ea1b75b934e37c274b65f3c9c", null ]
